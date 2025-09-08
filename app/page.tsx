@@ -11,7 +11,7 @@ export default function Home() {
         <BlueGlow />
         <MeshVector />
         <NavBar />
-        <p className="text-lg border-1 rounded-4xl p-2">Bring your business to the best scale</p>
+        <p className="text-lg border-1 rounded-4xl p-2 z-11">Bring your business to the best scale</p>
       </div>
     </>
   );
