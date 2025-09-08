@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="w-full p-8 ">
       <div>
-        <div className="flex flex-row justify-between h-[66px] items-center rounded-4xl text-white bg-white">
+        <div className="flex flex-row justify-between h-[66px] items-center rounded-4xl text-black bg-white">
           <div className="flex items-center">
           </div>
           <div className="flex space-x-4 font-medium">
