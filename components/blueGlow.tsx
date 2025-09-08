@@ -1,6 +1,6 @@
 import React from 'react'
 
-const blueGlow = () => {
+const BlueGlow = () => {
   return (
     <div>
       <svg
@@ -208,4 +208,4 @@ const blueGlow = () => {
   );
 }
 
-export default blueGlow
+export default BlueGlow
