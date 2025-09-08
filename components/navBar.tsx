@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className="flex flex-row justify-between h-[66px] items-center rounded-4xl text-black bg-white border-1">
           <div className="flex items-center">
           </div>
-          <div className="flex space-x-4 font-medium">
+          <div className="flex space-x-4 text-lg">
             <a href="#" className="hover:underline">
               Company
             </a>
@@ -26,7 +26,7 @@ const NavBar = () => {
           </div>
           <button
             className="h-[68px] bg-gradient-to-b from-white to-gray-100 
-  text-black font-semibold py-2 px-4 rounded-4xl "
+  text-black font-medium py-2 px-4 rounded-4xl "
           >
             Book a Call
           </button>
