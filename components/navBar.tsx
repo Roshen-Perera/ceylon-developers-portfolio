@@ -2,11 +2,10 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="w-full p-8 ">
+    <div className="w-full p-8 relative z-10">
       <div>
         <div className="flex flex-row justify-between h-[66px] items-center rounded-4xl text-black bg-white border-1">
-          <div className="flex items-center">
-          </div>
+          <div className="flex items-center"></div>
           <div className="flex space-x-4 text-lg">
             <a href="#" className="hover:underline">
               Company
