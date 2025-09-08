@@ -49,9 +49,9 @@ const BlueGlow = () => {
             width="483.639"
             height="477.481"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -70,9 +70,9 @@ const BlueGlow = () => {
             width="474.567"
             height="478.068"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -91,9 +91,9 @@ const BlueGlow = () => {
             width="506.924"
             height="642"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -112,9 +112,9 @@ const BlueGlow = () => {
             width="456.225"
             height="634.415"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -133,9 +133,9 @@ const BlueGlow = () => {
             width="464"
             height="609.801"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -155,8 +155,8 @@ const BlueGlow = () => {
             y2="267.21"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0.24" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0.24" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1085_1293"
@@ -166,8 +166,8 @@ const BlueGlow = () => {
             y2="269.314"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0.24" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0.24" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1085_1293"
@@ -177,8 +177,8 @@ const BlueGlow = () => {
             y2="431.794"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0.24" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0.24" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1085_1293"
@@ -188,8 +188,8 @@ const BlueGlow = () => {
             y2="427.784"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0.24" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0.24" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1085_1293"
@@ -199,8 +199,8 @@ const BlueGlow = () => {
             y2="409.801"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0.24" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0.1" />
+            <stop stopColor="#17CDCA" stopOpacity="0.24" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0.1" />
           </linearGradient>
         </defs>
       </svg>
