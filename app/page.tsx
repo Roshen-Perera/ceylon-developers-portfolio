@@ -20,6 +20,20 @@ export default function Home() {
           </p>
           <p className="font-semibold text-8xl items-center">Excellence</p>
         </div>
+        <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
+          <p className="text-center">
+            Pushing the boundaries of what&apos;s possible in the digital realm.
+            Join us on this journey into the future of technology.
+          </p>
+        </div>
+        <div className=" flex max-w-2xl">
+          <button className="p-3 bg-blue-400">
+            Learn More
+          </button>
+          <div className="flex ">
+            
+          </div>
+        </div>
       </div>
     </>
   );
