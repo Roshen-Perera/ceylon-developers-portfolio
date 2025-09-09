@@ -27,19 +27,24 @@ export default function Home() {
             Join us on this journey into the future of technology.
           </p>
         </div>
-        <div className="mt-8 flex max-w-2xl">
+        <div className="mt-8 flex max-w-2xl gap-10 justify-center items-center">
           <button className="p-3 text-lg bg-[#17CDCA] rounded-2xl">
             Learn More
           </button>
-          <div className="flex ">
+          <div className="flex flex-row items-center gap-3">
             <Image
-              src="/your-image.png" // put your image in /public
+              src="/assets/icons/review.jpg" // place inside /public/assets/icons
               alt="Future technology"
-              width={64} // same as w-16
-              height={64} // same as h-16
+              width={64} // w-16
+              height={64} // h-16
+              className="rounded-full"
             />
+            <p className="text-gray-800">
+              Trusted by over <br />+ 20K people in the World
+            </p>
           </div>
         </div>
+        
       </div>
     </>
   );
