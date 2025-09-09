@@ -1,6 +1,7 @@
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
+import Image from "next/image";
 
 
 
@@ -26,12 +27,17 @@ export default function Home() {
             Join us on this journey into the future of technology.
           </p>
         </div>
-        <div className=" flex max-w-2xl">
-          <button className="p-3 bg-blue-400">
+        <div className="mt-8 flex max-w-2xl">
+          <button className="p-3 text-lg bg-[#17CDCA] rounded-2xl">
             Learn More
           </button>
           <div className="flex ">
-            
+            <Image
+              src="/your-image.png" // put your image in /public
+              alt="Future technology"
+              width={64} // same as w-16
+              height={64} // same as h-16
+            />
           </div>
         </div>
       </div>
