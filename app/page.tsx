@@ -1,3 +1,4 @@
+import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
@@ -44,9 +45,12 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div>
-          
+        <div className="mt-10">
+          <BlueFrame/>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center">
+        
       </div>
     </>
   );
