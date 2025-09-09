@@ -46,11 +46,11 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10">
-          <BlueFrame/>
+          <BlueFrame />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
-        
+        <p className="text-7xl font-kaushan">Services we offer </p>
       </div>
     </>
   );
