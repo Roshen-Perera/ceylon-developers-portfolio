@@ -1,6 +1,6 @@
 import React from 'react'
 
-const blueFrame = () => {
+const BlueFrame = () => {
   return (
     <div>
       <svg
@@ -146,4 +146,4 @@ const blueFrame = () => {
   );
 }
 
-export default blueFrame
+export default BlueFrame
