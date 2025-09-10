@@ -53,6 +53,12 @@ export default function Home() {
         <p className="text-5xl font-medium">
           <span className="font-kaushan">Services</span> we offer{" "}
         </p>
+        <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
+          <p className="text-center">
+            Pushing the boundaries of what&apos;s possible in the digital realm.
+            Join us on this journey into the future of technology.
+          </p>
+        </div>
       </div>
     </>
   );
