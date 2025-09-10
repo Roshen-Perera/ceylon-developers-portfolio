@@ -4,9 +4,12 @@ const NavBar = () => {
   return (
     <div className="flex items-center justify-center w-full p-8 relative z-30">
       <div>
-        <div className="flex flex-row fixed justify-between w-[1240px] h-16 items-center rounded-full px-6 text-black bg-white shadow-2xl left-1/2 transform -translate-x-1/2">
+        <div className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 text-black bg-white shadow-lg left-1/2 transform -translate-x-1/2">
           <div className="flex items-center">
-            <div></div>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
           </div>
           <div className="flex space-x-6 text-lg">
             <a href="#" className="hover:underline transition-all duration-200">
