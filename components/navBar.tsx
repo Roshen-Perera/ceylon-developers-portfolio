@@ -2,31 +2,30 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="w-full p-8 relative z-10">
+    <div className="flex items-center justify-center w-full p-8 relative z-30">
       <div>
-        <div className="flex flex-row justify-between h-[66px] items-center rounded-4xl text-black bg-white">
-          <div className="flex items-center"></div>
-          <div className="flex space-x-4 text-lg">
-            <a href="#" className="hover:underline">
+        <div className="flex flex-row fixed justify-between w-[1240px] h-16 items-center rounded-full px-6 text-black bg-white shadow-2xl left-1/2 transform -translate-x-1/2">
+          <div className="flex items-center">
+            <div></div>
+          </div>
+          <div className="flex space-x-6 text-lg">
+            <a href="#" className="hover:underline transition-all duration-200">
               Company
             </a>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline transition-all duration-200">
               Case Studies
             </a>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline transition-all duration-200">
               Contact
             </a>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline transition-all duration-200">
               Services
             </a>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline transition-all duration-200">
               Careers
             </a>
           </div>
-          <button
-            className="h-[68px] bg-gradient-to-b from-white to-gray-100 
-  text-black font-medium py-2 px-4 rounded-4xl "
-          >
+          <button className="h-12 bg-gradient-to-b from-white to-gray-100 hover:from-gray-50 hover:to-gray-200 text-black font-medium py-2 px-6 rounded-full border border-gray-200 transition-all duration-200 ml-8">
             Book a Call
           </button>
         </div>
