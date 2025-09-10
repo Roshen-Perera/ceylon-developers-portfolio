@@ -1,23 +1,37 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// app/layout.tsx
+import { Inter, Kaushan_Script } from "next/font/google";
 import "./globals.css";
 
+// Default font for whole app
 const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "700"], // optional
+  variable: "--font-inter", // good practice
 });
 
-export const metadata: Metadata = {
-  title: "Ceylon Developers",
+// Secondary font
+const kaushan = Kaushan_Script({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-kaushan",
+});
+
+export const metadata = {
+  title: "My App",
+  description: "Using two fonts",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      {/* Apply default font globally */}
+      <body className={`${inter.className} ${kaushan.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
