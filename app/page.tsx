@@ -49,8 +49,10 @@ export default function Home() {
           <BlueFrame />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center">
-        <p className="text-7xl font-kaushan">Services we offer </p>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <p className="text-5xl font-medium">
+          <span className="font-kaushan">Services</span> we offer{" "}
+        </p>
       </div>
     </>
   );

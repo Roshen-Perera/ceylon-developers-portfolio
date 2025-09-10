@@ -5,7 +5,6 @@ import "./globals.css";
 // Default font for whole app
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "700"], // optional
   variable: "--font-inter", // good practice
 });
 
