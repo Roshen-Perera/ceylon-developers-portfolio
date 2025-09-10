@@ -2,6 +2,7 @@ import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
+import ServicesCarousel from "@/components/ServicesCarousel";
 import Image from "next/image";
 
 
@@ -58,6 +59,9 @@ export default function Home() {
             Pushing the boundaries of what&apos;s possible in the digital realm.
             Join us on this journey into the future of technology.
           </p>
+        </div>
+        <div className="mt-8">
+          <ServicesCarousel/>
         </div>
       </div>
     </>
