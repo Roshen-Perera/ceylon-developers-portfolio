@@ -17,7 +17,7 @@ const BlueFrame = () => {
             x2="246.608"
             y2="5"
             stroke="url(#paint0_linear_1085_1326)"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </g>
         <g filter="url(#filter1_f_1085_1326)">
@@ -27,7 +27,7 @@ const BlueFrame = () => {
             x2="352.608"
             y2="5"
             stroke="url(#paint1_linear_1085_1326)"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </g>
         <g filter="url(#filter2_f_1085_1326)">
@@ -37,7 +37,7 @@ const BlueFrame = () => {
             x2="246.608"
             y2="5"
             stroke="url(#paint2_linear_1085_1326)"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </g>
         <defs>
@@ -50,13 +50,13 @@ const BlueFrame = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
               in2="BackgroundImageFix"
               result="shape"
-            />
+            />  
             <feGaussianBlur
               stdDeviation="2"
               result="effect1_foregroundBlur_1085_1326"
@@ -71,7 +71,7 @@ const BlueFrame = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -92,7 +92,7 @@ const BlueFrame = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
