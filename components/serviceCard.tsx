@@ -7,15 +7,15 @@ const ServiceCard = () => {
   const [services] = useState([
     {
       id: 1,
-      icon: "/assets/icons/web.gif",
-      title: "Web Design & Development",
+      icon: "/assets/icons/review.jpg",
+      title: "Review",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
     },
     {
       id: 2,
-      icon: "/assets/icons/web.gif",
-      title: "Web Design & Development",
+      icon: "/assets/icons/testing.gif",
+      title: "Software Testing Service",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
     },
@@ -28,15 +28,15 @@ const ServiceCard = () => {
     },
     {
       id: 4,
-      icon: "/assets/icons/web.gif",
-      title: "Web Design & Development",
+      icon: "/assets/icons/mobile.gif",
+      title: "Mobile App Development",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
     },
     {
       id: 5,
-      icon: "/assets/icons/web.gif",
-      title: "Web Design & Development",
+      icon: "/assets/icons/ui.gif",
+      title: "UI/UX Design",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
     },
@@ -55,7 +55,7 @@ const ServiceCard = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold">{service.title}</p>
+          <p className="text-xl font-semibold text-[#17CDCA]">{service.title}</p>
           <p className="text-lg">{service.description}</p>
         </div>
       ))}
