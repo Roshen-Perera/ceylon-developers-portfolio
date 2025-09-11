@@ -4,7 +4,7 @@ const MeshVector = () => {
   return (
     <div>
       <svg
-        className="absolute inset-1"
+        className="absolute inset-0 -z-10"
         width="1287"
         height="624"
         viewBox="0 0 1287 624"
