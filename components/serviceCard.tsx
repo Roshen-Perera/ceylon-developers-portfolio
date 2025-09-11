@@ -45,7 +45,10 @@ const ServiceCard = () => {
   return (
     <div className="flex flex-row gap-5 p-5">
       {services.map((service) => (
-        <div key={service.id} className="flex flex-col justify border-1 rounded-lg p-3 gap-4">
+        <div
+          key={service.id}
+          className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4"
+        >
           <Image
             src={service.icon}
             alt={service.title}
