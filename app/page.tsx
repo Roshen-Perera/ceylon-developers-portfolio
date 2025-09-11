@@ -61,11 +61,11 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8">
-          <ServicesCarousel/>
+          <ServicesCarousel />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
-        
+        <MeshVector />
       </div>
     </>
   );
