@@ -2,7 +2,11 @@ import React from 'react'
 
 const ServicesCarousel = () => {
   return (
-    <div>ServicesCarousel</div>
+    <>
+    <div>
+      
+    </div>
+    </>
   )
 }
 
