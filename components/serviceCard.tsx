@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const serviceCard = () => {
+const ServiceCard = () => {
   return (
     <div>
         <Image src={"/assets/icons/web.gif"} alt={''}    />
@@ -9,4 +9,4 @@ const serviceCard = () => {
   )
 }
 
-export default serviceCard
+export default ServiceCard
