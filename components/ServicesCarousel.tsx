@@ -4,9 +4,11 @@ import ServiceCard from './serviceCard'
 const ServicesCarousel = () => {
   return (
     <>
-      <ServiceCard/>
+      <div className='flex flex-col'>
+        <ServiceCard />
+      </div>
     </>
-  )
+  );
 }
 
 export default ServicesCarousel
