@@ -6,6 +6,7 @@ const BlueGlow = () => {
       <svg
         width="1250"
         height="542"
+        className="absolute inset-0 -z-15"
         viewBox="0 0 1250 542"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
