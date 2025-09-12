@@ -4,7 +4,7 @@ import React from "react";
 
 import Image from "next/image";
 
-const serviceCarousel = () => {
+const ServiceCarousel = () => {
   return (
     <>
       <div className="flex flex-row gap-5 p-5">
@@ -93,4 +93,4 @@ const serviceCarousel = () => {
   );
 }
 
-export default serviceCarousel
+export default ServiceCarousel
