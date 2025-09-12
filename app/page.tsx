@@ -63,13 +63,23 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8">
-          <ServiceCarousel/>
+          <ServiceCarousel />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
-        <MeshVector2/>
-        
+        <MeshVector2 />
+        <div className="flex flex-col">
+          <p className="text-5xl">
+            To upscale your <span className="font-kaushan">business</span> to
+            the next level
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua invidunt ut labore.
+          </p>
+        </div>
       </div>
     </>
   );
