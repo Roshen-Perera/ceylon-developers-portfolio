@@ -2,7 +2,6 @@ import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
-import ServicesCarousel from "@/components/servicesCarousel";
 import Image from "next/image";
 
 
@@ -14,7 +13,7 @@ export default function Home() {
         <BlueGlow />
         <MeshVector />
         <NavBar />
-        
+
         <p className="text-lg mt-18 border-1 rounded-4xl p-2">
           Bring your business to the best scale
         </p>
@@ -62,7 +61,6 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8">
-          <ServicesCarousel />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
