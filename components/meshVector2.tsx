@@ -1,6 +1,6 @@
 import React from "react";
 
-const MeshVector = () => {
+const MeshVector2 = () => {
   return (
     <div>
       <svg
@@ -34,4 +34,4 @@ const MeshVector = () => {
   );
 };
 
-export default MeshVector;
+export default MeshVector2;
