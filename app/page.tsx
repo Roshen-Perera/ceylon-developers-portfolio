@@ -69,6 +69,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
         <MeshVector2/>
+        
       </div>
     </>
   );
