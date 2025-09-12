@@ -5,7 +5,7 @@ const MeshVector2 = () => {
     <div>
       <svg
         width="1287"
-        className=" -z-10"
+        className=" absolute left-10 -z-10"
         height="624"
         viewBox="0 0 1287 624"
         fill="none"
