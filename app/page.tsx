@@ -69,16 +69,18 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
         <MeshVector2 />
-        <div className="flex flex-col gap-3">
-          <p className="text-5xl font-medium">
-            To upscale your <span className="font-kaushan">business</span> to
-            the next level
-          </p>
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua invidunt ut labore.
-          </p>
+        <div className="flex flex-row">
+          <div className="flex flex-col gap-3">
+            <p className="text-5xl font-medium">
+              To upscale your <span className="font-kaushan">business</span> to
+              the next level
+            </p>
+            <p className="text-lg">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua invidunt ut labore.
+            </p>
+          </div>
         </div>
       </div>
     </>
