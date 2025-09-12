@@ -1,6 +1,7 @@
 import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
+import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ServiceCarousel from "@/components/serviceCarousel";
 import Image from "next/image";
@@ -67,6 +68,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
+        <MeshVector2/>
       </div>
     </>
   );
