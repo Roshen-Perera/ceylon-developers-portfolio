@@ -2,7 +2,7 @@ import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
-import ServicesCarousel from "@/components/servicesCarousel";
+import ServicesCarousel from "@/components/ServicesCarousel";
 import Image from "next/image";
 
 
