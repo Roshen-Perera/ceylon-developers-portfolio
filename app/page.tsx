@@ -2,6 +2,7 @@ import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
+import ServiceCarousel from "@/components/serviceCarousel";
 import Image from "next/image";
 
 
@@ -61,6 +62,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8">
+          <ServiceCarousel/>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
