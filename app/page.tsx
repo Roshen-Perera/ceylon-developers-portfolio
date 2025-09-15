@@ -137,6 +137,15 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="flex flex-col items-center justify-center mt-12">
+          <div className="text-center">
+            <p className="text-5xl font-medium">
+              Our <span className="font-kaushan">design</span> and
+              <br />
+              <span className="font-kaushan">development</span> approach
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
