@@ -147,7 +147,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row gap-3">
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="p-3 ">
+              <div className="p-3 gradient-border">
                 <p className="te">UX Driven Engineering</p>
                 <p>
                   Lorem ipsum dolor sit amet, <br />
