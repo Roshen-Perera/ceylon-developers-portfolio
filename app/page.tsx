@@ -42,7 +42,7 @@ export default function Home() {
               className="rounded-full"
             />
             <p className="text-gray-800">
-              Trusted by over <br />+ 20K people in the World
+              Trusted by over+ 20K people in the World
             </p>
           </div>
         </div>
@@ -145,18 +145,71 @@ export default function Home() {
               <span className="font-kaushan">development</span> approach
             </p>
           </div>
-          <div className="flex flex-row gap-3">
+          <div className="grid grid-cols-4 p-8">
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="p-3 gradient-border">
-                <p className="te">UX Driven Engineering</p>
-                <p>
-                  Lorem ipsum dolor sit amet, <br />
-                  consectetur adipiscing elit. sit <br />
-                  Lorem ipsum dolor sit amet, <br />
-                  elit consectetur adipiscing elit.{" "}
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
               </div>
             </div>
+            <div></div>
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div className="grid grid-cols-4 p-8">
+            <div></div>
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+            <div></div>
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-4 p-8">
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+            <div></div>
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+                <p className="text-lg font-semibold">UX Driven Engineering</p>
+                <p className="text-lg text-[#585858]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+            <div></div>
           </div>
         </div>
       </div>
