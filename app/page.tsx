@@ -145,6 +145,19 @@ export default function Home() {
               <span className="font-kaushan">development</span> approach
             </p>
           </div>
+          <div className="flex flex-row gap-3">
+            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+              <div className="p-3 ">
+                <p className="te">UX Driven Engineering</p>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit. sit <br />
+                  Lorem ipsum dolor sit amet, <br />
+                  elit consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
