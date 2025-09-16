@@ -4,6 +4,7 @@ import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ServiceCarousel from "@/components/serviceCarousel";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -219,13 +220,13 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-12">
-          <div className="animation-container">
-            <span className="base-text">The future of home</span>
-            <div className="spans-container">
-              <span className="word"> living</span>
-              <span className="word"> owning</span>
-              <span className="word"> renting</span>
-            </div>
+          <div className="flex text-center mb-8 items-center">
+            <p className="text-5xl">
+              <span className="font-kaushan">We</span>
+            </p>
+            <ChevronLeft size={60} />
+            <p className="text-5xl  font-semibold text-[#17CDCA]"> Develop </p>
+            <ChevronRight size={60} />
           </div>
         </div>
       </div>
