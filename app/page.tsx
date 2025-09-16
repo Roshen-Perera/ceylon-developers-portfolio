@@ -218,6 +218,16 @@ export default function Home() {
             <div></div>
           </div>
         </div>
+        <div className="flex flex-col items-center justify-center mt-12">
+          <div className="animation-container">
+            <span className="base-text">The future of home</span>
+            <div className="spans-container">
+              <span className="word"> living</span>
+              <span className="word"> owning</span>
+              <span className="word"> renting</span>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
