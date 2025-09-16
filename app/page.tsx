@@ -220,14 +220,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-12">
-          <div className="flex text-center mb-8 items-center">
-            <p className="text-5xl">
-              <span className="font-kaushan">We</span>
-            </p>
-            <ChevronLeft size={60} />
-            <p className="text-5xl  font-semibold text-[#17CDCA]"> Develop </p>
-            <ChevronRight size={60} />
-          </div>
+          
         </div>
       </div>
     </>
