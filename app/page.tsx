@@ -251,7 +251,7 @@ export default function Home() {
                 <MoveRight />
               </div>
             </div>
-            <div className="flex flex-col border-1 p-6 text-center gap-4">
+            <div className="flex flex-col vision-border p-6 text-center gap-4">
               <h1 className="text-lg font-bold">Distribution</h1>
               <p className="">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
