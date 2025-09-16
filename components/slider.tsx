@@ -15,7 +15,7 @@ export default function VerticalTextSlider() {
   }, []);
 
   return (
-    <div className="flex text-center mb-8 items-center gap-6">
+    <div className="flex text-center mb-8 items-center gap-3">
       {/* Left side: We */}
       <p className="text-5xl">
         <span className="font-kaushan">We</span>
@@ -25,7 +25,7 @@ export default function VerticalTextSlider() {
       <ChevronLeft size={50} className="cursor-pointer" />
 
       {/* Word Slider */}
-      <div className="relative h-14 w-52 overflow-hidden text-center">
+      <div className="relative h-14 w-50 overflow-hidden text-center">
         <div
           className="absolute transition-all duration-700 ease-in-out"
           style={{ transform: `translateY(-${index * 3.5}rem)` }}
