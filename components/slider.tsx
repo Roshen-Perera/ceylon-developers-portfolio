@@ -12,7 +12,7 @@ export default function VerticalTextSlider() {
       setIndex((prev) => (prev + 1) % words.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [words.length]);
 
   return (
     <div className="flex text-center mb-8 items-center gap-3">
