@@ -1,37 +1,48 @@
-"use client"
-
 import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function VerticalTextSlider() {
-  const words = ["Design", "Develop", "Deploy"];
+  const words = ["Design", "Develop", "Deliver"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % words.length);
-    }, 2000); // Change every 2s
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-900">
-      <h1 className="text-4xl font-bold text-white flex gap-2">
-        We
-        <span className="relative h-10 overflow-hidden inline-block">
-          <span
-            className="absolute transition-all duration-500 ease-in-out"
-            style={{
-              transform: `translateY(-${index * 2.5}rem)`,
-            }}
-          >
-            {words.map((word, i) => (
-              <div key={i} className="h-10 flex items-center">
-                {word}
-              </div>
-            ))}
-          </span>
-        </span>
-      </h1>
+    <div className="flex text-center mb-8 items-center gap-6">
+      {/* Left side: We */}
+      <p className="text-5xl">
+        <span className="font-kaushan">We</span>
+      </p>
+
+      {/* Left Chevron */}
+      <ChevronLeft size={50} className="cursor-pointer" />
+
+      {/* Word Slider */}
+      <div className="relative h-14 w-52 overflow-hidden text-center">
+        <div
+          className="absolute transition-all duration-700 ease-in-out"
+          style={{ transform: `translateY(-${index * 3.5}rem)` }}
+        >
+          {words.map((word, i) => (
+            <p
+              key={i}
+              className={`h-14 flex items-center justify-center text-5xl font-semibold ${
+                i === index ? "text-[#17CDCA]" : "text-gray-300"
+              }`}
+            >
+              {word}
+            </p>
+          ))}
+        </div>
+      </div>
+
+      {/* Right Chevron */}
+      <ChevronRight size={50} className="cursor-pointer" />
     </div>
   );
 }
