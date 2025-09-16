@@ -125,6 +125,12 @@
   border-image-slice: 1;
 }
 
+.vision-border-middle {
+  border: 1px solid;
+  border-image-source: linear-gradient(0deg, #17CDCA 7.38%, rgba(23, 205, 202, 0.92) 56.87%, rgba(23, 205, 202, 0.26) 108.11%);
+  border-image-slice: 1;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
