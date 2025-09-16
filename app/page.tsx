@@ -220,7 +220,13 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-12">
-          <VerticalTextSlider/>
+          <VerticalTextSlider />
+          <div className="text-lg mt-4 max-w-2xl flex items-center mx-auto px-4">
+            <p className="text-center">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore
+            </p>
+          </div>
         </div>
       </div>
     </>
