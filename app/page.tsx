@@ -5,6 +5,7 @@ import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
+import { ArrowBigRight, MoveRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -226,6 +227,41 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore
             </p>
+          </div>
+          <div className="flex flex-row ml-50 mr-50 gap-30 mt-8">
+            <div className="flex flex-col border-1 p-6 text-center gap-4">
+              <h1 className="text-lg font-bold">Consulting</h1>
+              <p className="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+              </p>
+              <div className="flex flex-row gap-2 text-[#17CDCA]">
+                <p>Get Started</p>
+                <MoveRight />
+              </div>
+            </div>
+            <div className="flex flex-col border-1 p-6 text-center gap-4">
+              <h1 className="text-lg font-bold">Implementation</h1>
+              <p className="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+              </p>
+              <div className="flex flex-row gap-2 text-[#17CDCA]">
+                <p>Get Started</p>
+                <MoveRight />
+              </div>
+            </div>
+            <div className="flex flex-col border-1 p-6 text-center gap-4">
+              <h1 className="text-lg font-bold">Distribution</h1>
+              <p className="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+              </p>
+              <div className="flex flex-row gap-2 text-[#17CDCA]">
+                <p>Get Started</p>
+                <MoveRight />
+              </div>
+            </div>
           </div>
         </div>
       </div>
