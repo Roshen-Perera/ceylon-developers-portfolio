@@ -5,7 +5,6 @@ import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
