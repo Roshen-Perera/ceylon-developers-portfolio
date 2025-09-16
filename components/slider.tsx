@@ -26,7 +26,7 @@ export default function VerticalTextSlider() {
           >
             {words.map((word, i) => (
               <div key={i} className="h-10 flex items-center">
-                "{word}"
+                {word}
               </div>
             ))}
           </span>
