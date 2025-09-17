@@ -133,8 +133,8 @@ export default function Home() {
             <Image
               src={"/assets/images/todaysActivity.png"}
               alt={"today's activity dashboard"}
-              width={555}
-              height={441}
+              width={686}
+              height={487}
               style={{ opacity: 1 }}
             />
           </div>
