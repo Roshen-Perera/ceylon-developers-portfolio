@@ -151,7 +151,7 @@ export default function Home() {
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
                 <p className="text-lg font-bold">UX Driven Engineering</p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
@@ -163,7 +163,7 @@ export default function Home() {
                 <p className="text-lg font-bold">
                   Proven Experience and Expertise
                 </p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
@@ -178,7 +178,7 @@ export default function Home() {
                 <p className="text-lg font-bold">
                   Developing Shared Understanding
                 </p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
                 <p className="text-lg font-bold">Quality Assurance & Testing</p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
@@ -201,7 +201,7 @@ export default function Home() {
                 <p className="text-lg font-bold">
                   Security & Intellectual Property
                 </p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
                 <p className="text-lg font-bold">Code Reviews</p>
-                <p className="text-lg text-[#585858]">
+                <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
                 </p>
