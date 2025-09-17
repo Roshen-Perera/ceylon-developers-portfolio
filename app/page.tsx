@@ -268,6 +268,34 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="mt-20 mb-10">
+          <svg
+            width="1343"
+            height="58"
+            viewBox="0 0 1343 58"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 4.82469L503.89 1.09953C512.708 1.03434 521.386 3.30247 529.045 7.67386L603.771 50.3261C611.43 54.6975 620.108 56.9657 628.927 56.9005L1343 51.6215"
+              stroke="url(#paint0_linear_1085_1810)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_1085_1810"
+                x1="0"
+                y1="29"
+                x2="1343"
+                y2="29"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#17CDCA" stop-opacity="0" />
+                <stop offset="0.457843" stop-color="#17CDCA" />
+                <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
       </div>
     </>
   );
