@@ -221,14 +221,16 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-12">
-          <VerticalTextSlider />
-          <div className="text-lg max-w-2xl flex items-center mx-auto px-4">
-            <p className="text-center">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore
-            </p>
-          </div>
-          <div className="flex flex-row ml-50 mr-50 gap-30 mt-8">
+          <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
+            <div>
+              <VerticalTextSlider />
+              <div className="text-lg max-w-2xl flex items-center mx-auto px-4">
+                <p className="text-center">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore
+                </p>
+              </div>
+            </div>
             <div className="flex flex-col vision-border p-6 text-center gap-4">
               <h1 className="text-lg font-bold">Consulting</h1>
               <p className="">
