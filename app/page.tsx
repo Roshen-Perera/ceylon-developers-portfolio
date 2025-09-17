@@ -237,7 +237,7 @@ export default function Home() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA]">
+              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
                 <p>Get Started</p>
                 <MoveRight />
               </div>
@@ -248,7 +248,7 @@ export default function Home() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA]">
+              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
                 <p>Get Started</p>
                 <MoveRight />
               </div>
@@ -259,7 +259,7 @@ export default function Home() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA]">
+              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
                 <p>Get Started</p>
                 <MoveRight />
               </div>
