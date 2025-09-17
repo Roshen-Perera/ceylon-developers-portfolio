@@ -53,10 +53,10 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
-        <p className="text-5xl font-medium">
+        <p className="text-7xl font-medium">
           <span className="font-kaushan">Services</span> we offer{" "}
         </p>
-        <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
+        <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
           <p className="text-center">
             Pushing the boundaries of what&apos;s possible in the digital realm.
             Join us on this journey into the future of technology.
