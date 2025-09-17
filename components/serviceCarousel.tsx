@@ -15,8 +15,8 @@ const ServiceCarousel = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold text-[#17CDCA]">Review</p>
-          <p className="text-lg">
+          <p className="text-[26px] font-semibold text-[#17CDCA]">Review</p>
+          <p className="text-[22px]">
             A Website is an extension of yourself and we can help you to express
             it properly. Your website is your number one marketing asset because
             we live in a digital age.
@@ -30,10 +30,10 @@ const ServiceCarousel = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold text-[#17CDCA]">
+          <p className="text-[26px] font-semibold text-[#17CDCA]">
             Software Testing Service
           </p>
-          <p className="text-lg">
+          <p className="text-[22px]">
             A Website is an extension of yourself and we can help you to express
             it properly. Your website is your number one marketing asset because
             we live in a digital age.
@@ -47,10 +47,10 @@ const ServiceCarousel = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold text-[#17CDCA]">
+          <p className="text-[26px] font-semibold text-[#17CDCA]">
             Web Design & Development
           </p>
-          <p className="text-lg">
+          <p className="text-[22px]">
             A Website is an extension of yourself and we can help you to express
             it properly. Your website is your number one marketing asset because
             we live in a digital age.
@@ -64,10 +64,10 @@ const ServiceCarousel = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold text-[#17CDCA]">
+          <p className="text-[26px] font-semibold text-[#17CDCA]">
             Mobile App Development
           </p>
-          <p className="text-lg">
+          <p className="text-[22px]">
             A Website is an extension of yourself and we can help you to express
             it properly. Your website is your number one marketing asset because
             we live in a digital age.
@@ -81,8 +81,8 @@ const ServiceCarousel = () => {
             width={40}
             height={40}
           />
-          <p className="text-xl font-semibold text-[#17CDCA]">UI/UX Design</p>
-          <p className="text-lg">
+          <p className="text-[26px] font-semibold text-[#17CDCA]">UI/UX Design</p>
+          <p className="text-[22px]">
             A Website is an extension of yourself and we can help you to express
             it properly. Your website is your number one marketing asset because
             we live in a digital age.
