@@ -150,7 +150,7 @@ export default function Home() {
           <div className="grid grid-cols-4 p-8">
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">UX Driven Engineering</p>
+                <p className="text-[26px] font-bold">UX Driven Engineering</p>
                 <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
@@ -160,7 +160,7 @@ export default function Home() {
             <div></div>
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">
+                <p className="text-[26px] font-bold">
                   Proven Experience and Expertise
                 </p>
                 <p className="text-[22px] text-[#585858]">
@@ -175,7 +175,7 @@ export default function Home() {
             <div></div>
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">
+                <p className="text-[26px] font-bold">
                   Developing Shared Understanding
                 </p>
                 <p className="text-[22px] text-[#585858]">
@@ -187,7 +187,9 @@ export default function Home() {
             <div></div>
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">Quality Assurance & Testing</p>
+                <p className="text-[26px] font-bold">
+                  Quality Assurance & Testing
+                </p>
                 <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
@@ -198,7 +200,7 @@ export default function Home() {
           <div className="grid grid-cols-4 p-8">
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">
+                <p className="text-[26px] font-bold">
                   Security & Intellectual Property
                 </p>
                 <p className="text-[22px] text-[#585858]">
@@ -210,7 +212,7 @@ export default function Home() {
             <div></div>
             <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
               <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-lg font-bold">Code Reviews</p>
+                <p className="text-[26px] font-bold">Code Reviews</p>
                 <p className="text-[22px] text-[#585858]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
                   Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
