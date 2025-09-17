@@ -222,18 +222,18 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center justify-center mt-12">
           <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
-            <div>
+            <div className="flex flex-col justify-around">
               <VerticalTextSlider />
-              <div className="text-lg max-w-2xl flex items-center mx-auto px-4">
-                <p className="text-center">
+              <div className="text-[22px]  flex items-center">
+                <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore
                 </p>
               </div>
             </div>
             <div className="flex flex-col vision-border p-6 text-center gap-4">
-              <h1 className="text-lg font-bold">Consulting</h1>
-              <p className="">
+              <h1 className="text-[26px] font-bold">Consulting</h1>
+              <p className="text-[22px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
@@ -243,8 +243,8 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col vision-border-middle p-6 text-center gap-4">
-              <h1 className="text-lg font-bold">Implementation</h1>
-              <p className="">
+              <h1 className="text-[26px] font-bold">Implementation</h1>
+              <p className="text-[22px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
@@ -254,8 +254,8 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col vision-border p-6 text-center gap-4">
-              <h1 className="text-lg font-bold">Distribution</h1>
-              <p className="">
+              <h1 className="text-[26px] font-bold">Distribution</h1>
+              <p className="text-[22px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </p>
