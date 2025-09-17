@@ -71,11 +71,11 @@ export default function Home() {
         <MeshVector2 />
         <div className="flex flex-row items-center gap-12">
           <div className="flex flex-col gap-6 flex-1 max-w-lg">
-            <p className="text-5xl font-medium">
+            <p className="text-7xl font-medium">
               To upscale your <span className="font-kaushan">business</span> to
               the next level
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-[22px] text-gray-600">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua invidunt ut labore.
@@ -89,7 +89,7 @@ export default function Home() {
                   height={24}
                   className="flex-shrink-0"
                 />
-                <p className="text-lg">
+                <p className="text-[22px]">
                   Project templates to kick-start a new project
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function Home() {
                   height={24}
                   className="flex-shrink-0"
                 />
-                <p className="text-lg">
+                <p className="text-[22px]">
                   Clone task to speed your time to action
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   height={24}
                   className="flex-shrink-0"
                 />
-                <p className="text-lg">
+                <p className="text-[22px]">
                   Communicate and collaborate with your team and clients
                 </p>
               </div>
@@ -125,7 +125,7 @@ export default function Home() {
                   height={24}
                   className="flex-shrink-0"
                 />
-                <p className="text-lg">Time tracking for the whole team</p>
+                <p className="text-[22px]">Time tracking for the whole team</p>
               </div>
             </div>
           </div>
