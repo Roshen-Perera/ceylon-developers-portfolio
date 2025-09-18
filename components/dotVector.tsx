@@ -2,7 +2,7 @@ import React from 'react'
 
 const DotVector = () => {
   return (
-    <div>
+    <div className='relative  -inset-4'>
       <svg
         width="318"
         height="215"

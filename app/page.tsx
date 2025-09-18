@@ -300,11 +300,12 @@ export default function Home() {
         <div>
           <div className="w-[369px] border-1 rounded-4xl p-5">
             <h1 className="text-[30px]">Projects</h1>
-            <p className="text-[22px] text-[#585858]">
+            <p className="text-[22px] text-[#585858] relative z-40">
               Easily organize tasks, set deadlines, and track progress in
               real-time with Ease.
             </p>
             <DotVector/>
+            
           </div>
         </div>
       </div>
