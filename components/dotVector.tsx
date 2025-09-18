@@ -14,7 +14,7 @@ const DotVector = () => {
           <path
             d="M44.6 45.6972C43.0651 42.3835 45.485 38.5957 49.1369 38.5957H173.03C174.997 38.5957 176.781 39.7492 177.589 41.5431L226.655 150.527C228.145 153.836 225.724 157.579 222.096 157.579H99.6185C97.6707 157.579 95.9002 156.448 95.0815 154.681L44.6 45.6972Z"
             fill="url(#paint0_linear_1085_1819)"
-            fill-opacity="0.18"
+            fillOpacity="0.18"
             shapeRendering="crispEdges"
           />
           <path
@@ -27,7 +27,7 @@ const DotVector = () => {
           <path
             d="M79.6254 28.1835C78.0905 24.8698 80.5104 21.082 84.1623 21.082H208.055C210.022 21.082 211.807 22.2356 212.614 24.0294L261.68 133.013C263.17 136.322 260.75 140.066 257.121 140.066H134.644C132.696 140.066 130.926 138.935 130.107 137.167L79.6254 28.1835Z"
             fill="url(#paint2_linear_1085_1819)"
-            fill-opacity="0.18"
+            fillOpacity="0.18"
             shapeRendering="crispEdges"
           />
           <path
@@ -40,7 +40,7 @@ const DotVector = () => {
           <path
             d="M117.709 7.99994C116.174 4.68624 118.594 0.898438 122.246 0.898438H246.139C248.106 0.898438 249.891 2.05198 250.698 3.84579L299.764 112.83C301.254 116.138 298.834 119.882 295.205 119.882H172.728C170.78 119.882 169.01 118.751 168.191 116.984L117.709 7.99994Z"
             fill="url(#paint4_linear_1085_1819)"
-            fill-opacity="0.75"
+            fillOpacity="0.75"
             shapeRendering="crispEdges"
           />
           <path
@@ -63,7 +63,7 @@ const DotVector = () => {
           <path
             d="M260.431 87.3174C260.033 85.8302 261.393 84.4694 262.881 84.8679L285.432 90.9106C287.38 91.4324 287.442 94.2764 285.568 95.0209C277.471 98.2375 273.212 102.066 270.663 108.195C269.845 110.162 266.567 110.218 266.016 108.16L260.431 87.3174Z"
             fill="#17CDCA"
-            fill-opacity="0.46"
+            fillOpacity="0.46"
             shapeRendering="crispEdges"
           />
         </g>
@@ -71,7 +71,7 @@ const DotVector = () => {
           <path
             d="M271.311 121.361C271.112 120.617 271.792 119.937 272.536 120.136L283.224 123C284.198 123.261 284.232 124.684 283.296 125.061C279.532 126.576 277.512 128.379 276.289 131.22C275.868 132.198 274.222 132.224 273.946 131.195L271.311 121.361Z"
             fill="#17CDCA"
-            fill-opacity="0.46"
+            fillOpacity="0.46"
             shapeRendering="crispEdges"
           />
         </g>
@@ -79,7 +79,7 @@ const DotVector = () => {
           <path
             d="M291.647 125.968C291.448 125.225 292.128 124.544 292.872 124.744L303.56 127.608C304.534 127.869 304.568 129.292 303.632 129.668C299.868 131.184 297.848 132.986 296.625 135.827C296.204 136.805 294.558 136.831 294.282 135.802L291.647 125.968Z"
             fill="#17CDCA"
-            fill-opacity="0.46"
+            fillOpacity="0.46"
             shapeRendering="crispEdges"
           />
         </g>
@@ -93,7 +93,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -128,7 +128,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -163,7 +163,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -198,7 +198,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -233,7 +233,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -268,7 +268,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -303,7 +303,7 @@ const DotVector = () => {
             filterUnits="userSpaceOnUse"
             colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
