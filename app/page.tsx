@@ -289,9 +289,9 @@ export default function Home() {
                 y2="29"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#17CDCA" stop-opacity="0" />
-                <stop offset="0.457843" stop-color="#17CDCA" />
-                <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+                <stop stop-color="#17CDCA" stopOpacity="0" />
+                <stop offset="0.457843" stopColor="#17CDCA" />
+                <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
