@@ -1,6 +1,6 @@
 import React from 'react'
 
-const dotVector = () => {
+const DotVector = () => {
   return (
     <div>
       <svg
@@ -423,4 +423,4 @@ const dotVector = () => {
   );
 }
 
-export default dotVector
+export default DotVector
