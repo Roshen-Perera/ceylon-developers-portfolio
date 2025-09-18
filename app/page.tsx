@@ -1,5 +1,6 @@
 import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
+import DotVector from "@/components/dotVector";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
@@ -303,6 +304,7 @@ export default function Home() {
               Easily organize tasks, set deadlines, and track progress in
               real-time with Ease.
             </p>
+            <DotVector/>
           </div>
         </div>
       </div>
