@@ -289,7 +289,7 @@ export default function Home() {
                 y2="29"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#17CDCA" stopOpacity="0" />
+                <stop stopColor="#17CDCA" stopOpacity="0" />
                 <stop offset="0.457843" stopColor="#17CDCA" />
                 <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
@@ -303,7 +303,6 @@ export default function Home() {
               Easily organize tasks, set deadlines, and track progress in
               real-time with Ease.
             </p>
-            
           </div>
         </div>
       </div>
