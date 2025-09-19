@@ -1,3 +1,4 @@
+import AnalyticsVector from "@/components/analyticsVector";
 import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import DotVector from "@/components/dotVector";
@@ -315,7 +316,9 @@ export default function Home() {
               className="relative bottom-45 z-1"
             />
           </div>
-          <div className="w-[786px] h-[375px] border-1 rounded-4xl overflow-hidden"></div>
+          <div className="w-[786px] h-[375px] border-1 rounded-4xl overflow-hidden">
+            <AnalyticsVector/>
+          </div>
         </div>
       </div>
     </>
