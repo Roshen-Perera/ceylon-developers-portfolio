@@ -298,14 +298,22 @@ export default function Home() {
           </svg>
         </div>
         <div>
-          <div className="w-[369px] border-1 rounded-4xl p-5">
-            <h1 className="text-[30px]">Projects</h1>
-            <p className="text-[22px] text-[#585858] relative z-1">
-              Easily organize tasks, set deadlines, and track progress in
-              real-time with Ease.
-            </p>
-            <DotVector/>
-            <Image src={"/assets/vectors/pixels.png"} alt={""} width={100} height={200} />
+          <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+            <div className="p-4">
+              <h1 className="text-[30px]">Projects</h1>
+              <p className="text-[22px] text-[#585858] relative z-1">
+                Easily organize tasks, set deadlines, and track progress in
+                real-time with Ease.
+              </p>
+              <DotVector />
+            </div>
+            <Image
+              src={"/assets/vectors/maskGroup.png"}
+              alt={""}
+              width={500}
+              height={200}
+              className="relative bottom-45 z-1"
+            />
           </div>
         </div>
       </div>
