@@ -298,26 +298,77 @@ export default function Home() {
             </defs>
           </svg>
         </div>
-        <div>
-          <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
-            <div className="p-4">
-              <h1 className="text-[30px]">Projects</h1>
-              <p className="text-[22px] text-[#585858] relative z-1">
-                Easily organize tasks, set deadlines, and track progress in
-                real-time with Ease.
-              </p>
-              <DotVector />
+        <div className="flex flex-col gap-10">
+          <div className="flex flex-row gap-10">
+            <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+              <div className="mt-4 ml-5">
+                <div className="flex flex-col gap-3">
+                  <h1 className="text-[30px]">Projects</h1>
+                  <p className="text-[22px] text-[#585858] relative z-1">
+                    Easily organize tasks, set deadlines, and track progress in
+                    real-time with Ease.
+                  </p>
+                </div>
+                <DotVector />
+              </div>
+              <Image
+                src={"/assets/vectors/maskGroup.png"}
+                alt={""}
+                width={500}
+                height={200}
+                className="relative bottom-45 z-1"
+              />
             </div>
-            <Image
-              src={"/assets/vectors/maskGroup.png"}
-              alt={""}
-              width={500}
-              height={200}
-              className="relative bottom-45 z-1"
-            />
+            <div className="w-[786px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+              <div className="flex ">
+                <div className="mt-12 ml-3">
+                  <AnalyticsVector />
+                </div>
+                <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
+                  <h1 className="text-[30px]">Analytics & Reporting</h1>
+                  <p className="text-[22px] w-[515px] text-[#585858]">
+                    Generate real-time reports, identify key performance
+                    indicators, and make data-driven decisions for continuous
+                    improvement.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-[786px] h-[375px] border-1 rounded-4xl overflow-hidden">
-            <AnalyticsVector/>
+          <div className="flex flex-row gap-10">
+            <div className="w-[786px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+              <div className="flex ">
+                <div className="mt-4 ml-5">
+                  <div className="flex flex-col gap-3">
+                    <h1 className="text-[30px]">Your Workflow</h1>
+                    <p className="text-[22px] w-[605px] text-[#585858] relative z-1">
+                      Automate repetitive tasks and streamline your workflows
+                      with our powerful automation features. Reduce manual
+                      effort, eliminate errors.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+              <div className="p-4">
+                <div className="flex flex-col gap-3">
+                  <h1 className="text-[30px]">Projects</h1>
+                  <p className="text-[22px] text-[#585858] relative z-1">
+                    Easily organize tasks, set deadlines, and track progress in
+                    real-time with Ease.
+                  </p>
+                </div>
+                <DotVector />
+              </div>
+              <Image
+                src={"/assets/vectors/maskGroup.png"}
+                alt={""}
+                width={500}
+                height={200}
+                className="relative bottom-45 z-1"
+              />
+            </div>
           </div>
         </div>
       </div>
