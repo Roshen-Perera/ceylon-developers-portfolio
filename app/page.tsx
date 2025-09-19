@@ -315,6 +315,7 @@ export default function Home() {
               className="relative bottom-45 z-1"
             />
           </div>
+          <div className="w-[786px] h-[375px] border-1 rounded-4xl overflow-hidden"></div>
         </div>
       </div>
     </>
