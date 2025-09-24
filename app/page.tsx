@@ -7,6 +7,7 @@ import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
+import TechStack from "@/components/techStack";
 import { ArrowBigRight, MoveRight } from "lucide-react";
 import Image from "next/image";
 
@@ -374,7 +375,9 @@ export default function Home() {
         <div>
           <h1 className="text-7xl mt-2 font-medium">
             <span className="font-kaushan">Technologies</span> We work with
-            
+            <div className="mt-5">
+              <TechStack/>
+            </div>
           </h1>
         </div>
       </div>
