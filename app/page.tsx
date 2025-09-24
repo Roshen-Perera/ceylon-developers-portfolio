@@ -371,6 +371,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <h1 className="text-7xl mt-2 font-medium">
+            <span className="font-kaushan">Technologies</span> We work with
+            
+          </h1>
+        </div>
       </div>
     </>
   );
