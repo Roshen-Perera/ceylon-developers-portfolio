@@ -142,135 +142,137 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center mt-12">
-          <div className="text-center mb-8">
-            <p className="text-5xl font-medium">
-              Our <span className="font-kaushan">design</span> and
-              <br />
-              <span className="font-kaushan">development</span> approach
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <div className="text-center mb-8">
+          <p className="text-5xl font-medium">
+            Our <span className="font-kaushan">design</span> and
+            <br />
+            <span className="font-kaushan">development</span> approach
+          </p>
+        </div>
+        <div className="grid grid-cols-4 p-8">
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">UX Driven Engineering</p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+          <div></div>
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">
+                Proven Experience and Expertise
+              </p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <div className="grid grid-cols-4 p-8">
+          <div></div>
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">
+                Developing Shared Understanding
+              </p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+          <div></div>
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">
+                Quality Assurance & Testing
+              </p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-4 p-8">
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">
+                Security & Intellectual Property
+              </p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+          <div></div>
+          <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
+              <p className="text-[26px] font-bold">Code Reviews</p>
+              <p className="text-[22px] text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
+              </p>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
+          <div className="flex flex-col justify-around">
+            <VerticalTextSlider />
+            <div className="text-[22px] flex items-center">
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col vision-border p-6 text-center gap-4">
+            <h1 className="text-[26px] font-bold">Consulting</h1>
+            <p className="text-[22px] text-[#585858]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&apos;s standard
             </p>
-          </div>
-          <div className="grid grid-cols-4 p-8">
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">UX Driven Engineering</p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-            <div></div>
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">
-                  Proven Experience and Expertise
-                </p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-            <div></div>
-          </div>
-          <div className="grid grid-cols-4 p-8">
-            <div></div>
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">
-                  Developing Shared Understanding
-                </p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-            <div></div>
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">
-                  Quality Assurance & Testing
-                </p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
+            <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+              <p>Get Started</p>
+              <MoveRight />
             </div>
           </div>
-          <div className="grid grid-cols-4 p-8">
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">
-                  Security & Intellectual Property
-                </p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
+          <div className="flex flex-col vision-border-middle p-6 text-center gap-4">
+            <h1 className="text-[26px] font-bold">Implementation</h1>
+            <p className="text-[22px] text-[#585858]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&apos;s standard
+            </p>
+            <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+              <p>Get Started</p>
+              <MoveRight />
             </div>
-            <div></div>
-            <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-              <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-                <p className="text-[26px] font-bold">Code Reviews</p>
-                <p className="text-[22px] text-[#585858]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
-                  Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
-                </p>
-              </div>
-            </div>
-            <div></div>
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-center mt-12">
-          <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
-            <div className="flex flex-col justify-around">
-              <VerticalTextSlider />
-              <div className="text-[22px] flex items-center">
-                <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col vision-border p-6 text-center gap-4">
-              <h1 className="text-[26px] font-bold">Consulting</h1>
-              <p className="text-[22px] text-[#585858]">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-              </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
-                <p>Get Started</p>
-                <MoveRight />
-              </div>
-            </div>
-            <div className="flex flex-col vision-border-middle p-6 text-center gap-4">
-              <h1 className="text-[26px] font-bold">Implementation</h1>
-              <p className="text-[22px] text-[#585858]">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-              </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
-                <p>Get Started</p>
-                <MoveRight />
-              </div>
-            </div>
-            <div className="flex flex-col vision-border p-6 text-center gap-4">
-              <h1 className="text-[26px] font-bold">Distribution</h1>
-              <p className="text-[22px] text-[#585858]">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-              </p>
-              <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
-                <p>Get Started</p>
-                <MoveRight />
-              </div>
+          <div className="flex flex-col vision-border p-6 text-center gap-4">
+            <h1 className="text-[26px] font-bold">Distribution</h1>
+            <p className="text-[22px] text-[#585858]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&apos;s standard
+            </p>
+            <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+              <p>Get Started</p>
+              <MoveRight />
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
         <div className="mt-20 mb-10 ">
           <svg
             width="1343"
@@ -372,14 +374,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <h1 className="text-7xl mt-2 font-medium">
-            <span className="font-kaushan">Technologies</span> We work with
-            <div className="mt-5">
-              <TechStack/>
-            </div>
-          </h1>
-        </div>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+
+            <TechStack />
       </div>
     </>
   );
