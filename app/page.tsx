@@ -427,11 +427,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-3 p-5 border-1 rounded-3xl">
+          <div className="flex flex-col gap-3 p-5 gradient-border-contact">
             <h2 className="text-[30px]">Get a quote</h2>
             <p className="text-[22px]">
-              Fill up the form and our Team will get back to you within 
-              <br /> 
+              Fill up the form and our Team will get back to you within
+              <br />
               24 hours.
             </p>
           </div>
