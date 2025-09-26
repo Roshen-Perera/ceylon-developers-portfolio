@@ -392,50 +392,37 @@ export default function Home() {
             <h2 className="text-[30px]">Let’s Talk About:</h2>
             <div className="flex flex-col gap-4">
               <div className="flex flex-row gap-3 items-center">
-                <Image
-                  src={"/assets/icons/tick.png"}
-                  alt={"check mark"}
-                  width={24}
-                  height={24}
-                  className="flex-shrink-0"
-                />
-                <p className="text-[22px]">
-                  Project templates to kick-start a new project
-                </p>
+                <div className="rounded-4xl">
+                  <Image
+                    src={"/assets/icons/right.png"}
+                    alt={"check mark"}
+                    width={24}
+                    height={24}
+                    className="flex-shrink-0 rounded-2xl"
+                  />
+                </div>
+
+                <p className="text-[22px]">Customer Experience</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <Image
-                  src={"/assets/icons/tick.png"}
-                  alt={"check mark"}
-                  width={24}
-                  height={24}
-                  className="flex-shrink-0"
-                />
-                <p className="text-[22px]">
-                  Clone task to speed your time to action
-                </p>
+                    src={"/assets/icons/right.png"}
+                    alt={"check mark"}
+                    width={24}
+                    height={24}
+                    className="flex-shrink-0 rounded-2xl"
+                  />
+                <p className="text-[22px]">Quality and Trust</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <Image
-                  src={"/assets/icons/tick.png"}
-                  alt={"check mark"}
-                  width={24}
-                  height={24}
-                  className="flex-shrink-0"
-                />
-                <p className="text-[22px]">
-                  Communicate and collaborate with your team and clients
-                </p>
-              </div>
-              <div className="flex flex-row gap-3 items-center">
-                <Image
-                  src={"/assets/icons/tick.png"}
-                  alt={"check mark"}
-                  width={24}
-                  height={24}
-                  className="flex-shrink-0"
-                />
-                <p className="text-[22px]">Time tracking for the whole team</p>
+                    src={"/assets/icons/right.png"}
+                    alt={"check mark"}
+                    width={24}
+                    height={24}
+                    className="flex-shrink-0 rounded-2xl"
+                  />
+                <p className="text-[22px]">Dependable Service</p>
               </div>
             </div>
           </div>
