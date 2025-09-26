@@ -1,6 +1,8 @@
 import AnalyticsVector from "@/components/analyticsVector";
 import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
+import ContactUsForm from "@/components/contactUseForm";
+import ContactUseForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
@@ -427,7 +429,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+          <ContactUsForm />
         </div>
       </div>
     </>
