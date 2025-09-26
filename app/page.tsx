@@ -380,15 +380,64 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
         <div className="grid grid-cols-2">
-          <div>
+          <div className="flex flex-col gap-5">
             <h1 className="text-7xl font-medium">
               Get in
               <span className="font-kaushan">touch</span>
             </h1>
-            <p>
+            <p className="text-[22px]">
               We’re here to support you! Feel free to reach out for assistance,
               feedback, or any questions.
             </p>
+            <h2 className="text-[30px]">Let’s Talk About:</h2>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-row gap-3 items-center">
+                <Image
+                  src={"/assets/icons/tick.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0"
+                />
+                <p className="text-[22px]">
+                  Project templates to kick-start a new project
+                </p>
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <Image
+                  src={"/assets/icons/tick.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0"
+                />
+                <p className="text-[22px]">
+                  Clone task to speed your time to action
+                </p>
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <Image
+                  src={"/assets/icons/tick.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0"
+                />
+                <p className="text-[22px]">
+                  Communicate and collaborate with your team and clients
+                </p>
+              </div>
+              <div className="flex flex-row gap-3 items-center">
+                <Image
+                  src={"/assets/icons/tick.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0"
+                />
+                <p className="text-[22px]">Time tracking for the whole team</p>
+              </div>
+            </div>
           </div>
           <div></div>
         </div>
