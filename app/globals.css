@@ -131,6 +131,12 @@
   border-image-slice: 1;
 }
 
+.gradient-border-contact {
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #17CDCA 0%, #0F908E 100%);
+  border-image-slice: 1;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
