@@ -376,8 +376,22 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
-
-            <TechStack />
+        <TechStack />
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <div className="grid grid-cols-2">
+          <div>
+            <h1 className="text-7xl font-medium">
+              Get in
+              <span className="font-kaushan">touch</span>
+            </h1>
+            <p>
+              We’re here to support you! Feel free to reach out for assistance,
+              feedback, or any questions.
+            </p>
+          </div>
+          <div></div>
+        </div>
       </div>
     </>
   );
