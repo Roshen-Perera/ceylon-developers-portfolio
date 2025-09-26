@@ -386,8 +386,9 @@ export default function Home() {
               <span className="font-kaushan">touch</span>
             </h1>
             <p className="text-[22px]">
-              We’re here to support you! Feel free to reach out for assistance,
-              feedback, or any questions.
+              We’re here to support you! Feel free to reach out for
+              <br />
+              assistance, feedback, or any questions.
             </p>
             <h2 className="text-[30px]">Let’s Talk About:</h2>
             <div className="flex flex-col gap-4">
@@ -406,27 +407,34 @@ export default function Home() {
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <Image
-                    src={"/assets/icons/right.png"}
-                    alt={"check mark"}
-                    width={24}
-                    height={24}
-                    className="flex-shrink-0 rounded-2xl"
-                  />
+                  src={"/assets/icons/right.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0 rounded-2xl"
+                />
                 <p className="text-[22px]">Quality and Trust</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <Image
-                    src={"/assets/icons/right.png"}
-                    alt={"check mark"}
-                    width={24}
-                    height={24}
-                    className="flex-shrink-0 rounded-2xl"
-                  />
+                  src={"/assets/icons/right.png"}
+                  alt={"check mark"}
+                  width={24}
+                  height={24}
+                  className="flex-shrink-0 rounded-2xl"
+                />
                 <p className="text-[22px]">Dependable Service</p>
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="flex flex-col gap-3 p-5 border-1 rounded-3xl">
+            <h2 className="text-[30px]">Get a quote</h2>
+            <p className="text-[22px]">
+              Fill up the form and our Team will get back to you within 
+              <br /> 
+              24 hours.
+            </p>
+          </div>
         </div>
       </div>
     </>
