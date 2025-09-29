@@ -116,6 +116,9 @@ export default function Reviews() {
                       <div className="flex items-center gap-2 text-[16px] text-gray-500">
                         <span>{post.handle}</span>
                       </div>
+                      <div className="flex items-center gap-2 text-[16px] text-gray-500">
+                        <span>Saas-maker •</span>
+                      </div>
                     </div>
                   </div>
                   <p className="mt-3 text-[22px] leading-relaxed">
