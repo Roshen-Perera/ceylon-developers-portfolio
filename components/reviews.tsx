@@ -3,9 +3,9 @@ import React from 'react'
 
 const Reviews = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-md">
+    <div className="bg-white rounded-lg p-6 max-w-md border-1">
       {/* Header with avatar and info */}
-      <div className="flex items-start gap-3 mb-4">
+      <div className="flex items-start gap-3 mb-4" >
         {/* Avatar */}
         <Image
           src={"/assets/technologies/review.jpg"}
