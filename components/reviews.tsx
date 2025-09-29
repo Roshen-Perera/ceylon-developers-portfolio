@@ -24,7 +24,7 @@ const Reviews = () => {
       </div>
 
       {/* Testimonial text */}
-      <p className="text-gray-600 text-[22px] leading-relaxed max-w-xs">
+      <p className="text-[22px] leading-relaxed max-w-xs">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
     </div>
