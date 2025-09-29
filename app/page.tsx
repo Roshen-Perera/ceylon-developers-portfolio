@@ -7,6 +7,7 @@ import DotVector from "@/components/dotVector";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
+import Reviews from "@/components/reviews";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
@@ -445,6 +446,7 @@ export default function Home() {
             has made a difference.
           </p>
         </div>
+        <Reviews/>
       </div>
     </>
   );
