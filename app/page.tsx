@@ -439,6 +439,12 @@ export default function Home() {
           <br />
           working with us
         </h1>
+        <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
+          <p className="text-center">
+            Hear directly from customers about their experiences and how webdone
+            has made a difference.
+          </p>
+        </div>
       </div>
     </>
   );
