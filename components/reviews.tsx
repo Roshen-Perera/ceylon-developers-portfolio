@@ -118,7 +118,7 @@ export default function Reviews() {
                       </div>
                     </div>
                   </div>
-                  <p className="mt-3 text-[22px] text-gray-700 leading-relaxed">
+                  <p className="mt-3 text-[22px] leading-relaxed">
                     {post.content}
                   </p>
                 </div>
