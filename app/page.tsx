@@ -446,7 +446,9 @@ export default function Home() {
             has made a difference.
           </p>
         </div>
-        <Reviews/>
+      </div>
+      <div className="flex flex-col ml-12 mt-12">
+        <Reviews />
       </div>
     </>
   );
