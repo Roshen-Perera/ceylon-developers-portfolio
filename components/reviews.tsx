@@ -5,13 +5,14 @@ const Reviews = () => {
   return (
     <div className="bg-white rounded-lg p-6 max-w-md border-1">
       {/* Header with avatar and info */}
-      <div className="flex items-start gap-3 mb-4" >
+      <div className="flex items-center gap-3 mb-4">
         {/* Avatar */}
         <Image
-          src={"/assets/technologies/review.jpg"}
+          src={"/assets/images/image1.png"}
           alt={"ef"}
-          width={20}
-          height={20}
+          width={50}
+          height={50}
+          className='rounded-3xl'
         />
 
         {/* Name and role */}
