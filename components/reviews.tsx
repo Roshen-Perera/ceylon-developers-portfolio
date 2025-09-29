@@ -4,7 +4,6 @@ type Post = {
   id: number;
   name: string;
   handle: string;
-  time: string;
   content: string;
   avatar: string;
 };
@@ -15,71 +14,63 @@ export default function Reviews() {
       id: 1,
       name: "Mike Johnson",
       handle: "@mike_tech",
-      time: "3m",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike1",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 2,
       name: "Mike Johnson",
       handle: "@john_tech",
-      time: "5m",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike2",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 3,
       name: "Mike Johnson",
       handle: "@john_tech",
-      time: "10m",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike3",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 4,
       name: "Mike Johnson",
       handle: "@mike_tech",
-      time: "25m",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike4",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 5,
       name: "Mike Johnson",
       handle: "@mike_tech",
-      time: "45m",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike5",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 6,
       name: "Mike Johnson",
       handle: "@mike_tech",
-      time: "54m",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike6",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 7,
       name: "Mike Johnson",
       handle: "@john_tech",
-      time: "1h",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike7",
+      avatar: "/assets/images/image1.png",
     },
     {
       id: 8,
       name: "Mike Johnson",
       handle: "@mike_tech",
-      time: "2h",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike8",
+      avatar: "/assets/images/image1.png",
     },
   ];
 
@@ -108,7 +99,7 @@ export default function Reviews() {
                   key={post.id}
                   className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="flex items-start gap-3">
+                  <div className="flex items-center gap-3">
                     <Image
                       width={48}
                       height={48}
@@ -116,7 +107,7 @@ export default function Reviews() {
                       alt={post.name}
                       className="rounded-full flex-shrink-0"
                     />
-                    <div className="flex-1 min-w-0">
+                    <div className="flex flex-col min-w-0">
                       <div className="flex items-center gap-1">
                         <h3 className="font-semibold text-gray-900 text-sm">
                           {post.name}
@@ -124,12 +115,10 @@ export default function Reviews() {
                       </div>
                       <div className="flex items-center gap-2 text-xs text-gray-500">
                         <span>{post.handle}</span>
-                        <span>•</span>
-                        <span>{post.time}</span>
                       </div>
                     </div>
                   </div>
-                  <p className="mt-3 text-sm text-gray-700 leading-relaxed">
+                  <p className="mt-3 text-[22px] text-gray-700 leading-relaxed">
                     {post.content}
                   </p>
                 </div>
