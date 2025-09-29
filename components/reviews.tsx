@@ -89,7 +89,7 @@ export default function Reviews() {
   const columns = distributeIntoColumns(posts, 3);
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-screen">
       <div className="max-w-7xl mx-auto">
         <div className="flex gap-4">
           {columns.map((column, columnIndex) => (
