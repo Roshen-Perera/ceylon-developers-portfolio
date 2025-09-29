@@ -7,19 +7,23 @@ const Reviews = () => {
       {/* Header with avatar and info */}
       <div className="flex items-start gap-3 mb-4">
         {/* Avatar */}
-        <Image src={"imageSrc"} alt={"ef"} width={20} height={20} />
+        <Image
+          src={"/assets/technologies/review.jpg"}
+          alt={"ef"}
+          width={20}
+          height={20}
+        />
 
         {/* Name and role */}
         <div className="flex-1 min-w-0">
-          <h3 className="font-semibold text-gray-900 text-base">
-            Mike Johnson
-          </h3>
-          <p className="text-sm text-gray-500">@mikej_tech</p>
+          <h3 className="font-semibold text-[26px]">Mike Johnson</h3>
+          <p className="text-sm text-[18px] text-gray-500">@mikej_tech</p>
+          <p className="text-sm text-[16px] text-gray-500">Saas-maker •</p>
         </div>
       </div>
 
       {/* Testimonial text */}
-      <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
+      <p className="text-gray-600 text-[22px] leading-relaxed max-w-xs">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
     </div>
