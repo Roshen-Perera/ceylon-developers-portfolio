@@ -432,6 +432,14 @@ export default function Home() {
           <ContactUsForm />
         </div>
       </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <h1 className="text-7xl font-medium">
+          Why Customers
+          <span className="font-kaushan"> love </span>
+          <br />
+          working with us
+        </h1>
+      </div>
     </>
   );
 }

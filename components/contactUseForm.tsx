@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import React from 'react'
+import React from "react";
 
 const ContactUsForm = () => {
   return (
@@ -60,6 +60,6 @@ const ContactUsForm = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContactUsForm
+export default ContactUsForm;
