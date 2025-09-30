@@ -45,7 +45,7 @@ export default function FAQAccordion() {
 
   return (
     <div className="mt-12 flex items-center justify-center p-4">
-      <div className="w-full max-w-3xl">
+      <div className="w-full max-w-7xl">
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
