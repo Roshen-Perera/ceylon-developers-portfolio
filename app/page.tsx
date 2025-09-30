@@ -450,6 +450,13 @@ export default function Home() {
       <div className="flex flex-col ml-12 mt-12">
         <Reviews />
       </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <h1 className="text-7xl font-medium text-center">
+          How
+          <span className="font-kaushan"> Ceylon Developers </span>
+          help you?
+        </h1>
+      </div>
     </>
   );
 }
