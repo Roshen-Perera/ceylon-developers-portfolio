@@ -73,7 +73,7 @@ export default function FAQAccordion() {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="px-6 pb-5 text-purple-100 leading-relaxed">
+                <div className="px-6 pb-5 leading-relaxed">
                   {faq.answer}
                 </div>
               </div>
