@@ -30,20 +30,20 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 transition-all duration-300 hover:bg-white/15"
+              className="rounded-2xl overflow-hidden border-1"
             >
               <button
                 onClick={() => toggleAccordion(index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left transition-all duration-300"
               >
-                <span className="text-lg font-semibold text-white pr-8">
+                <span className="text-lg pr-8">
                   {faq.question}
                 </span>
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-500 flex items-center justify-center transition-transform duration-300">
+                <div className="hover:cursor-pointer transition-transform duration-300">
                   {openIndex === index ? (
-                    <Minus className="w-5 h-5 text-white" />
+                    <Minus className="w-5 h-5" />
                   ) : (
-                    <Plus className="w-5 h-5 text-white" />
+                    <Plus className="w-5 h-5" />
                   )}
                 </div>
               </button>
@@ -61,13 +61,6 @@ export default function FAQAccordion() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <p className="text-purple-200 mb-4">Still have questions?</p>
-          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50">
-            Contact Us
-          </button>
         </div>
       </div>
     </div>
