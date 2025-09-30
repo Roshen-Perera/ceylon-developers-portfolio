@@ -1,0 +1,73 @@
+import React, { useState } from "react";
+import { Plus, Minus } from "lucide-react";
+
+type FAQ = {
+  question: string;
+  answer: string;
+};
+
+export default function FAQAccordion() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const faqs: FAQ[] = [
+    {
+      question: "What services do you offer?",
+      answer:
+        "We offer comprehensive web development services including custom web applications, e-commerce solutions, Progressive Web Apps (PWAs), API development and integration, UI/UX design, and consulting services. Our team specializes in creating scalable, high-performance web solutions tailored to your business needs.",
+    },
+  ];
+
+  const toggleAccordion = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <div className="w-full max-w-3xl">
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 transition-all duration-300 hover:bg-white/15"
+            >
+              <button
+                onClick={() => toggleAccordion(index)}
+                className="w-full px-6 py-5 flex items-center justify-between text-left transition-all duration-300"
+              >
+                <span className="text-lg font-semibold text-white pr-8">
+                  {faq.question}
+                </span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-500 flex items-center justify-center transition-transform duration-300">
+                  {openIndex === index ? (
+                    <Minus className="w-5 h-5 text-white" />
+                  ) : (
+                    <Plus className="w-5 h-5 text-white" />
+                  )}
+                </div>
+              </button>
+
+              <div
+                className={`transition-all duration-300 ease-in-out ${
+                  openIndex === index
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
+                }`}
+              >
+                <div className="px-6 pb-5 text-purple-100 leading-relaxed">
+                  {faq.answer}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <p className="text-purple-200 mb-4">Still have questions?</p>
+          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50">
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
