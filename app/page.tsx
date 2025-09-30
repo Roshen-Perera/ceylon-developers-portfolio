@@ -4,6 +4,7 @@ import BlueGlow from "@/components/blueGlow";
 import ContactUsForm from "@/components/contactUseForm";
 import ContactUseForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
+import FAQAccordion from "@/components/faqAccordian";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
@@ -456,6 +457,9 @@ export default function Home() {
           <span className="font-kaushan"> Ceylon Developers </span>
           help you?
         </h1>
+        <div>
+          <FAQAccordion/>
+        </div>
       </div>
     </>
   );
