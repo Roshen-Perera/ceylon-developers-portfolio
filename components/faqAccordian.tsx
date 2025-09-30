@@ -50,15 +50,13 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="rounded-2xl overflow-hidden border-1"
+              className="rounded-2xl overflow-hidden border-1 bg-gradient-to-b from-[rgba(222,222,222,0.1)] to-[rgba(255,255,255,0)]"
             >
               <button
                 onClick={() => toggleAccordion(index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left transition-all duration-300"
               >
-                <span className="text-lg pr-8">
-                  {faq.question}
-                </span>
+                <span className="text-lg pr-8">{faq.question}</span>
                 <div className="hover:cursor-pointer transition-transform duration-300">
                   {openIndex === index ? (
                     <Minus className="w-5 h-5" />
