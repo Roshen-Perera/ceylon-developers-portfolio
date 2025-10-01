@@ -8,6 +8,7 @@ import FAQAccordion from "@/components/faqAccordian";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
+import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
@@ -460,6 +461,9 @@ export default function Home() {
         <div>
           <FAQAccordion/>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
+        <ProPost/>
       </div>
     </>
   );
