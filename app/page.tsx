@@ -466,7 +466,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         <ProPost/>
       </div>
-      <footer className="bg-gray-100 border-t border-gray-200 py-12 px-8">
+      <footer className="py-12 mt-12">
         <Footer />
       </footer>
     </>
