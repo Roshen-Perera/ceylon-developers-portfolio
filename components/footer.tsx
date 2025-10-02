@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid grid-cols-4 gap-10">
         {/* Brand Section */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center font-semibold gap-2 mb-4">
             <h3 className="text-[26px] font-bold">HEXZYON</h3>
             <button className="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center">
                 <Moon size={16} />              
@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="font-semibold text-gray-900 mb-4">Quick links</h4>
+          <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Quick links</h4>
           <ul className="space-y-2">
             <li>
               <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
