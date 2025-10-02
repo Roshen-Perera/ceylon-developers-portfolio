@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="ml-12 mx-auto">
       <div className="grid grid-cols-4 gap-10">
         {/* Brand Section */}
         <div>
