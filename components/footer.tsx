@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin, Moon } from 'lucide-react';
 import React from 'react'
 
 const Footer = () => {
@@ -8,12 +8,12 @@ const Footer = () => {
         {/* Brand Section */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <h3 className="text-xl font-bold">HEXZYON</h3>
+            <h3 className="text-[26px] font-bold">HEXZYON</h3>
             <button className="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center">
-              <span className="text-sm">🌙</span>
+                <Moon size={16} />              
             </button>
           </div>
-          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+          <p className="text-gray-600 text-[22px] leading-relaxed mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.
           </p>
@@ -50,32 +50,32 @@ const Footer = () => {
           <h4 className="font-semibold text-gray-900 mb-4">Quick links</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Service
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Client
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Contact
               </a>
             </li>
