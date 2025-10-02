@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="max-w-6xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-4 gap-10">
         {/* Brand Section */}
         <div>
           <div className="flex items-center gap-2 mb-4">
