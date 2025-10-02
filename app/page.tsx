@@ -5,6 +5,7 @@ import ContactUsForm from "@/components/contactUseForm";
 import ContactUseForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
 import FAQAccordion from "@/components/faqAccordian";
+import Footer from "@/components/footer";
 import MeshVector from "@/components/meshVector";
 import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
@@ -466,7 +467,7 @@ export default function Home() {
         <ProPost/>
       </div>
       <footer className="bg-gray-100 border-t border-gray-200 py-12 px-8">
-        
+        <Footer />
       </footer>
     </>
   );
