@@ -84,30 +84,30 @@ const Footer = () => {
 
         {/* Important */}
         <div>
-          <h4 className="font-semibold text-gray-900 mb-4">Important</h4>
+          <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Important</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Career
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Terms and Conditions
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Cookies Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-sm hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
                 Social Work
               </a>
             </li>
