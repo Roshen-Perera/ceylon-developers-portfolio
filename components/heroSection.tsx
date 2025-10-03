@@ -4,7 +4,7 @@ import BlueFrame from "@/components/blueFrame";
 
 const HeroSection = () => {
   return (
-    <div>
+    <>
       <p className="text-[22px] mt-18 border-1 rounded-4xl p-2">
         Bring your business to the best scale
       </p>
@@ -40,7 +40,7 @@ const HeroSection = () => {
       <div className="mt-10">
         <BlueFrame />
       </div>
-    </div>
+    </>
   );
 };
 
