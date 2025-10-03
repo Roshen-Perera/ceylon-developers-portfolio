@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import BlueFrame from "@/components/blueFrame";
 
 const HeroSection = () => {
   return (
