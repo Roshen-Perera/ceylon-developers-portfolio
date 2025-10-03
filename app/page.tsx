@@ -15,7 +15,7 @@ import Reviews from "@/components/reviews";
 import ServiceCarousel from "@/components/serviceCarousel";
 import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
-import { ArrowBigRight, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
