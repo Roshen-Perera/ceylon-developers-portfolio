@@ -1,5 +1,4 @@
 import AnalyticsVector from "@/components/analyticsVector";
-import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import ContactUsForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
