@@ -1,26 +1,18 @@
-import AnalyticsVector from "@/components/analyticsVector";
+
 import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
-import ContactUsForm from "@/components/contactUseForm";
-import DotVector from "@/components/dotVector";
 import Facilities from "@/components/facilities";
 import FAQAccordion from "@/components/faqAccordian";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/heroSection";
 import MeshVector from "@/components/meshVector";
-import MeshVector2 from "@/components/meshVector2";
 import NavBar from "@/components/navBar";
 import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
-import ServiceCarousel from "@/components/serviceCarousel";
 import Services from "@/components/Services";
-import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
 import WeDoSection from "@/components/weDoSection";
 import Why from "@/components/Why";
-import { MoveRight } from "lucide-react";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
