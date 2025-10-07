@@ -7,7 +7,7 @@ const Story = () => {
       <div className="flex flex-row items-center gap-12">
         <div className="flex-shrink-0">
           <Image
-            src={"/assets/images/todaysActivity.png"}
+            src={"/assets/images/storyContainer.png"}
             alt={"today's activity dashboard"}
             width={686}
             height={487}
