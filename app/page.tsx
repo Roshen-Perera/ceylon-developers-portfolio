@@ -1,4 +1,5 @@
 import AnalyticsVector from "@/components/analyticsVector";
+import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
 import ContactUsForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
@@ -29,6 +30,7 @@ export default function Home() {
       </div>
       <Services/>
       <Why/>
+      <Approach/>
       <div className="flex flex-col items-center justify-center mt-12">
         <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
           <div className="flex flex-col justify-around">
