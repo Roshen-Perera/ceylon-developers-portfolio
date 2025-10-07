@@ -11,9 +11,8 @@ const Page = () => {
         <div className='mt-15'>
           <div className="flex flex-col mt-8 z-20 items-center">
             <p className="font-semibold text-8xl ">
-              Crafting <span className="text-[#17CDCA]">Digital </span>
+              About Us
             </p>
-            <p className="font-semibold text-8xl items-center">Excellence</p>
           </div>
           <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
             <p className="text-[22px] text-center">
