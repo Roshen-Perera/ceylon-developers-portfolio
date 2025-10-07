@@ -14,6 +14,7 @@ import ServiceCarousel from "@/components/serviceCarousel";
 import Services from "@/components/Services";
 import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
+import Why from "@/components/Why";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
@@ -27,6 +28,7 @@ export default function Home() {
         <HeroSection/>
       </div>
       <Services/>
+      <Why/>
       <div className="flex flex-col items-center justify-center mt-12">
         <div className="text-center mb-8">
           <p className="text-5xl font-medium">
