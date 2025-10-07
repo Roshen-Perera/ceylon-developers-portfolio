@@ -3,6 +3,7 @@ import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
 import ContactUsForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
+import Facilities from "@/components/facilities";
 import FAQAccordion from "@/components/faqAccordian";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/heroSection";
@@ -33,6 +34,7 @@ export default function Home() {
       <Why/>
       <Approach/>
       <WeDoSection/>
+      <Facilities/>
       <div className="flex flex-col items-center justify-center mt-12">
         <TechStack />
       </div>
