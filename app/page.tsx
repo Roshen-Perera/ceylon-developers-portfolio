@@ -9,10 +9,10 @@ import MeshVector from "@/components/meshVector";
 import NavBar from "@/components/navBar";
 import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
-import Services from "@/components/Services";
+import Services from "@/components/services";
 import TechStack from "@/components/techStack";
 import WeDoSection from "@/components/weDoSection";
-import Why from "@/components/Why";
+import Why from "@/components/why";
 export default function Home() {
   return (
     <>
