@@ -2,7 +2,6 @@ import AnalyticsVector from "@/components/analyticsVector";
 import BlueFrame from "@/components/blueFrame";
 import BlueGlow from "@/components/blueGlow";
 import ContactUsForm from "@/components/contactUseForm";
-import ContactUseForm from "@/components/contactUseForm";
 import DotVector from "@/components/dotVector";
 import FAQAccordion from "@/components/faqAccordian";
 import Footer from "@/components/footer";
@@ -41,7 +40,7 @@ export default function Home() {
           <ServiceCarousel />
         </div>
       </div>
-      
+
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
         <MeshVector2 />
