@@ -2,11 +2,11 @@ import React from 'react'
 
 const BlueGlow = () => {
   return (
-    <div>
+    <div className="flex justify-center w-full absolute top-0 left-0 right-0 pointer-events-none">
       <svg
         width="1250"
         height="542"
-        className="absolute inset-0 -z-15"
+        className="-z-15"
         viewBox="0 0 1250 542"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
