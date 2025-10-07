@@ -56,16 +56,6 @@ const Story = () => {
               />
               <p className="text-[22px]">Continuous Evolution</p>
             </div>
-            <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
-              <p className="text-[22px]">Time tracking for the whole team</p>
-            </div>
           </div>
         </div>
       </div>
