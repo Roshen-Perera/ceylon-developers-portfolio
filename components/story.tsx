@@ -16,13 +16,14 @@ const Story = () => {
         </div>
         <div className="flex flex-col gap-6 flex-1 max-w-lg">
           <p className="text-7xl font-medium">
-            To upscale your <span className="font-kaushan">business</span> to
-            the next level
+            Our <span className="font-kaushan">Story</span>
           </p>
           <p className="text-[22px] text-gray-600">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua invidunt ut labore.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
+            justo nec ultrices dui sapien eget mi proin sed. Eu lobortis
+            elementum nibh tellus molestie nunc non blandit massa. Nisl nunc mi
+            ipsum faucibus vitae aliquet nec ullamcorper.
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
@@ -33,9 +34,7 @@ const Story = () => {
                 height={24}
                 className="flex-shrink-0"
               />
-              <p className="text-[22px]">
-                Project templates to kick-start a new project
-              </p>
+              <p className="text-[22px]">Advanced AI Foundation</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <Image
@@ -45,9 +44,7 @@ const Story = () => {
                 height={24}
                 className="flex-shrink-0"
               />
-              <p className="text-[22px]">
-                Clone task to speed your time to action
-              </p>
+              <p className="text-[22px]">Purpose-Driven</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <Image
@@ -57,9 +54,7 @@ const Story = () => {
                 height={24}
                 className="flex-shrink-0"
               />
-              <p className="text-[22px]">
-                Communicate and collaborate with your team and clients
-              </p>
+              <p className="text-[22px]">Continuous Evolution</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <Image
