@@ -15,6 +15,7 @@ import ServiceCarousel from "@/components/serviceCarousel";
 import Services from "@/components/Services";
 import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
+import WeDoSection from "@/components/weDoSection";
 import Why from "@/components/Why";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
@@ -31,6 +32,7 @@ export default function Home() {
       <Services/>
       <Why/>
       <Approach/>
+      <WeDoSection/>
       <div className="flex flex-col items-center justify-center mt-12">
         <div className="mt-20 mb-10 ">
           <svg
