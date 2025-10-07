@@ -11,6 +11,7 @@ import NavBar from "@/components/navBar";
 import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
 import ServiceCarousel from "@/components/serviceCarousel";
+import Services from "@/components/Services";
 import VerticalTextSlider from "@/components/slider";
 import TechStack from "@/components/techStack";
 import { MoveRight } from "lucide-react";
@@ -25,7 +26,7 @@ export default function Home() {
         <NavBar />
         <HeroSection/>
       </div>
-      
+      <Services/>
 
       <div className="flex flex-col items-center justify-center mt-12">
         {/* <MeshVector /> */}
