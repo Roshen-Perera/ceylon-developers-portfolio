@@ -9,21 +9,23 @@ const WhyChoose = () => {
         <span className="font-kaushan"> Ceylon Developers ?</span>
       </h1>
       <div className="grid grid-cols-2 gap-8 mt-12 max-w-6xl px-4">
-        <div className="flex flex-col items-center">
-          <Image
-            src="/assets/icons/document.png"
-            alt="Document"
-            width={100}
-            height={100}
-          />
-          <h3 className="text-[30px] font-medium text-center">
-            <span className="font-kaushan">Effortless </span>
-            Task Management
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore
-          </p>
+        <div className="p-2 border-1 rounded-[30px]">
+          <div className="flex flex-col items-center justify-center border-2 rounded-[30px] p-4 pb-8">
+            <Image
+              src="/assets/icons/document.png"
+              alt="Document"
+              width={100}
+              height={100}
+            />
+            <h3 className="text-[30px] font-medium text-center">
+              <span className="font-kaushan">Effortless </span>
+              Task Management
+            </h3>
+            <p className="max-w-xl text-center text-[22px] mt-4">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore
+            </p>
+          </div>
         </div>
       </div>
       <div className="grid grid-cols-2 gap-8 mt-12 max-w-6xl px-4"></div>
