@@ -9,8 +9,8 @@ const WhyChoose = () => {
         <span className="font-kaushan"> Ceylon Developers ?</span>
       </h1>
       <div className="grid grid-cols-2 gap-8 mt-12 max-w-6xl px-4">
-        <div className="p-2 border-1 rounded-[30px]">
-          <div className="flex flex-col items-center justify-center border-2 rounded-[30px] p-4 pb-8">
+        <div className="p-2 border-1 rounded-[30px] border-[#17CDCA75]">
+          <div className="flex flex-col items-center justify-center border-[#17CDCA] border-2 rounded-[30px] p-4 pb-8">
             <Image
               src="/assets/icons/document.png"
               alt="Document"
