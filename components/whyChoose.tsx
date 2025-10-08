@@ -46,8 +46,45 @@ const WhyChoose = () => {
             </p>
           </div>
         </div>
+        <div className="p-2 border-1 rounded-[30px] border-[#17CDCA75]">
+          <div className="flex flex-col items-center justify-center border-[#17CDCA] border-2 rounded-[30px] p-4 pb-8">
+            <Image
+              src="/assets/icons/clock.png"
+              alt="Document"
+              width={50}
+              height={50}
+              className="mb-10 mt-7"
+            />
+            <h3 className="text-[30px] font-medium text-center">
+              <span className="font-kaushan">Comprehensive </span>
+              Project Insight
+            </h3>
+            <p className="max-w-xl text-center text-[22px] mt-4">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore
+            </p>
+          </div>
+        </div>
+        <div className="p-2 border-1 rounded-[30px] border-[#17CDCA75]">
+          <div className="flex flex-col items-center justify-center border-[#17CDCA] border-2 rounded-[30px] p-4 pb-8">
+            <Image
+              src="/assets/icons/phone.png"
+              alt="Document"
+              className="mb-5"
+              width={100}
+              height={100}
+            />
+            <h3 className="text-[30px] font-medium text-center">
+              <span className="font-kaushan">Seamless </span>
+              Team Collaboration
+            </h3>
+            <p className="max-w-xl text-center text-[22px] mt-4">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="grid grid-cols-2 gap-8 mt-12 max-w-6xl px-4"></div>
     </div>
   );
 };
