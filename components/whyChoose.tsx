@@ -68,15 +68,15 @@ const WhyChoose = () => {
         <div className="p-2 border-1 rounded-[30px] border-[#17CDCA75]">
           <div className="flex flex-col items-center justify-center border-[#17CDCA] border-2 rounded-[30px] p-4 pb-8">
             <Image
-              src="/assets/icons/phone.png"
+              src="/assets/icons/lock.png"
               alt="Document"
-              className="mb-5"
-              width={100}
-              height={100}
+              className="mb-6 mt-7"
+              width={50}
+              height={50}
             />
             <h3 className="text-[30px] font-medium text-center">
-              <span className="font-kaushan">Seamless </span>
-              Team Collaboration
+              <span className="font-kaushan">Smart </span>
+              Deadline Tracking
             </h3>
             <p className="max-w-xl text-center text-[22px] mt-4">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
