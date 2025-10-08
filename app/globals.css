@@ -141,6 +141,12 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.37) 100%);
 }
 
+.effort-border {
+  border: 5px solid;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-image-slice: 1;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
