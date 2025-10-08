@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const WhyChoose = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center mt-12">
+      <h1 className="text-7xl font-medium text-center">
+        Why Choose
+        <span className="font-kaushan"> Ceylon Developers</span>
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default WhyChoose
+export default WhyChoose;
