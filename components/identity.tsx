@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Identity = () => {
@@ -19,7 +20,7 @@ const Identity = () => {
           className="p-8"
           style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
         >
-          <div className="flex gap-6 mb-4">
+          <div className="flex gap-20 mb-4">
             <div className="flex-shrink-0">
               <div className="text-[50px] font-medium text-[#17CDCA] mb-2">
                 250+
@@ -32,6 +33,15 @@ const Identity = () => {
               <div className="text-[22px] w-32">
                 “Reduce operational costs while accessing”
               </div>
+            </div>
+            <div className="flex-1">
+              <h3 className="text-[30px] text-gray-900 mb-2">
+                Cost Efficiency
+              </h3>
+              <p className="text-[22px] w-72">
+                Requires less upfront investment than traditional CRM systems.
+              </p>
+              <Image src="/assets/icons/arrowRight.png" alt="arrow right" width={40} height={40} className="mt-4"/>
             </div>
           </div>
         </div>
