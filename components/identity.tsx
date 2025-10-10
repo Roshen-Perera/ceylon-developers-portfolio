@@ -42,8 +42,16 @@ const Identity = () => {
                 Requires less upfront investment than traditional CRM systems.
               </p>
               <div className="flex justify-end">
-                <Image src="/assets/icons/people2.png" alt="arrow right" width={100} height={100} className="mt-4"/>
-                
+                <Image
+                  src="/assets/icons/people2.png"
+                  alt="arrow right"
+                  width={100}
+                  height={100}
+                  className="mt-4"
+                />
+                <button className="px-4 py-1.5 bg-cyan-400 text-white text-xs font-medium rounded-md hover:bg-cyan-500 transition-colors">
+                  Get Proposal
+                </button>
               </div>
             </div>
           </div>
