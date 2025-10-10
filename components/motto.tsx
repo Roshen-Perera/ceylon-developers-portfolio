@@ -7,24 +7,24 @@ const Motto = () => {
       <div className="flex flex-row items-center gap-12">
         <div className="p-8 bg-white">
           <div className="flex gap-3 mb-8">
-            <button className="px-6 py-2 bg-[#17CDCA] font-medium rounded">
+            <button className="px-6 py-2 text-[22px] bg-[#17CDCA] font-medium rounded-md">
               Our Mission
             </button>
-            <button className="px-6 py-2 bg-[#CAFBFA] font-medium rounded">
+            <button className="px-6 py-2 text-[22px] bg-[#CAFBFA] font-medium rounded-md">
               Our Vision
             </button>
-            <button className="px-6 py-2 bg-[#CAFBFA]font-medium rounded">
+            <button className="px-6 py-2 text-[22px] bg-[#CAFBFA] font-medium rounded-md">
               Our Goal
             </button>
           </div>
 
-          <h1 className="text-7xl">
+          <h1 className="text-[30px]">
             Empowering Businesses to
             <br />
             Build Lasting Relationships
           </h1>
 
-          <p className="leading-relaxed max-w-2xl text-[22px]">
+          <p className="leading-relaxed max-w-2xl text-[22px] mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
             justo nec ultrices dui sapien eget mi
