@@ -4,7 +4,6 @@ const Identity = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
       <div className="flex flex-row items-center gap-12">
-        <div className="flex-shrink-0"></div>
         <div className="flex flex-col gap-6 flex-1 max-w-lg">
           <p className="text-7xl font-medium">
             The identity of
@@ -16,6 +15,7 @@ const Identity = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
+        <div className="flex-shrink-0"></div>
       </div>
     </div>
   );
