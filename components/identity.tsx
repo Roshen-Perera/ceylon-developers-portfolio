@@ -15,7 +15,26 @@ const Identity = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div className="flex-shrink-0"></div>
+        <div
+          className="p-8"
+          style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
+        >
+          <div className="flex gap-6 mb-4">
+            <div className="flex-shrink-0">
+              <div className="text-[50px] font-medium text-[#17CDCA] mb-2">
+                250+
+              </div>
+              <div className="text-[22px] mb-3">
+                Experienced IT
+                <br />
+                Experts
+              </div>
+              <div className="text-[22px] w-32">
+                “Reduce operational costs while accessing”
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
