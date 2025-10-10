@@ -1,6 +1,7 @@
 
 import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
+import Contact from "@/components/contact";
 import Facilities from "@/components/facilities";
 import FAQAccordion from "@/components/faqAccordian";
 import Footer from "@/components/footer";
@@ -30,6 +31,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         <TechStack />
       </div>
+      <Contact/>
       <Reviews/>
       <div className="flex flex-col items-center justify-center mt-12">
         <h1 className="text-7xl font-medium text-center">
