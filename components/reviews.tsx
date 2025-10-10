@@ -91,16 +91,16 @@ export default function Reviews() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-20">
-        <p className="text-7xl font-medium">
-          Why Customers 
+        <p className="text-7xl font-medium text-center">
+          Why Customers
           <span className="font-kaushan"> love </span>
           <br />
           working with us
         </p>
         <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
           <p className="text-center">
-            Pushing the boundaries of what&apos;s possible in the digital realm.
-            Join us on this journey into the future of technology.
+            Hear directly from customers about their experiences and how webdone
+            has made a difference.
           </p>
         </div>
       </div>
