@@ -30,7 +30,7 @@ const Page = () => {
         <WhyChoose />
         <Motto />
         <Identity />
-        <div className="flex">
+        <div className="flex flex-row gap-7 mt-20">
           <Features />
           <SupportAndScalability />
           <DoodleReview/>
