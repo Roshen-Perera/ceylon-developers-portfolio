@@ -24,7 +24,7 @@ const DoodleReview = () => {
         <span className="text-yellow-400 text-[22px]">★</span>
         <span className="text-sm text-gray-700 ml-2">4.8/5</span>
       </div>
-      <button className="w-full bg-cyan-400 text-white text-sm font-medium py-2 px-4 rounded-md hover:bg-cyan-500 transition-colors">
+      <button className="bg-[#17CDCA] text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
         Get Started Free
       </button>
     </div>
