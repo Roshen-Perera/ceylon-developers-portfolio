@@ -4,6 +4,7 @@ import Identity from '@/components/identity';
 import Motto from '@/components/motto';
 import NavBar from '@/components/navBar'
 import Story from '@/components/story';
+import SupportAndScalability from '@/components/supportAndScalability';
 import WhyChoose from '@/components/whyChoose';
 import React from 'react'
 
@@ -31,6 +32,7 @@ const Page = () => {
         <Motto/>
         <Identity/>
         <Features/>
+        <SupportAndScalability/>
       </div>
     </>
   );
