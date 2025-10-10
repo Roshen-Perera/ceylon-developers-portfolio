@@ -4,7 +4,7 @@ const Approach = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
       <div className="text-center mb-8">
-        <p className="text-5xl font-medium">
+        <p className="text-7xl font-medium">
           Our <span className="font-kaushan">design</span> and
           <br />
           <span className="font-kaushan">development</span> approach
