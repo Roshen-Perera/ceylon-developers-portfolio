@@ -1,4 +1,5 @@
 import BlueGlow from '@/components/blueGlow'
+import Motto from '@/components/motto';
 import NavBar from '@/components/navBar'
 import Story from '@/components/story';
 import WhyChoose from '@/components/whyChoose';
@@ -25,6 +26,7 @@ const Page = () => {
         </div>
         <Story />
         <WhyChoose />
+        <Motto/>
       </div>
     </>
   );
