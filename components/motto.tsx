@@ -18,13 +18,13 @@ const Motto = () => {
             </button>
           </div>
 
-          <h1 className="text-3xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-7xl">
             Empowering Businesses to
             <br />
             Build Lasting Relationships
           </h1>
 
-          <p className="text-gray-600 leading-relaxed max-w-2xl">
+          <p className="leading-relaxed max-w-2xl text-[22px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
             justo nec ultrices dui sapien eget mi
