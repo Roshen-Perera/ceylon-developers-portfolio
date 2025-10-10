@@ -41,7 +41,10 @@ const Identity = () => {
               <p className="text-[22px] w-72">
                 Requires less upfront investment than traditional CRM systems.
               </p>
-              <Image src="/assets/icons/arrowRight.png" alt="arrow right" width={40} height={40} className="mt-4"/>
+              <div className="flex justify-end">
+                <Image src="/assets/icons/people2.png" alt="arrow right" width={100} height={100} className="mt-4"/>
+                
+              </div>
             </div>
           </div>
         </div>
