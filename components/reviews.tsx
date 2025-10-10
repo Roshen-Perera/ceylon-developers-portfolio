@@ -89,47 +89,63 @@ export default function Reviews() {
   const columns = distributeIntoColumns(posts, 3);
 
   return (
-    <div className="min-h-screen">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex gap-4">
-          {columns.map((column, columnIndex) => (
-            <div key={columnIndex} className="flex-1 flex flex-col gap-4">
-              {column.map((post) => (
-                <div
-                  key={post.id}
-                  className="bg-white rounded-lg p-4 border-1"
-                >
-                  <div className="flex items-center gap-3">
-                    <Image
-                      width={48}
-                      height={48}
-                      src={post.avatar}
-                      alt={post.name}
-                      className="rounded-full flex-shrink-0"
-                    />
-                    <div className="flex flex-col min-w-0">
-                      <div className="flex items-center gap-1">
-                        <h3 className="font-semibold text-gray-900 text-[18px]">
-                          {post.name}
-                        </h3>
-                      </div>
-                      <div className="flex items-center gap-2 text-[16px] text-gray-500">
-                        <span>{post.handle}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-[16px] text-gray-500">
-                        <span>Saas-maker •</span>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="mt-3 text-[22px] leading-relaxed">
-                    {post.content}
-                  </p>
-                </div>
-              ))}
-            </div>
-          ))}
+    <>
+      <div className="flex flex-col items-center justify-center mt-20">
+        <p className="text-7xl font-medium">
+          Why Customers 
+          <span className="font-kaushan"> love </span>
+          <br />
+          working with us
+        </p>
+        <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
+          <p className="text-center">
+            Pushing the boundaries of what&apos;s possible in the digital realm.
+            Join us on this journey into the future of technology.
+          </p>
         </div>
       </div>
-    </div>
+      <div className="min-h-screen mt-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex gap-4">
+            {columns.map((column, columnIndex) => (
+              <div key={columnIndex} className="flex-1 flex flex-col gap-4">
+                {column.map((post) => (
+                  <div
+                    key={post.id}
+                    className="bg-white rounded-lg p-4 border-1"
+                  >
+                    <div className="flex items-center gap-3">
+                      <Image
+                        width={48}
+                        height={48}
+                        src={post.avatar}
+                        alt={post.name}
+                        className="rounded-full flex-shrink-0"
+                      />
+                      <div className="flex flex-col min-w-0">
+                        <div className="flex items-center gap-1">
+                          <h3 className="font-semibold text-gray-900 text-[18px]">
+                            {post.name}
+                          </h3>
+                        </div>
+                        <div className="flex items-center gap-2 text-[16px] text-gray-500">
+                          <span>{post.handle}</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-[16px] text-gray-500">
+                          <span>Saas-maker •</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="mt-3 text-[22px] leading-relaxed">
+                      {post.content}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
