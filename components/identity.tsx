@@ -4,7 +4,7 @@ import React from "react";
 const Identity = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
-      <div className="flex flex-row items-center gap-12">
+      <div className="flex flex-row items-center gap-30">
         <div className="flex flex-col gap-6 flex-1 max-w-lg">
           <p className="text-7xl font-medium">
             The identity of
@@ -17,7 +17,7 @@ const Identity = () => {
           </p>
         </div>
         <div
-          className="p-8"
+          className="p-8 rounded-[24px]"
           style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
         >
           <div className="flex gap-20 mb-4">
