@@ -7,13 +7,13 @@ const Motto = () => {
       <div className="flex flex-row items-center gap-12">
         <div className="p-8 bg-white">
           <div className="flex gap-3 mb-8">
-            <button className="px-6 py-2 bg-[#17CDCA] text-white font-medium rounded shadow-md hover:bg-teal-500 transition-colors">
+            <button className="px-6 py-2 bg-[#17CDCA] font-medium rounded">
               Our Mission
             </button>
-            <button className="px-6 py-2 bg-[#CAFBFA] text-gray-700 font-medium rounded hover:bg-teal-100 transition-colors">
+            <button className="px-6 py-2 bg-[#CAFBFA] font-medium rounded">
               Our Vision
             </button>
-            <button className="px-6 py-2 bg-[#CAFBFA] text-gray-700 font-medium rounded hover:bg-teal-100 transition-colors">
+            <button className="px-6 py-2 bg-[#CAFBFA]font-medium rounded">
               Our Goal
             </button>
           </div>
