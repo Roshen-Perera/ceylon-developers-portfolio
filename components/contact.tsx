@@ -4,7 +4,7 @@ import ContactUsForm from './contactUseForm';
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-12">
+    <div className="flex flex-col items-center justify-center mt-20">
       <div className="grid grid-cols-2">
         <div className="flex flex-col gap-5">
           <h1 className="text-7xl font-medium">
