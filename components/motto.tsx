@@ -5,8 +5,8 @@ const Motto = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
       <div className="flex flex-row items-center gap-12">
-        <div className="p-8 bg-white">
-          <div className="flex gap-3 mb-8">
+        <div className="flex flex-col gap-10 p-8 bg-white">
+          <div className="flex gap-3">
             <button className="px-6 py-2 text-[22px] bg-[#17CDCA] font-medium rounded-md">
               Our Mission
             </button>
@@ -24,7 +24,7 @@ const Motto = () => {
             Build Lasting Relationships
           </h1>
 
-          <p className="leading-relaxed max-w-2xl text-[22px] mt-6">
+          <p className="leading-relaxed max-w-md text-[22px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
             justo nec ultrices dui sapien eget mi
