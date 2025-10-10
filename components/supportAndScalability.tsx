@@ -3,7 +3,7 @@ import React from 'react'
 const SupportAndScalability = () => {
   return (
     <div
-      className="flex items-start gap-8 p-8 rounded-[24px] bg-white max-w-lg"
+      className="flex items-start gap-8 p-12 rounded-[24px] bg-white max-w-lg"
       style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
     >
       <div className="flex-1">
