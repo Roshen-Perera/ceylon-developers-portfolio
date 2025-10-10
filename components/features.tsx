@@ -2,7 +2,10 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='mt-8 '>
+    <div
+      className="p-8 rounded-[24px]"
+      style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
+    >
       <h3 className="text-[30px]">Our work areas:</h3>
       <svg
         width="273"
