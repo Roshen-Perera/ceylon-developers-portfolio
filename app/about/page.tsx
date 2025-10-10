@@ -14,11 +14,9 @@ const Page = () => {
       <div className="flex flex-col items-center justify-center">
         <BlueGlow />
         <NavBar />
-        <div className='mt-15'>
+        <div className="mt-15">
           <div className="flex flex-col mt-8 z-20 items-center">
-            <p className="font-semibold text-8xl ">
-              About Us
-            </p>
+            <p className="font-semibold text-8xl ">About Us</p>
           </div>
           <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
             <p className="text-[22px] text-center">
@@ -29,10 +27,12 @@ const Page = () => {
         </div>
         <Story />
         <WhyChoose />
-        <Motto/>
-        <Identity/>
-        <Features/>
-        <SupportAndScalability/>
+        <Motto />
+        <Identity />
+        <div className="flex">
+          <Features />
+          <SupportAndScalability />
+        </div>
       </div>
     </>
   );
