@@ -7,7 +7,7 @@ const DoodleReview = () => {
       style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
     >
       {/* Reviewed on text */}
-      <p className="text-sm text-gray-700 mb-2">Reviewed on:</p>
+      <p className="text-[30px] text-gray-700 mb-2">Reviewed on:</p>
 
       {/* Doodle logo text */}
       <div className="text-3xl font-bold mb-3">
