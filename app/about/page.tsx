@@ -1,4 +1,5 @@
 import BlueGlow from '@/components/blueGlow'
+import DoodleReview from '@/components/doodleReview';
 import Features from '@/components/features';
 import Identity from '@/components/identity';
 import Motto from '@/components/motto';
@@ -32,6 +33,7 @@ const Page = () => {
         <div className="flex">
           <Features />
           <SupportAndScalability />
+          <DoodleReview/>
         </div>
       </div>
     </>

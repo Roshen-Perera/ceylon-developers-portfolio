@@ -3,12 +3,12 @@ import React from 'react'
 const DoodleReview = () => {
   return (
     <div
-      className="flex items-start gap-8 p-12 rounded-[24px] bg-white max-w-lg"
+      className="flex flex-col items-center gap-8 p-12 rounded-[24px] bg-white max-w-lg"
       style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
     >
       <p className="text-[30px] text-gray-700 mb-2">Reviewed on:</p>
 
-      <div className="text-3xl font-bold mb-3">
+      <div className="text-5xl font-bold mb-3">
         <span className="text-blue-500">D</span>
         <span className="text-red-500">o</span>
         <span className="text-yellow-500">o</span>
@@ -22,7 +22,7 @@ const DoodleReview = () => {
         <span className="text-yellow-400 text-[22px]">★</span>
         <span className="text-yellow-400 text-[22px]">★</span>
         <span className="text-yellow-400 text-[22px]">★</span>
-        <span className="text-sm text-gray-700 ml-2">4.8/5</span>
+        <span className="text-[22px] text-gray-700 ml-2">4.8/5</span>
       </div>
       <button className="bg-[#17CDCA] text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
         Get Started Free
