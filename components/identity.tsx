@@ -34,22 +34,21 @@ const Identity = () => {
                 “Reduce operational costs while accessing”
               </div>
             </div>
-            <div className="flex-1">
+            <div className="flex flex-col mt-6 gap-6">
               <h3 className="text-[30px] text-gray-900 mb-2">
                 Cost Efficiency
               </h3>
               <p className="text-[22px] w-72">
                 Requires less upfront investment than traditional CRM systems.
               </p>
-              <div className="flex justify-between">
+              <div className="flex flex-row justify-between items-center">
                 <Image
                   src="/assets/icons/people2.png"
                   alt="arrow right"
                   width={100}
                   height={100}
-                  className="mt-4"
                 />
-                <button className="px-4 py-1.5 bg-cyan-400 text-white text-xs font-medium rounded-md hover:bg-cyan-500 transition-colors">
+                <button className="bg-[#17CDCA] text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
                   Get Proposal
                 </button>
               </div>
