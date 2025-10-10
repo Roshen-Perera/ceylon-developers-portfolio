@@ -30,8 +30,8 @@ const Motto = () => {
             justo nec ultrices dui sapien eget mi
           </p>
         </div>
-        <div className="flex flex-col gap-6 flex-1 max-w-lg">
-          <Image src="/assets/motto.png" alt="motto" width={600} height={400} className="rounded-lg"/>
+        <div className="flex flex-col gap-6 flex-1">
+          <Image src="/assets/images/motto.png" alt="motto" width={600} height={400} className="rounded-lg"/>
         </div>
       </div>
     </div>
