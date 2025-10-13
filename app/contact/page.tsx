@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import NavBar from "@/components/navBar";
 
 
 const Page = () => {
@@ -6,6 +7,7 @@ const Page = () => {
     <>
       <div className="flex flex-col items-center justify-center">
         <BlueGlow />
+        <NavBar />
       </div>
     </>
   );
