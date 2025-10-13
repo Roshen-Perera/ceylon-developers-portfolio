@@ -6,6 +6,7 @@ import Motto from '@/components/motto';
 import NavBar from '@/components/navBar'
 import Story from '@/components/story';
 import SupportAndScalability from '@/components/supportAndScalability';
+import Team from '@/components/team';
 import WhyChoose from '@/components/whyChoose';
 import React from 'react'
 
@@ -35,6 +36,7 @@ const Page = () => {
           <SupportAndScalability />
           <DoodleReview/>
         </div>
+        <Team />
       </div>
     </>
   );
