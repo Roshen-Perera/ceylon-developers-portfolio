@@ -35,10 +35,12 @@ const Page = () => {
         <div className="flex flex-row gap-7 mt-20">
           <Features />
           <SupportAndScalability />
-          <DoodleReview/>
+          <DoodleReview />
         </div>
         <Team />
-        <ProPost />
+        <div className="flex flex-col items-center justify-center mt-12">
+          <ProPost />
+        </div>
       </div>
     </>
   );
