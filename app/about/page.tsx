@@ -4,6 +4,7 @@ import Features from '@/components/features';
 import Identity from '@/components/identity';
 import Motto from '@/components/motto';
 import NavBar from '@/components/navBar'
+import ProPost from '@/components/proPost';
 import Story from '@/components/story';
 import SupportAndScalability from '@/components/supportAndScalability';
 import Team from '@/components/team';
@@ -37,6 +38,7 @@ const Page = () => {
           <DoodleReview/>
         </div>
         <Team />
+        <ProPost />
       </div>
     </>
   );
