@@ -24,7 +24,7 @@ const Team = () => {
 
         {/* Content */}
         <div className="bg-[#F7F7F7] p-3">
-          <div className="flex items-start justify-between p-5 bg-white rounded-2xl">
+          <div className="flex items-start justify-between p-5 gap-3 bg-white rounded-2xl">
             <div>
               <h3 className="text-lg font-bold text-gray-900 mb-1">
                 Michael Raven
