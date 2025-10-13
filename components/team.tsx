@@ -110,8 +110,7 @@ const Team = () => {
           </div>
         ))}
       </div>
-      d
-      <button className="bg-[#17CDCA] mt-15 text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
+      <button className="bg-[#17CDCA] mt-15 text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit flex justify-center items-center gap-3">
         Learn More <ArrowUpRight />
       </button>
     </div>
