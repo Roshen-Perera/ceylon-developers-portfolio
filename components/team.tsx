@@ -11,32 +11,32 @@ const Team = () => {
     },
     {
       id: 2,
-      name: "Sarah Johnson",
-      position: "CTO & Co-Founder",
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
       image: "/assets/images/team.png",
     },
     {
       id: 3,
-      name: "David Smith",
-      position: "Head of Design",
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
       image: "/assets/images/team.png",
     },
     {
       id: 4,
-      name: "Emily Brown",
-      position: "Lead Developer",
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
       image: "/assets/images/team.png",
     },
     {
       id: 5,
-      name: "James Wilson",
-      position: "Product Manager",
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
       image: "/assets/images/team.png",
     },
     {
       id: 6,
-      name: "Lisa Anderson",
-      position: "Marketing Director",
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
       image: "/assets/images/team.png",
     },
   ];
@@ -52,7 +52,7 @@ const Team = () => {
         {teamMembers.map((member) => (
           <div
             key={member.id}
-            className="bg-white rounded-2xl overflow-hidden max-w-xs shadow-lg"
+            className="bg-white rounded-2xl overflow-hidden max-w-xs"
           >
             {/* Image */}
             <div className="w-full h-64 overflow-hidden bg-[#F7F7F7] p-3">
@@ -110,6 +110,8 @@ const Team = () => {
           </div>
         ))}
       </div>
+
+      
     </div>
   );
 };
