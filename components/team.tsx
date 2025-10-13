@@ -48,7 +48,7 @@ const Team = () => {
         <span className="font-kaushan">Dedicated</span> team
       </h1>
 
-      <div className="flex flex-wrap gap-6">
+      <div className="grid grid-cols-3 items-center justify-center gap-10">
         {teamMembers.map((member) => (
           <div
             key={member.id}
