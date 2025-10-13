@@ -1,6 +1,7 @@
 import BlueGlow from '@/components/blueGlow'
 import DoodleReview from '@/components/doodleReview';
 import Features from '@/components/features';
+import Footer from '@/components/footer';
 import Identity from '@/components/identity';
 import Motto from '@/components/motto';
 import NavBar from '@/components/navBar'
@@ -41,6 +42,9 @@ const Page = () => {
         <div className="flex flex-col items-center justify-center mt-12">
           <ProPost />
         </div>
+        <footer className="py-12 mt-12">
+          <Footer />
+        </footer>
       </div>
     </>
   );
