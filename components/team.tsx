@@ -2,6 +2,44 @@ import Image from "next/image";
 import React from "react";
 
 const Team = () => {
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Michael Raven",
+      position: "CEO & Co-Founder",
+      image: "/assets/images/team.png",
+    },
+    {
+      id: 2,
+      name: "Sarah Johnson",
+      position: "CTO & Co-Founder",
+      image: "/assets/images/team.png",
+    },
+    {
+      id: 3,
+      name: "David Smith",
+      position: "Head of Design",
+      image: "/assets/images/team.png",
+    },
+    {
+      id: 4,
+      name: "Emily Brown",
+      position: "Lead Developer",
+      image: "/assets/images/team.png",
+    },
+    {
+      id: 5,
+      name: "James Wilson",
+      position: "Product Manager",
+      image: "/assets/images/team.png",
+    },
+    {
+      id: 6,
+      name: "Lisa Anderson",
+      position: "Marketing Director",
+      image: "/assets/images/team.png",
+    },
+  ];
   return (
     <div className="flex flex-col items-center justify-center mt-20">
       <h1 className="text-7xl font-medium text-center mb-10">
