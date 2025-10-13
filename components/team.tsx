@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -47,7 +48,6 @@ const Team = () => {
         <br />
         <span className="font-kaushan">Dedicated</span> team
       </h1>
-
       <div className="grid grid-cols-3 items-center justify-center gap-10">
         {teamMembers.map((member) => (
           <div
@@ -110,8 +110,10 @@ const Team = () => {
           </div>
         ))}
       </div>
-
-      
+      d
+      <button className="bg-[#17CDCA] mt-15 text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
+        Learn More <ArrowUpRight />
+      </button>
     </div>
   );
 };
