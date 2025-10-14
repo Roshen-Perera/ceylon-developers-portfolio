@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import DetailsForm from "@/components/detailsForm";
 import HelpHeading from "@/components/helpHeading";
 import NavBar from "@/components/navBar";
 
@@ -21,6 +22,10 @@ const Page = () => {
           </div>
         </div>
         <HelpHeading />
+        <div className="mt-12 mb-12">
+          {/* Details Form Component */}
+          <DetailsForm />
+        </div>
       </div>
     </>
   );
