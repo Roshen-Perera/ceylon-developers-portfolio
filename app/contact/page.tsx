@@ -29,7 +29,9 @@ const Page = () => {
           <DetailsForm />
         </div>
         <ContactDetails />
-        <BookACallPost />
+        <div className="mt-12 mb-12">
+          <BookACallPost />
+        </div>
       </div>
     </>
   );
