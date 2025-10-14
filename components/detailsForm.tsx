@@ -2,7 +2,7 @@ import React from 'react'
 
 const DetailsForm = () => {
   return (
-    <div className="bg-gray-50 p-8 rounded-lg w-4xl shadow-[0px_0px_10px_0px_rgba(0,0,0,0.25)]">
+    <div className="bg-[radial-gradient(118.37%_118.62%_at_-13.75%_5.84%,#F1F1F1_0%,#FFFFFF_98.99%)] p-8 rounded-lg w-4xl shadow-[0px_0px_10px_0px_rgba(0,0,0,0.25)]">
       <form className="space-y-6 ml-10">
         {/* Name and Email Row */}
         <div className="grid grid-cols-2 gap-4">
