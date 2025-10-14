@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <div className="flex flex-col items-center justify-center">
+        <BlueGlow />
+      </div>
+    </>
+  );
+};
 
-export default page
+export default page;
