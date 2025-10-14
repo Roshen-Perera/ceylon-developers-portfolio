@@ -29,7 +29,7 @@ const Page = () => {
           <DetailsForm />
         </div>
         <ContactDetails />
-        <div className="mt-12 mb-12">
+        <div className="mt-20 mb-12">
           <BookACallPost />
         </div>
       </div>
