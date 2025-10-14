@@ -1,3 +1,4 @@
+import BlueGlow from "@/components/blueGlow";
 import React from "react";
 
 const page = () => {
