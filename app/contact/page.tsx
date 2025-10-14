@@ -2,6 +2,7 @@ import BlueGlow from "@/components/blueGlow";
 import BookACallPost from "@/components/bookACallPost";
 import ContactDetails from "@/components/contactDetails";
 import DetailsForm from "@/components/detailsForm";
+import Footer from "@/components/footer";
 import HelpHeading from "@/components/helpHeading";
 import NavBar from "@/components/navBar";
 
@@ -32,6 +33,9 @@ const Page = () => {
         <div className="mt-20 mb-12">
           <BookACallPost />
         </div>
+        <footer className="py-12 mt-12">
+          <Footer />
+        </footer>
       </div>
     </>
   );
