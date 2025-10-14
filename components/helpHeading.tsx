@@ -6,7 +6,7 @@ const HelpHeading = () => {
       <p className="text-7xl font-medium">
         We are here to<span className="font-kaushan"> help</span>
       </p>
-      <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
+      <div className="text-[22px] mt-8 max-w-lg flex items-center mx-auto px-4">
         <p className="text-center">
           Our team is ready to support you with expert advice & solutions.
         </p>
