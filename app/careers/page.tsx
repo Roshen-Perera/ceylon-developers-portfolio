@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <BlueGlow />
+        <BlueGlow/>
         <NavBar />
         <div className="mt-15">
           <div className="flex flex-col mt-8 z-20 items-center">
