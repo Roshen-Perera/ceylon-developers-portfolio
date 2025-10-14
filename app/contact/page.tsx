@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import HelpHeading from "@/components/helpHeading";
 import NavBar from "@/components/navBar";
 
 
@@ -19,6 +20,7 @@ const Page = () => {
             </p>
           </div>
         </div>
+        <HelpHeading />
       </div>
     </>
   );
