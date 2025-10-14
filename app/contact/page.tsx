@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import BookACallPost from "@/components/bookACallPost";
 import ContactDetails from "@/components/contactDetails";
 import DetailsForm from "@/components/detailsForm";
 import HelpHeading from "@/components/helpHeading";
@@ -28,6 +29,7 @@ const Page = () => {
           <DetailsForm />
         </div>
         <ContactDetails />
+        <BookACallPost />
       </div>
     </>
   );
