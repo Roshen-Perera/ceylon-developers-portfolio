@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import ContactDetails from "@/components/contactDetails";
 import DetailsForm from "@/components/detailsForm";
 import HelpHeading from "@/components/helpHeading";
 import NavBar from "@/components/navBar";
@@ -26,6 +27,7 @@ const Page = () => {
           {/* Details Form Component */}
           <DetailsForm />
         </div>
+        <ContactDetails />
       </div>
     </>
   );
