@@ -81,7 +81,7 @@ const DetailsForm = () => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-cyan-400 text-white px-6 py-2 rounded-md hover:bg-cyan-500 transition-colors font-medium text-[22px]"
+          className="bg-cyan-400 text-black px-6 py-2 rounded-md hover:bg-cyan-500 transition-colors font-medium text-[22px]"
         >
           Submit
         </button>
