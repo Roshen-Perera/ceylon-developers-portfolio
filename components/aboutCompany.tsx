@@ -17,7 +17,7 @@ const AboutCompany = () => {
             <p>Work from anywhere.</p>
             <p>Paid vacations.</p>
           </div>
-          <p className="max-w-xs text-[22px]">
+          <p className="max-w-md text-[22px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
             justo nec ultrices dui sapien eget mi proin sed.{" "}
