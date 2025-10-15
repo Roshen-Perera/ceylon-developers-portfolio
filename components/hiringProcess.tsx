@@ -25,7 +25,7 @@ const HiringProcess = () => {
       position: "right",
     },
     {
-      icon: "/assets/icons/hiring/targetVector.png",
+      icon: "/assets/icons/hiring/interviewVector.png",
       title: "Interview Process",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
