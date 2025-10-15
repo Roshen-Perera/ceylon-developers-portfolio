@@ -1,7 +1,17 @@
 import Image from "next/image";
+import { title } from "process";
 import React from "react";
 
 const Roles = () => {
+    const roles = [
+        {
+            title: "Software Developer",
+            description:
+                "We seek a skilled Software Developer to join our tech team. You will be responsible for developing and maintaining software applications. Strong programming skills and experience with various coding languages are required.",
+            icon: "/assets/icons/remoteIcon.png",
+            text: "Remote",
+        },
+    ];
   return (
     <div className="flex flex-col items-center justify-center mt-20">
       <h1 className="text-7xl font-medium">
