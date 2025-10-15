@@ -53,9 +53,9 @@ const Roles = () => {
         Find the <span className="font-kaushan"> Best Role </span> for You
       </h1>
       
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2 mt-10">
         {roles.map((role, index) => (
-          <div key={index} className="flex flex-col border-1 p-8 m-8 rounded-3xl gap-6 max-w-2xl">
+          <div key={index} className="flex flex-col border-1 p-8 m-8 rounded-[16px] gap-6 max-w-2xl">
             <h3 className="text-[30px] font-medium">{role.title}</h3>
             <p className="text-[22px]">
               We seek a skilled {role.title} to join our tech team. You will
@@ -85,7 +85,7 @@ const Roles = () => {
               </div>
             </div>
             <div>
-              <button className="text-[22px] p-3 text-lg bg-[#17CDCA] rounded-3xl">
+              <button className="text-[22px] p-3 text-lg bg-[#17CDCA] rounded-[100px]">
                 Apply Now
               </button>
             </div>
