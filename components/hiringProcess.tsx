@@ -62,13 +62,13 @@ const HiringProcess = () => {
                         {step.position === "left" && (
                           <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
                             <div className="flex items-center gap-3 mb-3 flex-col">
-                              <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-cyan-300 rounded-lg flex items-center justify-center flex-shrink-0">
+                              <div>
                                 <Icon className="w-6 h-6 text-white" />
                               </div>
-                              <h3 className="text-xl font-semibold text-gray-900 text-center">
+                              <h3 className="text-[30px]  text-center">
                                 {step.title}
                               </h3>
-                              <p className="text-gray-600 text-sm leading-relaxed text-center">
+                              <p className="text-gray-600 text-[22px] leading-relaxed text-center">
                                 {step.description}
                               </p>
                             </div>
@@ -86,13 +86,13 @@ const HiringProcess = () => {
                         {step.position === "right" && (
                           <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
                             <div className="flex items-center gap-3 flex-col">
-                              <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-cyan-300 rounded-lg flex items-center justify-center flex-shrink-0">
+                              <div>
                                 <Icon className="w-6 h-6 text-white" />
                               </div>
-                              <h3 className="text-xl font-semibold text-gray-900 text-center">
+                              <h3 className="text-[30px]  text-center">
                                 {step.title}
                               </h3>
-                              <p className="text-gray-600 text-sm leading-relaxed text-center">
+                              <p className="text-gray-600 text-[22px] leading-relaxed text-center">
                                 {step.description}
                               </p>
                             </div>
