@@ -1,3 +1,4 @@
+import AboutCompany from "@/components/aboutCompany";
 import BlueGlow from "@/components/blueGlow";
 import NavBar from "@/components/navBar";
 import React from "react";
@@ -19,7 +20,7 @@ const page = () => {
             </p>
           </div>
         </div>
-        
+        <AboutCompany/>
       </div>
     </>
   );
