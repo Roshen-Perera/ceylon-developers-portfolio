@@ -1,5 +1,6 @@
 import AboutCompany from "@/components/aboutCompany";
 import BlueGlow from "@/components/blueGlow";
+import CareerPost from "@/components/careerPost";
 import HiringProcess from "@/components/hiringProcess";
 import NavBar from "@/components/navBar";
 import Roles from "@/components/roles";
@@ -9,7 +10,7 @@ const page = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <BlueGlow/>
+        <BlueGlow />
         <NavBar />
         <div className="mt-15">
           <div className="flex flex-col mt-8 z-20 items-center">
@@ -22,9 +23,12 @@ const page = () => {
             </p>
           </div>
         </div>
-        <AboutCompany/>
-        <HiringProcess/>
-        <Roles/>
+        <AboutCompany />
+        <HiringProcess />
+        <Roles />
+        <div className="mt-20 mb-12">
+          <CareerPost />
+        </div>
       </div>
     </>
   );
