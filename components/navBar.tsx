@@ -12,7 +12,7 @@ const NavBar = () => {
             </div>
           </div>
           <div className="flex space-x-6 text-lg">
-            <a href="#" className="hover:underline transition-all duration-200">
+            <a href="/about" className="hover:underline transition-all duration-200">
               Company
             </a>
             <a href="#" className="hover:underline transition-all duration-200">
@@ -24,7 +24,7 @@ const NavBar = () => {
             <a href="#" className="hover:underline transition-all duration-200">
               Services
             </a>
-            <a href="#" className="hover:underline transition-all duration-200">
+            <a href="/careers" className="hover:underline transition-all duration-200">
               Careers
             </a>
           </div>
