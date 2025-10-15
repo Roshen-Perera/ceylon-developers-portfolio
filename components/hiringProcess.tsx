@@ -72,7 +72,7 @@ const HiringProcess = () => {
                               <h3 className="text-[30px]  text-center">
                                 {step.title}
                               </h3>
-                              <p className="text-gray-600 text-[22px] leading-relaxed text-center">
+                              <p className="text-[22px] leading-relaxed text-center">
                                 {step.description}
                               </p>
                             </div>
@@ -101,7 +101,7 @@ const HiringProcess = () => {
                               <h3 className="text-[30px]  text-center">
                                 {step.title}
                               </h3>
-                              <p className="text-gray-600 text-[22px] leading-relaxed text-center">
+                              <p className="text-[22px] leading-relaxed text-center">
                                 {step.description}
                               </p>
                             </div>
