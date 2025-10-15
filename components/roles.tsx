@@ -16,15 +16,25 @@ const Roles = () => {
             Strong programming skills and experience with various coding
             languages are required.
           </p>
-          <div className="flex flex-row justify-between">
-            <div className="text-[22px] gap-4">
+          <div className="flex flex-row justify-between items-center">
+            <div className="flex flex-col text-[22px] gap-4">
               <div className="flex flex-row gap-2 items-center">
+                <Image
+                  src="/assets/icons/remoteIcon.png"
+                  alt="remote"
+                  width={24}
+                  height={24}
+                />
                 <p>Remote</p>
-                <Image src="/assets/icons/remoteIcon.png" alt="remote" width={24} height={24}/>
               </div>
               <div className="flex flex-row gap-2 items-center">
+                <Image
+                  src="/assets/icons/fullTimeIcon.png"
+                  alt="fulltime"
+                  width={24}
+                  height={24}
+                />
                 <p>Full-Time</p>
-                <Image src="/assets/icons/fullTimeIcon.png" alt="fulltime" width={24} height={24}/>
               </div>
             </div>
             <div>
