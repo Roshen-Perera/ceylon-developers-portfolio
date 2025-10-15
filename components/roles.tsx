@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Roles = () => {
@@ -17,8 +18,14 @@ const Roles = () => {
           </p>
           <div className="flex flex-row justify-between">
             <div className="text-[22px] gap-4">
-              <p>Remote</p>
-              <p>Full-Time</p>
+              <div className="flex flex-row gap-2 items-center">
+                <p>Remote</p>
+                <Image src="/assets/icons/remoteIcon.png" alt="remote" width={24} height={24}/>
+              </div>
+              <div className="flex flex-row gap-2 items-center">
+                <p>Full-Time</p>
+                <Image src="/assets/icons/fullTimeIcon.png" alt="fulltime" width={24} height={24}/>
+              </div>
             </div>
             <div>
               <button className="text-[22px] p-3 text-lg bg-[#17CDCA] rounded-3xl">
