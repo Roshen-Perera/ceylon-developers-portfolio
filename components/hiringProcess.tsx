@@ -18,7 +18,7 @@ const HiringProcess = () => {
       position: "left",
     },
     {
-      icon: "/assets/icons/hiring/targetVector.png",
+      icon: "/assets/icons/hiring/skillsVector.png",
       title: "Skills Assessment",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
