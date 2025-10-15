@@ -1,5 +1,5 @@
-import { Award, ClipboardList, FileText, Users } from 'lucide-react';
-import React from 'react'
+import { Award, ClipboardList, FileText, Users } from "lucide-react";
+import React from "react";
 
 const HiringProcess = () => {
   const steps = [
@@ -26,10 +26,17 @@ const HiringProcess = () => {
     },
     {
       icon: Users,
-      title: "Final Interview",
+      title: "Interview Process",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       position: "left",
+    },
+    {
+      icon: Users,
+      title: "Final Decision",
+      description:
+        "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      position: "right",
     },
   ];
 
@@ -39,9 +46,69 @@ const HiringProcess = () => {
         <h1 className="text-7xl font-medium">
           Our<span className="font-kaushan"> streamlined </span> hiring process
         </h1>
+        <div className="min-h-screen mt-12">
+          <div className="max-w-4xl mx-auto">
+            <div className="relative">
+              {/* Vertical Timeline Line */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-400 to-cyan-300"></div>
+
+              {steps.map((step, index) => {
+                const Icon = step.icon;
+                return (
+                  <div key={index} className="relative mb-24 last:mb-0">
+                    <div className="flex items-center">
+                      {/* Left Side Content */}
+                      <div className="w-1/2 pr-8">
+                        {step.position === "left" && (
+                          <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
+                            <div className="flex items-center gap-3 mb-3 flex-col">
+                              <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-cyan-300 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <Icon className="w-6 h-6 text-white" />
+                              </div>
+                              <h3 className="text-xl font-semibold text-gray-900 text-center">
+                                {step.title}
+                              </h3>
+                              <p className="text-gray-600 text-sm leading-relaxed text-center">
+                                {step.description}
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Center Dot */}
+                      <div className="absolute left-1/2 transform -translate-x-1/2 z-10">
+                        <div className="w-4 h-4 bg-cyan-400 rounded-full border-4 border-white shadow-lg"></div>
+                      </div>
+
+                      {/* Right Side Content */}
+                      <div className="w-1/2 pl-8">
+                        {step.position === "right" && (
+                          <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
+                            <div className="flex items-center gap-3 flex-col">
+                              <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-cyan-300 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <Icon className="w-6 h-6 text-white" />
+                              </div>
+                              <h3 className="text-xl font-semibold text-gray-900 text-center">
+                                {step.title}
+                              </h3>
+                              <p className="text-gray-600 text-sm leading-relaxed text-center">
+                                {step.description}
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
-}
+};
 
-export default HiringProcess
+export default HiringProcess;
