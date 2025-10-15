@@ -2,6 +2,7 @@ import AboutCompany from "@/components/aboutCompany";
 import BlueGlow from "@/components/blueGlow";
 import HiringProcess from "@/components/hiringProcess";
 import NavBar from "@/components/navBar";
+import Roles from "@/components/roles";
 import React from "react";
 
 const page = () => {
@@ -23,6 +24,7 @@ const page = () => {
         </div>
         <AboutCompany/>
         <HiringProcess/>
+        <Roles/>
       </div>
     </>
   );
