@@ -32,7 +32,7 @@ const HiringProcess = () => {
       position: "left",
     },
     {
-      icon: "/assets/icons/hiring/targetVector.png",
+      icon: "/assets/icons/hiring/finalVector.png",
       title: "Final Decision",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
