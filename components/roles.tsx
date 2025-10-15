@@ -1,3 +1,4 @@
+import { time } from "console";
 import Image from "next/image";
 import React from "react";
 
@@ -8,7 +9,8 @@ const Roles = () => {
             description:
                 "We seek a skilled Software Developer to join our tech team. You will be responsible for developing and maintaining software applications. Strong programming skills and experience with various coding languages are required.",
             icon: "/assets/icons/remoteIcon.png",
-            text: "Remote",
+            site: "Remote",
+            time: "Full-Time",
         },
     ];
   return (
