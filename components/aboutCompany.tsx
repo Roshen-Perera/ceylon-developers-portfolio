@@ -6,8 +6,10 @@ const AboutCompany = () => {
       <div className="grid grid-cols-[1fr_1fr_auto] ml-20">
         <div>
           <p className="text-7xl font-medium w-3xl">
-            Discover Why Ceylon Developer is the Premier Destination for
-            Advancing Your Career
+            Discover Why{" "}
+            <span className="font-kaushan"> Ceylon Developer </span> is the
+            Premier Destination for Advancing Your{" "}
+            <span className="font-kaushan"> Career </span>
           </p>
         </div>
         <div className="flex flex-col items-start gap-4">
