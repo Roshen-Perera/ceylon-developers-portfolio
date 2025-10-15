@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const AboutCompany = () => {
   return (
@@ -15,10 +15,18 @@ const AboutCompany = () => {
             <p>Work from anywhere.</p>
             <p>Paid vacations.</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
+            justo nec ultrices dui sapien eget mi proin sed.{" "}
+          </p>
+          <button>
+            
+          </button>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default AboutCompany
+export default AboutCompany;
