@@ -1,6 +1,7 @@
 import AboutCompany from "@/components/aboutCompany";
 import BlueGlow from "@/components/blueGlow";
 import CareerPost from "@/components/careerPost";
+import Footer from "@/components/footer";
 import HiringProcess from "@/components/hiringProcess";
 import NavBar from "@/components/navBar";
 import Roles from "@/components/roles";
@@ -29,6 +30,9 @@ const page = () => {
         <div className="mt-20 mb-12">
           <CareerPost />
         </div>
+        <footer className="py-12 mt-12">
+          <Footer />
+        </footer>
       </div>
     </>
   );
