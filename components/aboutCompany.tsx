@@ -3,7 +3,7 @@ import React from "react";
 const AboutCompany = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
-      <div className="grid grid-cols-[1fr_1fr_auto] ml-20">
+      <div className="grid grid-cols-[1fr_1fr_auto] ml-40">
         <div>
           <p className="text-7xl font-medium w-3xl">
             Discover Why{" "}
