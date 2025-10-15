@@ -1,38 +1,39 @@
 import { Award, ClipboardList, FileText, Users } from "lucide-react";
 import React from "react";
+import Image from "next/image";
 
 const HiringProcess = () => {
   const steps = [
     {
-      icon: FileText,
+      icon: "/assets/icons/hiring/targetVector.png",
       title: "Apply with Your CV",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       position: "right",
     },
     {
-      icon: ClipboardList,
+      icon: "/assets/icons/hiring/targetVector.png",
       title: "Initial Screening",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       position: "left",
     },
     {
-      icon: Award,
+      icon: "/assets/icons/hiring/targetVector.png",
       title: "Skills Assessment",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       position: "right",
     },
     {
-      icon: Users,
+      icon: "/assets/icons/hiring/targetVector.png",
       title: "Interview Process",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       position: "left",
     },
     {
-      icon: Users,
+      icon: "/assets/icons/hiring/targetVector.png",
       title: "Final Decision",
       description:
         "We begin by understanding your business.Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -53,7 +54,6 @@ const HiringProcess = () => {
               <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-400 to-cyan-300"></div>
 
               {steps.map((step, index) => {
-                const Icon = step.icon;
                 return (
                   <div key={index} className="relative mb-24 last:mb-0">
                     <div className="flex items-center">
@@ -63,7 +63,12 @@ const HiringProcess = () => {
                           <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
                             <div className="flex items-center gap-3 mb-3 flex-col">
                               <div>
-                                <Icon className="w-6 h-6 text-white" />
+                                <Image
+                                  src={step.icon}
+                                  alt={step.title}
+                                  width={48}
+                                  height={48}
+                                />
                               </div>
                               <h3 className="text-[30px]  text-center">
                                 {step.title}
@@ -87,7 +92,12 @@ const HiringProcess = () => {
                           <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
                             <div className="flex items-center gap-3 flex-col">
                               <div>
-                                <Icon className="w-6 h-6 text-white" />
+                                <Image
+                                  src={step.icon}
+                                  alt={step.title}
+                                  width={48}
+                                  height={48}
+                                />
                               </div>
                               <h3 className="text-[30px]  text-center">
                                 {step.title}
