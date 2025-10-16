@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import DiscussPost from "@/components/discussPost";
 import NavBar from "@/components/navBar";
 import Studies from "@/components/studies";
 import React from "react";
@@ -20,6 +21,9 @@ const Page = () => {
         </div>
       </div>
       <Studies />
+      <div className="flex flex-col items-center justify-center mt-12">
+        <DiscussPost />
+      </div>
     </div>
   );
 };
