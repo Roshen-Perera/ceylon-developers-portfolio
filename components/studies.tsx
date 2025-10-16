@@ -10,6 +10,18 @@ const Studies = () => {
             tags: ["Framer Development", "Figma Design"],
             imageUrl: "/assets/images/casestudy.png",
         },
+        {
+            title: "Saas Website",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non blandit massa.",
+            tags: ["Framer Development", "Figma Design"],
+            imageUrl: "/assets/images/casestudy.png",
+        },
+        {
+            title: "Saas Website",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non blandit massa.",
+            tags: ["Framer Development", "Figma Design"],
+            imageUrl: "/assets/images/casestudy.png",
+        },
     ];
   return (
     <div className="flex flex-col items-center justify-center mt-20">
