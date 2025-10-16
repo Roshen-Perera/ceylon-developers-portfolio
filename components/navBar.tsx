@@ -15,7 +15,7 @@ const NavBar = () => {
             <a href="/about" className="hover:underline transition-all duration-200">
               Company
             </a>
-            <a href="#" className="hover:underline transition-all duration-200">
+            <a href="/case" className="hover:underline transition-all duration-200">
               Case Studies
             </a>
             <a href="#" className="hover:underline transition-all duration-200">
