@@ -4,7 +4,7 @@ import React from 'react'
 const Studies = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
-      <div className="grid grid-cols-2 gap-8 px-4">
+      <div className="grid grid-cols-2 gap-8 px-8 py-8 rounded-[24px] shadow-[0px_2px_4px_0px_#00000040]">
         <div className="w-sm">
           <div className="flex flex-col mr-10">
             <div className="flex flex-row justify-between ">
@@ -16,7 +16,7 @@ const Studies = () => {
               </div>
             </div>
             <h2 className="text-[50px] font-bold">Saas Website</h2>
-            <p className='text-left'>
+            <p className="text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Viverra justo nec ultrices dui sapien eget mi proin sed. Eu
@@ -24,7 +24,7 @@ const Studies = () => {
             </p>
           </div>
           <button className="bg-[#17CDCA] mt-5 text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit flex justify-center items-center gap-3">
-            Book a Call <ArrowUpRight />
+            View Details <ArrowUpRight />
           </button>
         </div>
       </div>
