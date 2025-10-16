@@ -7,7 +7,7 @@ const DiscussPost = () => {
         <h1 className="font-medium text-7xl">
           We’re eager to <span className="font-kaushan"> Discuss </span>
           <br />
-          how We can elevate <span className="font-kaushan"> Your </span>
+          how We can elevate <span className="font-kaushan"> Business </span>
           <br />
           <span className="font-kaushan"> Business </span>
         </h1>
