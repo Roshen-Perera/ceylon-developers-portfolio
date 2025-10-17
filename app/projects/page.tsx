@@ -52,7 +52,7 @@ const Page = () => {
       <div className="mt-10 ml-20">
         <RelatedSaasWorks />
       </div>
-      <div className="mt-20 mb-12">
+      <div className="flex flex-col items-center justify-center mt-20 mb-12">
         <BookACallPost />
       </div>
       <footer className="py-12 mt-12">
