@@ -1,4 +1,5 @@
 import BlueGlow from '@/components/blueGlow';
+import BookACallPost from '@/components/bookACallPost';
 import NavBar from '@/components/navBar';
 import ProjectInfo from '@/components/projectInfo';
 import ProjectMembers from '@/components/projectMembers';
@@ -35,20 +36,23 @@ const Page = () => {
           />
         </div>
       </div>
-      <div className='mt-10 ml-20'>
+      <div className="mt-10 ml-20">
         <ProjectInfo />
       </div>
-      <div className='mt-10 ml-20'>
+      <div className="mt-10 ml-20">
         <SaasWebsite />
       </div>
-      <div className='mt-10 ml-20'>
-        <TechUsedSaas/>
+      <div className="mt-10 ml-20">
+        <TechUsedSaas />
       </div>
-      <div className='mt-10 ml-20'>
-        <ProjectMembers/>
+      <div className="mt-10 ml-20">
+        <ProjectMembers />
       </div>
-      <div className='mt-10 ml-20'>
-        <RelatedSaasWorks/>
+      <div className="mt-10 ml-20">
+        <RelatedSaasWorks />
+      </div>
+      <div className="mt-20 mb-12">
+        <BookACallPost />
       </div>
     </>
   );
