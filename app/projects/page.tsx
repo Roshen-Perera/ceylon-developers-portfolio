@@ -1,6 +1,7 @@
 import BlueGlow from '@/components/blueGlow';
 import NavBar from '@/components/navBar';
 import ProjectInfo from '@/components/projectInfo';
+import SaasWebsite from '@/components/saasWebsite';
 import Image from 'next/image';
 import React from 'react'
 
@@ -34,6 +35,10 @@ const Page = () => {
       <div className='mt-10 ml-20'>
         <ProjectInfo />
       </div>
+      <div className='mt-10 ml-20'>
+        <SaasWebsite />
+      </div>
+      
     </>
   );
 }
