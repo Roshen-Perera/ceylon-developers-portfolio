@@ -41,8 +41,8 @@ const ProjectInfo = () => {
             />
           </div>
           <div>
-            <h5 className="text-[30px]">Platform</h5>
-            <p className="text-[22px]">Web</p>
+            <h5 className="text-[30px]">Industry</h5>
+            <p className="text-[22px]">Technology</p>
           </div>
         </div>
       </div>
