@@ -7,7 +7,11 @@ const ProjectInfo = () => {
       <div className="grid grid-cols-4">
         <div className="flex flex-row gap-2">
           <div>
-            <Settings2 width={25} height={25} className="border-2 mt-2.5 rounded-sm border-black"/>
+            <Settings2
+              width={25}
+              height={25}
+              className="border-2 mt-2.5 rounded-sm border-black"
+            />
           </div>
           <div>
             <h5 className="text-[30px]">Platform</h5>
@@ -16,16 +20,24 @@ const ProjectInfo = () => {
         </div>
         <div className="flex flex-row gap-2">
           <div>
-            <Check width={25} height={25} className="border-2 mt-2.5 rounded-xl p-1 border-black"/>
+            <Check
+              width={25}
+              height={25}
+              className="border-2 mt-2.5 rounded-xl p-1 border-black"
+            />
           </div>
           <div>
-            <h5 className="text-[30px]">Platform</h5>
-            <p className="text-[22px]">Web</p>
+            <h5 className="text-[30px]">Services </h5>
+            <p className="text-[22px]">Frontend & Backend</p>
           </div>
         </div>
         <div className="flex flex-row gap-2">
           <div>
-            <Settings2 width={25} height={25} className="border-2 mt-2.5 rounded-sm border-black"/>
+            <Settings2
+              width={25}
+              height={25}
+              className="border-2 mt-2.5 rounded-sm border-black"
+            />
           </div>
           <div>
             <h5 className="text-[30px]">Platform</h5>
