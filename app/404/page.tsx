@@ -1,4 +1,5 @@
 import BlueGlow from "@/components/blueGlow";
+import BookACallPost from "@/components/bookACallPost";
 import NavBar from "@/components/navBar";
 import Image from "next/image";
 import React from "react";
@@ -26,7 +27,7 @@ const Page = () => {
           Back to Home
         </button>
       </div>
-      
+      <BookACallPost />
     </div>
   );
 };
