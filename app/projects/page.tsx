@@ -31,7 +31,7 @@ const Page = () => {
           />
         </div>
       </div>
-      <div>
+      <div className='mt-10 ml-20'>
         <ProjectInfo />
       </div>
     </>
