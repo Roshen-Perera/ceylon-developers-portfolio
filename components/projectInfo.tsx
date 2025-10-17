@@ -20,10 +20,11 @@ const ProjectInfo = () => {
         </div>
         <div className="flex flex-row gap-2">
           <div>
-            <Check
+            <CheckCircle2
               width={25}
               height={25}
-              className="border-2 mt-2.5 rounded-xl p-1 border-black"
+              className="mt-2.5
+               border-black"
             />
           </div>
           <div>
