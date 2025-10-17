@@ -1,4 +1,5 @@
 import React from "react";
+import TechNav from "./techNav";
 
 const TechUsedSaas = () => {
   return (
@@ -13,6 +14,7 @@ const TechUsedSaas = () => {
         magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin sed.
         Eu lobortis elementum nibh tellus molestie nunc non blandit massa.
       </p>
+      <TechNav/>
     </div>
   );
 };

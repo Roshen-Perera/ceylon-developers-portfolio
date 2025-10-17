@@ -10,7 +10,7 @@ const TechNav = () => {
         <h3 className="text-[30px]">Vcs</h3>
         <h3 className="text-[30px]">Hosting/Deployement</h3>
       </div>
-      <div className="flex flex-row mt-10">
+      <div className="flex flex-row mt-10 gap-8">
         <div className="w-[223px] h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center">
           <Image
             src={"/assets/icons/technologies/javascript.png"}
