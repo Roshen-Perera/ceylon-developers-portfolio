@@ -1,5 +1,6 @@
 import BlueGlow from '@/components/blueGlow';
 import NavBar from '@/components/navBar';
+import ProjectInfo from '@/components/projectInfo';
 import Image from 'next/image';
 import React from 'react'
 
@@ -23,7 +24,7 @@ const Page = () => {
         <Image src="/assets/images/caseStudy.png" alt='' width={1200} height={960} className='mt-20'/>
       </div>
       <div>
-        
+        <ProjectInfo/>
       </div>
     </div>
   );
