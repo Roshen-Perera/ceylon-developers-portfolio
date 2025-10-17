@@ -1,5 +1,6 @@
 import BlueGlow from "@/components/blueGlow";
 import BookACallPost from "@/components/bookACallPost";
+import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
 import Image from "next/image";
 import React from "react";
@@ -28,6 +29,9 @@ const Page = () => {
         </button>
       </div>
       <BookACallPost />
+      <footer className="py-12 mt-12">
+        <Footer />
+      </footer>
     </div>
   );
 };
