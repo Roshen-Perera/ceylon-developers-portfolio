@@ -5,9 +5,9 @@ const ProjectInfo = () => {
   return (
     <div>
       <div className="grid grid-cols-4">
-        <div className="flex flex-row">
+        <div className="flex flex-row gap-2">
           <div>
-            <Settings2 width={10} height={10} />
+            <Settings2 width={25} height={25} className="border-2 mt-2.5 rounded-sm border-black"/>
           </div>
           <div>
             <h5 className="text-[30px]">Platform</h5>
