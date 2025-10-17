@@ -1,5 +1,6 @@
 import BlueGlow from '@/components/blueGlow';
 import NavBar from '@/components/navBar';
+import Image from 'next/image';
 import React from 'react'
 
 const Page = () => {
@@ -17,6 +18,12 @@ const Page = () => {
             Join us on this journey into the future of technology.
           </p>
         </div>
+      </div>
+      <div>
+        <Image src="/assets/images/caseStudy.png" alt='' width={1200} height={960} className='mt-20'/>
+      </div>
+      <div>
+        
       </div>
     </div>
   );
