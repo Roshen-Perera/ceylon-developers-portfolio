@@ -1,4 +1,4 @@
-import { Settings2 } from "lucide-react";
+import { Check, CheckCircle2, Settings2 } from "lucide-react";
 import React from "react";
 
 const ProjectInfo = () => {
@@ -16,7 +16,7 @@ const ProjectInfo = () => {
         </div>
         <div className="flex flex-row gap-2">
           <div>
-            <Settings2 width={25} height={25} className="border-2 mt-2.5 rounded-sm border-black"/>
+            <Check width={25} height={25} className="border-2 mt-2.5 rounded-xl border-black"/>
           </div>
           <div>
             <h5 className="text-[30px]">Platform</h5>
