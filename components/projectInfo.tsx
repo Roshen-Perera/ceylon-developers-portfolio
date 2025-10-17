@@ -1,4 +1,4 @@
-import { Check, CheckCircle2, Settings2 } from "lucide-react";
+import { CheckCircle2, Settings2 } from "lucide-react";
 import React from "react";
 
 const ProjectInfo = () => {
