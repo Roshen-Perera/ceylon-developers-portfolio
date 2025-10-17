@@ -1,5 +1,6 @@
 import BlueGlow from '@/components/blueGlow';
 import BookACallPost from '@/components/bookACallPost';
+import Footer from '@/components/footer';
 import NavBar from '@/components/navBar';
 import ProjectInfo from '@/components/projectInfo';
 import ProjectMembers from '@/components/projectMembers';
@@ -54,6 +55,9 @@ const Page = () => {
       <div className="mt-20 mb-12">
         <BookACallPost />
       </div>
+      <footer className="py-12 mt-12">
+        <Footer />
+      </footer>
     </>
   );
 }
