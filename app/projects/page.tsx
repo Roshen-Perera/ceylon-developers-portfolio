@@ -2,6 +2,7 @@ import BlueGlow from '@/components/blueGlow';
 import NavBar from '@/components/navBar';
 import ProjectInfo from '@/components/projectInfo';
 import SaasWebsite from '@/components/saasWebsite';
+import TechUsedSaas from '@/components/techUsedSaas';
 import Image from 'next/image';
 import React from 'react'
 
@@ -38,7 +39,9 @@ const Page = () => {
       <div className='mt-10 ml-20'>
         <SaasWebsite />
       </div>
-      
+      <div className='mt-10 ml-20'>
+        <TechUsedSaas/>
+      </div>
     </>
   );
 }
