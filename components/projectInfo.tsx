@@ -16,7 +16,7 @@ const ProjectInfo = () => {
         </div>
         <div className="flex flex-row gap-2">
           <div>
-            <Check width={25} height={25} className="border-2 mt-2.5 rounded-xl border-black"/>
+            <Check width={25} height={25} className="border-2 mt-2.5 rounded-xl p-1 border-black"/>
           </div>
           <div>
             <h5 className="text-[30px]">Platform</h5>
