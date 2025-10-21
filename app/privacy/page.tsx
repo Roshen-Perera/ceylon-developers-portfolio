@@ -129,6 +129,14 @@ const Page = () => {
             </li>
           </ul>
         </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">6. Third-Party Links</h5>
+          <p className="text-[22px] mt-3">
+            Ceylon Developer may contain links to third-party websites or
+            services. We are not responsible for the privacy practices or
+            content of those external sites.
+          </p>
+        </div>
       </div>
     </div>
   );
