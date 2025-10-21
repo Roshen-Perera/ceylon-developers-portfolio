@@ -19,6 +19,14 @@ const Page = () => {
           </p>
         </div>
       </div>
+      <div className="mt-20 max-w-6xl">
+        <p className="text-[22px] ">
+          Ceylon Developer is committed to protecting your privacy. This Privacy
+          Policy explains how we collect, use, and protect your personal
+          information when you use our services, website, and other digital
+          platforms.
+        </p>
+      </div>
     </div>
   );
 }
