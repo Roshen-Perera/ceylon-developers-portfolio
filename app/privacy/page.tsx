@@ -52,6 +52,30 @@ const Page = () => {
             </li>
           </ul>
         </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">
+            2. How We Use Your Information
+          </h5>
+          <p className="text-[22px] mt-3">
+            We collect different types of information to provide and improve our
+            services:
+          </p>
+          <ul role="list" className="mt-5 list-disc ml-6 text-[22px]">
+            <li className="mt-6">
+              <strong>Service Delivery: </strong>Your data helps us provide
+              personalized responses, suggestions, and other features of Ceylon
+              Developer.
+            </li>
+            <li className="mt-6">
+              <strong>Improvement and Development: </strong>We analyse usage
+              data to improve Ceylon Developer’s features and functionality.
+            </li>
+            <li className="mt-6">
+              <strong>Customer Support: </strong>If you contact us for support,
+              we may use your information to address and resolve your concerns.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
