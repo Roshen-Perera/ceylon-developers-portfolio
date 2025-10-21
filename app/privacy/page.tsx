@@ -137,6 +137,17 @@ const Page = () => {
             content of those external sites.
           </p>
         </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">
+            7. Changes to This Privacy Policy
+          </h5>
+          <p className="text-[22px] mt-3">
+            We may update this Privacy Policy from time to time. Any changes
+            will be posted on this page, and the updated date will be reflected
+            at the top. We encourage you to review this policy periodically to
+            stay informed about how we protect your information.
+          </p>
+        </div>
       </div>
     </div>
   );
