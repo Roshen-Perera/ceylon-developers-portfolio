@@ -19,7 +19,7 @@ const Page = () => {
           </p>
         </div>
       </div>
-      <div className="mt-20 max-w-6xl">
+      <div className="mt-20 max-w-[1187px]">
         <p className="text-[22px] ">
           Ceylon Developer is committed to protecting your privacy. This Privacy
           Policy explains how we collect, use, and protect your personal
@@ -146,6 +146,14 @@ const Page = () => {
             will be posted on this page, and the updated date will be reflected
             at the top. We encourage you to review this policy periodically to
             stay informed about how we protect your information.
+          </p>
+        </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">8. Contact Us</h5>
+          <p className="text-[22px] mt-3">
+            If you have any questions or concerns about this Privacy Policy or
+            Ceylon Developer’s data practices, please contact us at
+            ceylondevelopers@gmail.com
           </p>
         </div>
       </div>
