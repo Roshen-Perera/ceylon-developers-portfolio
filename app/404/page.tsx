@@ -28,7 +28,9 @@ const Page = () => {
           Back to Home
         </button>
       </div>
-      <BookACallPost />
+      <div className="mt-20 mb-12">
+        <BookACallPost />
+      </div>
       <footer className="py-12 mt-12">
         <Footer />
       </footer>
