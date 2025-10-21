@@ -1,5 +1,6 @@
 import BlueGlow from '@/components/blueGlow'
 import NavBar from '@/components/navBar'
+import PrivacyPolicies from '@/components/privacyPolicies';
 import React from 'react'
 
 const Page = () => {
@@ -19,6 +20,7 @@ const Page = () => {
           </p>
         </div>
       </div>
+      <PrivacyPolicies/>
     </div>
   );
 }
