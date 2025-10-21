@@ -26,6 +26,32 @@ const Page = () => {
           information when you use our services, website, and other digital
           platforms.
         </p>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">
+            1. Information We Collect
+          </h5>
+          <p className="text-[22px] mt-3">
+            We collect different types of information to provide and improve our
+            services:
+          </p>
+          <ul role="list" className="mt-5 list-disc ml-6 text-[22px]">
+            <li className="mt-6">
+              <strong>Personal Information: </strong>When you sign up or
+              interact with Ceylon Developer, we may collect personal details
+              like your name, email address, and other contact information.
+            </li>
+            <li className="mt-6">
+              <strong>Usage Data: </strong>We gather data on how you use Ceylon
+              Developer, including chat logs, search history, preferences, and
+              other activities within the platform
+            </li>
+            <li className="mt-6">
+              <strong>Device Information: </strong>We collect data about the
+              device you use to access Ceylon Developer, such as your IP
+              address, browser type, and operating system.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
