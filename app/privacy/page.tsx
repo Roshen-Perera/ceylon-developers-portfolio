@@ -100,6 +100,15 @@ const Page = () => {
             </li>
           </ul>
         </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">4. Data Security</h5>
+          <p className="text-[22px] mt-3">
+            We take reasonable measures to protect your data from unauthorized
+            access, disclosure, or alteration. However, no online service is
+            entirely secure, and we cannot guarantee the absolute security of
+            your information.
+          </p>
+        </div>
       </div>
     </div>
   );
