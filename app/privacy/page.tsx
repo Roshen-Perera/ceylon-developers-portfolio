@@ -109,6 +109,26 @@ const Page = () => {
             your information.
           </p>
         </div>
+        <div className="mt-10">
+          <h5 className="text-[30px] text-[#17CDCA]">5. Your Data Rights</h5>
+          <p className="text-[22px] mt-3">
+            You have rights regarding your personal information, including:
+          </p>
+          <ul role="list" className="mt-5 list-disc ml-6 text-[22px]">
+            <li className="mt-3">
+              <strong>Access: </strong>You may request access to the data we
+              hold about you.
+            </li>
+            <li className="mt-3">
+              <strong>Correction: </strong>If your data is inaccurate, you can
+              request corrections.
+            </li>
+            <li className="mt-3">
+              <strong>Deletion: </strong>You can request the deletion of your
+              personal information, subject to legal obligations.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
