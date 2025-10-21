@@ -1,4 +1,5 @@
 import BlueGlow from '@/components/blueGlow'
+import Footer from '@/components/footer';
 import NavBar from '@/components/navBar'
 import PrivacyPolicies from '@/components/privacyPolicies';
 import React from 'react'
@@ -20,7 +21,10 @@ const Page = () => {
           </p>
         </div>
       </div>
-      <PrivacyPolicies/>
+      <PrivacyPolicies />
+      <footer className="py-12 mt-12">
+        <Footer />
+      </footer>
     </div>
   );
 }
