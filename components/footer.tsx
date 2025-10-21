@@ -118,15 +118,15 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Contacts</h4>
           <ul className="space-y-3">
-            <li className="flex items-start gap-2">
+            <li className="flex items-center gap-2">
               <Phone size={16} className="text-gray-600 mt-0.5 flex-shrink-0" />
               <span className="text-gray-600 text-[22px]">+223 456 789</span>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex items-center gap-2">
               <Mail size={16} className="text-gray-600 mt-0.5 flex-shrink-0" />
               <span className="text-gray-600 text-[22px]">example@email.com</span>
             </li>
-            <li className="flex items-start gap-2">
+            <li className="flex items-center gap-2">
               <MapPin
                 size={16}
                 className="text-gray-600 mt-0.5 flex-shrink-0"
