@@ -40,7 +40,7 @@ const ShowCaseWork = () => {
       </p>
       <div className="p-4">
         {/* Tab Navigation */}
-        <div className="flex gap-2 mb-8 mt-10 items-center justify-center">
+        <div className="flex gap-6 mb-8 mt-10 items-center justify-center">
           {tabs.map((tab) => (
             <button
               key={tab}
