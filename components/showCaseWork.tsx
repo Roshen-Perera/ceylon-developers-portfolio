@@ -45,7 +45,7 @@ const ShowCaseWork = () => {
         <div key={index} className=" flex gap-8 items-center border border-gray-300 rounded-[35px] px-10 py-6">
           {/* Left Side - Image */}
           <Image
-            src="/assets/images/clothing.jpg"
+            src={work.imageUrl}
             alt="404"
             width={540}
             height={355}
