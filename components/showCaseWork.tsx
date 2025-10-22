@@ -42,10 +42,10 @@ const ShowCaseWork = () => {
                 <div className="mb-6">
                   <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
                   <div className="flex gap-2">
-                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-sm font-medium">
+                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
                       Mobile App
                     </span>
-                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-sm font-medium">
+                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
                       Admin Panel
                     </span>
                   </div>
