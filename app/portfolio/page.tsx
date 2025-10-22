@@ -1,5 +1,5 @@
 import NavBarPortfolio from "@/components/navBarPortfolio";
-import { Download, Quote } from "lucide-react";
+import { Download } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
