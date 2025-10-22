@@ -9,13 +9,13 @@ const ShowCaseWork = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-7xl font-bold">Showcasing my Best Work</h1>
-      <p className="text-[22px]">
+      <h1 className="text-7xl font-bold mt-20">Showcasing my Best Work</h1>
+      <p className="text-[22px] mt-10">
         I have worked on a wide range of projects. Here are some of my projects.
       </p>
       <div className="p-4">
         {/* Tab Navigation */}
-        <div className="flex gap-2 mb-8">
+        <div className="flex gap-2 mb-8 mt-10">
           {tabs.map((tab) => (
             <button
               key={tab}
