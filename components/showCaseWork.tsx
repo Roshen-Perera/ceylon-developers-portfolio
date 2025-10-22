@@ -57,13 +57,13 @@ const ShowCaseWork = () => {
                     Worked On Technologies I have Worked
                   </h4>
                   <div className="flex gap-3">
-                    <div className="flex items-center gap-2">
+                    <div className="bg-[#F7F7F7] flex items-center gap-2">
                       <span className="w-4 h-4 bg-purple-500 rounded"></span>
-                      <span className="text-sm">Figma</span>
+                      <span className="text-[22px]">Figma</span>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className=" bg-[#F7F7F7] flex items-center gap-2">
                       <span className="w-4 h-4 bg-orange-600 rounded"></span>
-                      <span className="text-sm">Illustrator</span>
+                      <span className="text-[22px]">Illustrator</span>
                     </div>
                   </div>
                 </div>
