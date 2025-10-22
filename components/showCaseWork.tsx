@@ -15,9 +15,9 @@ const ShowCaseWork = () => {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-2.5 rounded-lg font-medium text-sm transition-all ${
+            className={`px-6 py-2.5 rounded-lg font-bold text-[22px] transition-all ${
               activeTab === tab
-                ? "bg-cyan-400 text-white"
+                ? "bg-[#17CDCA] text-black"
                 : "bg-gray-100 text-gray-800 hover:bg-gray-200"
             }`}
           >
