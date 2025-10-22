@@ -8,6 +8,16 @@ const ShowCaseWork = () => {
 
   const tabs = ["All", "Website", "App Mobile", "App Desktop"];
 
+  const works = [
+    {
+      title: "Clothing Store Mobile App",
+      imageUrl: "/assets/images/clothing.jpg",
+      workedOn: ["Mobile App", "Admin Panel"],
+      technologies: ["Figma", "Illustrator"],
+      behanceLink: "#",
+    },
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-7xl font-bold mt-20">Showcasing my Best Work</h1>
