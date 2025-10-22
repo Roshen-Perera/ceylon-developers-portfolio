@@ -141,6 +141,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.37) 100%);
 }
 
+.custom-eclipse {
+  width: 811.7788696289062;
+  height: 405.8894348144531;
+  opacity: 1;
+  background: linear-gradient(180deg, rgba(23, 205, 202, 0.72) 0%, #01180E 100%);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
