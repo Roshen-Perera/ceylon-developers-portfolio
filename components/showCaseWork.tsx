@@ -73,14 +73,12 @@ const ShowCaseWork = () => {
                 Technologies I have Worked
               </h4>
               <div className="flex gap-3">
-                <div className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2">
+                {work.technologies.map((tech, idx) => (
+                <div key={idx} className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2">
                   <span className="w-4 h-4 bg-purple-500 rounded"></span>
-                  <span className="text-[20px]">Figma</span>
+                  <span className="text-[20px]">{tech}</span>
                 </div>
-                <div className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2">
-                  <span className="w-4 h-4 bg-orange-600 rounded"></span>
-                  <span className="text-[20px]">Illustrator</span>
-                </div>
+                ))}
               </div>
             </div>
 
