@@ -36,18 +36,16 @@ const ShowCaseWork = () => {
             <div className="flex-shrink-0">
               {/* Right Side - Content */}
               <div className="flex-1">
-                <h3 className="text-[30px] mb-6">
-                  Clothing Store Mobile App
-                </h3>
+                <h3 className="text-[30px] mb-6">Clothing Store Mobile App</h3>
 
                 {/* Worked On Section */}
                 <div className="mb-6">
                   <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
                   <div className="flex gap-2">
-                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-cyan-500 rounded-full text-sm font-medium">
+                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-sm font-medium">
                       Mobile App
                     </span>
-                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-cyan-500 rounded-full text-sm font-medium">
+                    <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-sm font-medium">
                       Admin Panel
                     </span>
                   </div>
@@ -55,8 +53,8 @@ const ShowCaseWork = () => {
 
                 {/* Technologies Section */}
                 <div className="mb-6">
-                  <h4 className="text-[22px] font-bold mb-3">Worked On
-                    Technologies I have Worked
+                  <h4 className="text-[22px] font-bold mb-3">
+                    Worked On Technologies I have Worked
                   </h4>
                   <div className="flex gap-3">
                     <div className="flex items-center gap-2">
