@@ -13,6 +13,24 @@ const ShowCaseWork = () => {
       <p className="text-[22px]">
         I have worked on a wide range of projects. Here are some of my projects.
       </p>
+      <div className="p-4">
+        {/* Tab Navigation */}
+        <div className="flex gap-2 mb-8">
+          {tabs.map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-6 py-2.5 rounded-lg font-bold text-[22px] transition-all ${
+                activeTab === tab
+                  ? "bg-[#17CDCA] text-black"
+                  : "bg-[#F7F7F7] text-black hover:bg-gray-200"
+              }`}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
