@@ -18,7 +18,7 @@ const ShowCaseWork = () => {
     },
     {
       title: "Clothing Store Mobile App",
-      imageUrl: "/assets/images/brocelle.jpg",
+      imageUrl: "/assets/images/borcelle.png",
       workedOn: ["Mobile App", "Admin Panel"],
       technologies: ["Figma", "Illustrator"],
       behanceLink: "#",
