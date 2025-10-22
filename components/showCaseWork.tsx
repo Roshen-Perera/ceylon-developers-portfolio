@@ -53,18 +53,17 @@ const ShowCaseWork = () => {
           />
           {/* Right Side - Details */}
           <div className="">
-            <h3 className="text-[30px] mb-6">Clothing Store Mobile App</h3>
+            <h3 className="text-[30px] mb-6">{work.title}</h3>
 
             {/* Worked On Section */}
             <div className="mb-6">
               <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
               <div className="flex gap-2">
-                <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
-                  Mobile App
-                </span>
-                <span className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
-                  Admin Panel
-                </span>
+                {work.workedOn.map((item, idx) => (
+                  <span key={idx} className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
+                    {item}
+                  </span>
+                ))}
               </div>
             </div>
 
