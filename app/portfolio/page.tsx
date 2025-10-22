@@ -87,6 +87,9 @@ const Page = () => {
           eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non
           blandit massa.
         </p>
+        <div className="custom-eclipse">
+
+        </div>
       </div>
     </>
   );
