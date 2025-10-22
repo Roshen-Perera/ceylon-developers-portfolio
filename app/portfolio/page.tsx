@@ -54,6 +54,7 @@ const Page = () => {
               alt="Jenny"
               width={487}
               height={636}
+              className="relative bottom-17"
             />
           </div>
 
@@ -80,7 +81,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <p>
+        <p className="text-[22px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
           justo nec ultrices dui sapien eget mi proin sed. Eu lobortis elementum
@@ -90,6 +91,7 @@ const Page = () => {
           eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non
           blandit massa.
         </p>
+        
       </div>
     </>
   );
