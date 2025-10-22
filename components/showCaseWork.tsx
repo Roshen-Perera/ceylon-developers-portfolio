@@ -30,6 +30,69 @@ const ShowCaseWork = () => {
             </button>
           ))}
         </div>
+        <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 max-w-2xl">
+          <div className="flex gap-8">
+            {/* Left Side - Image */}
+            <div className="flex-shrink-0">
+              {/* Right Side - Content */}
+              <div className="flex-1">
+                <h3 className="text-[30px] mb-6">
+                  Clothing Store Mobile App
+                </h3>
+
+                {/* Worked On Section */}
+                <div className="mb-6">
+                  <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
+                  <div className="flex gap-2">
+                    <span className="px-4 py-1.5 bg-cyan-50 text-cyan-500 rounded-full text-sm font-medium">
+                      Mobile App
+                    </span>
+                    <span className="px-4 py-1.5 bg-cyan-50 text-cyan-500 rounded-full text-sm font-medium">
+                      Admin Panel
+                    </span>
+                  </div>
+                </div>
+
+                {/* Technologies Section */}
+                <div className="mb-6">
+                  <h4 className="text-sm font-semibold mb-3">
+                    Technologies I have Worked
+                  </h4>
+                  <div className="flex gap-3">
+                    <div className="flex items-center gap-2">
+                      <span className="w-4 h-4 bg-purple-500 rounded"></span>
+                      <span className="text-sm">Figma</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-4 h-4 bg-orange-600 rounded"></span>
+                      <span className="text-sm">Illustrator</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Go to Behance Link */}
+                <a
+                  href="#"
+                  className="inline-flex items-center gap-2 text-sm text-gray-700 hover:text-gray-900"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Go to Behance
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
