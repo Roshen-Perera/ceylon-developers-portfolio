@@ -15,6 +15,7 @@ const ShowCaseWork = () => {
       workedOn: ["Mobile App", "Admin Panel"],
       technologies: ["Figma", "Illustrator"],
       behanceLink: "#",
+      types: "App Mobile",
     },
     {
       title: "Clothing Store Mobile App",
@@ -22,6 +23,7 @@ const ShowCaseWork = () => {
       workedOn: ["Mobile App", "Admin Panel"],
       technologies: ["Figma", "Illustrator"],
       behanceLink: "#",
+      types: "Website",
     },
     {
       title: "Clothing Store Mobile App",
@@ -29,6 +31,7 @@ const ShowCaseWork = () => {
       workedOn: ["Mobile App", "Admin Panel"],
       technologies: ["Figma", "Illustrator"],
       behanceLink: "#",
+      types: "App Mobile",
     },
   ];
 
@@ -56,68 +59,80 @@ const ShowCaseWork = () => {
           ))}
         </div>
         {works.map((work, index) => (
-        <div key={index} className=" flex gap-8 mt-12 items-center border border-gray-300 rounded-[35px] px-10 py-6">
-          {/* Left Side - Image */}
-          <Image
-            src={work.imageUrl}
-            alt="404"
-            width={540}
-            height={355}
-            className="rounded-[35px]"
-          />
-          {/* Right Side - Details */}
-          <div className="">
-            <h3 className="text-[30px] mb-6">{work.title}</h3>
+          <div
+            key={index}
+            className=" flex gap-8 mt-12 items-center border border-gray-300 rounded-[35px] px-10 py-6"
+          >
+            {/* Left Side - Image */}
+            <Image
+              src={work.imageUrl}
+              alt="404"
+              width={540}
+              height={355}
+              className="rounded-[35px]"
+            />
+            {/* Right Side - Details */}
+            <div className="">
+              <h3 className="text-[30px] mb-6">{work.title}</h3>
 
-            {/* Worked On Section */}
-            <div className="mb-6">
-              <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
-              <div className="flex gap-2">
-                {work.workedOn.map((item, idx) => (
-                  <span key={idx} className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]">
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Technologies Section */}
-            <div className="mb-6">
-              <h4 className="text-[22px] font-bold mb-3">
-                Technologies I have Worked
-              </h4>
-              <div className="flex gap-3">
-                {work.technologies.map((tech, idx) => (
-                <div key={idx} className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2">
-                  <span className="w-4 h-4 bg-purple-500 rounded"></span>
-                  <span className="text-[20px]">{tech}</span>
+              {/* Worked On Section */}
+              <div className="mb-6">
+                <h4 className="text-[22px] font-bold mb-3">Worked On</h4>
+                <div className="flex gap-2">
+                  {work.workedOn.map((item, idx) => (
+                    <span
+                      key={idx}
+                      className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]"
+                    >
+                      {item}
+                    </span>
+                  ))}
                 </div>
-                ))}
               </div>
-            </div>
 
-            {/* Go to Behance Link */}
-            <a
-              href={work.behanceLink}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[22px] text-gray-700 hover:text-gray-900"
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
+              {/* Technologies Section */}
+              <div className="mb-6">
+                <h4 className="text-[22px] font-bold mb-3">
+                  Technologies I have Worked
+                </h4>
+                <div className="flex gap-3">
+                  {work.technologies.map((tech, idx) => (
+                    <div
+                      key={idx}
+                      className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2"
+                    >
+                      <span className="w-4 h-4 bg-purple-500 rounded"></span>
+                      <span className="text-[20px]">{tech}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Go to Behance Link */}
+              <a
+                href={work.behanceLink}
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[22px] text-gray-700 hover:text-gray-900"
               >
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                <polyline points="15 3 21 3 21 9" />
-                <line x1="10" y1="14" x2="21" y2="3" />
-              </svg>
-              Go to Behance
-            </a>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Go to Behance
+              </a>
+            </div>
           </div>
-        </div>
         ))}
+        <button className="bg-[#17CDCA] text-black text-[22px] rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
+          Load More
+        </button>
       </div>
     </div>
   );
