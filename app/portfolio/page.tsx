@@ -1,6 +1,4 @@
 import NavBarPortfolio from "@/components/navBarPortfolio";
-import { Download } from "lucide-react";
-import Image from "next/image";
 import React from "react";
 
 const Page = () => {
