@@ -40,7 +40,7 @@ const ShowCaseWork = () => {
       </p>
       <div className="p-4">
         {/* Tab Navigation */}
-        <div className="flex gap-2 mb-8 mt-10">
+        <div className="flex gap-2 mb-8 mt-10 items-center justify-center">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -56,7 +56,7 @@ const ShowCaseWork = () => {
           ))}
         </div>
         {works.map((work, index) => (
-        <div key={index} className=" flex gap-8 mt-10 items-center border border-gray-300 rounded-[35px] px-10 py-6">
+        <div key={index} className=" flex gap-8 mt-12 items-center border border-gray-300 rounded-[35px] px-10 py-6">
           {/* Left Side - Image */}
           <Image
             src={work.imageUrl}
