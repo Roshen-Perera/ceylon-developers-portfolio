@@ -55,7 +55,7 @@ const ShowCaseWork = () => {
 
                 {/* Technologies Section */}
                 <div className="mb-6">
-                  <h4 className="text-sm font-semibold mb-3">
+                  <h4 className="text-[22px] font-bold mb-3">Worked On
                     Technologies I have Worked
                   </h4>
                   <div className="flex gap-3">
