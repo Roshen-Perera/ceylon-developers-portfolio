@@ -16,6 +16,20 @@ const ShowCaseWork = () => {
       technologies: ["Figma", "Illustrator"],
       behanceLink: "#",
     },
+    {
+      title: "Clothing Store Mobile App",
+      imageUrl: "/assets/images/clothing.jpg",
+      workedOn: ["Mobile App", "Admin Panel"],
+      technologies: ["Figma", "Illustrator"],
+      behanceLink: "#",
+    },
+    {
+      title: "Clothing Store Mobile App",
+      imageUrl: "/assets/images/clothing.jpg",
+      workedOn: ["Mobile App", "Admin Panel"],
+      technologies: ["Figma", "Illustrator"],
+      behanceLink: "#",
+    },
   ];
 
   return (
@@ -84,7 +98,7 @@ const ShowCaseWork = () => {
 
             {/* Go to Behance Link */}
             <a
-              href="#"
+              href={work.behanceLink}
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[22px] text-gray-700 hover:text-gray-900"
             >
               <svg
