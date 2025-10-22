@@ -1,5 +1,6 @@
 import NavBarPortfolio from "@/components/navBarPortfolio";
 import { Download, Quote } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Page = () => {
@@ -43,11 +44,16 @@ const Page = () => {
             </svg>
 
             <p className="text-[22px] mt-4">
-              Jenny’s Exceptional UI design ensure our website’s success. Highly
+              Jenny’s Exceptional UI design ensure our website’s success.Highly
               Recommended
             </p>
           </div>
-          <div></div>
+          <Image
+            src="/assets/images/girl.png"
+            alt="Jenny"
+            width={487}
+            height={636}
+          />
           <div></div>
         </div>
       </div>
