@@ -9,13 +9,8 @@ const Page = () => {
         <NavBarPortfolio />
       </div>
       <PortfolioHero />
-      <div className="flex flex-col items-center justify-center mt-20">
-        <h1 className="text-7xl font-bold">Showcasing my Best Work</h1>
-        <p className="text-[22px] mt-10">
-          I have worked on a wide range of projects. Here are some of my
-          projects.
-        </p>
-      </div>
+      
+      
     </>
   );
 };
