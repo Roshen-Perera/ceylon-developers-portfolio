@@ -71,16 +71,22 @@ const Page = () => {
 
               {/* Experience Badge */}
               <div className="text-right">
-                <div className="text-[50px] font-bold text-gray-900">
-                  5 Years
-                </div>
-                <div className="text-base text-gray-600 font-medium">
-                  Experience
-                </div>
+                <div className="text-[50px] font-bold ">5 Years</div>
+                <div className="text-[22px]">Experience</div>
               </div>
             </div>
           </div>
         </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
+          justo nec ultrices dui sapien eget mi proin sed. Eu lobortis elementum
+          nibh tellus molestie nunc non blandit massa. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien
+          eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non
+          blandit massa.
+        </p>
       </div>
     </>
   );
