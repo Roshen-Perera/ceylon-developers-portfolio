@@ -1,5 +1,6 @@
 import NavBarPortfolio from "@/components/navBarPortfolio";
 import PortfolioHero from "@/components/portfolioHero";
+import ShowCaseWork from "@/components/showCaseWork";
 import React from "react";
 
 const Page = () => {
@@ -9,7 +10,7 @@ const Page = () => {
         <NavBarPortfolio />
       </div>
       <PortfolioHero />
-      
+      <ShowCaseWork/>
       
     </>
   );
