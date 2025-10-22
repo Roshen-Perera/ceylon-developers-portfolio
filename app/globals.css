@@ -142,10 +142,13 @@
 }
 
 .custom-eclipse {
-  width: 811.7788696289062;
-  height: 405.8894348144531;
+  width: 405.8894348144531px;
+  height: 202.9447174072266px;
+  top: 719.11px;
+  left: 314.89px;
   opacity: 1;
   background: linear-gradient(180deg, rgba(23, 205, 202, 0.72) 0%, #01180E 100%);
+  border-radius: 202.9447174072266px 202.9447174072266px 0 0;
 }
 
 @layer base {

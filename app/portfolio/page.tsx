@@ -48,12 +48,15 @@ const Page = () => {
               Recommended
             </p>
           </div>
-          <Image
-            src="/assets/images/girl.png"
-            alt="Jenny"
-            width={487}
-            height={636}
-          />
+          <div className="custom-eclipse">
+            <Image
+              src="/assets/images/girl.png"
+              alt="Jenny"
+              width={487}
+              height={636}
+            />
+          </div>
+
           <div>
             <div className="relative z-10 text-right w-full pr-8">
               {/* Rating Stars */}
@@ -87,9 +90,6 @@ const Page = () => {
           eget mi proin sed. Eu lobortis elementum nibh tellus molestie nunc non
           blandit massa.
         </p>
-        <div className="custom-eclipse">
-
-        </div>
       </div>
     </>
   );
