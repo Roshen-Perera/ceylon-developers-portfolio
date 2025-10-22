@@ -71,7 +71,7 @@ const ShowCaseWork = () => {
                 {/* Go to Behance Link */}
                 <a
                   href="#"
-                  className="inline-flex items-center gap-2 text-sm text-gray-700 hover:text-gray-900"
+                  className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[22px] text-gray-700 hover:text-gray-900"
                 >
                   <svg
                     width="16"
