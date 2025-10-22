@@ -10,8 +10,9 @@ const Page = () => {
         <NavBarPortfolio />
       </div>
       <PortfolioHero />
-      <ShowCaseWork/>
-      
+      <div className="flex flex-col items-center justify-center">
+        <ShowCaseWork />
+      </div>
     </>
   );
 };
