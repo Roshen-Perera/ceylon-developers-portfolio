@@ -2,6 +2,28 @@ import Image from 'next/image';
 import React from 'react'
 
 const SkillsPortfolio = () => {
+    const skills = [
+      { name: "HTML5", icon: "/assets/icons/technologies/html5.png" },
+      { name: "CSS3", icon: "/assets/icons/technologies/css3.png" },
+      { name: "JavaScript", icon: "/assets/icons/technologies/js.svg" },
+      { name: "React JS", icon: "/assets/icons/technologies/reactjs.png" },
+      { name: "Figma", icon: "/assets/icons/technologies/figma.svg" },
+      {
+        name: "Illustrator",
+        icon: "/assets/icons/technologies/ai.png",
+      },
+      { name: "Fire Base", icon: "/assets/icons/technologies/firebase.png" },
+      { name: "Adobe XD", icon: "/assets/icons/technologies/xd.png" },
+      { name: "Postman", icon: "/assets/icons/technologies/postman.svg" },
+      {
+        name: "VS Code",
+        icon: "/assets/icons/technologies/vscode.png",
+      },
+      {
+        name: "Photoshop",
+        icon: "/assets/icons/technologies/ps.png",
+      },
+    ];
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-7xl font-bold mt-20">Skills</h1>
