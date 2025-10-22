@@ -130,9 +130,11 @@ const ShowCaseWork = () => {
             </div>
           </div>
         ))}
-        <button className="bg-[#17CDCA] text-black text-[22px] rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
-          Load More
-        </button>
+        <div className="flex flex-col mt-15 items-center justify-center">
+          <button className="bg-[#17CDCA] text-black text-[22px] rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
+            Load More
+          </button>
+        </div>
       </div>
     </div>
   );
