@@ -1,3 +1,4 @@
+import AchievementsPortfolio from "@/components/achievementsPortfolio";
 import NavBarPortfolio from "@/components/navBarPortfolio";
 import PortfolioHero from "@/components/portfolioHero";
 import ShowCaseWork from "@/components/showCaseWork";
@@ -14,6 +15,7 @@ const Page = () => {
       <div className="flex flex-col items-center justify-center">
         <ShowCaseWork />
         <SkillsPortfolio />
+        <AchievementsPortfolio />
       </div>
     </>
   );

@@ -5,8 +5,8 @@ const AchievementsPortfolio = () => {
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-7xl font-bold mt-20">Skills</h1>
       <div>
-        <div className="flex flex-row gap-2">
-          <div className="w-55 h-55 rounded-4xl bg-gray-200 flex items-center justify-center p-4 mt-10 mb-10">
+        <div className="flex flex-row gap-2 justify-center items-center">
+          <div className="w-[55px] h-[55px] rounded-4xl bg-gray-200 flex items-center justify-center p-4 mt-10 mb-10">
             <svg
               width="22"
               height="34"
