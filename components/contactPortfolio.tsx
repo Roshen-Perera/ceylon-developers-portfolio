@@ -7,14 +7,14 @@ const ContactPortfolio = () => {
       <p className="text-[22px] mt-10">
         Cultivating Connections: Reach Out and Connect with Me
       </p>
-      <div className="grid grid-cols-2 gap-6 mt-10 mb-20">
+      <div className="grid grid-cols-2 gap-6 mt-10">
         <div className="flex flex-col gap-6">
           <div>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
               placeholder="Name"
             />
           </div>
@@ -23,7 +23,7 @@ const ContactPortfolio = () => {
               type="number"
               id="number"
               name="number"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
               placeholder="Phone Number"
             />
           </div>
@@ -32,7 +32,7 @@ const ContactPortfolio = () => {
               type="timeline"
               id="timeline"
               name="timeline"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
               placeholder="Timeline"
             />
           </div>
@@ -43,12 +43,12 @@ const ContactPortfolio = () => {
               type="email"
               id="email"
               name="email"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
               placeholder="your.email@example.com"
             />
           </div>
           <div>
-            <select className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]">
+            <select className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black">
               <option>Service of Interest</option>
               <option>Web Development</option>
               <option>Mobile App</option>
@@ -60,18 +60,18 @@ const ContactPortfolio = () => {
               id="message"
               name="message"
               rows={5}
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
               placeholder="Project Details"
             ></textarea>
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-6">
         <button
           type="button"
-          className="w-full py-3 px-4 rounded-lg font-medium text-white bg-teal-500 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-colors"
+          className="w-full py-3 px-4 rounded-lg text-black text-[22px] bg-[#17CDCA] hover:bg-[#15baba] transition-colors"
         >
-          Send Message
+          Submit
         </button>
       </div>
     </div>
