@@ -1,5 +1,6 @@
 import AchievementsPortfolio from "@/components/achievementsPortfolio";
 import ContactPortfolio from "@/components/contactPortfolio";
+import FooterPortfolio from "@/components/footerPortfolio";
 import NavBarPortfolio from "@/components/navBarPortfolio";
 import PortfolioHero from "@/components/portfolioHero";
 import ShowCaseWork from "@/components/showCaseWork";
@@ -19,6 +20,9 @@ const Page = () => {
         <AchievementsPortfolio />
         <ContactPortfolio />
       </div>
+      <footer className="py-12 mt-12">
+        <FooterPortfolio/>
+      </footer>
     </>
   );
 };
