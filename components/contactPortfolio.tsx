@@ -7,44 +7,56 @@ const ContactPortfolio = () => {
       <p className="text-[22px] mt-10">
         Cultivating Connections: Reach Out and Connect with Me
       </p>
-      <div className="space-y-6">
+      <div className="grid grid-cols-2 gap-6">
         <div>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-            placeholder="Your Name"
-          />
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              placeholder="Name"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div>
+            <input
+              type="timeline"
+              id="timeline"
+              name="timeline"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              placeholder="Timeline"
+            />
+          </div>
         </div>
         <div>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-            placeholder="your.email@example.com"
-          />
-        </div>
-
-        <div>
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-            placeholder="Subject"
-          />
-        </div>
-
-        <div>
-          <textarea
-            id="message"
-            name="message"
-            rows={5}
-            className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
-            placeholder="Your Message"
-          ></textarea>
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              placeholder="your.email@example.com"
+            />
+          </div>
+          
+          <div>
+            <textarea
+              id="message"
+              name="message"
+              rows={5}
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
         </div>
 
         <button
