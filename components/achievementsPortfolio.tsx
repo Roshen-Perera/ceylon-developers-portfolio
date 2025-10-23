@@ -144,6 +144,9 @@ const AchievementsPortfolio = () => {
           </div>
         ))}
       </div>
+      <button className="mt-10 rounded-[10px] bg-[#17CDCA] text-black text-[22px] hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
+        View All
+      </button>
     </div>
   );
 };
