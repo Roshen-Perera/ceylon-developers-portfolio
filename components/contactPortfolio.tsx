@@ -47,7 +47,14 @@ const ContactPortfolio = () => {
               placeholder="your.email@example.com"
             />
           </div>
-          
+          <div>
+            <select className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical">
+              <option>Service of Interest</option>
+              <option>Web Development</option>
+              <option>Mobile App</option>
+              <option>UI/UX Design</option>
+            </select>
+          </div>
           <div>
             <textarea
               id="message"
