@@ -37,9 +37,9 @@ const FooterPortfolio = () => {
               />
             </svg>
           </div>
-          <div className="w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
-          <div className="w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
-          <div className="w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
+          <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
+          <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
+          <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
         </div>
       </div>
     </>
