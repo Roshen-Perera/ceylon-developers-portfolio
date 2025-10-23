@@ -6,7 +6,7 @@ const AchievementsPortfolio = () => {
   const skills = [
     {
       name: "Udemy",
-      icon: "/assets/icons/technologies/udemy.svg",
+      icon: "/assets/icons/technologies/udemy.png",
       description: "Professional Certificate in Customer Experience Management",
       width: 22,
       height: 34,
@@ -22,7 +22,7 @@ const AchievementsPortfolio = () => {
             <div className="flex flex-row items-center justify-between">
               <div className="flex flex-row gap-4 justify-center rounded-[40px] items-center bg-[#D9D9D952] pr-3">
                 <div className="w-[55px] h-[55px] rounded-4xl bg-[#00000052] flex items-center justify-center">
-                  <Image 
+                  <Image
                     src="/assets/icons/udemy.png"
                     alt="Udemy"
                     width={skill.width}
@@ -90,9 +90,7 @@ const AchievementsPortfolio = () => {
                 </svg>
               </div>
             </div>
-            <p className="text-[22px]">
-                {skill.description}
-            </p>
+            <p className="text-[22px]">{skill.description}</p>
             <div>
               <button className="rounded-[100px] bg-[#17CDCA] text-black text-[22px] hover:bg-cyan-500 transition-colors px-6 py-2 h-fit flex justify-center items-center gap-3">
                 <Eye /> View
