@@ -61,7 +61,7 @@ const ContactPortfolio = () => {
               name="message"
               rows={5}
               className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
-              placeholder="Your Message"
+              placeholder="Project Details"
             ></textarea>
           </div>
         </div>
