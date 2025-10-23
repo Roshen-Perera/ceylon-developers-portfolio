@@ -37,7 +37,20 @@ const FooterPortfolio = () => {
               />
             </svg>
           </div>
-          <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
+          <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.455 18.4599H18.4599V11.689C18.4599 8.37744 17.7477 5.82564 13.8749 5.82564C12.0123 5.82564 10.7635 6.84636 10.2531 7.81456H10.2006V6.13415H6.52802V18.4599H10.3516V12.3569C10.3516 10.7487 10.6568 9.19631 12.6458 9.19631C14.6068 9.19631 14.6363 11.0293 14.6363 12.4603V18.4599H18.455ZM0.303605 6.13579H4.13048V18.4615H0.303605V6.13579ZM2.2154 0C1.62784 0 1.06435 0.233406 0.648887 0.648871C0.233421 1.06434 1.53736e-05 1.62783 1.53736e-05 2.21538C-0.00217382 2.8056 0.229522 3.37265 0.644402 3.79245C1.05928 4.21225 1.62356 4.45061 2.21376 4.45538C3.43796 4.45538 4.42914 3.44123 4.42914 2.21703C4.42914 0.992821 3.43796 0 2.2154 0Z"
+                fill="#E7E7E7"
+              />
+            </svg>
+          </div>
           <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
           <div className="flex w-[40px] h-[40px] bg-black items-center justify-center rounded-[6.67px]"></div>
         </div>
