@@ -1,11 +1,12 @@
+import { Eye } from "lucide-react";
 import React from "react";
 
 const AchievementsPortfolio = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-7xl font-bold mt-20">Skills</h1>
-      <div className="w-[372px] ">
-        <div className="flex flex-row items-center justify-between mt-10 mb-5">
+      <div className="flex flex-col w-[372px] gap-6 mt-10 mb-20 ">
+        <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row gap-4 justify-center rounded-[40px] items-center bg-[#D9D9D952] pr-3">
             <div className="w-[55px] h-[55px] rounded-4xl bg-[#00000052] flex items-center justify-center">
               <svg
@@ -96,6 +97,9 @@ const AchievementsPortfolio = () => {
         <p className="text-[22px]">
           Professional Certificate in Customer Experience Management
         </p>
+        <button className="rounded-[100px] bg-[#17CDCA] text-black text-[22px] hover:bg-cyan-500 transition-colors px-6 py-2 h-fit flex justify-center items-center gap-3">
+          <Eye /> View
+        </button>
       </div>
     </div>
   );
