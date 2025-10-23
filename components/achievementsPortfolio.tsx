@@ -31,7 +31,7 @@ const AchievementsPortfolio = () => {
               </defs>
             </svg>
           </div>
-          <h3>Udemy</h3>
+          <h3 className="text-[30px]">Udemy</h3>
         </div>
       </div>
     </div>
