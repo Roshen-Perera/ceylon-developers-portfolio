@@ -16,9 +16,12 @@ const AchievementsPortfolio = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-7xl font-bold mt-20">Skills</h1>
-      <div className="flex flex-col justify-center items-center w-[432px] h-[281px] mt-10 mb-20 bg-[#F7F7F7] rounded-[46px]">
-        {skills.map((skill, index) => (
-          <div className="flex flex-col w-[372px] gap-6 " key={index}>
+      {skills.map((skill, index) => (
+        <div
+          key={index}
+          className="flex flex-col justify-center items-center w-[432px] h-[281px] mt-10 mb-20 bg-[#F7F7F7] rounded-[46px]"
+        >
+          <div className="flex flex-col w-[372px] gap-6 ">
             <div className="flex flex-row items-center justify-between">
               <div className="flex flex-row gap-4 justify-center rounded-[40px] items-center bg-[#D9D9D952] pr-3">
                 <div className="w-[55px] h-[55px] rounded-4xl bg-[#00000052] flex items-center justify-center">
@@ -97,8 +100,8 @@ const AchievementsPortfolio = () => {
               </button>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };
