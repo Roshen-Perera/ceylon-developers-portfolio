@@ -14,7 +14,7 @@ const ContactPortfolio = () => {
               type="text"
               id="name"
               name="name"
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
               placeholder="Name"
             />
           </div>
@@ -23,7 +23,7 @@ const ContactPortfolio = () => {
               type="number"
               id="number"
               name="number"
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
               placeholder="Phone Number"
             />
           </div>
@@ -32,7 +32,7 @@ const ContactPortfolio = () => {
               type="timeline"
               id="timeline"
               name="timeline"
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
               placeholder="Timeline"
             />
           </div>
@@ -43,12 +43,12 @@ const ContactPortfolio = () => {
               type="email"
               id="email"
               name="email"
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
               placeholder="your.email@example.com"
             />
           </div>
           <div>
-            <select className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical">
+            <select className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]">
               <option>Service of Interest</option>
               <option>Web Development</option>
               <option>Mobile App</option>
@@ -60,7 +60,7 @@ const ContactPortfolio = () => {
               id="message"
               name="message"
               rows={5}
-              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
+              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px]"
               placeholder="Project Details"
             ></textarea>
           </div>
