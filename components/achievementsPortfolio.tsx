@@ -6,7 +6,7 @@ const AchievementsPortfolio = () => {
       <h1 className="text-7xl font-bold mt-20">Skills</h1>
       <div>
         <div className="flex flex-row gap-3 justify-center items-center">
-          <div className="w-[55px] h-[55px] rounded-4xl bg-gray-200 flex items-center justify-center p-4 mt-10 mb-10">
+          <div className="w-[55px] h-[55px] rounded-4xl bg-[#00000052] flex items-center justify-center p-4 mt-10 mb-10">
             <svg
               width="22"
               height="34"
