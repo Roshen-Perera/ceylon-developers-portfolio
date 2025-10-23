@@ -7,8 +7,8 @@ const ContactPortfolio = () => {
       <p className="text-[22px] mt-10">
         Cultivating Connections: Reach Out and Connect with Me
       </p>
-      <div className="grid grid-cols-2 gap-6">
-        <div>
+      <div className="grid grid-cols-2 gap-6 mt-10 mb-20">
+        <div className="flex flex-col gap-6">
           <div>
             <input
               type="text"
@@ -37,7 +37,7 @@ const ContactPortfolio = () => {
             />
           </div>
         </div>
-        <div>
+        <div className="flex flex-col gap-6">
           <div>
             <input
               type="email"
@@ -65,7 +65,8 @@ const ContactPortfolio = () => {
             ></textarea>
           </div>
         </div>
-
+      </div>
+      <div>
         <button
           type="button"
           className="w-full py-3 px-4 rounded-lg font-medium text-white bg-teal-500 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-colors"
