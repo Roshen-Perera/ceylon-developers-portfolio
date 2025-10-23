@@ -1,4 +1,5 @@
 import AchievementsPortfolio from "@/components/achievementsPortfolio";
+import ContactPortfolio from "@/components/contactPortfolio";
 import NavBarPortfolio from "@/components/navBarPortfolio";
 import PortfolioHero from "@/components/portfolioHero";
 import ShowCaseWork from "@/components/showCaseWork";
@@ -16,6 +17,7 @@ const Page = () => {
         <ShowCaseWork />
         <SkillsPortfolio />
         <AchievementsPortfolio />
+        <ContactPortfolio />
       </div>
     </>
   );
