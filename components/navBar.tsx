@@ -53,7 +53,7 @@ const NavBar = () => {
               <ThemeToggle />
             </div>
             <button
-              className="text-card-foreground bg-[var(--navbar-button)] font-medium py-5 px-6 rounded-full border border-border
+              className="text-card-foreground bg-[image:var(--navbar-button)] font-medium py-5 px-6 rounded-full border border-border
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
             >
               Book a Call
