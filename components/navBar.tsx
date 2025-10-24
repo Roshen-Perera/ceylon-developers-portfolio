@@ -54,7 +54,7 @@ const NavBar = () => {
             </div>
             <div className="p-[1px] rounded-[12px] bg-[var(--navbar-button-border)]">
               <button
-                className="text-card-foreground bg-[image:var(--navbar-button)] font-medium py-5 px-6 rounded-full
+                className="shadow-[var(--navbar-button-shadow)] text-card-foreground bg-[image:var(--navbar-button)] font-medium py-5 px-6 rounded-full
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
               >
                 Book a Call

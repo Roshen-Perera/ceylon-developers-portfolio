@@ -117,7 +117,9 @@
   --navbar-background: #090A0980;
   --navbar-border: #FFFFFF1A;
   --navbar-button: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 1.79%, rgba(17, 17, 17, 0.1) 102.68%);
-  --navbar-button-border:  linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.1) 75%);
+  --navbar-button-border: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.1) 75%);
+  --navbar-button-shadow: inset 0px 4px 13px rgba(255, 255, 255, 0.15),
+    0px -4px 20px rgba(255, 255, 255, 0.25);
   --review-card-background: rgba(0, 0, 0, 0.4);
   --faq-card-background: linear-gradient(180deg, #00110A 0%, rgba(0, 0, 0, 0.5) 100%);
 }
