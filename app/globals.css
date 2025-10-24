@@ -79,7 +79,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   --navbar-background: #FFFFFF80;
-  --navbar-border: 1px solid #FFFFFF;
+  --navbar-border: 1px solid #FFFFFF1A;
 }
 
 .dark {
