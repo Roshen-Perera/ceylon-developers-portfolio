@@ -7,19 +7,24 @@ const NavBar = () => {
       <div>
         <div className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 text-black bg-white shadow-lg left-1/2 transform -translate-x-1/2">
           <div className="flex items-center">
-            <Image 
+            <Image
               src="/assets/icons/logo.png" // place inside /public/assets/icons
               alt="Logo"
-              width={64} // w-16
-              height={64} // h-16
-              className="rounded-full"
+              width={134} // w-16
+              height={43.652713775634766} // h-16
             />
           </div>
           <div className="flex space-x-6 text-lg">
-            <a href="/about" className="hover:underline transition-all duration-200">
+            <a
+              href="/about"
+              className="hover:underline transition-all duration-200"
+            >
               Company
             </a>
-            <a href="/case" className="hover:underline transition-all duration-200">
+            <a
+              href="/case"
+              className="hover:underline transition-all duration-200"
+            >
               Case Studies
             </a>
             <a href="#" className="hover:underline transition-all duration-200">
@@ -28,7 +33,10 @@ const NavBar = () => {
             <a href="#" className="hover:underline transition-all duration-200">
               Services
             </a>
-            <a href="/careers" className="hover:underline transition-all duration-200">
+            <a
+              href="/careers"
+              className="hover:underline transition-all duration-200"
+            >
               Careers
             </a>
           </div>
