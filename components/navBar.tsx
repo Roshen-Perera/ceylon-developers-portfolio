@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ThemeToggle from "./theme";
 
 const NavBar = () => {
   return (
@@ -46,6 +47,8 @@ const NavBar = () => {
               Careers
             </a>
           </div>
+
+          <ThemeToggle />
 
           {/* Button */}
           <button
