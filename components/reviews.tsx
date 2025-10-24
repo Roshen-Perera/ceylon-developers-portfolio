@@ -112,7 +112,7 @@ export default function Reviews() {
                 {column.map((post) => (
                   <div
                     key={post.id}
-                    className="bg-white rounded-lg p-4 border-1"
+                    className="bg-[var(--review-card-background)] rounded-lg p-4 border-1"
                   >
                     <div className="flex items-center gap-3">
                       <Image
