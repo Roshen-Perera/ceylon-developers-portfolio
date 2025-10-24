@@ -21,25 +21,33 @@ const Why = () => {
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <Check/>
+              <div className=''>
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">
                 Project templates to kick-start a new project
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Check/>
+              <div>
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">
                 Clone task to speed your time to action
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Check />
+              <div>
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">
                 Communicate and collaborate with your team and clients
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Check/>
+              <div>
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">Time tracking for the whole team</p>
             </div>
           </div>
