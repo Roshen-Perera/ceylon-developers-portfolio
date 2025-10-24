@@ -4,7 +4,7 @@ import ThemeToggle from "./theme";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-center w-full p-8 relative z-30">
+    <div className="flex items-center justify-center w-full p-8 relative">
       <div>
         <div
           className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 
