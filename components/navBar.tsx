@@ -8,7 +8,7 @@ const NavBar = () => {
       <div>
         <div
           className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 
-                    bg-background text-foreground shadow-lg left-1/2 transform -translate-x-1/2"
+                    bg-navbar-background text-foreground shadow-lg left-1/2 transform -translate-x-1/2"
         >
           {/* Logo */}
           <div className="flex items-center">
