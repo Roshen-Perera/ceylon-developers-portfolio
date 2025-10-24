@@ -128,10 +128,12 @@ export default function Reviews() {
                             {post.name}
                           </h3>
                         </div>
-                        <div className="flex items-center gap-2 text-[18px] text-gray-500">
+                        <div
+                          className="flex items-center gap-2 text-[18px] text-[#A1A1AA]"
+                        >
                           <span>{post.handle}</span>
                         </div>
-                        <div className="flex items-center gap-2 text-[16px] text-gray-500">
+                        <div className="flex items-center gap-2 text-[16px] text-[#A1A1AA]">
                           <span>Saas-maker •</span>
                         </div>
                       </div>
