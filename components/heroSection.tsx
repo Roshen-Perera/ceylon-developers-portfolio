@@ -5,7 +5,9 @@ import BlueFrame from "@/components/blueFrame";
 const HeroSection = () => {
   return (
     <>
-      <p className="text-[22px] mt-18 border-1 rounded-4xl p-2">
+      <p
+        className="text-[22px] px-5 bg-[#FFFFFF1A] mt-18 border-1 rounded-4xl p-2"
+      >
         Bring your business to the best scale
       </p>
       <div className="flex flex-col mt-8 z-20 items-center">
