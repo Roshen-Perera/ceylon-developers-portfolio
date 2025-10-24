@@ -48,15 +48,18 @@ const NavBar = () => {
             </a>
           </div>
 
-          <ThemeToggle />
-
-          {/* Button */}
-          <button
-            className="h-full  text-card-foreground bg-[var(--navbar-button)] font-medium py-2 px-6 rounded-full border border-border
+          <div className="flex items-center">
+            <div>
+              <ThemeToggle />
+            </div>
+            <button
+              className="text-card-foreground bg-[var(--navbar-button)] font-medium py-5 px-6 rounded-full border border-border
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
-          >
-            Book a Call
-          </button>
+            >
+              Book a Call
+            </button>
+          </div>
+          {/* Button */}
         </div>
       </div>
     </div>
