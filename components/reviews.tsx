@@ -128,7 +128,7 @@ export default function Reviews() {
                             {post.name}
                           </h3>
                         </div>
-                        <div className="flex items-center gap-2 text-[16px] text-gray-500">
+                        <div className="flex items-center gap-2 text-[18px] text-gray-500">
                           <span>{post.handle}</span>
                         </div>
                         <div className="flex items-center gap-2 text-[16px] text-gray-500">
