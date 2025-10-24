@@ -50,7 +50,7 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="rounded-2xl overflow-hidden border-1 bg-gradient-to-b from-[rgba(222,222,222,0.1)] to-[rgba(255,255,255,0)]"
+              className="rounded-2xl overflow-hidden border-1"
             >
               <button
                 onClick={() => toggleAccordion(index)}
