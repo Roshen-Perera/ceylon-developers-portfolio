@@ -1,6 +1,7 @@
 import React from 'react'
 import MeshVector2 from './meshVector2';
 import Image from 'next/image';
+import { Check } from 'lucide-react';
 
 const Why = () => {
   return (
@@ -20,49 +21,25 @@ const Why = () => {
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <Check/>
               <p className="text-[22px]">
                 Project templates to kick-start a new project
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <Check/>
               <p className="text-[22px]">
                 Clone task to speed your time to action
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <Check />
               <p className="text-[22px]">
                 Communicate and collaborate with your team and clients
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <Check/>
               <p className="text-[22px]">Time tracking for the whole team</p>
             </div>
           </div>
