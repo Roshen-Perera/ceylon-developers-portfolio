@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin, Moon } from 'lucide-react';
 import React from 'react'
+import ThemeToggle from './theme';
 
 const Footer = () => {
   return (
@@ -9,9 +10,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center font-semibold gap-2 mb-4">
             <h3 className="text-[26px] font-bold">HEXZYON</h3>
-            <button className="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center">
-                <Moon size={16} />              
-            </button>
+            <ThemeToggle/>
           </div>
           <p className="text-gray-600 text-[22px] leading-relaxed mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
