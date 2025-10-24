@@ -21,7 +21,7 @@ const Why = () => {
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <div className=''>
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">
@@ -29,15 +29,16 @@ const Why = () => {
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div>
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
+
               <p className="text-[22px]">
                 Clone task to speed your time to action
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div>
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">
@@ -45,7 +46,7 @@ const Why = () => {
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div>
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">Time tracking for the whole team</p>
