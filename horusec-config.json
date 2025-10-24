@@ -1,3 +1,9 @@
 {
-  "horusecCliIgnore": [".next", "node_modules", "dist", "build"]
+  "horusecCliIgnore": ["./.next", "node_modules", "dist", "build"],
+  "horusecCliFilesOrPathsToIgnore": [
+    "./.next/**",
+    "node_modules/**",
+    "dist/**",
+    "build/**"
+  ]
 }
