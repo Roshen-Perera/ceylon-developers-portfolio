@@ -11,7 +11,7 @@ const NavBar = () => {
               src="/assets/icons/logo.png" // place inside /public/assets/icons
               alt="Logo"
               width={134} // w-16
-              height={43.652713775634766} // h-16
+              height={43.652713775634766} // h-16\
             />
           </div>
           <div className="flex space-x-6 text-lg">
