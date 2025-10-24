@@ -8,7 +8,7 @@ const NavBar = () => {
       <div>
         <div
           className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 
-                    bg-navbar-background text-foreground shadow-lg left-1/2 transform -translate-x-1/2"
+                    bg-navbar-background text-foreground border border-navbar-border left-1/2 transform -translate-x-1/2"
         >
           {/* Logo */}
           <div className="flex items-center">
@@ -52,7 +52,7 @@ const NavBar = () => {
 
           {/* Button */}
           <button
-            className="h-12 bg-card text-card-foreground font-medium py-2 px-6 rounded-full border border-border
+            className="h-full bg-card text-card-foreground font-medium py-2 px-6 rounded-full border border-border
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
           >
             Book a Call
