@@ -32,7 +32,7 @@ const HeroSection = () => {
             height={64} // h-16
             className="rounded-full"
           />
-          <p className="text-[22px] text-gray-800">
+          <p className="text-[22px]">
             Trusted by over+ 20K people in the World
           </p>
         </div>
