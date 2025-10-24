@@ -52,7 +52,7 @@ const NavBar = () => {
 
           {/* Button */}
           <button
-            className="h-full bg-card text-card-foreground font-medium py-2 px-6 rounded-full border border-border
+            className="h-full  text-card-foreground bg-[var(--navbar-button)] font-medium py-2 px-6 rounded-full border border-border
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
           >
             Book a Call
