@@ -50,7 +50,7 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="rounded-2xl overflow-hidden border-1"
+              className="rounded-[30px] overflow-hidden border-1"
             >
               <button
                 onClick={() => toggleAccordion(index)}
@@ -73,9 +73,7 @@ export default function FAQAccordion() {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="px-6 pb-5 leading-relaxed">
-                  {faq.answer}
-                </div>
+                <div className="px-6 pb-5 leading-relaxed">{faq.answer}</div>
               </div>
             </div>
           ))}
