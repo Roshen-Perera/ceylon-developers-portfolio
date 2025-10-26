@@ -14,7 +14,7 @@ const Why = () => {
             To upscale your <span className="font-kaushan">business</span> to
             the next level
           </p>
-          <p className="text-[22px] text-gray-600">
+          <p className="text-[22px]">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua invidunt ut labore.
