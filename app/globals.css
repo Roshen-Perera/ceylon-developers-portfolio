@@ -80,6 +80,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --navbar-background: #FFFFFF80;
   --navbar-border: #FFFFFF1A;
+  --text-field-background: #F6F6F6;
 }
 
 .dark {
@@ -122,6 +123,7 @@
     0px -4px 20px rgba(255, 255, 255, 0.25);
   --review-card-background: rgba(0, 0, 0, 0.4);
   --faq-card-background: linear-gradient(180deg, #00110A 0%, rgba(0, 0, 0, 0.5) 100%);
+  
 }
 
 .gradient-border {
