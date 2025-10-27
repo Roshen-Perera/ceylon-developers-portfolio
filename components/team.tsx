@@ -52,7 +52,7 @@ const Team = () => {
         {teamMembers.map((member) => (
           <div
             key={member.id}
-            className="bg-white rounded-2xl overflow-hidden max-w-xs"
+            className="rounded-2xl overflow-hidden max-w-xs"
           >
             {/* Image */}
             <div className="w-full h-64 overflow-hidden bg-[#F7F7F7] p-3">
