@@ -90,6 +90,7 @@
   --team-nested-card-bg: #FFFFFF;
   --team-social-icon-bg: #FFFFFF;
   --inverted-tick: #FFFFFF;
+  --contact-form-bg: radial-gradient(118.37% 118.62% at -13.75% 5.84%, #F1F1F1 0%, #FFFFFF 98.99%)
 }
 
 .dark {
@@ -142,9 +143,7 @@
   --team-nested-card-bg: #17CDCA0F;
   --team-social-icon-bg: #18181D;
   --inverted-tick: #000000;
-  --contact-form-bg: radial-gradient(118.37% 118.62% at -13.75% 5.84%, #262626 0%, #000000 98.99%)
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-  ;
+  --contact-form-bg: radial-gradient(118.37% 118.62% at -13.75% 5.84%, #262626 0%, #000000 98.99%);
   
 }
 
