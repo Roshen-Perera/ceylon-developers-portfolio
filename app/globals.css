@@ -89,7 +89,7 @@
   --team-card-bg: #F7F7F7;
   --team-nested-card-bg: #FFFFFF;
   --team-social-icon-bg: #FFFFFF;
-  --inverted-ticket-bg: #ffffff;
+  --inverted-ticket-bg: #000000;
 }
 
 .dark {
@@ -141,7 +141,7 @@
   --team-card-bg: #FFFFFF1F;
   --team-nested-card-bg: #17CDCA0F;
   --team-social-icon-bg: #18181D;
-    --inverted-ticket-bg: #000000;
+    --inverted-ticket-bg: #FFFFFF;
 }
 
 .gradient-border {
