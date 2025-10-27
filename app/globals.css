@@ -85,7 +85,7 @@
   --footer-link: #585858;
   --mission-button: #17CDCA;
   --non-active-button: #CAFBFA;
-  --feature-text: "black";
+  --feature-text: black;
 }
 
 .dark {
@@ -133,7 +133,7 @@
   --footer-link: #E6E6E682;
   --mission-button: linear-gradient(90deg, #17CDCA 0%, #08A8A5 100%);
   --non-active-button: #75ECEA3B;
-  --feature-text: "white";
+  --feature-text: white;
 }
 
 .gradient-border {
