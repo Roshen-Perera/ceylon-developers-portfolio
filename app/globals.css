@@ -128,6 +128,7 @@
   --text-field-background: #FFFFFF1A;
   --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.35) 100%);
   --footer-link: #E6E6E682;
+  --mission-button: linear-gradient(90deg, #17CDCA 0%, #08A8A5 100%);
 }
 
 .gradient-border {
