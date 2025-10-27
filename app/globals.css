@@ -86,6 +86,8 @@
   --mission-button: #17CDCA;
   --non-active-button: #CAFBFA;
   --feature-text: black;
+  --team-card-bg: #F7F7F7;
+  --team-nested-card-bg: #FFFFFF;
 }
 
 .dark {
