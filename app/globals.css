@@ -136,6 +136,8 @@
   --mission-button: linear-gradient(90deg, #17CDCA 0%, #08A8A5 100%);
   --non-active-button: #75ECEA3B;
   --feature-text: white;
+  --team-card-bg: #FFFFFF1F;
+  --team-nested-card-bg: #17CDCA0F;
 }
 
 .gradient-border {
