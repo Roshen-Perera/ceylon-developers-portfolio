@@ -22,19 +22,19 @@ const Story = () => {
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] bg-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">Advanced AI Foundation</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] bg-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">Purpose-Driven</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] bg-[#17CDCA]">
                 <Check size={16} />
               </div>
               <p className="text-[22px]">Continuous Evolution</p>
