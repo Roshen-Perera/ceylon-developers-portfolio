@@ -88,6 +88,7 @@
   --feature-text: black;
   --team-card-bg: #F7F7F7;
   --team-nested-card-bg: #FFFFFF;
+  --team-social-icon-bg: #FFFFFF;
 }
 
 .dark {
@@ -138,6 +139,7 @@
   --feature-text: white;
   --team-card-bg: #FFFFFF1F;
   --team-nested-card-bg: #17CDCA0F;
+  
 }
 
 .gradient-border {
