@@ -7,7 +7,7 @@ const Motto = () => {
       <div className="flex flex-row items-center gap-12">
         <div className="flex flex-col gap-10 p-8">
           <div className="flex gap-3">
-            <button className="px-6 py-2 text-[22px] bg-[#17CDCA] rounded-md">
+            <button className="px-6 py-2 text-[22px] bg-[image:var(--mission-button)] rounded-md">
               Our Mission
             </button>
             <button className="px-6 py-2 text-[22px] bg-[#CAFBFA] rounded-md">
