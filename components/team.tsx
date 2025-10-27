@@ -55,7 +55,7 @@ const Team = () => {
             className="rounded-2xl overflow-hidden max-w-xs"
           >
             {/* Image */}
-            <div className="w-full h-64 overflow-hidden bg-[var(--team-bg)] p-3">
+            <div className="w-full h-64 overflow-hidden bg-[var(--team-card-bg)] p-3">
               <Image
                 src={member.image}
                 alt={member.name}
