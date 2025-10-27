@@ -81,6 +81,7 @@
   --navbar-background: #FFFFFF80;
   --navbar-border: #FFFFFF1A;
   --text-field-background: #F6F6F6;
+  --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.37) 100%);
 }
 
 .dark {
