@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const MottoIMG = () => {
   const [isDark, setIsDark] = useState(false);
@@ -20,7 +21,21 @@ const MottoIMG = () => {
 
     return () => observer.disconnect(); // Cleanup on unmount
   }, []);
-  return <div>MottoIMG</div>;
+  return (
+    <div>
+      <Image
+        src={
+          isDark
+            ? "/assets/images/Card.png"
+            : "/assets/images/motto.png"
+        }
+        alt={"today's activity dashboard"}
+        width={686}
+        height={487}
+        style={{ opacity: 1 }}
+      />
+    </div>
+  );
 };
 
 export default MottoIMG;
