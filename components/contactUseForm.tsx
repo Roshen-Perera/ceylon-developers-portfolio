@@ -53,7 +53,7 @@ const ContactUsForm = () => {
 
         <button
           type="button"
-          className="w-full py-3 px-4 rounded-lg font-medium bg-[#17CDCA] "
+          className="w-full py-3 px-4 rounded-lg font-medium bg-[#17CDCA]"
         >
           Send Message
         </button>
