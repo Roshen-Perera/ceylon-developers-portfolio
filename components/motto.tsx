@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import MottoIMG from './mottoIMG';
 
 const Motto = () => {
   return (
@@ -31,13 +32,7 @@ const Motto = () => {
           </p>
         </div>
         <div className="flex flex-col gap-6 flex-1">
-          <Image
-            src="/assets/images/motto.png"
-            alt="motto"
-            width={600}
-            height={400}
-            className="rounded-lg"
-          />
+          <MottoIMG/>
         </div>
       </div>
     </div>
