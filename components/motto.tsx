@@ -10,10 +10,10 @@ const Motto = () => {
             <button className="px-6 py-2 text-[22px] bg-[image:var(--mission-button)] rounded-md">
               Our Mission
             </button>
-            <button className="px-6 py-2 text-[22px] bg-[image:var(--non-active-button)] rounded-md">
+            <button className="px-6 py-2 text-[22px] bg-[var(--non-active-button)] rounded-md">
               Our Vision
             </button>
-            <button className="px-6 py-2 text-[22px] bg-[image:var(--non-active-button)] rounded-md">
+            <button className="px-6 py-2 text-[22px] bg-[var(--non-active-button)] rounded-md">
               Our Goal
             </button>
           </div>
