@@ -64,12 +64,12 @@ const Team = () => {
 
             {/* Content */}
             <div className="bg-[var(--team-card-bg)] p-3">
-              <div className="flex items-start justify-between p-5 gap-3 bg-[var(--team-nested-card-bg)] rounded-2xl">
+              <div className="flex items-center justify-between p-5 gap-3 bg-[var(--team-nested-card-bg)] rounded-2xl">
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1">
+                  <h3 className="text-lg font-bold mb-1">
                     {member.name}
                   </h3>
-                  <p className="text-sm text-gray-600">{member.position}</p>
+                  <p className="text-sm">{member.position}</p>
                 </div>
 
                 {/* Social Icons */}
