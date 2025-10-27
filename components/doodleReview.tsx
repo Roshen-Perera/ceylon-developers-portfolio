@@ -3,7 +3,7 @@ import React from 'react'
 const DoodleReview = () => {
   return (
     <div
-      className="flex flex-col items-center gap-8 p-12 rounded-[24px] bg-white max-w-lg"
+      className="flex flex-col items-center gap-8 p-12 rounded-[24px] max-w-lg"
       style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
     >
       <p className="text-[30px] text-gray-700 mb-2">Reviewed on:</p>
