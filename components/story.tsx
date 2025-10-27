@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Check } from "lucide-react";
 
 const Story = () => {
   return (
@@ -27,33 +28,21 @@ const Story = () => {
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">Advanced AI Foundation</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">Purpose-Driven</p>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/tick.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="flex-shrink-0"
-              />
+              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check size={16} />
+              </div>
               <p className="text-[22px]">Continuous Evolution</p>
             </div>
           </div>
