@@ -2,6 +2,7 @@ import React from 'react'
 import MeshVector2 from './meshVector2';
 import Image from 'next/image';
 import { Check } from 'lucide-react';
+import TodaysWorkIMG from './todaysWorkIMG';
 
 const Why = () => {
   return (
@@ -54,13 +55,7 @@ const Why = () => {
           </div>
         </div>
         <div className="flex-shrink-0">
-          <Image
-            src={"/assets/images/todaysActivity.png"}
-            alt={"today's activity dashboard"}
-            width={686}
-            height={487}
-            style={{ opacity: 1 }}
-          />
+          <TodaysWorkIMG/>
         </div>
       </div>
     </div>
