@@ -46,35 +46,35 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Quick links</h4>
+          <h4 className="font-semibold text-[26px] mb-4">Quick links</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Service
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Client
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Contact
               </a>
             </li>
@@ -83,30 +83,30 @@ const Footer = () => {
 
         {/* Important */}
         <div>
-          <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Important</h4>
+          <h4 className="font-semibold text-[26px] mb-4">Important</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Career
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Terms and Conditions
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Cookies Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 text-[22px] hover:text-gray-900">
+              <a href="#" className="text-gray-600 text-[22px]">
                 Social Work
               </a>
             </li>
@@ -115,7 +115,7 @@ const Footer = () => {
 
         {/* Contacts */}
         <div>
-          <h4 className="font-semibold text-[26px] text-gray-900 mb-4">Contacts</h4>
+          <h4 className="font-semibold text-[26px] mb-4">Contacts</h4>
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-gray-600 mt-0.5 flex-shrink-0" />
