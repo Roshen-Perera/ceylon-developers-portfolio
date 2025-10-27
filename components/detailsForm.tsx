@@ -7,7 +7,7 @@ const DetailsForm = () => {
         {/* Name and Email Row */}
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="block text-[22px] text-gray-700 mb-2">
+            <label className="block text-[22px] mb-2">
               Name <span className="text-red-500">*</span>
             </label>
             <input
@@ -17,7 +17,7 @@ const DetailsForm = () => {
             />
           </div>
           <div>
-            <label className="block text-[22px] text-gray-700 mb-2">
+            <label className="block text-[22px] mb-2">
               Email <span className="text-red-500">*</span>
             </label>
             <input
@@ -30,7 +30,7 @@ const DetailsForm = () => {
 
         {/* Company Name */}
         <div>
-          <label className="block text-[22px] text-gray-700 mb-2">
+          <label className="block text-[22px] mb-2">
             Company Name <span className="text-red-500">*</span>
           </label>
           <input
@@ -43,7 +43,7 @@ const DetailsForm = () => {
         {/* Select Service and Project Budget Row */}
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="block text-[22px] text-gray-700 mb-2">
+            <label className="block text-[22px] mb-2">
               Select Service <span className="text-red-500">*</span>
             </label>
             <select className="w-full px-0 py-2 border-b border-gray-300 bg-transparent focus:border-cyan-400 focus:outline-none text-[22px] text-gray-500 appearance-none cursor-pointer">
@@ -54,7 +54,7 @@ const DetailsForm = () => {
             </select>
           </div>
           <div>
-            <label className="block text-[22px] text-gray-700 mb-2">
+            <label className="block text-[22px] mb-2">
               Project Budget <span className="text-red-500">*</span>
             </label>
             <select className="w-full px-0 py-2 border-b border-gray-300 bg-transparent focus:border-cyan-400 focus:outline-none text-[22px] text-gray-500 appearance-none cursor-pointer">
@@ -68,7 +68,7 @@ const DetailsForm = () => {
 
         {/* Project Details */}
         <div>
-          <label className="block text-[22px] text-gray-700 mb-2">
+          <label className="block text-[22px] mb-2">
             Project Details
           </label>
           <textarea
