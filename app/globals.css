@@ -127,6 +127,7 @@
   --faq-card-background: linear-gradient(180deg, #00110A 0%, rgba(0, 0, 0, 0.5) 100%);
   --text-field-background: #FFFFFF1A;
   --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.35) 100%);
+  --footer-link: #E6E6E682;
 }
 
 .gradient-border {
