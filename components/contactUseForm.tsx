@@ -17,7 +17,7 @@ const ContactUsForm = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+            className="w-full px-4 py-3 bg-[var(--text-field-background)] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
             placeholder="Your Name"
           />
         </div>
@@ -26,7 +26,7 @@ const ContactUsForm = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+            className="w-full px-4 py-3 bg-[var(--text-field-background)] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
             placeholder="your.email@example.com"
           />
         </div>
@@ -36,7 +36,7 @@ const ContactUsForm = () => {
             type="text"
             id="subject"
             name="subject"
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+            className="w-full px-4 py-3 bg-[var(--text-field-background)] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
             placeholder="Subject"
           />
         </div>
@@ -46,7 +46,7 @@ const ContactUsForm = () => {
             id="message"
             name="message"
             rows={5}
-            className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
+            className="w-full px-4 py-3 bg-[var(--text-field-background)] border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-vertical"
             placeholder="Your Message"
           ></textarea>
         </div>
