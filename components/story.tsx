@@ -13,7 +13,7 @@ const Story = () => {
           <p className="text-7xl font-medium">
             Our <span className="font-kaushan">Story</span>
           </p>
-          <p className="text-[22px] text-gray-600">
+          <p className="text-[22px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
             justo nec ultrices dui sapien eget mi proin sed. Eu lobortis
