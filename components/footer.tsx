@@ -19,27 +19,27 @@ const Footer = () => {
           <div className="flex gap-3">
             <a
               href="#"
-              className="w-8 h-8 rounded bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition-colors"
+              className="w-8 h-8 rounded flex items-center justify-center hover:bg-gray-300 transition-colors"
             >
-              <Facebook size={16} />
+              <Facebook size={20} />
             </a>
             <a
               href="#"
-              className="w-8 h-8 rounded bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition-colors"
+              className="w-8 h-8 rounded flex items-center justify-center hover:bg-gray-300 transition-colors"
             >
-              <Instagram size={16} />
+              <Instagram size={20} />
             </a>
             <a
               href="#"
-              className="w-8 h-8 rounded bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition-colors"
+              className="w-8 h-8 rounded flex items-center justify-center hover:bg-gray-300 transition-colors"
             >
-              <Twitter size={16} />
+              <Twitter size={20} />
             </a>
             <a
               href="#"
-              className="w-8 h-8 rounded bg-gray-200 flex items-center justify-center hover:bg-gray-300 transition-colors"
+              className="w-8 h-8 rounded flex items-center justify-center hover:bg-gray-300 transition-colors"
             >
-              <Linkedin size={16} />
+              <Linkedin size={20} />
             </a>
           </div>
         </div>
