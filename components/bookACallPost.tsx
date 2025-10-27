@@ -3,7 +3,10 @@ import React from 'react'
 
 const BookACallPost = () => {
   return (
-    <div className="flex flex-col gap-7 p-7 rounded-3xl items-center max-w-4xl text-center bg-gray-100">
+    <div
+      className="flex flex-col gap-7 p-7 rounded-3xl items-center max-w-4xl text-center"
+      style={{ background: "var(--post-bg)" }}
+    >
       <h1 className="font-medium text-7xl">
         Let’s Turn Your
         <br />
