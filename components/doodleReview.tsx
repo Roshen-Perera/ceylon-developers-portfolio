@@ -22,7 +22,7 @@ const DoodleReview = () => {
         <span className="text-yellow-400 text-[22px]">★</span>
         <span className="text-yellow-400 text-[22px]">★</span>
         <span className="text-yellow-400 text-[22px]">★</span>
-        <span className="text-[22px] text-gray-700 ml-2">4.8/5</span>
+        <span className="text-[22px] ml-2">4.8/5</span>
       </div>
       <button className="bg-[#17CDCA] text-black text-[22px] font-medium rounded-md hover:bg-cyan-500 transition-colors px-6 py-2 h-fit">
         Get Started Free
