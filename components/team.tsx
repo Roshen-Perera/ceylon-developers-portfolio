@@ -50,10 +50,7 @@ const Team = () => {
       </h1>
       <div className="grid grid-cols-3 items-center justify-center gap-10">
         {teamMembers.map((member) => (
-          <div
-            key={member.id}
-            className="rounded-2xl overflow-hidden max-w-xs"
-          >
+          <div key={member.id} className="rounded-2xl overflow-hidden max-w-xs">
             {/* Image */}
             <div className="w-full h-64 overflow-hidden bg-[var(--team-card-bg)] p-3">
               <Image
@@ -66,7 +63,7 @@ const Team = () => {
             </div>
 
             {/* Content */}
-            <div className="bg-[#F7F7F7] p-3">
+            <div className="bg-[var(--team-card-bg)] p-3">
               <div className="flex items-start justify-between p-5 gap-3 bg-white rounded-2xl">
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">
