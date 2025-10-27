@@ -10,7 +10,7 @@ const Motto = () => {
             <button className="px-6 py-2 text-[22px] bg-[image:var(--mission-button)] rounded-md">
               Our Mission
             </button>
-            <button className="px-6 py-2 text-[22px] bg-[#CAFBFA] rounded-md">
+            <button className="px-6 py-2 text-[22px] bg-[image:var(--non-active-button)] rounded-md">
               Our Vision
             </button>
             <button className="px-6 py-2 text-[22px] bg-[#CAFBFA] rounded-md">
@@ -31,7 +31,13 @@ const Motto = () => {
           </p>
         </div>
         <div className="flex flex-col gap-6 flex-1">
-          <Image src="/assets/images/motto.png" alt="motto" width={600} height={400} className="rounded-lg"/>
+          <Image
+            src="/assets/images/motto.png"
+            alt="motto"
+            width={600}
+            height={400}
+            className="rounded-lg"
+          />
         </div>
       </div>
     </div>
