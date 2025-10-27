@@ -64,7 +64,7 @@ const Team = () => {
 
             {/* Content */}
             <div className="bg-[var(--team-card-bg)] p-3">
-              <div className="flex items-start justify-between p-5 gap-3 bg-white rounded-2xl">
+              <div className="flex items-start justify-between p-5 gap-3 bg-[var(--team-nested-card-bg)] rounded-2xl">
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">
                     {member.name}
