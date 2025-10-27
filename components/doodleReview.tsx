@@ -6,7 +6,7 @@ const DoodleReview = () => {
       className="flex flex-col items-center gap-8 p-12 rounded-[24px] max-w-lg"
       style={{ boxShadow: "0px 0px 15px 5px #17CDCA78 inset" }}
     >
-      <p className="text-[30px] text-gray-700 mb-2">Reviewed on:</p>
+      <p className="text-[30px] mb-2">Reviewed on:</p>
 
       <div className="text-5xl font-bold mb-3">
         <span className="text-blue-500">D</span>
