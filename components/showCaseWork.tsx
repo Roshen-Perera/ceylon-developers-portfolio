@@ -51,7 +51,7 @@ const ShowCaseWork = () => {
               className={`px-6 py-2.5 rounded-lg font-bold text-[22px] transition-all ${
                 activeTab === tab
                   ? "bg-[#17CDCA] text-black"
-                  : "bg-[#F7F7F7] text-black hover:bg-gray-200"
+                  : "bg-[var(--nav-btn-portfolio)] hover:bg-gray-200"
               }`}
             >
               {tab}
