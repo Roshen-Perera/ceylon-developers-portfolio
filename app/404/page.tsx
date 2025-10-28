@@ -10,7 +10,9 @@ const Page = () => {
     <div className="flex flex-col items-center justify-center">
       <BlueGlow />
       <NavBar />
-      <NotFoundIMG/>
+      <div className="mt-20">
+        <NotFoundIMG />
+      </div>
       <div className="text-lg mt-10 max-w-2xl flex items-center mx-auto px-4">
         <p className="text-[22px] text-center">
           We’re sorry. the page you requested could no be found Please go back
