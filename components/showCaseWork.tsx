@@ -99,7 +99,7 @@ const ShowCaseWork = () => {
                   {work.technologies.map((tech, idx) => (
                     <div
                       key={idx}
-                      className="px-4 py-1.5 rounded-full bg-[#F7F7F7] flex items-center gap-2"
+                      className="px-4 py-1.5 rounded-full bg-[var(--worked-tech-bg)] border-white border-1 flex items-center gap-2"
                     >
                       <span className="w-4 h-4 bg-purple-500 rounded"></span>
                       <span className="text-[20px]">{tech}</span>
