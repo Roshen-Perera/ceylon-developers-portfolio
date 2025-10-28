@@ -88,7 +88,7 @@ const HiringProcess = () => {
                       {/* Right Side Content */}
                       <div className="w-1/2 pl-8">
                         {step.position === "right" && (
-                          <div className="bg-white shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] p-6">
+                          <div className="shadow-[var(--hiring-process-card-shadow)] rounded-[12px] p-6">
                             <div className="flex items-center gap-3 flex-col">
                               <div>
                                 <Image
