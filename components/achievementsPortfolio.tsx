@@ -60,7 +60,7 @@ const AchievementsPortfolio = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center w-[432px] h-[281px] bg-[#F7F7F7] rounded-[46px]"
+            className="flex flex-col justify-center items-center w-[432px] h-[281px] bg-[var(--worked-tech-bg)] border-1 rounded-[46px]"
           >
             <div className="flex flex-col w-[372px] gap-6 ">
               <div className="flex flex-row items-center justify-between">
