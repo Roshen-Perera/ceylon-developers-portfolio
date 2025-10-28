@@ -32,8 +32,8 @@ const StoryContainerIMG = () => {
             : "/assets/images/storyContainer.png"
         }
         alt={"today's activity dashboard"}
-        width={513}
-        height={371}
+        width={454.99951171875}
+        height={341.2510070800781}
         style={{ opacity: 1 }}
       />
     </div>
