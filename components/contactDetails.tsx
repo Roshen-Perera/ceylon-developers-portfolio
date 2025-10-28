@@ -6,7 +6,7 @@ const ContactDetails = () => {
     <div className="flex flex-row items-center justify-center mt-12">
       <div className="flex flex-row gap-40">
         <div className="flex flex-col items-center gap-4">
-          <div className="p-4 bg-[image:var(--contact-icons-bg)] rounded-4xl">
+          <div className="p-4 bg-[image:var(--contact-icons-bg)] bg-[var(--contact-icons-bg)] rounded-4xl">
             <Mail size={20} />
           </div>
           <div className="text-center">
@@ -16,7 +16,7 @@ const ContactDetails = () => {
           </div>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <div className="p-4 bg-[image:var(--contact-icons-bg)] rounded-4xl">
+          <div className="p-4 bg-[image:var(--contact-icons-bg)] bg-[var(--contact-icons-bg)] rounded-4xl">
             <Phone size={20} />
           </div>
           <div className="text-center">
@@ -26,7 +26,7 @@ const ContactDetails = () => {
           </div>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <div className="p-4 bg-[image:var(--contact-icons-bg)] rounded-4xl">
+          <div className="p-4 bg-[image:var(--contact-icons-bg)] bg-[var(--contact-icons-bg)] rounded-4xl">
             <Building2 size={20} />
           </div>
           <div className="text-center">
