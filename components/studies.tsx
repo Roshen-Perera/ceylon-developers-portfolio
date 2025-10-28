@@ -26,7 +26,7 @@ const Studies = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
         {studies.map((study, index) => (
-      <div key={index} className="grid grid-cols-2 px-8 py-8 rounded-[24px] mb-5 shadow-[0px_2px_4px_0px_#00000040] items-center">
+      <div key={index} className="grid grid-cols-2 px-8 py-8 rounded-[24px] mb-5 shadow-[0px_2px_4px_0px_#00000040] border items-center">
         <div className="w-sm">
           <div className="flex flex-col mr-10">
             <div className="flex flex-row justify-between ">
