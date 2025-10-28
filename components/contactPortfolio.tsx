@@ -14,7 +14,7 @@ const ContactPortfolio = () => {
               type="text"
               id="name"
               name="name"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
               placeholder="Name"
             />
           </div>
@@ -23,7 +23,7 @@ const ContactPortfolio = () => {
               type="number"
               id="number"
               name="number"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
               placeholder="Phone Number"
             />
           </div>
@@ -32,7 +32,7 @@ const ContactPortfolio = () => {
               type="timeline"
               id="timeline"
               name="timeline"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
               placeholder="Timeline"
             />
           </div>
@@ -43,12 +43,12 @@ const ContactPortfolio = () => {
               type="email"
               id="email"
               name="email"
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
               placeholder="your.email@example.com"
             />
           </div>
           <div>
-            <select className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black">
+            <select className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black">
               <option>Service of Interest</option>
               <option>Web Development</option>
               <option>Mobile App</option>
@@ -60,7 +60,7 @@ const ContactPortfolio = () => {
               id="message"
               name="message"
               rows={5}
-              className="w-[491px] px-4 py-3 bg-[#F7F7F7] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
               placeholder="Project Details"
             ></textarea>
           </div>
