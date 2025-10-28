@@ -96,6 +96,7 @@
   --member-card-bg: #F7F7F7;
   --member-card-role: #585858;
   --nav-btn-portfolio: #F7F7F7;
+  --work-bg: #FFFFFF;
 }
 
 .dark {
@@ -156,6 +157,7 @@
   --member-card-bg: #FFFFFF0D;
   --member-card-role: #FFFFFF;
   --nav-btn-portfolio: #FFFFFF14;
+  --work-bg: #68686833;
 }
 
 .gradient-border {
