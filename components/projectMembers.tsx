@@ -14,7 +14,7 @@ const ProjectMembers = () => {
             height={352}
           />
           <h5 className="text-[30px] font-bold mt-3">Michael R</h5>
-          <p className="text-[22px]">Software Developer</p>
+          <p className="text-[22px] text-[var(--member-card-role)]">Software Developer</p>
         </div>
         <div className="flex flex-col items-center bg-[var(--member-card-bg)] p-5 rounded-2xl">
           <Image
@@ -24,7 +24,7 @@ const ProjectMembers = () => {
             height={352}
           />
           <h5 className="text-[30px] font-bold mt-3">Michael R</h5>
-          <p className="text-[22px]">Software Developer</p>
+          <p className="text-[22px] text-[var(--member-card-role)]">Software Developer</p>
         </div>
         <div className="flex flex-col items-center bg-[var(--member-card-bg)] p-5 rounded-2xl">
           <Image
@@ -34,7 +34,7 @@ const ProjectMembers = () => {
             height={352}
           />
           <h5 className="text-[30px] font-bold mt-3">Michael R</h5>
-          <p className="text-[22px]">Software Developer</p>
+          <p className="text-[22px] text-[var(--member-card-role)]">Software Developer</p>
         </div>
       </div>
     </div>
