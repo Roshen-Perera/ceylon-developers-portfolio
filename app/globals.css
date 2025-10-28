@@ -146,6 +146,7 @@
   --contact-form-bg: radial-gradient(118.37% 118.62% at -13.75% 5.84%, #262626 0%, #000000 98.99%);
   --contact-form-gradient: linear-gradient(180deg, #000000 -25.8%, #666666 21.43%);
   --contact-form-slice: 1;
+  --contact-icons-bg: radial-gradient(68.03% 69.39% at 18.33% 15.83%, #262626 47.49%, #141414 100%);
 }
 
 .gradient-border {
