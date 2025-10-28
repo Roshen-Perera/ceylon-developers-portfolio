@@ -26,14 +26,10 @@ const MottoIMG = () => {
   return (
     <div>
       <Image
-        src={
-          isDark
-            ? "/assets/images/Card.png"
-            : "/assets/images/motto.png"
-        }
+        src={isDark ? "/assets/images/Card.png" : "/assets/images/motto.png"}
         alt={"today's activity dashboard"}
-        width={686}
-        height={487}
+        width={435.00439453125}
+        height={354}
         style={{ opacity: 1 }}
       />
     </div>
