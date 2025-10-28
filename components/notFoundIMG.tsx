@@ -24,14 +24,10 @@ const NotFoundIMG = () => {
   return (
     <div>
       <Image
-        src={
-          isDark
-            ? "/assets/images/4042.png"
-            : "/assets/images/404.png"
-        }
-        alt={"today's activity dashboard"}
-        width={686}
-        height={487}
+        src={isDark ? "/assets/images/4042.png" : "/assets/images/404.png"}
+        alt="404"
+        width={696.3260498046875}
+        height={266.9766845703125}
         style={{ opacity: 1 }}
       />
     </div>
