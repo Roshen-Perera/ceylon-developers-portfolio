@@ -14,7 +14,7 @@ const ContactPortfolio = () => {
               type="text"
               id="name"
               name="name"
-              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]"
               placeholder="Name"
             />
           </div>
@@ -23,7 +23,7 @@ const ContactPortfolio = () => {
               type="number"
               id="number"
               name="number"
-              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]"
               placeholder="Phone Number"
             />
           </div>
@@ -32,7 +32,7 @@ const ContactPortfolio = () => {
               type="timeline"
               id="timeline"
               name="timeline"
-              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]"
               placeholder="Timeline"
             />
           </div>
@@ -43,12 +43,12 @@ const ContactPortfolio = () => {
               type="email"
               id="email"
               name="email"
-              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]"
               placeholder="your.email@example.com"
             />
           </div>
           <div>
-            <select className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black">
+            <select className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]">
               <option>Service of Interest</option>
               <option>Web Development</option>
               <option>Mobile App</option>
@@ -60,7 +60,7 @@ const ContactPortfolio = () => {
               id="message"
               name="message"
               rows={5}
-              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-black rounded-[8px] placeholder-black"
+              className="w-[491px] px-4 py-3 bg-[var(--text-field-background)] text-[var(--foreground)] rounded-[8px] placeholder-[var(--foreground)]"
               placeholder="Project Details"
             ></textarea>
           </div>
@@ -69,7 +69,7 @@ const ContactPortfolio = () => {
       <div className="mt-6">
         <button
           type="button"
-          className="w-full py-3 px-4 rounded-lg text-black text-[22px] bg-[#17CDCA] hover:bg-[#15baba] transition-colors"
+          className="w-full py-3 px-4 rounded-lg text-[var(--foreground)] text-[22px] bg-[#17CDCA] hover:bg-[#15baba] transition-colors"
         >
           Submit
         </button>
