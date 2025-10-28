@@ -148,8 +148,6 @@
   --contact-form-gradient: linear-gradient(180deg, #000000 -25.8%, #666666 21.43%);
   --contact-form-slice: 1;
   --contact-icons-bg: radial-gradient(68.03% 69.39% at 18.33% 15.83%, #262626 47.49%, #141414 100%);
-  --hiring-process-card-border: linear-gradient(180deg, rgba(23, 205, 202, 0.19) 25.96%, rgba(23, 205, 202, 0.1634) 100%);
-  --hiring-process-card-border-slice: 1;
 }
 
 .gradient-border {

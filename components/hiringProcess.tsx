@@ -59,8 +59,7 @@ const HiringProcess = () => {
                       {/* Left Side Content */}
                       <div className="w-1/2 pr-8">
                         {step.position === "left" && (
-                          <div className="shadow-[0px_0px_10px_rgba(0,0,0,0.1)] rounded-[12px] border [border-image:var(--hiring-process-card-border)_var(--hiring-process-card-border-slice)] p-6">
-                            {" "}
+                          <div className=" rounded-[12px] p-6">
                             <div className="flex items-center gap-3 mb-3 flex-col">
                               <div>
                                 <Image
