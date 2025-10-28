@@ -82,7 +82,7 @@ const ShowCaseWork = () => {
                   {work.workedOn.map((item, idx) => (
                     <span
                       key={idx}
-                      className="px-4 py-1.5 bg-[#F7F7F7] text-[#17CDCA] rounded-full text-[22px]"
+                      className="px-4 py-1.5 bg-[var(--worked-on-bg)] text-[#17CDCA] rounded-full text-[22px]"
                     >
                       {item}
                     </span>
