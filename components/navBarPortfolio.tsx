@@ -12,7 +12,7 @@ const NavBarPortfolio = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
           </div>
-          <div className="flex space-x-6 text-lg">
+          <div className="flex space-x-6 text-[18px]">
             <a href="#" className="hover:underline transition-all duration-200">
               About
             </a>
