@@ -111,7 +111,7 @@ const ShowCaseWork = () => {
               {/* Go to Behance Link */}
               <a
                 href={work.behanceLink}
-                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--worked-tech-bg)]"
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--worked-tech-bg)] border-white border-1 text-[22px] "
               >
                 <svg
                   width="16"
