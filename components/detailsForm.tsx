@@ -2,7 +2,7 @@ import React from 'react'
 
 const DetailsForm = () => {
   return (
-    <div className="bg-[image:var(--contact-form-bg)] p-8 rounded-lg w-4xl shadow-[0px_0px_10px_0px_rgba(0,0,0,0.25)]">
+    <div className="bg-[image:var(--contact-form-bg)] p-8 rounded-lg w-4xl shadow-[0px_0px_10px_0px_rgba(0,0,0,0.25)] border [border-image:var(--contact-form-border)_var(--contact-form-slice)]">
       <form className="space-y-6 ml-10">
         {/* Name and Email Row */}
         <div className="grid grid-cols-2 gap-4">
