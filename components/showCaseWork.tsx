@@ -61,7 +61,7 @@ const ShowCaseWork = () => {
         {works.map((work, index) => (
           <div
             key={index}
-            className=" flex gap-8 mt-12 items-center border border-gray-300 rounded-[35px] px-10 py-6"
+            className=" flex gap-8 mt-12 items-center  bg-[var(--work-bg)] border border-gray-300 rounded-[35px] px-10 py-6"
           >
             {/* Left Side - Image */}
             <Image
