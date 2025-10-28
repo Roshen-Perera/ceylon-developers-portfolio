@@ -3,7 +3,6 @@ import BookACallPost from "@/components/bookACallPost";
 import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
 import NotFoundIMG from "@/components/notFoundIMG";
-import Image from "next/image";
 import React from "react";
 
 const Page = () => {
