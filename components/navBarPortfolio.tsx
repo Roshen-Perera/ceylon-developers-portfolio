@@ -5,7 +5,7 @@ const NavBarPortfolio = () => {
   return (
     <div className="flex items-center justify-center w-full p-8 relative z-30">
       <div>
-        <div className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 text-black bg-white shadow-lg left-1/2 transform -translate-x-1/2">
+        <div className="flex flex-row fixed justify-between w-[1140px] h-16 items-center rounded-full px-6 bg-[var(--navbar-background)] border shadow-lg left-1/2 transform -translate-x-1/2">
           <div className="flex items-center">
             <div>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
