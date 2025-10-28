@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image';
 
 const NotFoundIMG = () => {
   const [isDark, setIsDark] = useState(false);
