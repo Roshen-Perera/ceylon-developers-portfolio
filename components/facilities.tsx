@@ -87,6 +87,19 @@ const Facilities = () => {
             </div>
           </div>
           <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+            <Image
+              src={"/assets/vectors/pixels.png"}
+              alt={""}
+              width={500}
+              height={200}
+              className="relative -top-40 -z-1"
+              style={{
+                maskImage:
+                  "linear-gradient(to bottom, black 0%, black 70%, transparent 100%)",
+                WebkitMaskImage:
+                  "linear-gradient(to bottom, black 0%, black 70%, transparent 100%)",
+              }}
+            />
             <div className="p-4">
               <div className="flex flex-col gap-3">
                 <h1 className="text-[30px]">Projects</h1>
