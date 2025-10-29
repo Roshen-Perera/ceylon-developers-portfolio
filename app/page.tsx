@@ -1,4 +1,4 @@
-
+"use client";
 import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
 import Contact from "@/components/contact";
@@ -7,6 +7,7 @@ import FAQAccordion from "@/components/faqAccordian";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/heroSection";
 import MeshVector from "@/components/meshVector";
+import Meshvectorlight from "@/components/meshvectorlight";
 import NavBar from "@/components/navBar";
 import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
@@ -14,11 +15,34 @@ import Services from "@/components/services";
 import TechStack from "@/components/techStack";
 import WeDoSection from "@/components/weDoSection";
 import Why from "@/components/why";
+import { useEffect, useState } from "react";
 export default function Home() {
+    const [isDark, setIsDark] = useState(false);
+  
+    useEffect(() => {
+      // Check if 'dark' class exists on html or body element
+      const checkDarkMode = () => {
+        setIsDark(document.documentElement.classList.contains("dark"));
+      };
+  
+      checkDarkMode();
+  
+      // Optional: Listen for theme changes
+      const observer = new MutationObserver(checkDarkMode); // Observe changes to the class attribute
+      observer.observe(document.documentElement, {
+        attributes: true, // Listen for attribute changes
+        attributeFilter: ["class"], // Only listen for changes to the 'class' attribute
+      });
+  
+      return () => observer.disconnect(); // Cleanup on unmount
+    }, []);
   return (
     <>
       <div className="flex flex-col items-center justify-center">
         <BlueGlow />
+        {
+          isDark ? <Meshvectorlight /> : <MeshVector /> 
+        }
         <MeshVector />
         <NavBar />
         <HeroSection/>
