@@ -21,7 +21,7 @@ const WeDoSection = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
           </p>
-          <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+          <div className="flex flex-row gap-2 items-center text-[#17CDCA] text-[22px]">
             <p>Get Started</p>
             <MoveRight />
           </div>
@@ -32,7 +32,7 @@ const WeDoSection = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
           </p>
-          <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+          <div className="flex flex-row gap-2 items-center text-[#17CDCA] text-[22px]">
             <p>Get Started</p>
             <MoveRight />
           </div>
@@ -43,7 +43,7 @@ const WeDoSection = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
           </p>
-          <div className="flex flex-row gap-2 text-[#17CDCA] text-[22px]">
+          <div className="flex flex-row gap-2 items-center text-[#17CDCA] text-[22px]">
             <p>Get Started</p>
             <MoveRight />
           </div>
