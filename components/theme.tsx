@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react"; // optional icons from lucide-react
+import { Moon, Sun } from "lucide-react";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -13,13 +13,25 @@ export default function ThemeToggle() {
       setTheme(saved);
       document.documentElement.classList.toggle("dark", saved === "dark");
     } else {
-      // Match system preference by default
       const prefersDark = window.matchMedia(
         "(prefers-color-scheme: dark)"
       ).matches;
       document.documentElement.classList.toggle("dark", prefersDark);
       setTheme(prefersDark ? "dark" : "light");
     }
+
+    // Listen for theme changes from other instances
+    const handleThemeChange = (e: CustomEvent<"light" | "dark">) => {
+      setTheme(e.detail);
+    };
+
+    window.addEventListener("themeChange", handleThemeChange as EventListener);
+    return () => {
+      window.removeEventListener(
+        "themeChange",
+        handleThemeChange as EventListener
+      );
+    };
   }, []);
 
   const toggleTheme = () => {
@@ -27,6 +39,9 @@ export default function ThemeToggle() {
     setTheme(next);
     localStorage.setItem("theme", next);
     document.documentElement.classList.toggle("dark", next === "dark");
+
+    // Notify other instances
+    window.dispatchEvent(new CustomEvent("themeChange", { detail: next }));
   };
 
   return (
