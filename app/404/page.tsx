@@ -1,7 +1,6 @@
 import BlueGlow from "@/components/blueGlow";
 import BookACallPost from "@/components/bookACallPost";
 import Footer from "@/components/footer";
-import Gauze from "@/components/gauze";
 import NavBar from "@/components/navBar";
 import NotFoundIMG from "@/components/notFoundIMG";
 import React from "react";
@@ -10,7 +9,6 @@ const Page = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <BlueGlow />
-      <Gauze/>
       <NavBar />
       <div className="mt-20">
         <NotFoundIMG />
