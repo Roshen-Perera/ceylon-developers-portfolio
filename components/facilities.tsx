@@ -2,6 +2,7 @@ import React from 'react'
 import DotVector from './dotVector';
 import AnalyticsVector from './analyticsVector';
 import Image from 'next/image';
+import CodeIcon from './codeIcon';
 
 const Facilities = () => {
   return (
@@ -87,36 +88,25 @@ const Facilities = () => {
             </div>
           </div>
           <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
-            <Image
-              src={"/assets/vectors/pixels2.png"}
-              alt={""}
-              width={500}
-              height={200}
-              className="relative -top-40 z-1"
-              style={{
-                maskImage:
-                  "linear-gradient(to bottom, black 0%, black 70%, transparent 100%)",
-                WebkitMaskImage:
-                  "linear-gradient(to bottom, black 0%, black 70%, transparent 100%)",
-              }}
-            />
-            <div className="p-4">
-              <div className="flex flex-col gap-3">
-                <h1 className="text-[30px]">Projects</h1>
-                <p className="text-[22px] text-[#585858] relative z-1">
-                  Easily organize tasks, set deadlines, and track progress in
-                  real-time with Ease.
-                </p>
+            <div className="relative top-1.5">
+              <Image
+                src={"/assets/vectors/maskGroup.png"}
+                alt={""}
+                width={500}
+                height={200}
+                className="rotate-180 overflow-hidden"
+              />
+              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                <CodeIcon />
               </div>
-              <DotVector />
             </div>
-            <Image
-              src={"/assets/vectors/maskGroup.png"}
-              alt={""}
-              width={500}
-              height={200}
-              className="relative bottom-45 z-1"
-            />
+            <div className="flex flex-col gap-3 px-5 mt-3">
+              <h1 className="text-[30px]">Projects</h1>
+              <p className="text-[22px] text-[#585858] relative z-1">
+                Easily organize tasks, set deadlines, and track progress in
+                real-time with Ease.
+              </p>
+            </div>
           </div>
         </div>
       </div>
