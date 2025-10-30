@@ -83,7 +83,7 @@
   --text-field-background: #F6F6F6;
   --wedo-bg: #FFFFFF;
   --wedo-text: #585858;
-  --facilities-text: #B0B0B0;
+  --facilities-text: #585858;
   --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.37) 100%);
   --footer-link: #585858;
   --mission-button: #17CDCA;
@@ -146,7 +146,7 @@
   --faq-card-background: linear-gradient(180deg, #00110A 0%, rgba(0, 0, 0, 0.5) 100%);
   --text-field-background: #FFFFFF1A;
   --wedo-bg: linear-gradient(186.47deg, rgba(255, 253, 253, 0.4) -20.85%, rgba(255, 253, 253, 0.2) -20.83%, rgba(255, 255, 255, 0) 116.4%);
-  --facilities-text: #585858;
+  --facilities-text: #B0B0B0;
   --wedo-text: #FFFFFF;
   --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(0, 0, 0, 0.35) 100%);
   --footer-link: #E6E6E682;
