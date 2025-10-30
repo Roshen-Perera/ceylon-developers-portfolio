@@ -42,7 +42,7 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <h1 className="text-[30px]">Projects</h1>
-                <p className="text-[22px] text-[#585858] relative z-1">
+                <p className="text-[22px] text-[var(--facilities-text)] relative z-1">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </p>
@@ -64,7 +64,7 @@ const Facilities = () => {
               </div>
               <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
                 <h1 className="text-[30px]">Analytics & Reporting</h1>
-                <p className="text-[22px] w-[515px] text-[#585858]">
+                <p className="text-[22px] w-[515px] text-[var(--facilities-text)]">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
                   improvement.
@@ -79,7 +79,7 @@ const Facilities = () => {
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
                   <h1 className="text-[30px]">Your Workflow</h1>
-                  <p className="text-[22px] w-[605px] text-[#585858] relative z-1">
+                  <p className="text-[22px] w-[605px] text-[var(--facilities-text)] relative z-1">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
                     eliminate errors.
@@ -106,7 +106,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
               <h1 className="text-[30px]">Projects</h1>
-              <p className="text-[22px] text-[#585858] relative z-1">
+              <p className="text-[22px] text-[var(--facilities-text)] relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
               </p>
