@@ -1,27 +1,27 @@
-"use client"
+"use client";
 
 import React, { useEffect, useState } from "react";
 
 const WorkFlowLight = () => {
-      const [isDark, setIsDark] = useState(false);
-      
-        useEffect(() => {
-          // Check if 'dark' class exists on html or body element
-          const checkDarkMode = () => {
-            setIsDark(document.documentElement.classList.contains("dark"));
-          };
-      
-          checkDarkMode();
-      
-          // Optional: Listen for theme changes
-          const observer = new MutationObserver(checkDarkMode); // Observe changes to the class attribute
-          observer.observe(document.documentElement, {
-            attributes: true, // Listen for attribute changes
-            attributeFilter: ["class"], // Only listen for changes to the 'class' attribute
-          });
-      
-          return () => observer.disconnect(); // Cleanup on unmount
-        }, []);
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    // Check if 'dark' class exists on html or body element
+    const checkDarkMode = () => {
+      setIsDark(document.documentElement.classList.contains("dark"));
+    };
+
+    checkDarkMode();
+
+    // Optional: Listen for theme changes
+    const observer = new MutationObserver(checkDarkMode); // Observe changes to the class attribute
+    observer.observe(document.documentElement, {
+      attributes: true, // Listen for attribute changes
+      attributeFilter: ["class"], // Only listen for changes to the 'class' attribute
+    });
+
+    return () => observer.disconnect(); // Cleanup on unmount
+  }, []);
   return (
     <>
       {isDark ? (
@@ -224,11 +224,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop offset="0.211644" stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.793465"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.793465" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="0.948992" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -239,16 +235,8 @@ const WorkFlowLight = () => {
                 y2="142.35"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0784195"
-                  stopColor="#17CDCA"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="0.346418"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.0784195" stopColor="#17CDCA" stopOpacity="0" />
+                <stop offset="0.346418" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="0.803009" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -260,11 +248,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop offset="0.106617" stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.591986"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.591986" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -292,11 +276,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.783349"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.783349" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
