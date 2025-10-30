@@ -1,6 +1,5 @@
 import React from 'react'
 import MeshVector2 from './meshVector2';
-import Image from 'next/image';
 import { Check } from 'lucide-react';
 import TodaysWorkIMG from './todaysWorkIMG';
 
