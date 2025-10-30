@@ -1,8 +1,9 @@
-import React from 'react'
-import DotVector from './dotVector';
-import AnalyticsVector from './analyticsVector';
-import Image from 'next/image';
-import CodeIcon from './codeIcon';
+import React from "react";
+import DotVector from "./dotVector";
+import AnalyticsVector from "./analyticsVector";
+import Image from "next/image";
+import CodeIcon from "./codeIcon";
+import WorkFlowLight from "./workFlowLight";
 
 const Facilities = () => {
   return (
@@ -74,7 +75,7 @@ const Facilities = () => {
         </div>
         <div className="flex flex-row gap-10">
           <div className="w-[786px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
-            <div className="flex ">
+            <div className="flex flex-col">
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
                   <h1 className="text-[30px]">Your Workflow</h1>
@@ -84,6 +85,9 @@ const Facilities = () => {
                     eliminate errors.
                   </p>
                 </div>
+              </div>
+              <div className="relative bottom-8 left-40">
+                <WorkFlowLight />
               </div>
             </div>
           </div>
@@ -112,6 +116,6 @@ const Facilities = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Facilities
+export default Facilities;
