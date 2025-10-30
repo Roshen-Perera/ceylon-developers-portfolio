@@ -88,11 +88,11 @@ const Facilities = () => {
           </div>
           <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
             <Image
-              src={"/assets/vectors/pixels.png"}
+              src={"/assets/vectors/pixels2.png"}
               alt={""}
               width={500}
               height={200}
-              className="relative -top-40 -z-1"
+              className="relative -top-40 z-1"
               style={{
                 maskImage:
                   "linear-gradient(to bottom, black 0%, black 70%, transparent 100%)",
