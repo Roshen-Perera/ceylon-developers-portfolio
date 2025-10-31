@@ -3,6 +3,7 @@ import BookACallPost from "@/components/bookACallPost";
 import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
 import NotFoundIMG from "@/components/notFoundIMG";
+import { Link } from "lucide-react";
 import React from "react";
 
 const Page = () => {
@@ -20,9 +21,12 @@ const Page = () => {
         </p>
       </div>
       <div className="mt-8 flex max-w-4xl gap-10 justify-center items-center">
-        <button className="text-[22px] p-3 text-lg bg-[#17CDCA] rounded-2xl">
+        <Link
+          href="/"
+          className="text-[22px] p-3 bg-[#17CDCA] rounded-2xl inline-block"
+        >
           Back to Home
-        </button>
+        </Link>
       </div>
       <div className="mt-20 mb-12">
         <BookACallPost />
