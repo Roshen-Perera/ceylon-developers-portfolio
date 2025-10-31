@@ -47,7 +47,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-xl bg-muted hover:bg-accent transition-colors"
+      className="rounded-xl hover:bg-accent transition-colors"
       title="Toggle theme"
     >
       {theme === "dark" ? (
