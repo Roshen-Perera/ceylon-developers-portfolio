@@ -34,10 +34,10 @@ const NavBar = () => {
             >
               Case Studies
             </a>
-            <a href="#" className="hover:underline transition-all duration-200">
+            <a href="/contact" className="hover:underline transition-all duration-200">
               Contact
             </a>
-            <a href="#" className="hover:underline transition-all duration-200">
+            <a href="/services" className="hover:underline transition-all duration-200">
               Services
             </a>
             <a
