@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ThemeToggle from "./theme";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -22,30 +23,36 @@ const NavBar = () => {
 
           {/* Menu Links */}
           <div className="flex space-x-6 text-lg">
-            <a
-              href="/about"
+            <Link
+              href="/company"
               className="hover:underline transition-all duration-200"
             >
               Company
-            </a>
-            <a
+            </Link>
+            <Link
               href="/case"
               className="hover:underline transition-all duration-200"
             >
               Case Studies
-            </a>
-            <a href="/contact" className="hover:underline transition-all duration-200">
+            </Link>
+            <Link
+              href="/contact"
+              className="hover:underline transition-all duration-200"
+            >
               Contact
-            </a>
-            <a href="/services" className="hover:underline transition-all duration-200">
+            </Link>
+            <Link
+              href="/services"
+              className="hover:underline transition-all duration-200"
+            >
               Services
-            </a>
-            <a
+            </Link>
+            <Link
               href="/careers"
               className="hover:underline transition-all duration-200"
             >
               Careers
-            </a>
+            </Link>
           </div>
 
           <div className="flex items-center">
