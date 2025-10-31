@@ -84,7 +84,7 @@
   --wedo-bg: #FFFFFF;
   --wedo-text: #585858;
   --facilities-text: #585858;
-  --post-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.37) 100%);
+  --post-bg: red;
   --footer-link: #585858;
   --mission-button: #17CDCA;
   --non-active-button: #CAFBFA;
