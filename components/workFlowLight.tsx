@@ -310,7 +310,7 @@ const WorkFlowLight = () => {
               height="48.7042"
               rx="9.91066"
               fill="black"
-              fill-opacity="0.25"
+              fillOpacity="0.25"
             />
             <rect
               x="0.404649"
@@ -332,7 +332,7 @@ const WorkFlowLight = () => {
               height="48.7042"
               rx="9.91066"
               fill="black"
-              fill-opacity="0.25"
+              fillOpacity="0.25"
             />
             <rect
               x="134.405"
@@ -354,7 +354,7 @@ const WorkFlowLight = () => {
               height="48.7042"
               rx="9.91066"
               fill="black"
-              fill-opacity="0.25"
+              fillOpacity="0.25"
             />
             <rect
               x="299.547"
@@ -376,7 +376,7 @@ const WorkFlowLight = () => {
               height="48.7042"
               rx="9.91066"
               fill="black"
-              fill-opacity="0.25"
+              fillOpacity="0.25"
             />
             <rect
               x="396.405"
