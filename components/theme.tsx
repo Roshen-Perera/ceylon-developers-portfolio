@@ -44,17 +44,35 @@ export default function ThemeToggle() {
     window.dispatchEvent(new CustomEvent("themeChange", { detail: next }));
   };
 
+  const isChecked = theme === "dark";
+
   return (
-    <button
-      onClick={toggleTheme}
-      className="rounded-xl hover:bg-accent transition-colors"
-      title="Toggle theme"
-    >
-      {theme === "dark" ? (
-        <Sun className="w-10 h-10 text-foreground" />
-      ) : (
-        <Moon className="w-10 h-10 text-foreground" />
-      )}
-    </button>
+    <>
+      <label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
+        <input
+          type="checkbox"
+          checked={isChecked}
+          onChange={toggleTheme}
+          className="sr-only"
+        />
+        <span className="label flex items-center text-sm font-medium text-black dark:text-white">
+          Light
+        </span>
+        <span
+          className={`slider mx-4 flex h-8 w-[60px] items-center rounded-full p-1 duration-200 ${
+            isChecked ? "bg-[#212b36]" : "bg-[#CCCCCE]"
+          }`}
+        >
+          <span
+            className={`dot h-6 w-6 rounded-full bg-white duration-200 ${
+              isChecked ? "translate-x-[28px]" : ""
+            }`}
+          ></span>
+        </span>
+        <span className="label flex items-center text-sm font-medium text-black dark:text-white">
+          Dark
+        </span>
+      </label>
+    </>
   );
 }
