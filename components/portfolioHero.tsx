@@ -51,7 +51,7 @@ const PortfolioHero = () => {
             </svg>
 
             <p className="text-[22px] mt-4">
-              Jenny's Exceptional UI design ensure our website's success.Highly
+              Jenny&apos;s Exceptional UI design ensure our website&apos;s success.Highly
               Recommended
             </p>
           </div>
