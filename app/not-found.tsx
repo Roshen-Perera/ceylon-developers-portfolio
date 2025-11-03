@@ -3,7 +3,7 @@ import BookACallPost from "@/components/bookACallPost";
 import Footer from "@/components/footer";
 import NavBar from "@/components/navBar";
 import NotFoundIMG from "@/components/notFoundIMG";
-import { Link } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Page = () => {
