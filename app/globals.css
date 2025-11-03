@@ -4,6 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -42,6 +43,92 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  /* Desktop Headline Sizes */
+  --font-size-h1: 96px;
+  --font-size-h1--line-height: 100%;
+  --font-size-h1--font-weight: 600;
+
+  --font-size-h2: 72px;
+  --font-size-h2--line-height: 70%;
+  --font-size-h2--font-weight: 500;
+
+  --font-size-h3: 50px;
+  --font-size-h3--line-height: 60%;
+  --font-size-h3--font-weight: 600;
+
+  --font-size-h4: 30px;
+  --font-size-h4--line-height: 36px;
+  --font-size-h4--font-weight: 400;
+
+  /* Tablet Headline Sizes */
+  --font-size-h1-md: 72px;
+  --font-size-h1-md--line-height: 100%;
+  --font-size-h1-md--font-weight: 600;
+
+  --font-size-h2-md: 54px;
+  --font-size-h2-md--line-height: 70%;
+  --font-size-h2-md--font-weight: 500;
+
+  --font-size-h3-md: 38px;
+  --font-size-h3-md--line-height: 60%;
+  --font-size-h3-md--font-weight: 600;
+
+  --font-size-h4-md: 24px;
+  --font-size-h4-md--line-height: 30px;
+  --font-size-h4-md--font-weight: 400;
+
+  /* Mobile Headline Sizes */
+  --font-size-h1-sm: 58px;
+  --font-size-h1-sm--line-height: 100%;
+  --font-size-h1-sm--font-weight: 600;
+
+  --font-size-h2-sm: 43px;
+  --font-size-h2-sm--line-height: 70%;
+  --font-size-h2-sm--font-weight: 500;
+
+  --font-size-h3-sm: 30px;
+  --font-size-h3-sm--line-height: 60%;
+  --font-size-h3-sm--font-weight: 600;
+
+  --font-size-h4-sm: 20px;
+  --font-size-h4-sm--line-height: 26px;
+  --font-size-h4-sm--font-weight: 400;
+
+  /* Body Text Sizes (Desktop) */
+  --font-size-body-hero: 22px;
+  --font-size-body-hero--line-height: 30px;
+  --font-size-body-hero--font-weight: 400;
+
+  --font-size-body-base: 22px;
+  --font-size-body-base--line-height: 30px;
+  --font-size-body-base--font-weight: 400;
+
+  --font-size-body-semi: 26px;
+  --font-size-body-semi--line-height: 30px;
+  --font-size-body-semi--font-weight: 600;
+
+  /* Body Text Sizes (Mobile) */
+  --font-size-body-hero-sm: 18px;
+  --font-size-body-hero-sm--line-height: 26px;
+  --font-size-body-hero-sm--font-weight: 400;
+
+  --font-size-body-base-sm: 18px;
+  --font-size-body-base-sm--line-height: 26px;
+  --font-size-body-base-sm--font-weight: 400;
+
+  --font-size-body-semi-sm: 22px;
+  --font-size-body-semi-sm--line-height: 26px;
+  --font-size-body-semi-sm--font-weight: 600;
+
+  /* Button Sizes */
+  --font-size-button: 22px;
+  --font-size-button--line-height: 30px;
+  --font-size-button--font-weight: 400;
+
+  --font-size-button-sm: 18px;
+  --font-size-button-sm--line-height: 26px;
+  --font-size-button-sm--font-weight: 400;
 }
 
 :root {
