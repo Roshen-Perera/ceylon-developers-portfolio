@@ -80,6 +80,8 @@
   --sidebar-ring: oklch(0.708 0 0);
   --navbar-background: #FFFFFF80;
   --navbar-border: #FFFFFF1A;
+  --navbar-button: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 1.79%, rgba(17, 17, 17, 0.1) 102.68%);
+  --navbar-button-border: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.1) 75%);
   --text-field-background: #F6F6F6;
   --wedo-bg: #FFFFFF;
   --wedo-text: #585858;
