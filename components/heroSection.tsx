@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <p
-        className="text-[22px] px-5 bg-[#FFFFFF1A] mt-18 border-1 rounded-4xl p-2"
+        className="sm:text-[22px] px-5 bg-[#FFFFFF1A] mt-18 border-1 rounded-4xl p-2"
       >
         Bring your business to the best scale
       </p>
