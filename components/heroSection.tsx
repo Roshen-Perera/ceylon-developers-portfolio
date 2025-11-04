@@ -21,7 +21,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="mt-8 flex max-w-4xl gap-10 justify-center items-center">
-        <button className="text-[22px] p-3 text-lg bg-[#17CDCA] rounded-2xl">
+        <button className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] p-3 bg-[#17CDCA] rounded-2xl">
           Learn More
         </button>
         <div className="flex flex-row items-center gap-3">
@@ -32,7 +32,7 @@ const HeroSection = () => {
             height={64} // h-16
             className="rounded-full"
           />
-          <p className="text-[22px]">
+          <p className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
             Trusted by over+ 20K people in the World
           </p>
         </div>
