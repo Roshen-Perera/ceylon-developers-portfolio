@@ -50,7 +50,7 @@ export function H4({ children, className = "", ...props }: TypographyProps) {
   );
 }
 
-export function BodyText({
+export function P({
   children,
   className = "",
   ...props
