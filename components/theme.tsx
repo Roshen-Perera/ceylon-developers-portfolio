@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function ThemeToggle() {
