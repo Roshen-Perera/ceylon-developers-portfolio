@@ -22,7 +22,7 @@ const NavBar = () => {
           </div>
 
           {/* Menu Links */}
-          <div className="hidden md:block space-x-6 xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
+          <div className="hidden md:block whitespace-nowrap space-x-6 xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
             <Link
               href="/company"
               className="hover:underline transition-all duration-200"
