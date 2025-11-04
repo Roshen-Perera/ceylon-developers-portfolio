@@ -50,7 +50,7 @@ export default function ThemeToggle() {
     <>
       <button
         onClick={toggleTheme}
-        className="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors duration-200 mr-10"
+        className="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors duration-200 mr-10"
       >
         {isChecked ? (
           <svg
