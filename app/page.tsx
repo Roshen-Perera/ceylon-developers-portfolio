@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        {/* <BlueGlow />
-        <MeshVector /> */}
+        <BlueGlow />
+        <MeshVector />
         <NavBar />
         <HeroSection/>
       </div>
