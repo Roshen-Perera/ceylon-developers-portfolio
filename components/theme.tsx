@@ -64,8 +64,7 @@ export default function ThemeToggle() {
               className="absolute"
             >
               <svg
-                width="40"
-                height="40"
+                className="w-[24px] h-[24px] md:w-[32px] md:h-[32px] lg:w-[40px] lg:h-[40px]"
                 viewBox="0 0 40 40"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +85,7 @@ export default function ThemeToggle() {
               className="absolute"
             >
               <svg
-                width="30"
-                height="30"
+                className="xs:w-[20px] xs:h-[20px] sm:w-[27.19px] sm:h-[27.19px] md:w-[32px] md:h-[32px] lg:w-[35.62499237060547px] lg:h-[35.62499237060547px]"
                 viewBox="0 0 30 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
