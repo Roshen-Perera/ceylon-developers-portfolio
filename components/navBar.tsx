@@ -56,9 +56,6 @@ const NavBar = () => {
           </div>
 
           <div className="flex items-center">
-            <div>
-              <ThemeToggle />
-            </div>
             <div className="p-px rounded-[12px] bg-(--navbar-button-border)">
               <button
                 className="shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium py-5 px-6 rounded-full
