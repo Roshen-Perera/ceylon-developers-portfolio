@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className="flex items-center justify-center w-full p-8 relative">
       <div>
         <div
-          className="flex flex-row bg-(--navbar-background) fixed justify-between 2xl:w-[1239px] xl:w-[1015px] lg:w-[853px] md:w-[639px] sm:w-[545px] xs:w-[375px] h-16 items-center rounded-full 
+          className="flex flex-row bg-(--navbar-background) fixed justify-between 2xl:w-[1239px] xl:w-[1015px] lg:w-[853px] md:w-[639px] sm:w-[545px] xs:w-[375px] 2xl:w-[] items-center rounded-full 
                      text-foreground border border-(--navbar-border) left-1/2 transform -translate-x-1/2"
         >
           {/* Logo */}
