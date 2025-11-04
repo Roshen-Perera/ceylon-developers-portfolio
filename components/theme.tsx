@@ -48,7 +48,7 @@ export default function ThemeToggle() {
 
   return (
     <>
-      <label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center">
+      <label className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center mr-10">
         <input
           type="checkbox"
           checked={isChecked}
