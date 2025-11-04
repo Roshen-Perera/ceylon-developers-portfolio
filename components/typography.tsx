@@ -9,7 +9,7 @@ interface TypographyProps extends HTMLAttributes<HTMLElement> {
 export function H1({ children, className = "", ...props }: TypographyProps) {
   return (
     <h1
-      className={`font-inter text-[40px] md:text-[48px] lg:text-[64px] 2xl:text-[96px] font-semibold ${className}`}
+      className={`font-inter sm:text-[40px] md:text-[48px] lg:text-[64px] xl:text-[80px] 2xl:text-[96px] font-semibold ${className}`}
       {...props}
     >
       {children}
