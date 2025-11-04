@@ -51,7 +51,7 @@ export default function ThemeToggle() {
     <>
       <button
         onClick={toggleTheme}
-        className="flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors duration-300 mr-10 relative overflow-hidden"
+        className="flex items-center justify-center w-10 h-10 rounded-lg cursor-pointer transition-colors duration-300 mr-10 relative overflow-hidden"
       >
         <AnimatePresence mode="wait" initial={false}>
           {isChecked ? (
