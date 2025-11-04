@@ -14,8 +14,8 @@ const HeroSection = () => {
         </p>
         <p className="font-semibold text-8xl items-center">Excellence</p>
       </div>
-      <div className="text-lg mt-8 max-w-2xl flex items-center mx-auto px-4">
-        <p className="text-[22px] text-center">
+      <div className="mt-8 max-w-2xl flex items-center mx-auto px-4">
+        <p className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] text-center">
           Pushing the boundaries of what&apos;s possible in the digital realm.
           Join us on this journey into the future of technology.
         </p>
