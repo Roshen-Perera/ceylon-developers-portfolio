@@ -55,7 +55,7 @@ export default function ThemeToggle() {
           onChange={toggleTheme}
           className="sr-only"
         />
-        <span className="label flex items-center text-sm font-medium text-black dark:text-white">
+        <span className="label flex items-center xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-black dark:text-white">
           Light
         </span>
         <span
@@ -69,7 +69,7 @@ export default function ThemeToggle() {
             }`}
           ></span>
         </span>
-        <span className="label flex items-center text-sm font-medium text-black dark:text-white">
+        <span className="label flex items-center xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium text-black dark:text-white">
           Dark
         </span>
       </label>
