@@ -58,7 +58,7 @@ const NavBar = () => {
           <div className="flex items-center">
             <div className="p-px rounded-[12px] bg-(--navbar-button-border)">
               <button
-                className="shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium py-5 px-6 rounded-full
+                className="shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium py-5 px-6 rounded-full sm:w-[140px] md:w-[140px] lg:w-[146px] xl:w-[154px] 2xl:w-[167px] sm:h-[35px] md:h-[41px] lg:h-[57px] xl:h-[65px] 2xl:h-[66px]
                          hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml- xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]"
               >
                 Book a Call
