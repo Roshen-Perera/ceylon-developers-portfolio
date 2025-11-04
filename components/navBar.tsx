@@ -55,8 +55,8 @@ const NavBar = () => {
             </Link>
           </div>
 
-          <div className="flex items-center">
-            <ThemeToggle />
+          <div className="flex flex-row items-center">
+            {/* <ThemeToggle /> */}
             <div className="p-px rounded-[12px] bg-(--navbar-button-border)">
               <button
                 className="shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium rounded-full sm:w-[140px] md:w-[140px] lg:w-[146px] xl:w-[154px] 2xl:w-[167px] sm:h-[35px] md:h-[41px] lg:h-[57px] xl:h-[65px] 2xl:h-[66px]
