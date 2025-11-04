@@ -59,10 +59,10 @@ const NavBar = () => {
             <div>
               <ThemeToggle />
             </div>
-            <div className="p-[1px] rounded-[12px] bg-[var(--navbar-button-border)]">
+            <div className="p-px rounded-[12px] bg-(--navbar-button-border)">
               <button
-                className="shadow-[var(--navbar-button-shadow)] text-card-foreground bg-[image:var(--navbar-button)] font-medium py-5 px-6 rounded-full
-                         hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml-8"
+                className="shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium py-5 px-6 rounded-full
+                         hover:bg-popover hover:text-popover-foreground transition-all duration-200 ml- xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]"
               >
                 Book a Call
               </button>
