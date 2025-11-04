@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ThemeToggle from "./theme";
 import Link from "next/link";
+import { P } from "./typography";
 
 const NavBar = () => {
   return (
@@ -22,7 +23,7 @@ const NavBar = () => {
           </div>
 
           {/* Menu Links */}
-          <div className="hidden md:block whitespace-nowrap space-x-6 xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
+          <P className="hidden md:block whitespace-nowrap space-x-6">
             <Link
               href="/company"
               className="hover:underline transition-all duration-200"
@@ -53,7 +54,7 @@ const NavBar = () => {
             >
               Careers
             </Link>
-          </div>
+          </P>
 
           <div className="flex flex-row items-center">
             {/* <ThemeToggle /> */}
