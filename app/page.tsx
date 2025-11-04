@@ -23,7 +23,7 @@ export default function Home() {
         <NavBar />
         <HeroSection/>
       </div>
-      <Services/>
+      {/* <Services/>
       <Why/>
       <Approach/>
       <WeDoSection/>
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
       <footer className="py-12 mt-12">
         <Footer />
-      </footer>
+      </footer> */}
     </>
   );
 }
