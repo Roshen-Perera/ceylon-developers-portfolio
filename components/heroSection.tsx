@@ -33,9 +33,9 @@ const HeroSection = () => {
             height={64} // h-16
             className="rounded-full"
           />
-          <p className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]">
+          <P>
             Trusted by over+ 20K people in the World
-          </p>
+          </P>
         </div>
       </div>
       <div className="mt-10">
