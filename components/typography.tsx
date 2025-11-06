@@ -107,7 +107,7 @@ export function ButtonText({
 }: ButtonTextProps) {
   return (
     <button
-      className={`font-inter text-[14px] md:text-[16px] lg:text-[18px] 2xl:text-[22px] font-normal ${className}`}
+      className={`xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
       {...props}
     >
       {children}

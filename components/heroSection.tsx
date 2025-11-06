@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import BlueFrame from "@/components/blueFrame";
-import { H1, P } from "./typography";
+import { ButtonText, H1, P } from "./typography";
 
 const HeroSection = () => {
   return (
     <>
-      <P className="px-5 bg-[#FFFFFF1A] lg:mt-18 mt-8 border rounded-4xl p-2">
+      <P className="px-5 bg-[#FFFFFF1A] lg:mt-18 sm:mt-8 border rounded-4xl p-2">
         Bring your business to the best scale
       </P>
-      <div className="flex flex-col md:mt-8 mt-4  z-20 items-center">
+      <div className="flex flex-col md:mt-8 mt-4 z-20 items-center">
         <H1 className="font-semibold text-8xl ">
           Crafting <span className="text-[#17CDCA]">Digital </span>
         </H1>
@@ -21,10 +21,12 @@ const HeroSection = () => {
           Join us on this journey into the future of technology.
         </P>
       </div>
-      <div className="lg:mt-8 mt-4 flex max-w-4xl gap-10 justify-center items-center">
-        <button className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] p-3 bg-[#17CDCA] rounded-2xl">
-          Learn More
-        </button>
+      <div className="lg:mt-8 mt-4 grid grid-cols-1 md:grid-cols-2 max-w-xl justify-center items-center">
+        <div className="flex justify-center">
+          <ButtonText className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] p-3 bg-[#17CDCA] rounded-2xl">
+            Learn More
+          </ButtonText>
+        </div>
         <div className="flex flex-row items-center gap-3">
           <Image
             src="/assets/icons/review.jpg" // place inside /public/assets/icons
@@ -33,9 +35,7 @@ const HeroSection = () => {
             height={64} // h-16
             className="rounded-full"
           />
-          <P>
-            Trusted by over+ 20K people in the World
-          </P>
+          <P>Trusted by over+ 20K people in the World</P>
         </div>
       </div>
       <div className="mt-10">
