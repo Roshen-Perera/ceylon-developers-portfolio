@@ -3,6 +3,7 @@ import React from "react";
 import ThemeToggle from "./theme";
 import Link from "next/link";
 import { P } from "./typography";
+import LogoIMG from "./logoIMG";
 
 const NavBar = () => {
   return (
@@ -14,13 +15,7 @@ const NavBar = () => {
         >
           {/* Logo */}
           <div className="flex items-center">
-            <Image
-              src="/assets/icons/logo.png"
-              alt="Logo"
-              width={134}
-              height={44}
-              className="2xl:scale-100 xl:scale-95 lg:scale-85 md:scale-75 sm:scale-65 scale-55 origin-left"
-            />
+            <LogoIMG/>
           </div>
 
           {/* Menu Links */}
