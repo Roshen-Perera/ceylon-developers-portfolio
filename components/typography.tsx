@@ -20,7 +20,7 @@ export function H1({ children, className = "", ...props }: TypographyProps) {
 export function H2({ children, className = "", ...props }: TypographyProps) {
   return (
     <h2
-      className={`font-inter text-[36px] md:text-[40px] lg:text-[48px] 2xl:text-[72px] font-medium ${className}`}
+      className={`font-inter text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[72px] font-medium ${className}`}
       {...props}
     >
       {children}
