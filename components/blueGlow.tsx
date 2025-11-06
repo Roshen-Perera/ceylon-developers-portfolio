@@ -4,7 +4,7 @@ const BlueGlow = () => {
   return (
     <div className="flex justify-center w-full absolute top-0 left-0 right-0 pointer-events-none overflow-hidden">
       <svg
-        className="-z-15 min-w-[1250px] md:w-full h-auto"
+        className="hidden sm:block -z-15 min-w-[1250px] md:w-full h-auto"
         viewBox="0 0 1250 542"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
