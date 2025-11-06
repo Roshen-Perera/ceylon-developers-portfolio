@@ -19,7 +19,7 @@ const NavBar = () => {
               alt="Logo"
               width={134}
               height={44}
-              className="w-auto h-auto ml-6"
+              className="2xl:scale-100 xl:scale-95 lg:scale-85 md:scale-75 sm:scale-65 scale-55 origin-left"
             />
           </div>
 
