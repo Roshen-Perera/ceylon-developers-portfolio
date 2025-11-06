@@ -17,9 +17,9 @@ const Services = () => {
             Join us on this journey into the future of technology.
           </P>
         </div>
-        {/* <div className="mt-8">
+        <div className="mt-8">
           <ServiceCarousel />
-        </div> */}
+        </div>
       </div>
     </>
   );

@@ -8,7 +8,7 @@ const ServiceCarousel = () => {
   return (
     <>
       <div className="flex flex-row gap-5 p-5">
-        <div className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4">
+        <div className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4">
           <Image
             src="/assets/icons/review.jpg"
             alt="Review"
@@ -23,7 +23,7 @@ const ServiceCarousel = () => {
           </p>
         </div>
 
-        <div className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4">
+        <div className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4">
           <Image
             src="/assets/icons/testing.gif"
             alt="Software Testing Service"
@@ -40,7 +40,7 @@ const ServiceCarousel = () => {
           </p>
         </div>
 
-        <div className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4">
+        <div className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4">
           <Image
             src="/assets/icons/web.gif"
             alt="Web Design & Development"
@@ -57,7 +57,7 @@ const ServiceCarousel = () => {
           </p>
         </div>
 
-        <div className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4">
+        <div className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4">
           <Image
             src="/assets/icons/mobile.gif"
             alt="Mobile App Development"
@@ -74,7 +74,7 @@ const ServiceCarousel = () => {
           </p>
         </div>
 
-        <div className="flex flex-col justify border-[#17CDCA] border-1 rounded-lg p-3 gap-4">
+        <div className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4">
           <Image
             src="/assets/icons/ui.gif"
             alt="UI/UX Design"
