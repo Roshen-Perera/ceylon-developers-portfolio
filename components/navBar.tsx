@@ -15,7 +15,9 @@ const NavBar = () => {
         >
           {/* Logo */}
           <div className="flex items-center">
-            <LogoIMG/>
+            <Link href="/">
+              <LogoIMG />
+            </Link>
           </div>
 
           {/* Menu Links */}
