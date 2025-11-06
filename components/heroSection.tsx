@@ -6,7 +6,7 @@ import { ButtonText, H1, P } from "./typography";
 const HeroSection = () => {
   return (
     <>
-      <P className="px-5 bg-[#FFFFFF1A] lg:mt-18 sm:mt-8 border rounded-4xl p-2">
+      <P className="px-5 py-1.25 bg-[#FFFFFF1A] lg:mt-18 sm:mt-8 border rounded-4xl">
         Bring your business to the best scale
       </P>
       <div className="flex flex-col md:mt-8 mt-4 z-20 items-center">
