@@ -14,13 +14,13 @@ const NavBar = () => {
         >
           {/* Logo */}
           <div className="flex items-center">
-            {/* <Image
+            <Image
               src="/assets/icons/logo.png"
               alt="Logo"
               width={134}
               height={44}
-              className="w-auto h-auto
-            /> */}
+              className="w-auto h-auto ml-6"
+            />
           </div>
 
           {/* Menu Links */}
