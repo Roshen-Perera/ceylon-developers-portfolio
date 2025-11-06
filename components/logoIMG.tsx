@@ -27,10 +27,10 @@ const LogoIMG = () => {
     <div>
       <Image
         src={isDark ? "/assets/icons/logo.png" : "/assets/icons/logo2.png"}
-        alt={"today's activity dashboard"}
-        width={435.00439453125}
-        height={354}
-        style={{ opacity: 1 }}
+        alt="Logo"
+        width={134}
+        height={44}
+        className="2xl:scale-100 xl:scale-95 lg:scale-85 md:scale-75 sm:scale-65 scale-55 origin-left"
       />
     </div>
   );
