@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
 const BlueGlow = () => {
   return (
-    <div className="flex justify-center w-full absolute top-0 left-0 right-0 pointer-events-none">
+    <div className="flex justify-center w-full absolute top-0 left-0 right-0 pointer-events-none overflow-hidden">
       <svg
-        width="1250"
-        height="542"
-        className="-z-15"
+        className="-z-15 min-w-[1250px] md:w-full h-auto"
         viewBox="0 0 1250 542"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -206,6 +204,6 @@ const BlueGlow = () => {
       </svg>
     </div>
   );
-}
+};
 
-export default BlueGlow
+export default BlueGlow;
