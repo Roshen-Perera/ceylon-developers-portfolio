@@ -19,13 +19,7 @@ const NavBar = () => {
               alt="Logo"
               width={134}
               height={44}
-              className="w-auto h-auto 
-                 2xl:w-[134px] 2xl:h-[44px]
-                 xl:w-[110px] xl:h-[36px]
-                 lg:w-[95px] lg:h-[31px]
-                 md:w-[70px] md:h-[23px]
-                 sm:w-[60px] sm:h-[20px]
-                 w-[50px] h-[17px]"
+              className="w-auto h-auto
             /> */}
           </div>
 
