@@ -23,8 +23,8 @@ export default function Home() {
         <NavBar />
         <HeroSection />
       </div>
-      {/* <Services/>
-      <Why/>
+      <Services />
+      {/* <Why/>
       <Approach/>
       <WeDoSection/>
       <Facilities/>
