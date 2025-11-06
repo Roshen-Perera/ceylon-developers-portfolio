@@ -15,7 +15,7 @@ const NavBar = () => {
         {/* Desktop Navbar (640px and above) */}
         <div
           className="hidden sm:flex flex-row bg-(--navbar-background) fixed justify-between 2xl:w-[1239px] xl:w-[1015px] lg:w-[853px] md:w-[639px] sm:w-[545px] 2xl:h-[66px] xl:h-[65px] lg:h-[57px] md:h-[41px] sm:h-[35px] items-center rounded-full 
-                     text-foreground border border-(--navbar-border) left-1/2 transform -translate-x-1/2 px-4 sm:px-6"
+                     text-foreground border border-(--navbar-border) left-1/2 transform -translate-x-1/2 px-4 sm:px-6 z-50"
         >
           {/* Logo */}
           <div className="flex items-center">
@@ -72,7 +72,7 @@ const NavBar = () => {
         </div>
 
         {/* Mobile Navbar (below 640px) */}
-        <div className="sm:hidden flex flex-row bg-(--navbar-background) fixed justify-between w-full items-center rounded-full text-foreground border border-(--navbar-border) left-1/2 transform -translate-x-1/2 px-4 z-50">
+        <div className="sm:hidden flex flex-row bg-(--navbar-background) fixed top-0 justify-between w-full items-center text-foreground border border-(--navbar-border) left-1/2 transform -translate-x-1/2 px-4 z-50">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/">
