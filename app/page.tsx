@@ -21,7 +21,7 @@ export default function Home() {
         <BlueGlow />
         <MeshVector />
         <NavBar />
-        <HeroSection/>
+        <HeroSection />
       </div>
       {/* <Services/>
       <Why/>
