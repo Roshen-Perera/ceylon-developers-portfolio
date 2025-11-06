@@ -9,7 +9,7 @@ const HeroSection = () => {
       <P className="px-5 bg-[#FFFFFF1A] lg:mt-18 mt-8 border rounded-4xl p-2">
         Bring your business to the best scale
       </P>
-      <div className="flex flex-col lg:mt-8 mt-4  z-20 items-center">
+      <div className="flex flex-col md:mt-8 mt-4  z-20 items-center">
         <H1 className="font-semibold text-8xl ">
           Crafting <span className="text-[#17CDCA]">Digital </span>
         </H1>
