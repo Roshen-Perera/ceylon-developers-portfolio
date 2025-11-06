@@ -106,7 +106,7 @@ const NavBar = () => {
 
         {/* Mobile Menu Dropdown */}
         {isMobileMenuOpen && (
-          <div className="sm:hidden fixed top-[80px] left-1/2 transform -translate-x-1/2 w-[90%] max-w-[375px] bg-(--navbar-background) border border-(--navbar-border) rounded-2xl p-6 z-40">
+          <div className="sm:hidden fixed top-20 left-1/2 transform -translate-x-1/2 w-[90%] max-w-[375px] bg-(--navbar-background) border border-(--navbar-border) rounded-2xl p-6 z-40">
             <div className="flex flex-col space-y-4">
               <Link
                 href="/company"
