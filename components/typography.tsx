@@ -57,7 +57,7 @@ export function P({
 }: TypographyProps) {
   return (
     <p
-      className={`xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
+      className={`text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
       {...props}
     >
       {children}
@@ -107,7 +107,7 @@ export function ButtonText({
 }: ButtonTextProps) {
   return (
     <button
-      className={`xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
+      className={`text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
       {...props}
     >
       {children}
