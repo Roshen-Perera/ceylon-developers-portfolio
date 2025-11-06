@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BlueFrame from "@/components/blueFrame";
-import { H1 } from "./typography";
+import { H1, P } from "./typography";
 
 const HeroSection = () => {
   return (
@@ -16,10 +16,10 @@ const HeroSection = () => {
         <H1 className="font-semibold text-8xl items-center">Excellence</H1>
       </div>
       <div className="mt-8 max-w-2xl flex items-center mx-auto px-4">
-        <p className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] text-center">
+        <P className="text-center">
           Pushing the boundaries of what&apos;s possible in the digital realm.
           Join us on this journey into the future of technology.
-        </p>
+        </P>
       </div>
       <div className="mt-8 flex max-w-4xl gap-10 justify-center items-center">
         <button className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] p-3 bg-[#17CDCA] rounded-2xl">
