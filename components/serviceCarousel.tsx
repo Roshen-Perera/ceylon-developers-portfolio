@@ -6,7 +6,7 @@ import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import { P } from "./typography";
+import { BodySemi, P } from "./typography";
 
 type PropType = {
   slides: number[];
@@ -82,9 +82,9 @@ const ServiceCarousel: React.FC<PropType> = (props) => {
                   width={40}
                   height={40}
                 />
-                <p className="text-[26px] font-semibold text-[#17CDCA]">
+                <BodySemi className="text-[26px] font-semibold text-[#17CDCA]">
                   {service.title}
-                </p>
+                </BodySemi>
                 <P>{service.description}</P>
               </div>
             </div>
