@@ -1,11 +1,9 @@
 import React from "react";
 import ServiceCarousel from "./serviceCarousel";
 import { H2, P } from "./typography";
-import { EmblaOptionsType } from "embla-carousel";
 
 
 const Services = () => {
-  const OPTIONS: EmblaOptionsType = { loop: true };
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-12">
@@ -21,7 +19,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          <ServiceCarousel slides={[]} options={OPTIONS} />
+          <ServiceCarousel />
         </div>
       </div>
     </>
