@@ -1,9 +1,9 @@
 .embla {
-    max-width: 48rem;
+    max-width: 60rem;
     margin: auto;
     --slide-height: 19rem;
     --slide-spacing: 2rem;
-    --slide-size: 60%;
+    --slide-size: 40%;
 }
 
 .embla__viewport {
