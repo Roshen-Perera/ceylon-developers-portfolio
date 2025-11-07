@@ -90,16 +90,8 @@
 @media (max-width: 1440px) {
     .embla {
         --slide-size: 25%;
-        --slide-spacing: 1.8rem;
-    }
-}
-
-/* 1280px - Desktop */
-@media (max-width: 1280px) {
-    .embla {
-        --slide-size: 33.333%;
-        --slide-spacing: 1.6rem;
-        --slide-height: 17rem;
+        --slide-spacing: 1.5rem;
+        --slide-height: 16rem;
     }
 
     .embla__slide__number {
@@ -107,22 +99,36 @@
     }
 }
 
-/* 1024px - Tablet landscape */
-@media (max-width: 1024px) {
+/* 1280px - Desktop */
+@media (max-width: 1280px) {
     .embla {
-        --slide-size: 50%;
-        --slide-spacing: 1.4rem;
-        --slide-height: 15rem;
+        --slide-size: 33.333%;
+        --slide-spacing: 1.2rem;
+        --slide-height: 14rem;
     }
 
     .embla__slide__number {
         font-size: 3rem;
         border-radius: 1.4rem;
     }
+}
+
+/* 1024px - Tablet landscape */
+@media (max-width: 1024px) {
+    .embla {
+        --slide-size: 50%;
+        --slide-spacing: 1rem;
+        --slide-height: 12rem;
+    }
+
+    .embla__slide__number {
+        font-size: 2.5rem;
+        border-radius: 1.2rem;
+    }
 
     .embla__controls {
-        gap: 1rem;
-        margin-top: 1.4rem;
+        gap: 0.8rem;
+        margin-top: 1.2rem;
     }
 }
 
@@ -130,12 +136,13 @@
 @media (max-width: 768px) {
     .embla {
         --slide-size: 50%;
-        --slide-spacing: 1.2rem;
-        --slide-height: 13rem;
+        --slide-spacing: 0.8rem;
+        --slide-height: 10rem;
     }
 
     .embla__slide__number {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        border-radius: 1rem;
     }
 
     .embla__dot {
@@ -152,38 +159,38 @@
 /* 640px - Mobile landscape */
 @media (max-width: 640px) {
     .embla {
-        --slide-size: 75%;
-        --slide-spacing: 1rem;
-        --slide-height: 12rem;
-    }
-
-    .embla__slide__number {
-        font-size: 2.2rem;
-        border-radius: 1.2rem;
-    }
-
-    .embla__controls {
-        gap: 0.8rem;
-        margin-top: 1.2rem;
-    }
-}
-
-/* 375px - Mobile portrait */
-@media (max-width: 375px) {
-    .embla {
-        --slide-size: 90%;
+        --slide-size: 70%;
         --slide-spacing: 0.8rem;
-        --slide-height: 10rem;
+        --slide-height: 9rem;
     }
 
     .embla__slide__number {
-        font-size: 2rem;
+        font-size: 1.8rem;
         border-radius: 1rem;
     }
 
     .embla__controls {
         gap: 0.6rem;
         margin-top: 1rem;
+    }
+}
+
+/* 375px - Mobile portrait */
+@media (max-width: 375px) {
+    .embla {
+        --slide-size: 85%;
+        --slide-spacing: 0.6rem;
+        --slide-height: 8rem;
+    }
+
+    .embla__slide__number {
+        font-size: 1.5rem;
+        border-radius: 0.8rem;
+    }
+
+    .embla__controls {
+        gap: 0.5rem;
+        margin-top: 0.8rem;
     }
 
     .embla__dot {
