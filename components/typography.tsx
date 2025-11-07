@@ -87,7 +87,7 @@ export function BodySemi({
 }: TypographyProps) {
   return (
     <p
-      className={`font-inter text-[18px] md:text-[20px] lg:text-[22px] 2xl:text-[26px] font-semibold ${className}`}
+      className={`font-inter text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-semibold ${className}`}
       {...props}
     >
       {children}
