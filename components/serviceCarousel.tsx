@@ -1,65 +1,34 @@
-"use client";
-
 import React from "react";
+import Slider from "react-slick";
 
-import Image from "next/image";
-
-const ServiceCarousel = () => {
-  const services = [
-    {
-      title: "Review",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/review.jpg",
-    },
-    {
-      title: "Software Testing Service",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/testing.gif",
-    },
-    {
-      title: "Web Design & Development",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/web.gif",
-    },
-    {
-      title: "Mobile App Development",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/mobile.gif",
-    },
-    {
-      title: "UI/UX Design",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/ui.gif",
-    },
-  ];
+export default function ServiceCarousel() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
-    <>
-      <div className="flex flex-row gap-5 p-5">
-        {services.map((service) => (
-          <div
-            key={service.title}
-            className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4"
-          >
-            <Image
-              src={service.icon}
-              alt={service.title}
-              width={40}
-              height={40}
-            />
-            <p className="text-[26px] font-semibold text-[#17CDCA]">
-              {service.title}
-            </p>
-            <p className="text-[22px]">{service.description}</p>
-          </div>
-        ))}
+    <Slider {...settings}>
+      <div>
+        <h3>1</h3>
       </div>
-    </>
+      <div>
+        <h3>2</h3>
+      </div>
+      <div>
+        <h3>3</h3>
+      </div>
+      <div>
+        <h3>4</h3>
+      </div>
+      <div>
+        <h3>5</h3>
+      </div>
+      <div>
+        <h3>6</h3>
+      </div>
+    </Slider>
   );
-};
-
-export default ServiceCarousel;
+}
