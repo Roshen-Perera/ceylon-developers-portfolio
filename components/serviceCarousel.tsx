@@ -32,6 +32,39 @@ const ServiceCarousel: React.FC<PropType> = (props) => {
     onNavButtonClick
   );
 
+    const services = [
+      {
+        title: "Review",
+        description:
+          "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+        icon: "/assets/icons/review.jpg",
+      },
+      {
+        title: "Software Testing Service",
+        description:
+          "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+        icon: "/assets/icons/testing.gif",
+      },
+      {
+        title: "Web Design & Development",
+        description:
+          "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+        icon: "/assets/icons/web.gif",
+      },
+      {
+        title: "Mobile App Development",
+        description:
+          "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+        icon: "/assets/icons/mobile.gif",
+      },
+      {
+        title: "UI/UX Design",
+        description:
+          "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+        icon: "/assets/icons/ui.gif",
+      },
+    ];
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
