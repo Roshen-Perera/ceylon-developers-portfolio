@@ -6,8 +6,6 @@ import { EmblaOptionsType } from "embla-carousel";
 
 const Services = () => {
   const OPTIONS: EmblaOptionsType = { loop: true };
-  const SLIDE_COUNT = 5;
-  const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-12">
@@ -23,7 +21,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          <ServiceCarousel slides={SLIDES} options={OPTIONS} />
+          <ServiceCarousel slides={[]} options={OPTIONS} />
         </div>
       </div>
     </>
