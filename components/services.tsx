@@ -1,8 +1,6 @@
 import React from "react";
 import ServiceCarousel from "./serviceCarousel";
 import { H2, P } from "./typography";
-import EmblaCarousel from "./EmblaCarousel";
-import { EmblaOptionsType } from "embla-carousel";
 
 
 const OPTIONS: EmblaOptionsType = { loop: true };
