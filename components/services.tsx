@@ -1,6 +1,13 @@
 import React from "react";
 import ServiceCarousel from "./serviceCarousel";
 import { H2, P } from "./typography";
+import EmblaCarousel from "./EmblaCarousel";
+import { EmblaOptionsType } from "embla-carousel";
+
+
+const OPTIONS: EmblaOptionsType = { loop: true };
+const SLIDE_COUNT = 5;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const Services = () => {
   return (
@@ -18,7 +25,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          <ServiceCarousel />
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
         </div>
       </div>
     </>
