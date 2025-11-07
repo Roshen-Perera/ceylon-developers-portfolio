@@ -6,8 +6,6 @@ import { EmblaOptionsType } from "embla-carousel";
 
 
 const OPTIONS: EmblaOptionsType = { loop: true };
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const Services = () => {
   return (
@@ -25,7 +23,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          <EmblaCarousel slides={[]} options={OPTIONS} />
         </div>
       </div>
     </>
