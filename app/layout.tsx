@@ -1,7 +1,6 @@
 // app/layout.tsx
 import { Inter, Kaushan_Script } from "next/font/google";
 import "./globals.css";
-import "../css/embla.css";
 
 // Default font for whole app
 const inter = Inter({
