@@ -2,9 +2,6 @@ import React from "react";
 import ServiceCarousel from "./serviceCarousel";
 import { H2, P } from "./typography";
 
-
-const OPTIONS: EmblaOptionsType = { loop: true };
-
 const Services = () => {
   return (
     <>
@@ -21,7 +18,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          <EmblaCarousel slides={[]} options={OPTIONS} />
+          <ServiceCarousel />
         </div>
       </div>
     </>
