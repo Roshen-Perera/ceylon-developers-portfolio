@@ -1,6 +1,8 @@
 // app/layout.tsx
 import { Inter, Kaushan_Script } from "next/font/google";
 import "./globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 // Default font for whole app
 const inter = Inter({
