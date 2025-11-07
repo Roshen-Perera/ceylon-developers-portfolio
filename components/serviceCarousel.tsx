@@ -5,6 +5,7 @@ import { EmblaOptionsType, EmblaCarouselType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
+import Image from "next/image";
 
 type PropType = {
   slides: number[];
@@ -69,9 +70,22 @@ const ServiceCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
+          {services.map((service, index) => (
             <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">{index + 1}</div>
+              <div
+                className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4"
+              >
+                <Image
+                  src={service.icon}
+                  alt={service.title}
+                  width={40}
+                  height={40}
+                />
+                <p className="text-[26px] font-semibold text-[#17CDCA]">
+                  {service.title}
+                </p>
+                <p className="text-[22px]">{service.description}</p>
+              </div>
             </div>
           ))}
         </div>
