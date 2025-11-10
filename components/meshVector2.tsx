@@ -31,7 +31,7 @@ const MeshVector2 = () => {
             height="523"
             viewBox="0 0 1122 523"
             fill="none"
-            className=" absolute left-10 -z-10"
+            className=" absolute left-10 -z-10 w-full h-auto max-w-[1287px]"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
