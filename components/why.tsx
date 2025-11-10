@@ -1,7 +1,6 @@
 import React from 'react'
 import MeshVector2 from './meshVector2';
 import { Check } from 'lucide-react';
-import TodaysWorkIMG from './todaysWorkIMG';
 import { H2, P } from './typography';
 
 const Why = () => {
