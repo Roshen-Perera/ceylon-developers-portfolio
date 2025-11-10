@@ -2,6 +2,7 @@ import React from 'react'
 import MeshVector2 from './meshVector2';
 import { Check } from 'lucide-react';
 import TodaysWorkIMG from './todaysWorkIMG';
+import { H2 } from './typography';
 
 const Why = () => {
   return (
@@ -10,10 +11,10 @@ const Why = () => {
       <MeshVector2 />
       <div className="flex flex-row items-center gap-12">
         <div className="flex flex-col gap-6 flex-1 max-w-lg">
-          <p className="text-7xl font-medium">
+          <H2>
             To upscale your <span className="font-kaushan">business</span> to
             the next level
-          </p>
+          </H2>
           <p className="text-[22px]">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
