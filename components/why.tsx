@@ -2,13 +2,14 @@ import React from 'react'
 import MeshVector2 from './meshVector2';
 import { Check } from 'lucide-react';
 import { H2, P } from './typography';
+import TodaysWorkIMG from './todaysWorkIMG';
 
 const Why = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
       {/* <MeshVector /> */}
       <MeshVector2 />
-      <div className="flex flex-row items-center gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         <div className="flex flex-col gap-6 flex-1 max-w-lg">
           <H2>
             To upscale your <span className="font-kaushan">business</span> to
@@ -53,9 +54,9 @@ const Why = () => {
             </div>
           </div>
         </div>
-        {/* <div className="shrink-0">
+        <div className="shrink-0">
           <TodaysWorkIMG/>
-        </div> */}
+        </div>
       </div>
     </div>
   );
