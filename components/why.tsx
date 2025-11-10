@@ -54,9 +54,9 @@ const Why = () => {
             </div>
           </div>
         </div>
-        <div className="shrink-0">
+        {/* <div className="shrink-0">
           <TodaysWorkIMG/>
-        </div>
+        </div> */}
       </div>
     </div>
   );
