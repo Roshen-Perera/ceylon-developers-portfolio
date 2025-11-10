@@ -2,7 +2,7 @@ import React from 'react'
 import MeshVector2 from './meshVector2';
 import { Check } from 'lucide-react';
 import TodaysWorkIMG from './todaysWorkIMG';
-import { H2 } from './typography';
+import { H2, P } from './typography';
 
 const Why = () => {
   return (
@@ -15,42 +15,42 @@ const Why = () => {
             To upscale your <span className="font-kaushan">business</span> to
             the next level
           </H2>
-          <p className="text-[22px]">
+          <P>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua invidunt ut labore.
-          </p>
+          </P>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
               <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
-              <p className="text-[22px]">
+              <P>
                 Project templates to kick-start a new project
-              </p>
+              </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
 
-              <p className="text-[22px]">
+              <P>
                 Clone task to speed your time to action
-              </p>
+              </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
-              <p className="text-[22px]">
+              <P>
                 Communicate and collaborate with your team and clients
-              </p>
+              </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
                 <Check size={16} />
               </div>
-              <p className="text-[22px]">Time tracking for the whole team</p>
+              <P>Time tracking for the whole team</P>
             </div>
           </div>
         </div>
