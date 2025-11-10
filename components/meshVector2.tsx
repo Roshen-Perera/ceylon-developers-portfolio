@@ -1,27 +1,27 @@
-"use client"
+"use client";
 
 import React, { useEffect, useState } from "react";
 
 const MeshVector2 = () => {
   const [isDark, setIsDark] = useState(false);
-  
-    useEffect(() => {
-      // Check if 'dark' class exists on html or body element
-      const checkDarkMode = () => {
-        setIsDark(document.documentElement.classList.contains("dark"));
-      };
-  
-      checkDarkMode();
-  
-      // Optional: Listen for theme changes
-      const observer = new MutationObserver(checkDarkMode); // Observe changes to the class attribute
-      observer.observe(document.documentElement, {
-        attributes: true, // Listen for attribute changes
-        attributeFilter: ["class"], // Only listen for changes to the 'class' attribute
-      });
-  
-      return () => observer.disconnect(); // Cleanup on unmount
-    }, []);
+
+  useEffect(() => {
+    // Check if 'dark' class exists on html or body element
+    const checkDarkMode = () => {
+      setIsDark(document.documentElement.classList.contains("dark"));
+    };
+
+    checkDarkMode();
+
+    // Optional: Listen for theme changes
+    const observer = new MutationObserver(checkDarkMode); // Observe changes to the class attribute
+    observer.observe(document.documentElement, {
+      attributes: true, // Listen for attribute changes
+      attributeFilter: ["class"], // Only listen for changes to the 'class' attribute
+    });
+
+    return () => observer.disconnect(); // Cleanup on unmount
+  }, []);
   return (
     <>
       {isDark ? (
@@ -63,7 +63,7 @@ const MeshVector2 = () => {
         <div>
           <svg
             width="1287"
-            className=" absolute left-10 -z-10"
+            className=" absolute left-10 -z-10 w-full h-auto max-w-[1287px]"
             height="624"
             viewBox="0 0 1287 624"
             fill="none"
