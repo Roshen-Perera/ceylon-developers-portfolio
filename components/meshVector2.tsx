@@ -25,19 +25,19 @@ const MeshVector2 = () => {
   return (
     <>
       {isDark ? (
-        <div>
+        <div className="absolute left-0 right-0 z-50 flex justify-center overflow-hidden">
           <svg
             width="1122"
             height="523"
             viewBox="0 0 1122 523"
             fill="none"
-            className=" absolute left-10 -z-10 w-full h-auto max-w-[1287px]"
+            className="w-[280px] xs:w-[343px] sm:w-[608px] md:w-[736px] lg:w-[992px] xl:w-[1122px] 2xl:w-[1287px] h-auto"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M428.059 435.504H699.169M0.444001 12.2027L0.443976 522.444M36.592 12.2027L36.592 522.444M72.7401 12.2027L72.74 522.444M108.888 12.2027L108.888 522.444M145.036 12.2027L145.036 522.444M181.184 12.2027L181.184 522.444M217.332 12.2027L217.332 522.444M253.48 12.2027L253.48 522.444M289.628 12.2027V522.444M0.0332031 502.134H1120.62M325.776 12.2027L325.776 522.444M0.0332031 470.779H1120.62M361.924 12.2027L361.924 522.444M0.0332031 439.423H1120.62M398.072 12.2027L398.072 522.444M0.0332031 408.068H1120.62M434.22 12.2027L434.22 522.444M0.0332031 376.712H1120.62M470.369 12.2027L470.368 522.444M0.0332031 345.356H1120.62M506.517 12.2027L506.516 522.444M0.0332031 314.001H1120.62M542.665 12.2027L542.665 522.444M0.0332031 282.645H1120.62M578.813 12.2027L578.813 522.444M0.0332031 251.289H1120.62M614.961 12.2027V522.444M0.0332031 219.934H1120.62M651.109 12.2027L651.109 522.444M0.0332031 188.578H1120.62M687.257 12.2027L687.257 522.444M0.0332031 157.222H1120.62M723.405 12.2027L723.405 522.444M0.0332031 125.867H1120.62M759.553 12.2027L759.553 522.444M0.0332031 94.5112H1120.62M795.701 12.2027L795.701 522.444M0.0332031 63.1556H1120.62M831.849 12.2027L831.849 522.444M0.0332031 31.8H1120.62M867.997 12.2027V522.444M0.0332031 0.444336L1120.62 0.444336M904.145 12.2027V522.444M940.293 12.2027V522.444M976.441 12.2027V522.444M1012.59 12.2027V522.444M1048.74 12.2027V522.444M1084.89 12.2027V522.444M1121.03 12.2027V522.444"
               stroke="url(#paint0_radial_189_190)"
-              stroke-width="0.888544"
+              strokeWidth="0.888544"
             />
             <defs>
               <radialGradient
@@ -48,25 +48,25 @@ const MeshVector2 = () => {
                 gradientTransform="matrix(-0.0393795 314.419 -675.219 -0.0714601 560.533 230.466)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#1DE28D" stop-opacity="0.35" />
+                <stop stopColor="#1DE28D" stopOpacity="0.35" />
                 <stop
                   offset="0.607303"
-                  stop-color="white"
-                  stop-opacity="0.10138"
+                  stopColor="white"
+                  stopOpacity="0.10138"
                 />
-                <stop offset="1" stop-color="white" stop-opacity="0" />
+                <stop offset="1" stopColor="white" stopOpacity="0" />
               </radialGradient>
             </defs>
           </svg>
         </div>
       ) : (
-        <div>
+        <div className="absolute left-0 right-0 z-50 flex justify-center overflow-hidden">
           <svg
             width="1287"
-            className=" absolute left-10 -z-10 w-full h-auto max-w-[1287px]"
             height="624"
             viewBox="0 0 1287 624"
             fill="none"
+            className="w-[280px] xs:w-[343px] sm:w-[608px] md:w-[736px] lg:w-[992px] xl:w-[1122px] 2xl:w-[1287px] h-auto"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
