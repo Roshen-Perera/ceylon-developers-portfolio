@@ -22,16 +22,16 @@ const Why = () => {
           </P>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
-                <Check size={16} />
+              <div className="flex p-1 justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check className="size-3 xl:size-4" />
               </div>
               <P>
                 Project templates to kick-start a new project
               </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
-                <Check size={16} />
+              <div className="flex p-1 justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check className="size-3 xl:size-4" />
               </div>
 
               <P>
@@ -39,16 +39,16 @@ const Why = () => {
               </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
-                <Check size={16} />
+              <div className="flex p-1 justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check className="size-3 xl:size-4" />
               </div>
               <P>
                 Communicate and collaborate with your team and clients
               </P>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <div className="flex w-[24px] h-[24px] justify-center items-center rounded-[38px] border border-[#17CDCA]">
-                <Check size={16} />
+              <div className="flex p-1 justify-center items-center rounded-[38px] border border-[#17CDCA]">
+                <Check className="size-3 xl:size-4" />
               </div>
               <P>Time tracking for the whole team</P>
             </div>
