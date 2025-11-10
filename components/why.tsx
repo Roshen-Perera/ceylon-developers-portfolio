@@ -6,9 +6,8 @@ import TodaysWorkIMG from './todaysWorkIMG';
 
 const Why = () => {  
   return (
-    <div className="flex flex-col items-center justify-center mt-12 ">
+    <div className="flex flex-col items-center justify-center lg:mt-20 px-4 lg:px-0 gap-12 relative">
       {/* <MeshVector /> */}
-      
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-12">
         <div className="flex flex-col gap-6 flex-1 max-w-lg items-center justify-center text-center lg:text-left lg:items-start">
           <H2>
