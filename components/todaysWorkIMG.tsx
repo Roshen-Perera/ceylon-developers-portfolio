@@ -34,6 +34,7 @@ const TodaysWorkIMG = () => {
         alt={"today's activity dashboard"}
         width={686}
         height={487}
+        className="w-[335.47px] h-[237.88px]  sm:w-[587px] sm:h-[424px] md:w-[673px] md:h-[424px] lg:w-[455px] lg:h-[341.25px] xl:w-[600px] xl:h-[450px] 2xl:w-[686px] 2xl:h-[487px]"
         style={{ opacity: 1 }}
       />
     </div>
