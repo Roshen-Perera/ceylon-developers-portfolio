@@ -6,8 +6,8 @@ import { H5, P } from './typography';
 const WeDoSection = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
-      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] ml-15 mr-15 gap-5 mt-8">
-        <div className="flex flex-col justify-around max-w-md lg:max-w-sm xl:max-w-md">
+      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] ml-15 mr-15 gap-5 mt-8 items-center justify-center">
+        <div className="flex flex-col max-w-md lg:max-w-sm xl:max-w-md">
           <VerticalTextSlider />
           <div className="flex items-center">
             <P>
