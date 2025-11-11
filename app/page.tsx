@@ -24,9 +24,9 @@ export default function Home() {
         <HeroSection />
       </div>
       <Services />
-      <Why/>
-      {/* <Approach/>
-      <WeDoSection/>
+      <Why />
+      <Approach />
+      {/* <WeDoSection/>
       <Facilities/>
       <div className="flex flex-col items-center justify-center mt-12">
         <TechStack />
