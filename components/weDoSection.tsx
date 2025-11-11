@@ -6,7 +6,7 @@ import { H5, P } from './typography';
 const WeDoSection = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
-      <div className="flex flex-row ml-15 mr-15 gap-5 mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 ml-15 mr-15 gap-5 mt-8">
         <div className="flex flex-col justify-around">
           <VerticalTextSlider />
           <div className=" flex items-center">
