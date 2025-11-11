@@ -1,7 +1,7 @@
 import React from 'react'
 import VerticalTextSlider from './slider';
 import { MoveRight } from 'lucide-react';
-import { P } from './typography';
+import { H5, P } from './typography';
 
 const WeDoSection = () => {
   return (
@@ -17,13 +17,13 @@ const WeDoSection = () => {
           </div>
         </div>
         <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border p-6 text-center gap-4">
-          <h1 className="text-[26px] font-bold">Consulting</h1>
+          <H5 className="text-[26px] font-bold">Consulting</H5>
           <P className=" text-(--wedo-text)">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
           </P>
           <div className="flex flex-row gap-2 items-center text-[#17CDCA] ">
-            <p>Get Started</p>
+            <P>Get Started</P>
             <MoveRight />
           </div>
         </div>
