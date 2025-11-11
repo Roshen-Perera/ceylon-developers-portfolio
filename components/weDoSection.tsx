@@ -28,24 +28,24 @@ const WeDoSection = () => {
           </div>
         </div>
         <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border-middle p-6 text-center gap-4">
-          <h1 className="text-[26px] font-bold">Implementation</h1>
-          <p className=" text-(--wedo-text)">
+          <H5 className="text-[26px] font-bold">Implementation</H5>
+          <P className=" text-(--wedo-text)">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
-          </p>
+          </P>
           <div className="flex flex-row gap-2 items-center text-[#17CDCA] ">
-            <p>Get Started</p>
+            <P>Get Started</P>
             <MoveRight />
           </div>
         </div>
         <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border p-6 text-center gap-4">
-          <h1 className="text-[26px] font-bold">Distribution</h1>
-          <p className=" text-(--wedo-text)">
+          <H5 className="text-[26px] font-bold">Distribution</H5>
+          <P className=" text-(--wedo-text)">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard
-          </p>
+          </P>
           <div className="flex flex-row gap-2 items-center text-[#17CDCA] ">
-            <p>Get Started</p>
+            <P>Get Started</P>
             <MoveRight />
           </div>
         </div>
