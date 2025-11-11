@@ -23,7 +23,7 @@ const HeroSection = () => {
       </div>
       <div className="lg:mt-8 mt-4 grid grid-cols-1 md:grid-cols-2 max-w-xl justify-center items-center">
         <div className="flex justify-center">
-          <ButtonText className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] p-3 bg-[#17CDCA] rounded-2xl">
+          <ButtonText className="xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] px-2 py-1 bg-[#17CDCA] rounded-md mb-4">
             Learn More
           </ButtonText>
         </div>
