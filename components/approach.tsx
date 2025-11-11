@@ -1,5 +1,5 @@
 import React from 'react'
-import { H2 } from './typography';
+import { H2, H5 } from './typography';
 
 const Approach = () => {
   return (
@@ -14,7 +14,7 @@ const Approach = () => {
       <div className="grid grid-cols-4 p-8">
         <div className="p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
           <div className="flex flex-col p-5 gradient-border rounded-2xl gap-4 ">
-            <p className="text-[26px] font-bold">UX Driven Engineering</p>
+            <H5 className="text-[26px] font-bold">UX Driven Engineering</H5>
             <p className="text-[22px] text-[#585858]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem
               ipsum dolor sit amet, elit consectetur adipiscing elit.{" "}
