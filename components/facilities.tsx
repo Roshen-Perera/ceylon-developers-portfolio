@@ -10,7 +10,7 @@ const Facilities = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
       <div className="mt-20 mb-10 ">
-        <svg
+        {/* <svg
           width="1343"
           height="58"
           viewBox="0 0 1343 58"
@@ -35,7 +35,7 @@ const Facilities = () => {
               <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
             </linearGradient>
           </defs>
-        </svg>
+        </svg> */}
       </div>
       <div className="flex flex-col gap-10">
         <div className="flex flex-row gap-10">
