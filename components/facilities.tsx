@@ -91,7 +91,7 @@ const Facilities = () => {
               </div>
             </div>
           </div>
-          <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+          <div className="w-[369px] h-[375px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="relative top-1.5">
               <Image
                 src={"/assets/vectors/maskGroup.png"}
