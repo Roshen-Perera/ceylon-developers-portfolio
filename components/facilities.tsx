@@ -4,7 +4,7 @@ import AnalyticsVector from "./analyticsVector";
 import Image from "next/image";
 import CodeIcon from "./codeIcon";
 import WorkFlowLight from "./workFlowLight";
-import { H5 } from "./typography";
+import { H4 } from "./typography";
 
 const Facilities = () => {
   return (
@@ -42,7 +42,7 @@ const Facilities = () => {
           <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] md:w-[308px] md:h-[309px] sm:w-[265px] sm:h-[280px] w-[172px] h-[287px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
-                <H5>Projects</H5>
+                <H4>Projects</H4>
                 <p className="text-[22px] text-(--facilities-text) relative z-1">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
@@ -64,7 +64,7 @@ const Facilities = () => {
                 <AnalyticsVector />
               </div>
               <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
-                <H5>Analytics & Reporting</H5>
+                <H4>Analytics & Reporting</H4>
                 <p className="text-[22px] w-[515px] text-(--facilities-text)">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
@@ -79,7 +79,7 @@ const Facilities = () => {
             <div className="flex flex-col">
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
-                  <H5>Your Workflow</H5>
+                  <H4>Your Workflow</H4>
                   <p className="text-[22px] w-[605px] text-(--facilities-text) relative z-1">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
@@ -106,7 +106,7 @@ const Facilities = () => {
               </div>
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
-              <H5>Projects</H5>
+              <H4>Projects</H4>
               <p className="text-[22px] text-(--facilities-text) relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
