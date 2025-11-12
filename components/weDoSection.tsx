@@ -6,17 +6,17 @@ import { H5, P } from './typography';
 const WeDoSection = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
-      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] ml-15 mr-15 gap-5 mt-8 items-center justify-center">
-        <div className="flex flex-col max-w-md lg:max-w-sm xl:max-w-md">
+      <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-5 mt-8 items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <VerticalTextSlider />
-          <div className="flex items-center">
+          <div className="flex items-center max-w-md lg:max-w-sm xl:max-w-md ml-0 lg:ml-4 mt-4">
             <P>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore
             </P>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 min-w-0">
+        <div className="flex flex-col sm:flex-row gap-3 min-w-0 mx-4 sm:mx-4 lg:mx-0">
           <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border p-4 sm:p-5 md:p-6 text-center gap-3 md:gap-4 flex-1">
             <H5 className="text-xl sm:text-2xl md:text-[26px] font-bold">
               Consulting
