@@ -38,7 +38,7 @@ const Facilities = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="flex flex-row gap-10">
-          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[369px] lg:h-[375px] md:w-[369px] md:h-[375px] sm:w-[369px] sm:h-[375px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
+          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] md:w-[308px] md:h-[309px] sm:w-[265px] sm:h-[280px] bg-[#6F6F6F1A] border-1 rounded-4xl overflow-hidden">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <h1 className="text-[30px]">Projects</h1>
