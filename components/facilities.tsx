@@ -79,7 +79,7 @@ const Facilities = () => {
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
                   <h1 className="text-[30px]">Your Workflow</h1>
-                  <p className="text-[22px] w-[605px] text-[var(--facilities-text)] relative z-1">
+                  <p className="text-[22px] w-[605px] text-(--facilities-text) relative z-1">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
                     eliminate errors.
