@@ -57,7 +57,7 @@ const Facilities = () => {
               className="relative bottom-45 z-1"
             />
           </div>
-          <div className="w-[786px] h-[375px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
+          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] md:w-[650px] md:h-[558px] sm:w-[265px] sm:h-[280px] w-[350px] h-[219px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="flex ">
               <div className="mt-12 ml-3">
                 <AnalyticsVector />
