@@ -22,8 +22,8 @@ const WeDoSection = () => {
           {/* Right Section - Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
             <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border p-6 text-center gap-4">
-              <H5 className="text-2xl md:text-[26px] font-bold">Consulting</H5>
-              <P className="text-(--wedo-text) text-sm md:text-base">
+              <H5 className="md:text-[26px] font-bold">Consulting</H5>
+              <P className="text-(--wedo-text) md:text-base">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </P>
@@ -34,10 +34,10 @@ const WeDoSection = () => {
             </div>
 
             <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border-middle p-6 text-center gap-4">
-              <H5 className="text-2xl md:text-[26px] font-bold">
+              <H5 className="md:text-[26px] font-bold">
                 Implementation
               </H5>
-              <P className="text-(--wedo-text) text-sm md:text-base">
+              <P className="text-(--wedo-text) md:text-base">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </P>
@@ -48,10 +48,10 @@ const WeDoSection = () => {
             </div>
 
             <div className="bg-(--wedo-bg) bg-(image:--wedo-bg) flex flex-col vision-border p-6 text-center gap-4">
-              <H5 className="text-2xl md:text-[26px] font-bold">
+              <H5 className="md:text-[26px] font-bold">
                 Distribution
               </H5>
-              <P className="text-(--wedo-text) text-sm md:text-base">
+              <P className="text-(--wedo-text) md:text-base">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry&apos;s standard
               </P>
