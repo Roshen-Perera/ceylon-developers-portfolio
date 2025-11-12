@@ -4,7 +4,7 @@ import AnalyticsVector from "./analyticsVector";
 import Image from "next/image";
 import CodeIcon from "./codeIcon";
 import WorkFlowLight from "./workFlowLight";
-import { H4 } from "./typography";
+import { H4, P } from "./typography";
 
 const Facilities = () => {
   return (
@@ -43,10 +43,10 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <p className="text-[22px] text-(--facilities-text) relative z-1">
+                <P className="text-[22px] text-(--facilities-text) relative z-1">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
-                </p>
+                </P>
               </div>
               <DotVector />
             </div>
@@ -65,11 +65,11 @@ const Facilities = () => {
               </div>
               <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
                 <H4>Analytics & Reporting</H4>
-                <p className="text-[22px] w-[515px] text-(--facilities-text)">
+                <P className="text-[22px] w-[515px] text-(--facilities-text)">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
                   improvement.
-                </p>
+                </P>
               </div>
             </div>
           </div>
@@ -80,11 +80,11 @@ const Facilities = () => {
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
                   <H4>Your Workflow</H4>
-                  <p className="text-[22px] w-[605px] text-(--facilities-text) relative z-1">
+                  <P className="text-[22px] w-[605px] text-(--facilities-text) relative z-1">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
                     eliminate errors.
-                  </p>
+                  </P>
                 </div>
               </div>
               <div className="relative bottom-8 left-40">
@@ -107,10 +107,10 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
               <H4>Projects</H4>
-              <p className="text-[22px] text-(--facilities-text) relative z-1">
+              <P className="text-[22px] text-(--facilities-text) relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
-              </p>
+              </P>
             </div>
           </div>
         </div>
