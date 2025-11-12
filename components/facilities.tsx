@@ -74,7 +74,7 @@ const Facilities = () => {
           </div>
         </div>
         <div className="flex flex-row gap-10">
-          <div className="w-[786px] h-[375px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
+          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] md:w-[650px] md:h-[558px] sm:w-[265px] sm:h-[280px] w-[350px] h-[219px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="flex flex-col">
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
