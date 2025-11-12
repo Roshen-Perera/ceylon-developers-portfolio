@@ -64,7 +64,7 @@ const Facilities = () => {
               </div>
               <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
                 <h1 className="text-[30px]">Analytics & Reporting</h1>
-                <p className="text-[22px] w-[515px] text-[var(--facilities-text)]">
+                <p className="text-[22px] w-[515px] text-(--facilities-text)">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
                   improvement.
