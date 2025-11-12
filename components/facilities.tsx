@@ -106,7 +106,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
               <h1 className="text-[30px]">Projects</h1>
-              <p className="text-[22px] text-[var(--facilities-text)] relative z-1">
+              <p className="text-[22px] text-(--facilities-text) relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
               </p>
