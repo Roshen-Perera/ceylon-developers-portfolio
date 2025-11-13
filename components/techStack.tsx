@@ -1,16 +1,17 @@
 import Image from 'next/image';
 import React from 'react'
+import { H2 } from './typography';
 
 const TechStack = () => {
   return (
     <div>
       <div className="flex items-center justify-center">
-        <h1 className="text-7xl mt-2 font-medium">
+        <H2 className="text-7xl mt-2 font-medium">
           <span className="font-kaushan">Technologies</span> We work with
-        </h1>
+        </H2>
       </div>
       <div className="flex justify-end overflow-hidden">
-        <div className="grid grid-cols-6 gap-5 mt-15">
+        <div className="grid grid-cols-3 lg:grid-cols-6 gap-5 mt-15">
           <div className="w-[223px] h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center">
             <Image
               src={"/assets/icons/technologies/php.png"}
@@ -62,7 +63,7 @@ const TechStack = () => {
         </div>
       </div>
       <div className="flex justify-start overflow-hidden">
-        <div className="grid grid-cols-6 gap-5 mt-5">
+        <div className="grid grid-cols-3 lg:grid-cols-6 gap-5 mt-5">
           <div className="w-[223px] h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center">
             <Image
               src={"/assets/icons/technologies/dotnet.png"}
