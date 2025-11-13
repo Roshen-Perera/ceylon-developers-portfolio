@@ -31,8 +31,8 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         <TechStack />
       </div>
-      {/* <Contact/>
-      <Reviews/>
+      <Contact />
+      {/* <Reviews/>
       <div className="flex flex-col items-center justify-center mt-12">
         <h1 className="text-7xl font-medium text-center">
           How
