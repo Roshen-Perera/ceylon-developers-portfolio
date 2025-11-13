@@ -145,7 +145,7 @@ const Facilities = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-[786px] xl:w-[735px] lg:w-[577px]  md:w-[650px]  sm:w-[265px]  w-[350px]  bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
+        <div className="2xl:w-[786px] xl:w-[735px] lg:w-[577px] md:w-[650px] sm:w-[558px] w-[350px]  bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex flex-col">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
