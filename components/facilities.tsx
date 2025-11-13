@@ -9,34 +9,6 @@ import { H4, P } from "./typography";
 const Facilities = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12">
-      <div className="mt-20 mb-10 ">
-        {/* <svg
-          width="1343"
-          height="58"
-          viewBox="0 0 1343 58"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 4.82469L503.89 1.09953C512.708 1.03434 521.386 3.30247 529.045 7.67386L603.771 50.3261C611.43 54.6975 620.108 56.9657 628.927 56.9005L1343 51.6215"
-            stroke="url(#paint0_linear_1085_1810)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_1085_1810"
-              x1="0"
-              y1="29"
-              x2="1343"
-              y2="29"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#17CDCA" stopOpacity="0" />
-              <stop offset="0.457843" stopColor="#17CDCA" />
-              <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
-            </linearGradient>
-          </defs>
-        </svg> */}
-      </div>
       {/* <div className="flex flex-col gap-10">
         <div className="flex flex-row gap-10">
           <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] md:w-[308px] md:h-[309px] sm:w-[265px] sm:h-[280px] w-[172px] h-[287px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
@@ -117,7 +89,7 @@ const Facilities = () => {
       </div> */}
 
       <div className="flex flex-col gap-10">
-        <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] md:w-[650px] md:h-[558px] sm:w-[265px] sm:h-[280px] w-[350px] h-[219px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
+        <div className="2xl:w-[786px] xl:w-[735px] lg:w-[577px] md:w-[650px] sm:w-[558px] w-[350px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex ">
             <div className="mt-12 ml-3">
               <AnalyticsVector />
@@ -150,7 +122,7 @@ const Facilities = () => {
               height={200}
               className="relative bottom-45 z-1"
             />
-          </div>  
+          </div>
           <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] md:w-[308px] md:h-[309px] sm:w-[265px] sm:h-[280px] w-[172px] h-[287px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="relative top-1.5">
               <Image
@@ -173,7 +145,7 @@ const Facilities = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] md:w-[650px] md:h-[558px] sm:w-[265px] sm:h-[280px] w-[350px] h-[219px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
+        <div className="2xl:w-[786px] xl:w-[735px] lg:w-[577px]  md:w-[650px]  sm:w-[265px]  w-[350px]  bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex flex-col">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
