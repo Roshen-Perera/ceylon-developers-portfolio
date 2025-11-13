@@ -21,7 +21,7 @@ const Facilities = () => {
               <div className="mt-4 ml-5 pr-5">
                 <div className="flex flex-col gap-3">
                   <H4>Projects</H4>
-                  <P className="text-xl xl:text-[22px] text-[var(--facilities-text)] relative z-10">
+                  <P className="text-xl xl:text-[22px] text-[(--facilities-text)] relative z-10">
                     Easily organize tasks, set deadlines, and track progress in
                     real-time with Ease.
                   </P>
@@ -49,7 +49,7 @@ const Facilities = () => {
                 </div>
                 <div className="flex flex-col gap-2 sm:gap-3 relative z-20">
                   <H4>Analytics & Reporting</H4>
-                  <P className="text-base sm:text-lg lg:text-xl xl:text-[22px] text-[var(--facilities-text)]">
+                  <P className="text-base sm:text-lg lg:text-xl xl:text-[22px] text-[(--facilities-text)]">
                     Generate real-time reports, identify key performance
                     indicators, and make data-driven decisions for continuous
                     improvement.
@@ -66,7 +66,7 @@ const Facilities = () => {
               <div className="mt-4 ml-4 sm:ml-5 pr-4 sm:pr-5">
                 <div className="flex flex-col gap-2 sm:gap-3">
                   <H4>Projects</H4>
-                  <P className="text-base sm:text-lg md:text-xl text-[var(--facilities-text)] relative z-10">
+                  <P className="text-base sm:text-lg md:text-xl text-[(--facilities-text)] relative z-10">
                     Easily organize tasks, set deadlines, and track progress in
                     real-time with Ease.
                   </P>
@@ -101,8 +101,8 @@ const Facilities = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-2 sm:gap-3 px-4 sm:px-5 mt-3 sm:mt-4 pb-4">
-                <H4>Integration</H4>
-                <P className="text-base sm:text-lg md:text-xl text-[var(--facilities-text)] relative z-10">
+                <H4>Developer Mindset</H4>
+                <P className="text-base sm:text-lg md:text-xl text-[(--facilities-text)] relative z-10">
                   Seamlessly integrate with your favorite tools and platforms
                   for enhanced productivity.
                 </P>
@@ -118,7 +118,7 @@ const Facilities = () => {
                 <div className="mt-4 sm:mt-6 mx-4 sm:mx-5 pr-4 sm:pr-5">
                   <div className="flex flex-col gap-2 sm:gap-3">
                     <H4>Your Workflow</H4>
-                    <P className="text-base sm:text-lg lg:text-xl xl:text-[22px] text-[var(--facilities-text)] relative z-10">
+                    <P className="text-base sm:text-lg lg:text-xl xl:text-[22px] text-[(--facilities-text)] relative z-10">
                       Automate repetitive tasks and streamline your workflows
                       with our powerful automation features. Reduce manual
                       effort, eliminate errors.
@@ -147,7 +147,7 @@ const Facilities = () => {
               </div>
               <div className="flex flex-col gap-3 px-5 mt-3 pb-4">
                 <H4>Integration</H4>
-                <P className="text-xl xl:text-[22px] text-[var(--facilities-text)] relative z-10">
+                <P className="text-xl xl:text-[22px] text-[(--facilities-text)] relative z-10">
                   Seamlessly integrate with your favorite tools and platforms
                   for enhanced productivity.
                 </P>
