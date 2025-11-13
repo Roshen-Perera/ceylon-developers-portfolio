@@ -15,7 +15,7 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <P className="text-[22px] text-[var(--facilities-text)] relative z-1">
+                <P className="text-[var(--facilities-text)] relative z-1">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </P>
@@ -37,7 +37,7 @@ const Facilities = () => {
               </div>
               <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
                 <H4>Analytics & Reporting</H4>
-                <P className="text-[22px] text-[var(--facilities-text)]">
+                <P className="text-[var(--facilities-text)]">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
                   improvement.
@@ -52,7 +52,7 @@ const Facilities = () => {
               <div className="mt-4 ml-5">
                 <div className="flex flex-col gap-3">
                   <H4>Your Workflow</H4>
-                  <P className="text-[22px] text-[var(--facilities-text)] relative z-1">
+                  <P className="text-[var(--facilities-text)] relative z-1">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
                     eliminate errors.
@@ -79,7 +79,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
               <H4>Projects</H4>
-              <P className="text-[22px] text-[var(--facilities-text)] relative z-1">
+              <P className="text-[var(--facilities-text)] relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
               </P>
@@ -96,7 +96,7 @@ const Facilities = () => {
             </div>
             <div className=" flex flex-col gap-2 relative right-37 mt-4 z-20">
               <H4>Analytics & Reporting</H4>
-              <P className="text-[22px] text-(--facilities-text)">
+              <P className="text-(--facilities-text)">
                 Generate real-time reports, identify key performance indicators,
                 and make data-driven decisions for continuous improvement.
               </P>
@@ -108,7 +108,7 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <P className="text-[22px] text-(--facilities-text) relative z-1">
+                <P className="text-(--facilities-text) relative z-1">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </P>
@@ -138,7 +138,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
               <H4>Projects</H4>
-              <P className="text-[22px] text-(--facilities-text) relative z-1">
+              <P className="text-(--facilities-text) relative z-1">
                 Easily organize tasks, set deadlines, and track progress in
                 real-time with Ease.
               </P>
@@ -150,7 +150,7 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Your Workflow</H4>
-                <P className="text-[22px] text-(--facilities-text) relative z-1">
+                <P className="text-(--facilities-text) relative z-1">
                   Automate repetitive tasks and streamline your workflows with
                   our powerful automation features. Reduce manual effort,
                   eliminate errors.
