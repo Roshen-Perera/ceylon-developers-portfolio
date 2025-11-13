@@ -1,21 +1,22 @@
 import React from 'react'
 import Image from 'next/image';
 import ContactUsForm from './contactUseForm';
+import { H2, P } from './typography';
 
 const Contact = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-20">
       <div className="grid grid-cols-2">
         <div className="flex flex-col gap-5">
-          <h1 className="text-7xl font-medium">
+          <H2>
             Get in
             <span className="font-kaushan">touch</span>
-          </h1>
-          <p className="text-[22px]">
+          </H2>
+          <P>
             We’re here to support you! Feel free to reach out for
             <br />
             assistance, feedback, or any questions.
-          </p>
+          </P>
           <h2 className="text-[30px]">Let’s Talk About:</h2>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
