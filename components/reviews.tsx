@@ -132,7 +132,7 @@ export default function Reviews() {
                         <div className="flex items-center gap-2 text-[14px] sm:text-[16px] lg:text-[18px] text-[#A1A1AA]">
                           <span>{post.handle}</span>
                         </div>
-                        <div className="flex items-center gap-2 text-[16px] text-[#A1A1AA]">
+                        <div className="flex items-center gap-2 text-[12px] sm:text-[16px] text-[#A1A1AA]">
                           <span>Saas-maker •</span>
                         </div>
                       </div>
