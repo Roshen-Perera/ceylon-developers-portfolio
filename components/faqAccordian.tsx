@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import { H4 } from "./typography";
 
 type FAQ = {
   question: string;
@@ -56,7 +57,7 @@ export default function FAQAccordion() {
                 onClick={() => toggleAccordion(index)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left transition-all duration-300"
               >
-                <span className="pr-8">{faq.question}</span>
+                <H4 className="pr-8">{faq.question}</H4>
                 <div className="hover:cursor-pointer transition-transform duration-300">
                   {openIndex === index ? (
                     <Minus className="w-5 h-5" />
