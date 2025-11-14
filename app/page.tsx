@@ -32,17 +32,18 @@ export default function Home() {
         <TechStack />
       </div>
       <Contact />
-      <Reviews/>
-      {/*<div className="flex flex-col items-center justify-center mt-12">
+      <Reviews />
+      <div className="flex flex-col items-center justify-center mt-12">
         <h1 className="text-7xl font-medium text-center">
           How
           <span className="font-kaushan"> Ceylon Developers </span>
           help you?
         </h1>
         <div>
-          <FAQAccordion/>
+          <FAQAccordion />
         </div>
       </div>
+      {/*
       <div className="flex flex-col items-center justify-center mt-12">
         <ProPost/>
       </div>
