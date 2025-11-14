@@ -50,7 +50,7 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-(image:--faq-card-background) rounded-[30px] overflow-hidden border-1"
+              className="bg-(image:--faq-card-background) rounded-[30px] overflow-hidden border"
             >
               <button
                 onClick={() => toggleAccordion(index)}
