@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import ContactUsForm from './contactUseForm';
 import { H2, P } from './typography';
+import { ArrowRight } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -20,35 +21,21 @@ const Contact = () => {
           <h2 className="text-[30px]">Let’s Talk About:</h2>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-3 items-center">
-              <div className="rounded-4xl">
-                <Image
-                  src={"/assets/icons/right.png"}
-                  alt={"check mark"}
-                  width={24}
-                  height={24}
-                  className="shrink-0 rounded-2xl"
-                />
+              <div className="flex p-1 justify-center items-center rounded-[38px] bg-[#17CDCA]">
+                <ArrowRight className="size-3 xl:size-4" />
               </div>
               <P>Customer Experience</P>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/right.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="shrink-0 rounded-2xl"
-              />
+              <div className="flex p-1 justify-center items-center rounded-[38px] bg-[#17CDCA]">
+                <ArrowRight className="size-3 xl:size-4" />
+              </div>
               <P>Quality and Trust</P>
             </div>
             <div className="flex flex-row gap-3 items-center">
-              <Image
-                src={"/assets/icons/right.png"}
-                alt={"check mark"}
-                width={24}
-                height={24}
-                className="shrink-0 rounded-2xl"
-              />
+              <div className="flex p-1 justify-center items-center rounded-[38px] bg-[#17CDCA]">
+                <ArrowRight className="size-3 xl:size-4" />
+              </div>
               <P>Dependable Service</P>
             </div>
           </div>
