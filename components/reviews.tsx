@@ -105,14 +105,14 @@ export default function Reviews() {
         </div>
       </div>
       <div className="min-h-screen mt-12">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-8 px-4">
           <div className="flex gap-4">
             {columns.map((column, columnIndex) => (
               <div key={columnIndex} className="flex-1 flex flex-col gap-4">
                 {column.map((post) => (
                   <div
                     key={post.id}
-                    className="bg-[var(--review-card-background)] rounded-lg p-4 border-1"
+                    className="bg-(--review-card-background) rounded-lg p-4 border"
                   >
                     <div className="flex items-center gap-3">
                       <Image
@@ -120,7 +120,7 @@ export default function Reviews() {
                         height={48}
                         src={post.avatar}
                         alt={post.name}
-                        className="rounded-full flex-shrink-0"
+                        className="rounded-full shrink-0"
                       />
                       <div className="flex flex-col min-w-0">
                         <div className="flex items-center gap-1">
