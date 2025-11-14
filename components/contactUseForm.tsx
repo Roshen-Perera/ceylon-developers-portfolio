@@ -5,7 +5,7 @@ import { H4, P } from "./typography";
 
 const ContactUsForm = () => {
   return (
-    <div className="flex flex-col gap-3 p-5 rounded-3xl border-1 border-[#17CDCA]">
+    <div className="flex flex-col gap-3 p-5 rounded-3xl border border-[#17CDCA]">
       <H4>Get a quote</H4>
       <P>
         Fill up the form and our Team will get back to you within
@@ -18,7 +18,7 @@ const ContactUsForm = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full px-4 py-3 bg-[var(--text-field-background)]"
+            className="w-full px-4 py-3 bg-(--text-field-background)"
             placeholder="Your Name"
           />
         </div>
@@ -27,7 +27,7 @@ const ContactUsForm = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full px-4 py-3 bg-[var(--text-field-background)]"
+            className="w-full px-4 py-3 bg-(--text-field-background)"
             placeholder="your.email@example.com"
           />
         </div>
@@ -37,7 +37,7 @@ const ContactUsForm = () => {
             type="text"
             id="subject"
             name="subject"
-            className="w-full px-4 py-3 bg-[var(--text-field-background)]"
+            className="w-full px-4 py-3 bg-(--text-field-background)"
             placeholder="Subject"
           />
         </div>
@@ -47,7 +47,7 @@ const ContactUsForm = () => {
             id="message"
             name="message"
             rows={5}
-            className="w-full px-4 py-3 bg-[var(--text-field-background)] rounded-lg"
+            className="w-full px-4 py-3 bg-(--text-field-background) rounded-lg"
             placeholder="Your Message"
           ></textarea>
         </div>
