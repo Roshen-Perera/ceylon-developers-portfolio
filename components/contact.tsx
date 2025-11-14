@@ -26,11 +26,10 @@ const Contact = () => {
                   alt={"check mark"}
                   width={24}
                   height={24}
-                  className="flex-shrink-0 rounded-2xl"
+                  className="shrink-0 rounded-2xl"
                 />
               </div>
-
-              <p className="text-[22px]">Customer Experience</p>
+              <P>Customer Experience</P>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <Image
@@ -38,9 +37,9 @@ const Contact = () => {
                 alt={"check mark"}
                 width={24}
                 height={24}
-                className="flex-shrink-0 rounded-2xl"
+                className="shrink-0 rounded-2xl"
               />
-              <p className="text-[22px]">Quality and Trust</p>
+              <P>Quality and Trust</P>
             </div>
             <div className="flex flex-row gap-3 items-center">
               <Image
@@ -48,9 +47,9 @@ const Contact = () => {
                 alt={"check mark"}
                 width={24}
                 height={24}
-                className="flex-shrink-0 rounded-2xl"
+                className="shrink-0 rounded-2xl"
               />
-              <p className="text-[22px]">Dependable Service</p>
+              <P>Dependable Service</P>
             </div>
           </div>
         </div>
