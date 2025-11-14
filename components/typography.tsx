@@ -76,6 +76,17 @@ export function P({
   );
 }
 
+export function Handle({ children, className = "", ...props }: TypographyProps) {
+  return (
+    <p
+      className={`text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-normal ${className}`}
+      {...props}
+    >
+      {children}
+    </p>
+  );
+}
+
 export function BodyHero({
   children,
   className = "",
