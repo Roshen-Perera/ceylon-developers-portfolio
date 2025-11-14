@@ -44,11 +44,10 @@ export default function Home() {
           <FAQAccordion />
         </div>
       </div>
-      {/*
       <div className="flex flex-col items-center justify-center mt-12">
-        <ProPost/>
+        <ProPost />
       </div>
-      <footer className="py-12 mt-12">
+      {/* <footer className="py-12 mt-12">
         <Footer />
       </footer> */}
     </>
