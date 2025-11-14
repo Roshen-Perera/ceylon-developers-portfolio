@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { H2, P } from "./typography";
+import { H2, H5, P } from "./typography";
 
 type Post = {
   id: number;
@@ -125,9 +125,9 @@ export default function Reviews() {
                       />
                       <div className="flex flex-col min-w-0">
                         <div className="flex items-center gap-1">
-                          <h3 className="font-semibold text-[26px]">
+                          <H5>
                             {post.name}
-                          </h3>
+                          </H5>
                         </div>
                         <div className="flex items-center gap-2 text-[18px] text-[#A1A1AA]">
                           <span>{post.handle}</span>
