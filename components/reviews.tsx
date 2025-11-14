@@ -106,7 +106,7 @@ export default function Reviews() {
       </div>
       <div className="min-h-screen mt-12">
         <div className="mx-8 px-4">
-          <div className="flex gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {columns.map((column, columnIndex) => (
               <div key={columnIndex} className="flex-1 flex flex-col gap-4">
                 {column.map((post) => (
