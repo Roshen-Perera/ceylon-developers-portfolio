@@ -14,7 +14,7 @@ const ProPost = () => {
           Pushing the boundaries of what&apos;s possible in the digital realm.
           Join us on this journey into the future of technology.
         </P>
-        <ButtonText className="text-[22px] w-[172px] p-3 text-lg bg-[#17CDCA] rounded-2xl">
+        <ButtonText className="text-[22px] px-3 py-2 text-lg bg-[#17CDCA] rounded-2xl">
           Get Started
         </ButtonText>
       </div>
