@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
+import { H4 } from "./typography";
 
 const ContactUsForm = () => {
   return (
     <div className="flex flex-col gap-3 p-5 rounded-3xl border-1 border-[#17CDCA]">
-      <h2 className="text-[30px]">Get a quote</h2>
+      <H4>Get a quote</H4>
       <p className="text-[22px]">
         Fill up the form and our Team will get back to you within
         <br />
