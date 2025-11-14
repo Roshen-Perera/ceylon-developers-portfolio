@@ -12,6 +12,7 @@ import ProPost from "@/components/proPost";
 import Reviews from "@/components/reviews";
 import Services from "@/components/services";
 import TechStack from "@/components/techStack";
+import { H2 } from "@/components/typography";
 import WeDoSection from "@/components/weDoSection";
 import Why from "@/components/why";
 export default function Home() {
@@ -34,11 +35,11 @@ export default function Home() {
       <Contact />
       <Reviews />
       <div className="flex flex-col items-center justify-center mt-12">
-        <h1 className="text-7xl font-medium text-center">
+        <H2 className="font-medium text-center">
           How
           <span className="font-kaushan"> Ceylon Developers </span>
           help you?
-        </h1>
+        </H2>
         <div>
           <FAQAccordion />
         </div>
