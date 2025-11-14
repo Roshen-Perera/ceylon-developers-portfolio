@@ -1,5 +1,5 @@
 import React from 'react'
-import { H2 } from './typography';
+import { ButtonText, H2, P } from './typography';
 
 const ProPost = () => {
   return (
@@ -10,13 +10,13 @@ const ProPost = () => {
           <br />
           team like a pro?
         </H2>
-        <p className="text-[22px]">
+        <P>
           Pushing the boundaries of what&apos;s possible in the digital realm.
           Join us on this journey into the future of technology.
-        </p>
-        <button className="text-[22px] w-[172px] p-3 text-lg bg-[#17CDCA] rounded-2xl">
+        </P>
+        <ButtonText className="text-[22px] w-[172px] p-3 text-lg bg-[#17CDCA] rounded-2xl">
           Get Started
-        </button>
+        </ButtonText>
       </div>
     </>
   );
