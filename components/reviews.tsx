@@ -91,7 +91,7 @@ export default function Reviews() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-20">
-        <p className="text-7xl font-medium text-center">
+        <p className="font-medium text-center">
           Why Customers
           <span className="font-kaushan"> love </span>
           <br />
