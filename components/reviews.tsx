@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { H2, P } from "./typography";
 
 type Post = {
   id: number;
@@ -91,17 +92,17 @@ export default function Reviews() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-20">
-        <p className="font-medium text-center">
+        <H2 className="font-medium text-center">
           Why Customers
           <span className="font-kaushan"> love </span>
           <br />
           working with us
-        </p>
-        <div className="text-[22px] mt-8 max-w-2xl flex items-center mx-auto px-4">
-          <p className="text-center">
+        </H2>
+        <div className="mt-8 max-w-2xl flex items-center mx-auto px-4">
+          <P className="text-center">
             Hear directly from customers about their experiences and how webdone
             has made a difference.
-          </p>
+          </P>
         </div>
       </div>
       <div className="min-h-screen mt-12">
@@ -120,7 +121,7 @@ export default function Reviews() {
                         height={48}
                         src={post.avatar}
                         alt={post.name}
-                        className="rounded-full shrink-0"
+                        className="rounded-full shrink-0 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
                       />
                       <div className="flex flex-col min-w-0">
                         <div className="flex items-center gap-1">
@@ -128,9 +129,7 @@ export default function Reviews() {
                             {post.name}
                           </h3>
                         </div>
-                        <div
-                          className="flex items-center gap-2 text-[18px] text-[#A1A1AA]"
-                        >
+                        <div className="flex items-center gap-2 text-[18px] text-[#A1A1AA]">
                           <span>{post.handle}</span>
                         </div>
                         <div className="flex items-center gap-2 text-[16px] text-[#A1A1AA]">
