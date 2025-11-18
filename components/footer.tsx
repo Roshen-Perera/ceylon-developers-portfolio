@@ -12,7 +12,7 @@ const Footer = () => {
             <h3 className="text-[26px] font-bold">HEXZYON</h3>
             <ThemeToggle />
           </div>
-          <p className="text-[22px] leading-relaxed mb-6 text-[var(--footer-link)]">
+          <p className="text-[22px] leading-relaxed mb-6 text-(--footer-link)">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.
           </p>
