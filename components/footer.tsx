@@ -84,7 +84,7 @@ const Footer = () => {
 
         {/* Important */}
         <div>
-          <h4 className="font-semibold text-[26px] mb-4">Important</h4>
+          <H5 className="mb-4">Important</H5>
           <ul className="space-y-2 text-[var(--footer-link)]">
             <li>
               <a href="#">
