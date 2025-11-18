@@ -128,15 +128,15 @@ const Footer = () => {
           <ul className="space-y-3 text-(--footer-link)">
             <li className="flex items-center gap-2">
               <Phone size={16} className="mt-0.5 shrink-0" />
-              <span>+223 456 789</span>
+              <P>+223 456 789</P>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="mt-0.5 shrink-0" />
-              <span>example@email.com</span>
+              <P>example@email.com</P>
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0" />
-              <span>45d, example example</span>
+              <P>45d, example example</P>
             </li>
           </ul>
         </div>
