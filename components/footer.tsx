@@ -87,29 +87,37 @@ const Footer = () => {
           <H5 className="mb-4">Important</H5>
           <ul className="space-y-2 text-(--footer-link)">
             <li>
+              <P>
               <a href="#">
                 Career
               </a>
+              </P>
             </li>
             <li>
+              <P>
               <a href="#">
                 Terms and Conditions
               </a>
+              </P>
             </li>
             <li>
+              <P>
               <a href="#">
                 Privacy Policy
               </a>
+              </P>
             </li>
             <li>
+              <P>
               <a href="#">
                 Cookies Policy
               </a>
+              </P>
             </li>
             <li>
-              <a href="#">
-                Social Work
-              </a>
+              <P>
+                <a href="#">Social Work</a>
+              </P>
             </li>
           </ul>
         </div>
