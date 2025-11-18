@@ -50,32 +50,32 @@ const Footer = () => {
           <H5 className="font-semibold mb-4">Quick links</H5>
           <ul className="space-y-2 text-(--footer-link)">
             <li>
-              <a href="#" className="text-[22px]">
-                Home
-              </a>
+              <P>
+                <a href="#">Home</a>
+              </P>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
-                Service
-              </a>
+              <P>
+                <a href="#">Service</a>
+              </P>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
-                Projects
-              </a>
+              <P>
+                <a href="#">Projects</a>
+              </P>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
-                About
-              </a>
+              <P>
+                <a href="#">About</a>
+              </P>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Client
               </a>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Contact
               </a>
             </li>
@@ -87,27 +87,27 @@ const Footer = () => {
           <h4 className="font-semibold text-[26px] mb-4">Important</h4>
           <ul className="space-y-2 text-[var(--footer-link)]">
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Career
               </a>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Terms and Conditions
               </a>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Cookies Policy
               </a>
             </li>
             <li>
-              <a href="#" className="text-[22px]">
+              <a href="#">
                 Social Work
               </a>
             </li>
@@ -120,15 +120,15 @@ const Footer = () => {
           <ul className="space-y-3 text-[var(--footer-link)]">
             <li className="flex items-center gap-2">
               <Phone size={16} className="mt-0.5 flex-shrink-0" />
-              <span className="text-[22px]">+223 456 789</span>
+              <span>+223 456 789</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="mt-0.5 flex-shrink-0" />
-              <span className="text-[22px]">example@email.com</span>
+              <span>example@email.com</span>
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} className="mt-0.5 flex-shrink-0" />
-              <span className="text-[22px]">45d, example example</span>
+              <span>45d, example example</span>
             </li>
           </ul>
         </div>
