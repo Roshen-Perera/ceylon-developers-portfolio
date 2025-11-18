@@ -5,8 +5,8 @@ import { H5, P } from './typography';
 
 const Footer = () => {
   return (
-    <div className="ml-12 mx-auto">
-      <div className="md:grid-cols-4 grid grid-cols-3 gap-10 mx-8 justify-center ">
+    <div className="mx-10 md:mx-20">
+      <div className="md:grid-cols-4 grid grid-cols-3 md:gap-8 gap-4  justify-center ">
         {/* Brand Section */}
         <div className='md:block hidden'>
           <div className="flex items-center font-semibold gap-2 mb-4">
