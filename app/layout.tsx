@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       {/* Apply default font globally */}
       <body className={`${inter.className} ${kaushan.variable}`}>
         {children}
