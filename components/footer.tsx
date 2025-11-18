@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Brand Section */}
         <div>
           <div className="flex items-center font-semibold gap-2 mb-4">
-            <h3 className="text-[26px] font-bold">HEXZYON</h3>
+            <h3>HEXZYON</h3>
             <ThemeToggle />
           </div>
           <p className="text-[22px] leading-relaxed mb-6 text-(--footer-link)">
