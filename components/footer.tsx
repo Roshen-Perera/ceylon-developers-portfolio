@@ -70,14 +70,14 @@ const Footer = () => {
               </P>
             </li>
             <li>
-              <a href="#">
-                Client
-              </a>
+              <P>
+                <a href="#">Client</a>
+              </P>
             </li>
             <li>
-              <a href="#">
-                Contact
-              </a>
+              <P>
+                <a href="#">Contact</a>
+              </P>
             </li>
           </ul>
         </div>
