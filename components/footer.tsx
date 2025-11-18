@@ -1,7 +1,7 @@
 import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail, MapPin, Moon } from 'lucide-react';
 import React from 'react'
 import ThemeToggle from './theme';
-import { H5 } from './typography';
+import { H5, P } from './typography';
 
 const Footer = () => {
   return (
@@ -13,10 +13,10 @@ const Footer = () => {
             <H5>HEXZYON</H5>
             <ThemeToggle />
           </div>
-          <p className="text-[22px] leading-relaxed mb-6 text-(--footer-link)">
+          <P className="leading-relaxed mb-6 text-(--footer-link)">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.
-          </p>
+          </P>
           <div className="flex gap-3">
             <a
               href="#"
