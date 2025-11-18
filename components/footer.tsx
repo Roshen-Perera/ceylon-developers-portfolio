@@ -124,7 +124,7 @@ const Footer = () => {
 
         {/* Contacts */}
         <div>
-          <h4 className="font-semibold text-[26px] mb-4">Contacts</h4>
+          <H5 className="mb-4">Contacts</H5>
           <ul className="space-y-3 text-(--footer-link)">
             <li className="flex items-center gap-2">
               <Phone size={16} className="mt-0.5 shrink-0" />
