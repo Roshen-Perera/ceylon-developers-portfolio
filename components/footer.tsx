@@ -127,15 +127,15 @@ const Footer = () => {
           <h4 className="font-semibold text-[26px] mb-4">Contacts</h4>
           <ul className="space-y-3 text-(--footer-link)">
             <li className="flex items-center gap-2">
-              <Phone size={16} className="mt-0.5 flex-shrink-0" />
+              <Phone size={16} className="mt-0.5 shrink-0" />
               <span>+223 456 789</span>
             </li>
             <li className="flex items-center gap-2">
-              <Mail size={16} className="mt-0.5 flex-shrink-0" />
+              <Mail size={16} className="mt-0.5 shrink-0" />
               <span>example@email.com</span>
             </li>
             <li className="flex items-center gap-2">
-              <MapPin size={16} className="mt-0.5 flex-shrink-0" />
+              <MapPin size={16} className="mt-0.5 shrink-0" />
               <span>45d, example example</span>
             </li>
           </ul>
