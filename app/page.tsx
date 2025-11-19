@@ -29,9 +29,7 @@ export default function Home() {
       <Approach />
       <WeDoSection />
       <Facilities />
-      <div className="flex flex-col items-center justify-center mt-12">
-        <TechStack />
-      </div>
+      <TechStack />
       <Contact />
       <Reviews />
       <div className="flex flex-col items-center justify-center mt-12">
