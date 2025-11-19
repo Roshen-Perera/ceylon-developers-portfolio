@@ -144,6 +144,7 @@ const NavBar = () => {
                 Careers
               </Link>
               <div className="pt-4 border-t border-(--navbar-border)">
+                <ThemeToggle/>  
                 <button
                   className="w-full shadow-(--navbar-button-shadow) text-card-foreground bg-(image:--navbar-button) font-medium rounded-full h-[45px]
                            hover:bg-popover hover:text-popover-foreground transition-all duration-200 text-[16px]"
