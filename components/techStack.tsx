@@ -10,7 +10,7 @@ const TechStack = () => {
           <span className="font-kaushan">Technologies</span> We work with
         </H2>
       </div>
-      <div className="flex flex-col overflow-hidden gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5">
+      <div className="hidden lg:flex flex-col overflow-hidden gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5">
         <div className="marquee marquee-left">
           <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-start">
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -19,7 +19,7 @@ const TechStack = () => {
                 alt="php"
                 width={100}
                 height={100}
-                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -28,7 +28,7 @@ const TechStack = () => {
                 alt="javascript"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -37,7 +37,7 @@ const TechStack = () => {
                 alt="react"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -46,7 +46,7 @@ const TechStack = () => {
                 alt="nodejs"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -55,7 +55,7 @@ const TechStack = () => {
                 alt="go"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -64,7 +64,7 @@ const TechStack = () => {
                 alt="python"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ const TechStack = () => {
                 alt="php"
                 width={100}
                 height={100}
-                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -84,7 +84,7 @@ const TechStack = () => {
                 alt="javascript"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -93,7 +93,7 @@ const TechStack = () => {
                 alt="react"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -102,7 +102,7 @@ const TechStack = () => {
                 alt="nodejs"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -111,7 +111,7 @@ const TechStack = () => {
                 alt="go"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -120,7 +120,7 @@ const TechStack = () => {
                 alt="python"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
           </div>
@@ -134,7 +134,7 @@ const TechStack = () => {
                 alt="dotnet"
                 width={100}
                 height={100}
-                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -143,7 +143,7 @@ const TechStack = () => {
                 alt="redis"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -152,7 +152,7 @@ const TechStack = () => {
                 alt="ruby"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -161,7 +161,7 @@ const TechStack = () => {
                 alt="postgresql"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -170,7 +170,7 @@ const TechStack = () => {
                 alt="laravel"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -179,7 +179,7 @@ const TechStack = () => {
                 alt="java"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
           </div>
@@ -190,7 +190,7 @@ const TechStack = () => {
                 alt="dotnet"
                 width={100}
                 height={100}
-                className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -199,7 +199,7 @@ const TechStack = () => {
                 alt="redis"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -208,7 +208,7 @@ const TechStack = () => {
                 alt="ruby"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -217,7 +217,7 @@ const TechStack = () => {
                 alt="postgresql"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -226,7 +226,7 @@ const TechStack = () => {
                 alt="laravel"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
             <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
@@ -235,7 +235,353 @@ const TechStack = () => {
                 alt="java"
                 width={50}
                 height={50}
-                className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="lg:hidden flex flex-col overflow-hidden gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5">
+        <div className="marquee marquee-left">
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-start">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/php.png"}
+                alt="php"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/javascript.png"}
+                alt="javascript"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/react.png"}
+                alt="react"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/nodejs.png"}
+                alt="nodejs"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/go.png"}
+                alt="go"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/python.png"}
+                alt="python"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-start">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/php.png"}
+                alt="php"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/javascript.png"}
+                alt="javascript"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/react.png"}
+                alt="react"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/nodejs.png"}
+                alt="nodejs"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/go.png"}
+                alt="go"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/python.png"}
+                alt="python"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="marquee marquee-right">
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-end">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/dotnet.png"}
+                alt="dotnet"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/redis.png"}
+                alt="redis"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/ruby.png"}
+                alt="ruby"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/postgresql.png"}
+                alt="postgresql"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/laravel.png"}
+                alt="laravel"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/java.png"}
+                alt="java"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-end">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/dotnet.png"}
+                alt="dotnet"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/redis.png"}
+                alt="redis"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/ruby.png"}
+                alt="ruby"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/postgresql.png"}
+                alt="postgresql"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/laravel.png"}
+                alt="laravel"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/java.png"}
+                alt="java"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="marquee marquee-left">
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-start">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/php.png"}
+                alt="php"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/javascript.png"}
+                alt="javascript"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/react.png"}
+                alt="react"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/nodejs.png"}
+                alt="nodejs"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/go.png"}
+                alt="go"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/python.png"}
+                alt="python"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+          </div>
+          <div className="flex flex-row gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5 items-start">
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/php.png"}
+                alt="php"
+                width={100}
+                height={100}
+                className="xs:w-8 xs:h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/javascript.png"}
+                alt="javascript"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/react.png"}
+                alt="react"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/nodejs.png"}
+                alt="nodejs"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/go.png"}
+                alt="go"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
+              />
+            </div>
+            <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
+              <Image
+                src={"/assets/icons/technologies/python.png"}
+                alt="python"
+                width={50}
+                height={50}
+                className="xs:w-6 xs:h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 2xl:w-16 2xl:h-16 object-contain"
               />
             </div>
           </div>
