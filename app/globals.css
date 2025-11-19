@@ -238,6 +238,8 @@
   100% {
     transform: translateX(-50%);
   }
+
+  /* move half, because we duplicate */
 }
 
 @keyframes slide-right {
@@ -251,9 +253,13 @@
 }
 
 .slider-left {
+  display: flex;
+  width: max-content;
   animation: slide-left 20s linear infinite;
 }
 
 .slider-right {
+  display: flex;
+  width: max-content;
   animation: slide-right 20s linear infinite;
 }
