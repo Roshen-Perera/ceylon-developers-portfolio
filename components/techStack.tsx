@@ -12,7 +12,7 @@ const TechStack = () => {
       </div>
       <div className="flex justify-center overflow-hidden">
         <div className="grid grid-cols-2">
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/php.png"}
               alt="php"
@@ -21,7 +21,7 @@ const TechStack = () => {
               className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/javascript.png"}
               alt="javascript"
@@ -30,7 +30,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/react.png"}
               alt="react"
@@ -39,7 +39,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/nodejs.png"}
               alt="nodejs"
@@ -48,7 +48,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/go.png"}
               alt="go"
@@ -57,7 +57,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/python.png"}
               alt="python"
@@ -66,7 +66,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/dotnet.png"}
               alt="dotnet"
@@ -75,7 +75,7 @@ const TechStack = () => {
               className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/redis.png"}
               alt="redis"
@@ -84,7 +84,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/ruby.png"}
               alt="ruby"
@@ -93,7 +93,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/postgresql.png"}
               alt="postgresql"
@@ -102,7 +102,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/laravel.png"}
               alt="laravel"
@@ -111,7 +111,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-[176px] lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[4px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/java.png"}
               alt="java"
