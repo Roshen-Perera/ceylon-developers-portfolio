@@ -11,7 +11,7 @@ const TechStack = () => {
         </H2>
       </div>
       <div className="flex flex-col justify-center overflow-hidden">
-        <div className="grid grid-cols-6">
+        <div className="grid grid-cols-6 gap-2 xs:gap-[13px] md:gap-3.5 lg:gap-[15px] xl:gap-[18px] 2xl:gap-5">
           <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[196px] xl:h-[84px] lg:w-44 lg:h-[79px] md:w-[155px] md:h-[74px] sm:w-[140px] sm:h-[70px] xs:w-[86px] xs:h-[35px] border-[0.4px] border-gray-300 rounded-[9px] flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/php.png"}
