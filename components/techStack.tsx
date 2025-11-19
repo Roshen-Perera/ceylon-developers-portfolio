@@ -4,15 +4,15 @@ import { H2 } from "./typography";
 
 const TechStack = () => {
   return (
-    <div className="w-full px-4 py-8 md:py-12 lg:py-16">
+    <div className="">
       <div className="flex items-center justify-center mb-8 md:mb-12 lg:mb-16">
         <H2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mt-2 font-medium text-center">
           <span className="font-kaushan">Technologies</span> We work with
         </H2>
       </div>
       <div className="flex justify-center overflow-hidden">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4 md:gap-5 max-w-7xl">
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+        <div className="grid grid-cols-2">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/php.png"}
               alt="php"
@@ -21,7 +21,7 @@ const TechStack = () => {
               className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/javascript.png"}
               alt="javascript"
@@ -30,7 +30,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/react.png"}
               alt="react"
@@ -39,7 +39,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/nodejs.png"}
               alt="nodejs"
@@ -48,7 +48,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/go.png"}
               alt="go"
@@ -57,7 +57,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/python.png"}
               alt="python"
@@ -66,7 +66,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/dotnet.png"}
               alt="dotnet"
@@ -75,7 +75,7 @@ const TechStack = () => {
               className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/redis.png"}
               alt="redis"
@@ -84,7 +84,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/ruby.png"}
               alt="ruby"
@@ -93,7 +93,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/postgresql.png"}
               alt="postgresql"
@@ -102,7 +102,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/laravel.png"}
               alt="laravel"
@@ -111,7 +111,7 @@ const TechStack = () => {
               className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 object-contain"
             />
           </div>
-          <div className="px-4 py-3 md:px-6 md:py-4 border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
+          <div className="2xl:w-[223px] 2xl:h-[92px] xl:w-[223px] xl:h-[92px] lg:w-[223px] lg:h-[92px] md:w-[223px] md:h-[92px] sm:w-[223px] sm:h-[92px] xs:w-[223px] xs:h-[92px] border border-gray-300 rounded-2xl flex items-center justify-center hover:shadow-lg transition-shadow">
             <Image
               src={"/assets/icons/technologies/java.png"}
               alt="java"
