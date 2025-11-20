@@ -24,8 +24,8 @@ const Approach = () => {
               </P>
             </div>
           </div>
-          <div className=" w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+          <div className="w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+            <div className="flex flex-col pl-3 sm:pl-4 md:pl-5 p-1.5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Proven Experience and Expertise</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
