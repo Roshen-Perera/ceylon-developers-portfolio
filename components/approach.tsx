@@ -14,7 +14,7 @@ const Approach = () => {
       <div className="mt-10 flex flex-col gap-8 sm:gap-10 md:gap-12 lg:gap-14">
         {/* First Row */}
         <div className="gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
-          <div className="2xl:w-[413px] 2xl:h-[249px]  p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col sm:pl-4 md:pl-5 py-6 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>UX Driven Engineering</H5>
               <P className="text-[#585858]">
@@ -23,7 +23,7 @@ const Approach = () => {
               </P>
             </div>
           </div>
-          <div className="2xl:w-[413px] 2xl:h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col pl-3 sm:pl-4 md:pl-5 p-1.5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Proven Experience and Expertise</H5>
               <P className="text-[#585858]">
@@ -45,7 +45,7 @@ const Approach = () => {
               </P>
             </div>
           </div>
-          <div className="2xl:w-[413px] 2xl:h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Quality Assurance & Testing</H5>
               <P className="text-[#585858]">
@@ -58,7 +58,7 @@ const Approach = () => {
 
         {/* Third Row */}
         <div className=" gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
-          <div className="2xl:w-[413px] 2xl:h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Security & Intellectual Property</H5>
               <P className="text-[#585858]">
@@ -67,7 +67,7 @@ const Approach = () => {
               </P>
             </div>
           </div>
-          <div className="2xl:w-[413px] 2xl:h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Code Reviews</H5>
               <P className="text-[#585858]">
