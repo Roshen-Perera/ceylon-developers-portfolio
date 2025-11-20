@@ -12,11 +12,10 @@ const Approach = () => {
         </H2>
       </div>
       <div className="mt-10 flex flex-col gap-8 sm:gap-10 md:gap-12 lg:gap-14">
-
         {/* First Row */}
         <div className="gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
           <div className="w-[413px] h-[249px]  p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+            <div className="flex flex-col sm:pl-4 md:pl-5 py-6 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>UX Driven Engineering</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
@@ -38,7 +37,7 @@ const Approach = () => {
         {/* Second Row */}
         <div className="gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
           <div className="w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+            <div className="flex flex-col pl-3 sm:pl-4 md:pl-5 p-1.5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Developing Shared Understanding</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
@@ -47,7 +46,7 @@ const Approach = () => {
             </div>
           </div>
           <div className="w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+            <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Quality Assurance & Testing</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
@@ -60,7 +59,7 @@ const Approach = () => {
         {/* Third Row */}
         <div className=" gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
           <div className="w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+            <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Security & Intellectual Property</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
@@ -69,7 +68,7 @@ const Approach = () => {
             </div>
           </div>
           <div className="w-[413px] h-[249px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
-            <div className="flex flex-col p-3 sm:p-4 md:p-5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
+            <div className="flex flex-col sm:pl-4 md:pl-5 py-6  gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Code Reviews</H5>
               <P className="text-[#585858]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
