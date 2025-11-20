@@ -36,7 +36,7 @@ const Approach = () => {
 
         {/* Second Row */}
         <div className="gap-8 sm:gap-10 md:gap-12 lg:gap-14 flex justify-center">
-          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[390px] lg:h-[237px] p-2 sm:p-2.5 md:p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] rounded-lg">
             <div className="flex flex-col pl-3 sm:pl-4 md:pl-5 p-1.5 gradient-border rounded-2xl gap-2 sm:gap-3 md:gap-4">
               <H5>Developing Shared Understanding</H5>
               <P className="text-[#585858]">
