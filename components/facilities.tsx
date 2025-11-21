@@ -49,7 +49,7 @@ const Facilities = () => {
         <div className="flex flex-row gap-10">
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px]  bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
             <div className="flex flex-col">
-              <div className="mt-4 ml-5">
+              <div className="mt-4 mx-5">
                 <div className="flex flex-col gap-3">
                   <H4>Your Workflow</H4>
                   <P className="text-[var(--facilities-text)] relative z-1">
