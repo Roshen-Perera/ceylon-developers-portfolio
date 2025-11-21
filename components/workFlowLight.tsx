@@ -26,6 +26,7 @@ const WorkFlowLight = () => {
     <>
       {isDark ? (
         <div>
+          {/* 1440 */}
           <svg
             width="551"
             height="229"
@@ -294,6 +295,7 @@ const WorkFlowLight = () => {
               </linearGradient>
             </defs>
           </svg>
+          {/* 1280 */}
           <svg
             className="xl:block hidden"
             width="514"
@@ -562,6 +564,7 @@ const WorkFlowLight = () => {
               </linearGradient>
             </defs>
           </svg>
+          
         </div>
       ) : (
         <div>
