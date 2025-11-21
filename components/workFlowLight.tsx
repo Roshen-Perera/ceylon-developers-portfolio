@@ -295,6 +295,7 @@ const WorkFlowLight = () => {
             </defs>
           </svg>
           <svg
+            className="xl:block hidden"
             width="514"
             height="214"
             viewBox="0 0 514 214"
@@ -492,11 +493,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop offset="0.211644" stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.793465"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.793465" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="0.948992" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -507,16 +504,8 @@ const WorkFlowLight = () => {
                 y2="133.158"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.0784195"
-                  stopColor="#17CDCA"
-                  stopOpacity="0"
-                />
-                <stop
-                  offset="0.346418"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.0784195" stopColor="#17CDCA" stopOpacity="0" />
+                <stop offset="0.346418" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="0.803009" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -528,11 +517,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop offset="0.106617" stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.591986"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.591986" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -560,11 +545,7 @@ const WorkFlowLight = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#17CDCA" stopOpacity="0" />
-                <stop
-                  offset="0.783349"
-                  stopColor="#17CDCA"
-                  stopOpacity="0.7"
-                />
+                <stop offset="0.783349" stopColor="#17CDCA" stopOpacity="0.7" />
                 <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
               </linearGradient>
               <linearGradient
