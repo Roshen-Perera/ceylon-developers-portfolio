@@ -1145,6 +1145,7 @@ const WorkFlowLight = () => {
           <svg
             width="350"
             height="142"
+            className="sm:block hidden"
             viewBox="0 0 350 142"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -1429,6 +1430,8 @@ const WorkFlowLight = () => {
               </linearGradient>
             </defs>
           </svg>
+          {/* 375 */}
+
           {}
         </div>
       ) : (
