@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import WorkFlowDark from "./workFlowDark";
 
 const WorkFlow = () => {
   const [isDark, setIsDark] = useState(false);
@@ -25,7 +26,9 @@ const WorkFlow = () => {
   return (
     <>
       {isDark ? (
-        <></>
+        <>
+          <WorkFlowDark />
+        </>
       ) : (
         <div>
           <svg
