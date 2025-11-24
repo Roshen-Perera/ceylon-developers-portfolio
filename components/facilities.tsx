@@ -159,7 +159,7 @@ const Facilities = () => {
                 </P>
               </div>
             </div>
-            <div className="my-4 ml-20">
+            <div className="my-4 ml-20 ">
               <WorkFlowLight />
             </div>
           </div>
