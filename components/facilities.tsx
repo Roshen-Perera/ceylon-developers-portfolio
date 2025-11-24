@@ -27,9 +27,9 @@ const Facilities = () => {
             <Image
               src={"/assets/vectors/maskGroup.png"}
               alt={""}
-              width={500}
-              height={200}
-              className="relative -bottom-45 z-0"
+              width={50}
+              height={20}
+              className="relative -bottom-45 z-0 2xl:w-[265.66px] 2xl:h-[156.68px] " 
             />
           </div>
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
