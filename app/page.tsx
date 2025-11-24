@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <Services />
       <Why />
-      <Approach />
+      {/* <Approach /> */}
       <WeDoSection />
       <Facilities />
       <div className="mt-12">
