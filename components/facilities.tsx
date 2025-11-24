@@ -60,7 +60,7 @@ const Facilities = () => {
                   </P>
                 </div>
               </div>
-              <div className="mt-8 ml-40">
+              <div className="ml-35">
                 <WorkFlowLight />
               </div>
             </div>
@@ -159,7 +159,7 @@ const Facilities = () => {
                 </P>
               </div>
             </div>
-            <div className="my-4 ml-20 ">
+            <div className="my-4 ml-20 relative left-">
               <WorkFlowLight />
             </div>
           </div>
