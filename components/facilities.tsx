@@ -91,7 +91,7 @@ const Facilities = () => {
       </div>
 
       {/* Mobile/Tablet Layout (below lg) */}
-      <div className="flex flex-col gap-10 lg:hidden w-full">
+      {/* <div className="flex flex-col gap-10 lg:hidden w-full">
         <div className="w-full max-w-[650px] mx-auto bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex">
             <div className="mt-12 ml-3 flex-shrink-0">
@@ -165,7 +165,7 @@ const Facilities = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
