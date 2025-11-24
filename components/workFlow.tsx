@@ -28,7 +28,7 @@ const WorkFlow = () => {
     <>
       {isDark ? (
         <>
-          <WorkFlowDark />
+          <WorkFlowDark />/
         </>
       ) : (
         <>
