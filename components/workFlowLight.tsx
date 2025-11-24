@@ -272,6 +272,7 @@ const WorkFlowLight = () => {
       <svg
         width="514"
         height="214"
+        className=" 2xl:hidden xl:block lg:hidden md:hidden sm:hidden xs:hidden block"
         viewBox="0 0 514 214"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
