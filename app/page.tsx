@@ -28,7 +28,9 @@ export default function Home() {
       <Why />
       {/* <Approach /> */}
       <WeDoSection />
-      <Facilities />
+      <div className="flex flex-col items-center justify-center mt-12">
+        <Facilities />
+      </div>
       <div className="mt-12">
         <TechStack />
       </div>
