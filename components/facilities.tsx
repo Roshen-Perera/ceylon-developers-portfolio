@@ -59,7 +59,7 @@ const Facilities = () => {
                   </P>
                 </div>
               </div>
-              <div className="relative bottom-8 left-40">
+              <div className="relative bottom-8 sm:left-40 left-20">
                 <WorkFlowLight />
               </div>
             </div>
