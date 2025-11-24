@@ -3,7 +3,7 @@ import DotVector from "./dotVector";
 import AnalyticsVector from "./analyticsVector";
 import Image from "next/image";
 import CodeIcon from "./codeIcon";
-import WorkFlowLight from "./workFlowLight";
+import WorkFlowLight from "./workFlow";
 import { H4, P } from "./typography";
 
 const Facilities = () => {

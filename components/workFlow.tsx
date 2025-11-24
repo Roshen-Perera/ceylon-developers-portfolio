@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-const WorkFlowLight = () => {
+const WorkFlow = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -1987,4 +1987,4 @@ const WorkFlowLight = () => {
   );
 };
 
-export default WorkFlowLight;
+export default WorkFlow;
