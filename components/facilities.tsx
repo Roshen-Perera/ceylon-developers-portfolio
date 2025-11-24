@@ -29,7 +29,7 @@ const Facilities = () => {
               alt={""}
               width={50}
               height={20}
-              className="relative -bottom-45 z-0 2xl:w-[265.66px] 2xl:h-[156.68px] " 
+              className="relative -bottom-45 z-0 2xl:w-[265.66px] 2xl:h-[156.68px] "
             />
           </div>
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
@@ -80,10 +80,10 @@ const Facilities = () => {
               </div>
             </div>
             <div className="flex flex-col gap-3 px-5 mt-3">
-              <H4>Projects</H4>
+              <H4>Developer Mindset</H4>
               <P className="text-[var(--facilities-text)] relative z-10">
-                Easily organize tasks, set deadlines, and track progress in
-                real-time with Ease.
+                Stay curious, embrace challenges, and keep learning to grow as a
+                developer.
               </P>
             </div>
           </div>
