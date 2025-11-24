@@ -5,6 +5,7 @@ import Image from "next/image";
 import CodeIcon from "./codeIcon";
 import WorkFlowLight from "./workFlow";
 import { H4, P } from "./typography";
+import WorkFlow from "./workFlow";
 
 const Facilities = () => {
   return (
@@ -61,7 +62,7 @@ const Facilities = () => {
                 </div>
               </div>
               <div className="ml-35">
-                <WorkFlowLight />
+                <WorkFlow />
               </div>
             </div>
           </div>
