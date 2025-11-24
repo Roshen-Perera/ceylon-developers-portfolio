@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkFlowLight = () => {
+const WorkFlowDark = () => {
   return (
     <div>
       {/* 1440 */}
@@ -1587,4 +1587,4 @@ const WorkFlowLight = () => {
   );
 }
 
-export default WorkFlowLight
+export default WorkFlowDark
