@@ -7,6 +7,7 @@ const CodeIcon = () => {
         width="299"
         height="217"
         viewBox="0 0 299 217"
+        className='pl-5'
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
