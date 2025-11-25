@@ -456,7 +456,7 @@ const DotVector = () => {
             <path
               d="M45.6333 35.7153H161.473C163.128 35.7153 164.63 36.6856 165.31 38.1948L211.187 140.095C212.441 142.879 210.404 146.031 207.351 146.031H92.8345C91.1954 146.031 89.705 145.079 89.0161 143.591L41.8159 41.6909C40.5243 38.9025 42.5604 35.7155 45.6333 35.7153Z"
               stroke="url(#paint1_linear_999_980)"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -470,7 +470,7 @@ const DotVector = () => {
             <path
               d="M78.3833 19.3408H194.223C195.878 19.3408 197.38 20.3111 198.06 21.8203L243.937 123.721C245.191 126.505 243.154 129.656 240.101 129.656H125.584C123.945 129.656 122.455 128.704 121.766 127.217L74.5659 25.3164C73.2743 22.528 75.3104 19.341 78.3833 19.3408Z"
               stroke="url(#paint3_linear_999_980)"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -484,7 +484,7 @@ const DotVector = () => {
             <path
               d="M113.992 0.467773H229.832C231.487 0.467773 232.989 1.43801 233.668 2.94727L279.545 104.848C280.799 107.632 278.763 110.783 275.709 110.783H161.193C159.554 110.783 158.063 109.831 157.375 108.344L110.174 6.44336C108.883 3.65496 110.919 0.467973 113.992 0.467773Z"
               stroke="url(#paint5_linear_999_980)"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -508,7 +508,7 @@ const DotVector = () => {
             <path
               d="M243.647 80.6814C243.368 79.6385 244.322 78.6839 245.365 78.9633L266.45 84.6133C267.125 84.794 267.489 85.3723 267.507 86.0185C267.526 86.6682 267.19 87.3062 266.526 87.5701C258.873 90.6105 254.776 94.2654 252.331 100.143C252.038 100.846 251.284 101.248 250.495 101.25C249.71 101.252 249.056 100.865 248.869 100.17L243.647 80.6814Z"
               stroke="white"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -522,7 +522,7 @@ const DotVector = () => {
             <path
               d="M253.82 112.513C253.727 112.166 254.045 111.848 254.393 111.941L264.387 114.618C264.606 114.677 264.737 114.862 264.744 115.103C264.751 115.348 264.627 115.568 264.401 115.659C260.801 117.109 258.799 118.868 257.594 121.667C257.489 121.911 257.206 122.076 256.876 122.076C256.549 122.076 256.341 121.921 256.284 121.708L253.82 112.513Z"
               stroke="white"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -536,7 +536,7 @@ const DotVector = () => {
             <path
               d="M272.835 116.819C272.741 116.472 273.059 116.154 273.407 116.247L283.401 118.924C283.62 118.983 283.751 119.168 283.758 119.41C283.766 119.654 283.641 119.874 283.415 119.966C279.815 121.415 277.813 123.174 276.608 125.973C276.503 126.217 276.221 126.383 275.89 126.383C275.563 126.383 275.355 126.228 275.298 126.014L272.835 116.819Z"
               stroke="white"
-              stroke-width="0.935003"
+              strokeWidth="0.935003"
               shapeRendering="crispEdges"
             />
           </g>
@@ -895,7 +895,7 @@ const DotVector = () => {
             <path
               d="M35.7666 27.9922H126.561C127.858 27.9923 129.035 28.7535 129.567 29.9365L165.525 109.804C166.508 111.986 164.911 114.456 162.518 114.456H72.7617C71.4771 114.456 70.3095 113.71 69.7695 112.544L32.7744 32.6758C31.7624 30.4903 33.3582 27.9923 35.7666 27.9922Z"
               stroke="url(#paint1_linear_1035_1040)"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -909,7 +909,7 @@ const DotVector = () => {
             <path
               d="M61.4346 15.1582H152.229C153.526 15.1583 154.703 15.9195 155.235 17.1025L191.193 96.9697C192.176 99.1521 190.579 101.622 188.186 101.622H98.4297C97.145 101.622 95.9775 100.876 95.4375 99.71L58.4424 19.8418C57.4304 17.6564 59.0261 15.1583 61.4346 15.1582Z"
               stroke="url(#paint3_linear_1035_1040)"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -923,7 +923,7 @@ const DotVector = () => {
             <path
               d="M89.3447 0.366211H180.139C181.436 0.366315 182.613 1.12751 183.146 2.31055L219.104 82.1777C220.086 84.3601 218.489 86.8301 216.096 86.8301H126.34C125.055 86.8301 123.888 86.0836 123.348 84.918L86.3525 5.0498C85.3405 2.86436 86.9363 0.366296 89.3447 0.366211Z"
               stroke="url(#paint5_linear_1035_1040)"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -947,7 +947,7 @@ const DotVector = () => {
             <path
               d="M190.967 63.2361C190.748 62.4187 191.496 61.6705 192.314 61.8895L208.84 66.3179C209.369 66.4597 209.654 66.913 209.668 67.4193C209.683 67.9286 209.42 68.4292 208.899 68.636C202.901 71.019 199.689 73.8834 197.773 78.49C197.544 79.041 196.953 79.3562 196.335 79.358C195.719 79.3596 195.206 79.0559 195.059 78.5107L190.967 63.2361Z"
               stroke="white"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -961,7 +961,7 @@ const DotVector = () => {
             <path
               d="M198.94 88.1849C198.868 87.9125 199.117 87.6631 199.389 87.736L207.223 89.8352C207.395 89.8815 207.497 90.0268 207.502 90.2157C207.508 90.4075 207.41 90.5801 207.232 90.6514C204.411 91.7874 202.843 93.1663 201.898 95.3602C201.816 95.5511 201.595 95.6805 201.336 95.6806C201.079 95.6807 200.917 95.5595 200.872 95.392L198.94 88.1849Z"
               stroke="white"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -975,7 +975,7 @@ const DotVector = () => {
             <path
               d="M213.843 91.5599C213.77 91.2875 214.019 91.0381 214.292 91.111L222.125 93.2102C222.297 93.2565 222.399 93.4018 222.405 93.5907C222.411 93.7825 222.312 93.9551 222.135 94.0264C219.313 95.1624 217.745 96.5413 216.8 98.7352C216.718 98.9261 216.497 99.0555 216.238 99.0556C215.982 99.0557 215.819 98.9345 215.774 98.767L213.843 91.5599Z"
               stroke="white"
-              stroke-width="0.732841"
+              strokeWidth="0.732841"
               shapeRendering="crispEdges"
             />
           </g>
@@ -1328,42 +1328,42 @@ const DotVector = () => {
             <path
               d="M32.4419 32.8303C31.317 30.4018 33.0904 27.626 35.7667 27.626H126.56C128.002 27.626 129.31 28.4713 129.901 29.7859L165.859 109.654C166.951 112.078 165.177 114.822 162.518 114.822H72.7617C71.3343 114.822 70.0368 113.993 69.4368 112.698L32.4419 32.8303Z"
               fill="url(#paint0_linear_1051_10378)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M35.7666 27.9922H126.561C127.858 27.9923 129.035 28.7535 129.567 29.9365L165.525 109.804C166.508 111.986 164.911 114.456 162.518 114.456H72.7617C71.4771 114.456 70.3095 113.71 69.7695 112.544L32.7744 32.6758C31.7624 30.4903 33.3582 27.9923 35.7666 27.9922Z"
               stroke="url(#paint1_linear_1051_10378)"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter1_d_1051_10378)">
             <path
               d="M58.1099 19.9963C56.985 17.5679 58.7584 14.792 61.4347 14.792H152.228C153.67 14.792 154.978 15.6374 155.569 16.9519L191.527 96.8197C192.619 99.2445 190.845 101.988 188.186 101.988H98.4296C97.0022 101.988 95.7047 101.159 95.1048 99.864L58.1099 19.9963Z"
               fill="url(#paint2_linear_1051_10378)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M61.4346 15.1582H152.229C153.526 15.1583 154.703 15.9195 155.235 17.1025L191.193 96.9697C192.176 99.1521 190.579 101.622 188.186 101.622H98.4297C97.145 101.622 95.9775 100.876 95.4375 99.71L58.4424 19.8418C57.4304 17.6564 59.0261 15.1583 61.4346 15.1582Z"
               stroke="url(#paint3_linear_1051_10378)"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter2_d_1051_10378)">
             <path
               d="M86.02 5.20428C84.8952 2.77586 86.6686 0 89.3448 0H180.138C181.58 0 182.888 0.845365 183.48 2.15994L219.437 82.0277C220.529 84.4525 218.755 87.1962 216.096 87.1962H126.34C124.912 87.1962 123.615 86.3672 123.015 85.072L86.02 5.20428Z"
               fill="url(#paint4_linear_1051_10378)"
-              fill-opacity="0.75"
-              shape-rendering="crispEdges"
+              fillOpacity="0.75"
+              shapeRendering="crispEdges"
             />
             <path
               d="M89.3447 0.366211H180.139C181.436 0.366315 182.613 1.12751 183.146 2.31055L219.104 82.1777C220.086 84.3601 218.489 86.8301 216.096 86.8301H126.34C125.055 86.8301 123.888 86.0836 123.348 84.918L86.3525 5.0498C85.3405 2.86436 86.9363 0.366296 89.3447 0.366211Z"
               stroke="url(#paint5_linear_1051_10378)"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter3_d_1051_10378)">
@@ -1380,42 +1380,42 @@ const DotVector = () => {
             <path
               d="M190.613 63.3309C190.321 62.2411 191.318 61.2438 192.408 61.5359L208.935 65.9642C210.362 66.3466 210.408 68.4308 209.035 68.9764C203.101 71.3337 199.98 74.1392 198.112 78.6309C197.512 80.0723 195.11 80.1133 194.706 78.6054L190.613 63.3309Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M190.967 63.2361C190.748 62.4187 191.496 61.6705 192.314 61.8895L208.84 66.3179C209.369 66.4597 209.654 66.913 209.668 67.4193C209.683 67.9286 209.42 68.4292 208.899 68.636C202.901 71.019 199.689 73.8834 197.773 78.49C197.544 79.041 196.953 79.3562 196.335 79.358C195.719 79.3596 195.206 79.0559 195.059 78.5107L190.967 63.2361Z"
               stroke="white"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter5_d_1051_10378)">
             <path
               d="M198.587 88.28C198.441 87.7351 198.939 87.2365 199.484 87.3825L207.317 89.4813C208.031 89.6725 208.055 90.7155 207.37 90.9914C204.611 92.1019 203.131 93.4229 202.234 95.505C201.926 96.2219 200.72 96.2409 200.518 95.4869L198.587 88.28Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M198.94 88.1849C198.868 87.9125 199.117 87.6631 199.389 87.736L207.223 89.8352C207.395 89.8815 207.497 90.0268 207.502 90.2157C207.508 90.4075 207.41 90.5801 207.232 90.6514C204.411 91.7874 202.843 93.1663 201.898 95.3602C201.816 95.5511 201.595 95.6805 201.336 95.6806C201.079 95.6807 200.917 95.5595 200.872 95.392L198.94 88.1849Z"
               stroke="white"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter6_d_1051_10378)">
             <path
               d="M213.489 91.655C213.343 91.1101 213.842 90.6115 214.386 90.7575L222.219 92.8563C222.933 93.0475 222.958 94.0905 222.272 94.3664C219.514 95.4769 218.033 96.7979 217.137 98.88C216.828 99.5969 215.622 99.6159 215.42 98.8619L213.489 91.655Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M213.843 91.5599C213.77 91.2875 214.019 91.0381 214.292 91.111L222.125 93.2102C222.297 93.2565 222.399 93.4018 222.405 93.5907C222.411 93.7825 222.312 93.9551 222.135 94.0264C219.313 95.1624 217.745 96.5413 216.8 98.7352C216.718 98.9261 216.497 99.0555 216.238 99.0556C215.982 99.0557 215.819 98.9345 215.774 98.767L213.843 91.5599Z"
               stroke="white"
-              stroke-width="0.732841"
-              shape-rendering="crispEdges"
+              strokeWidth="0.732841"
+              shapeRendering="crispEdges"
             />
           </g>
           <defs>
@@ -1426,7 +1426,7 @@ const DotVector = () => {
               width="198.287"
               height="151.393"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1461,7 +1461,7 @@ const DotVector = () => {
               width="159.886"
               height="114.751"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1496,7 +1496,7 @@ const DotVector = () => {
               width="159.886"
               height="114.751"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1531,7 +1531,7 @@ const DotVector = () => {
               width="24.8588"
               height="39.6992"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1566,7 +1566,7 @@ const DotVector = () => {
               width="25.3354"
               height="24.1025"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1601,7 +1601,7 @@ const DotVector = () => {
               width="15.1674"
               height="14.5532"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1636,7 +1636,7 @@ const DotVector = () => {
               width="15.1674"
               height="14.5532"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1672,8 +1672,8 @@ const DotVector = () => {
               y2="114.822"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8381" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8381" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1051_10378"
@@ -1683,8 +1683,8 @@ const DotVector = () => {
               y2="27.626"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_1051_10378"
@@ -1694,8 +1694,8 @@ const DotVector = () => {
               y2="101.988"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8381" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8381" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_1051_10378"
@@ -1705,8 +1705,8 @@ const DotVector = () => {
               y2="14.792"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_1051_10378"
@@ -1716,8 +1716,8 @@ const DotVector = () => {
               y2="87.1962"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8B89" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8B89" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_1051_10378"
@@ -1727,8 +1727,8 @@ const DotVector = () => {
               y2="7.84675e-07"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint6_linear_1051_10378"
@@ -1738,8 +1738,8 @@ const DotVector = () => {
               y2="60.5166"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint7_linear_1051_10378"
@@ -1749,8 +1749,8 @@ const DotVector = () => {
               y2="36.901"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
           </defs>
         </svg>
@@ -1767,42 +1767,42 @@ const DotVector = () => {
             <path
               d="M27.8465 28.18C26.881 26.0955 28.4032 23.7129 30.7004 23.7129H108.633C109.87 23.7129 110.992 24.4385 111.5 25.5669L142.365 94.121C143.302 96.2023 141.779 98.5573 139.497 98.5573H62.4548C61.2296 98.5573 60.1159 97.8458 59.6009 96.734L27.8465 28.18Z"
               fill="url(#paint0_linear_1059_1549)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M30.7002 24.0273H108.633C109.746 24.0274 110.757 24.6808 111.214 25.6963L142.078 94.25C142.921 96.1231 141.551 98.2429 139.497 98.2432H62.4551C61.3524 98.2432 60.3502 97.6021 59.8867 96.6016L28.1318 28.0479C27.2629 26.1719 28.6328 24.0275 30.7002 24.0273Z"
               stroke="url(#paint1_linear_1059_1549)"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter1_d_1059_1549)">
             <path
               d="M49.8817 17.1639C48.9162 15.0794 50.4383 12.6968 52.7355 12.6968H130.668C131.905 12.6968 133.028 13.4224 133.536 14.5508L164.4 83.1048C165.337 85.1862 163.814 87.5412 161.532 87.5412H84.4899C83.2647 87.5412 82.151 86.8297 81.6361 85.7179L49.8817 17.1639Z"
               fill="url(#paint2_linear_1059_1549)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M52.7354 13.0112H130.668C131.782 13.0113 132.792 13.6647 133.249 14.6802L164.113 83.2339C164.957 85.107 163.586 87.2268 161.532 87.2271H84.4902C83.3875 87.2271 82.3853 86.586 81.9219 85.5854L50.167 17.0317C49.2981 15.1558 50.668 13.0113 52.7354 13.0112Z"
               stroke="url(#paint3_linear_1059_1549)"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter2_d_1059_1549)">
             <path
               d="M73.8387 4.46707C72.8732 2.38266 74.3954 0 76.6925 0H154.625C155.862 0 156.985 0.725615 157.493 1.85398L188.357 70.4081C189.294 72.4894 187.771 74.8444 185.489 74.8444H108.447C107.222 74.8444 106.108 74.1329 105.593 73.0212L73.8387 4.46707Z"
               fill="url(#paint4_linear_1059_1549)"
-              fill-opacity="0.75"
-              shape-rendering="crispEdges"
+              fillOpacity="0.75"
+              shapeRendering="crispEdges"
             />
             <path
               d="M76.6924 0.314453H154.625C155.739 0.314555 156.749 0.967951 157.206 1.9834L188.07 70.5371C188.914 72.4102 187.543 74.53 185.489 74.5303H108.447C107.345 74.5303 106.342 73.8892 105.879 72.8887L74.124 4.33496C73.2551 2.45904 74.625 0.314567 76.6924 0.314453Z"
               stroke="url(#paint5_linear_1059_1549)"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter3_d_1059_1549)">
@@ -1819,42 +1819,42 @@ const DotVector = () => {
             <path
               d="M163.613 54.3601C163.362 53.4247 164.218 52.5687 165.154 52.8193L179.339 56.6203C180.564 56.9486 180.603 58.7376 179.425 59.2059C174.332 61.2292 171.653 63.6373 170.049 67.4927C169.534 68.73 167.473 68.7652 167.126 67.4708L163.613 54.3601Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M163.917 54.2781C163.729 53.5769 164.371 52.9352 165.072 53.1228L179.258 56.9242C179.711 57.0459 179.957 57.4348 179.97 57.8696C179.982 58.3066 179.755 58.7354 179.309 58.913C174.16 60.9585 171.403 63.4179 169.759 67.372C169.562 67.845 169.054 68.1149 168.524 68.1164C167.996 68.1178 167.555 67.8573 167.429 67.3893L163.917 54.2781Z"
               stroke="white"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter5_d_1059_1549)">
             <path
               d="M170.456 75.775C170.331 75.3073 170.759 74.8793 171.227 75.0046L177.95 76.8061C178.563 76.9702 178.584 77.8654 177.995 78.1023C175.628 79.0555 174.357 80.1893 173.587 81.9765C173.323 82.5919 172.287 82.6081 172.114 81.9609L170.456 75.775Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M170.76 75.6934C170.698 75.4596 170.912 75.2455 171.145 75.3081L177.869 77.1097C178.017 77.1493 178.104 77.2741 178.109 77.4363C178.114 77.6009 178.03 77.7493 177.878 77.8106C175.456 78.7856 174.109 79.9686 173.298 81.8516C173.228 82.0154 173.039 82.1276 172.816 82.1278C172.596 82.1278 172.457 82.0235 172.418 81.8799L170.76 75.6934Z"
               stroke="white"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter6_d_1059_1549)">
             <path
               d="M183.249 78.672C183.124 78.2042 183.552 77.7762 184.02 77.9016L190.743 79.7031C191.356 79.8672 191.377 80.7624 190.788 80.9992C188.421 81.9525 187.15 83.0863 186.38 84.8734C186.115 85.4888 185.08 85.5051 184.907 84.8579L183.249 78.672Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M183.553 78.5903C183.491 78.3566 183.705 78.1424 183.938 78.205L190.662 80.0066C190.81 80.0463 190.897 80.1711 190.902 80.3333C190.907 80.4979 190.823 80.6462 190.671 80.7075C188.249 81.6826 186.902 82.8656 186.091 84.7485C186.021 84.9123 185.832 85.0246 185.609 85.0247C185.389 85.0248 185.25 84.9204 185.211 84.7768L183.553 78.5903Z"
               stroke="white"
-              stroke-width="0.62903"
-              shape-rendering="crispEdges"
+              strokeWidth="0.62903"
+              shapeRendering="crispEdges"
             />
           </g>
           <defs>
@@ -1865,7 +1865,7 @@ const DotVector = () => {
               width="170.197"
               height="129.947"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1900,7 +1900,7 @@ const DotVector = () => {
               width="137.236"
               height="98.4958"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1935,7 +1935,7 @@ const DotVector = () => {
               width="137.236"
               height="98.4958"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -1970,7 +1970,7 @@ const DotVector = () => {
               width="21.3369"
               height="34.0757"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2005,7 +2005,7 @@ const DotVector = () => {
               width="21.7471"
               height="20.6885"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2040,7 +2040,7 @@ const DotVector = () => {
               width="13.0205"
               height="12.4922"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2075,7 +2075,7 @@ const DotVector = () => {
               width="13.0205"
               height="12.4922"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2111,8 +2111,8 @@ const DotVector = () => {
               y2="98.5573"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8381" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8381" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1059_1549"
@@ -2122,8 +2122,8 @@ const DotVector = () => {
               y2="23.7129"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_1059_1549"
@@ -2133,8 +2133,8 @@ const DotVector = () => {
               y2="87.5412"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8381" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8381" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_1059_1549"
@@ -2144,8 +2144,8 @@ const DotVector = () => {
               y2="12.6968"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_1059_1549"
@@ -2155,8 +2155,8 @@ const DotVector = () => {
               y2="74.8444"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8B89" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8B89" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_1059_1549"
@@ -2166,8 +2166,8 @@ const DotVector = () => {
               y2="5.84585e-07"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint6_linear_1059_1549"
@@ -2177,8 +2177,8 @@ const DotVector = () => {
               y2="51.9442"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint7_linear_1059_1549"
@@ -2188,8 +2188,8 @@ const DotVector = () => {
               y2="31.6742"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
           </defs>
         </svg>
@@ -2206,42 +2206,42 @@ const DotVector = () => {
             <path
               d="M8.95141 26.5756C8.04085 24.6099 9.47641 22.3628 11.6429 22.3628H85.14C86.307 22.3628 87.3656 23.0471 87.8447 24.1113L116.952 88.764C117.836 90.7269 116.4 92.9479 114.248 92.9479H41.5902C40.4347 92.9479 39.3844 92.2769 38.8987 91.2284L8.95141 26.5756Z"
               fill="url(#paint0_linear_731_754)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M11.6426 22.6597H85.1396C86.1899 22.6597 87.143 23.2752 87.5742 24.2329L116.682 88.8862C117.477 90.6527 116.185 92.6506 114.248 92.6509H41.5898C40.5501 92.6508 39.6051 92.0474 39.168 91.104L9.2207 26.4507C8.40141 24.6816 9.693 22.6599 11.6426 22.6597Z"
               stroke="url(#paint1_linear_731_754)"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter1_d_731_754)">
             <path
               d="M29.7287 16.187C28.8182 14.2212 30.2538 11.9741 32.4202 11.9741H105.917C107.084 11.9741 108.143 12.6584 108.622 13.7226L137.73 78.3753C138.613 80.3382 137.178 82.5592 135.025 82.5592H62.3675C61.212 82.5592 60.1617 81.8882 59.6761 80.8397L29.7287 16.187Z"
               fill="url(#paint2_linear_731_754)"
-              fill-opacity="0.18"
-              shape-rendering="crispEdges"
+              fillOpacity="0.18"
+              shapeRendering="crispEdges"
             />
             <path
               d="M32.4199 12.271H105.917C106.967 12.271 107.92 12.8866 108.352 13.8442L137.459 78.4976C138.254 80.264 136.962 82.262 135.025 82.2622H62.3672C61.3275 82.2621 60.3824 81.6587 59.9453 80.7153L29.998 16.062C29.1788 14.2929 30.4703 12.2712 32.4199 12.271Z"
               stroke="url(#paint3_linear_731_754)"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter2_d_731_754)">
             <path
               d="M52.3225 4.21286C51.4119 2.24706 52.8475 0 55.0139 0H128.511C129.678 0 130.737 0.684321 131.216 1.74847L160.323 66.4012C161.207 68.3641 159.771 70.5851 157.619 70.5851H84.9613C83.8058 70.5851 82.7555 69.9141 82.2698 68.8656L52.3225 4.21286Z"
               fill="url(#paint4_linear_731_754)"
-              fill-opacity="0.75"
-              shape-rendering="crispEdges"
+              fillOpacity="0.75"
+              shapeRendering="crispEdges"
             />
             <path
               d="M55.0137 0.296875H128.511C129.561 0.296875 130.514 0.912442 130.945 1.87012L160.053 66.5234C160.848 68.2899 159.556 70.2879 157.619 70.2881H84.9609C83.9212 70.288 82.9762 69.6846 82.5391 68.7412L52.5918 4.08789C51.7725 2.3188 53.0641 0.297065 55.0137 0.296875Z"
               stroke="url(#paint5_linear_731_754)"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter3_d_731_754)">
@@ -2258,42 +2258,42 @@ const DotVector = () => {
             <path
               d="M136.992 51.2667C136.755 50.3845 137.563 49.5772 138.445 49.8136L151.823 53.3983C152.979 53.7079 153.016 55.395 151.904 55.8367C147.101 57.7449 144.574 60.0159 143.062 63.6519C142.576 64.8188 140.632 64.852 140.305 63.6313L136.992 51.2667Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M137.278 51.19C137.101 50.5283 137.707 49.9223 138.368 50.0996L151.747 53.6849C152.175 53.7996 152.406 54.1664 152.417 54.5763C152.429 54.9886 152.216 55.3936 151.794 55.561C146.939 57.4901 144.34 59.8091 142.788 63.5381C142.603 63.9842 142.124 64.2389 141.623 64.2404C141.125 64.2417 140.709 63.996 140.591 63.5547L137.278 51.19Z"
               stroke="white"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter5_d_731_754)">
             <path
               d="M143.449 71.4628C143.33 71.0217 143.734 70.618 144.175 70.7362L150.516 72.4352C151.094 72.59 151.113 73.4342 150.559 73.6576C148.326 74.5566 147.127 75.6259 146.401 77.3113C146.152 77.8917 145.175 77.907 145.012 77.2967L143.449 71.4628Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M143.735 71.3856C143.676 71.1652 143.878 70.9633 144.099 71.0224L150.44 72.7218C150.578 72.7592 150.661 72.8765 150.665 73.0291C150.67 73.1843 150.591 73.3241 150.448 73.382C148.164 74.3016 146.893 75.4184 146.129 77.1944C146.062 77.3487 145.884 77.4539 145.674 77.454C145.467 77.4541 145.334 77.3556 145.298 77.2199L143.735 71.3856Z"
               stroke="white"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <g filter="url(#filter6_d_731_754)">
             <path
               d="M155.507 74.1952C155.389 73.7541 155.793 73.3504 156.234 73.4686L162.574 75.1676C163.152 75.3224 163.172 76.1667 162.617 76.39C160.384 77.289 159.186 78.3583 158.46 80.0438C158.21 80.6241 157.234 80.6395 157.07 80.0291L155.507 74.1952Z"
               fill="#17CDCA"
-              fill-opacity="0.46"
-              shape-rendering="crispEdges"
+              fillOpacity="0.46"
+              shapeRendering="crispEdges"
             />
             <path
               d="M155.794 74.118C155.735 73.8976 155.937 73.6957 156.157 73.7548L162.498 75.4542C162.637 75.4917 162.719 75.6089 162.724 75.7615C162.729 75.9167 162.65 76.0565 162.507 76.1144C160.222 77.034 158.952 78.1508 158.187 79.9268C158.121 80.0811 157.942 80.1863 157.733 80.1865C157.525 80.1865 157.393 80.088 157.357 79.9524L155.794 74.118Z"
               stroke="white"
-              stroke-width="0.593233"
-              shape-rendering="crispEdges"
+              strokeWidth="0.593233"
+              shapeRendering="crispEdges"
             />
           </g>
           <defs>
@@ -2304,7 +2304,7 @@ const DotVector = () => {
               width="160.514"
               height="122.552"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2339,7 +2339,7 @@ const DotVector = () => {
               width="129.429"
               height="92.8905"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2374,7 +2374,7 @@ const DotVector = () => {
               width="129.429"
               height="92.8905"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2409,7 +2409,7 @@ const DotVector = () => {
               width="20.1209"
               height="32.1365"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2444,7 +2444,7 @@ const DotVector = () => {
               width="20.5115"
               height="19.511"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2479,7 +2479,7 @@ const DotVector = () => {
               width="12.281"
               height="11.781"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2514,7 +2514,7 @@ const DotVector = () => {
               width="12.281"
               height="11.781"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
               <feFlood flood-opacity="0" result="BackgroundImageFix" />
               <feColorMatrix
@@ -2550,8 +2550,8 @@ const DotVector = () => {
               y2="92.9479"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8B89" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8B89" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_731_754"
@@ -2561,8 +2561,8 @@ const DotVector = () => {
               y2="22.3628"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_731_754"
@@ -2572,8 +2572,8 @@ const DotVector = () => {
               y2="82.5592"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8B89" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8B89" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_731_754"
@@ -2583,8 +2583,8 @@ const DotVector = () => {
               y2="11.9741"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_731_754"
@@ -2594,8 +2594,8 @@ const DotVector = () => {
               y2="70.5851"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="#0C8B89" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="#0C8B89" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_731_754"
@@ -2605,8 +2605,8 @@ const DotVector = () => {
               y2="5.04625e-06"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="white" />
-              <stop offset="1" stop-color="#999999" stop-opacity="0" />
+              <stop stopColor="white" />
+              <stop offset="1" stopColor="#999999" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint6_linear_731_754"
@@ -2616,8 +2616,8 @@ const DotVector = () => {
               y2="48.9877"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
             <linearGradient
               id="paint7_linear_731_754"
@@ -2627,8 +2627,8 @@ const DotVector = () => {
               y2="29.8712"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#17CDCA" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#17CDCA" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
           </defs>
         </svg>
