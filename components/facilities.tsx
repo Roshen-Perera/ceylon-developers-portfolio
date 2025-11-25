@@ -85,7 +85,7 @@ const Facilities = () => {
                 <CodeIcon />
               </div>
             </div>
-            <div className="flex flex-col gap-3 px-5 mt-3">
+            <div className="flex flex-col gap-3 px-5 xl:mt-3 -mt-3">
               <H4>Developer Mindset</H4>
               <P className="text-[var(--facilities-text)] relative z-10">
                 Stay curious, embrace challenges, and keep learning to grow as a
