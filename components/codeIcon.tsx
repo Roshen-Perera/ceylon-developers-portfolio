@@ -4,8 +4,8 @@ const CodeIcon = () => {
   return (
     <div>
       <svg
-        width="299"
-        height="217"
+        width="2xl:299 xl:279 lg:219 md:219 sm:188 160"
+        height="2xl:217 xl:202 lg:158 md:158 sm:136 115"
         viewBox="0 0 299 217"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
