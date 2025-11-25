@@ -13,24 +13,30 @@ const Facilities = () => {
       {/* Desktop Layout (lg and above) */}
       <div className="hidden lg:flex flex-col gap-10 w-full max-w-[1165px] 2xl:max-w-[1165px]">
         <div className="flex flex-row gap-10">
-          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
+          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0 flex flex-col">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <P className="text-[var(--facilities-text)] relative z-10">
+                <P className="text-[var(--facilities-text)]">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </P>
               </div>
-              <DotVector />
             </div>
-            <Image
-              src={"/assets/vectors/maskGroup.png"}
-              alt={""}
-              width={50}
-              height={20}
-              className="relative -bottom-45 z-0 2xl:w-[265.66px] 2xl:h-[156.68px] "
-            />
+
+            {/* Push image to bottom */}
+            <div className="mt-auto relative -z-1">
+              <Image
+                src={"/assets/vectors/maskGroup.png"}
+                alt={""}
+                width={500}
+                height={220}
+                className="w-full transition-opacity duration-500 hover:opacity-90"
+              />
+              <div className="absolute -bottom-10 left-0 right-0">
+                <DotVector />
+              </div>
+            </div>
           </div>
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
             <div className="flex">
