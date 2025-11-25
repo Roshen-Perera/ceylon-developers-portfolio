@@ -97,7 +97,7 @@ const Facilities = () => {
       </div>
 
       {/* Mobile/Tablet Layout (below lg) */}
-      {/* <div className="flex flex-col gap-10 lg:hidden w-full">
+      <div className="flex flex-col gap-10 lg:hidden w-full">
         <div className="w-full max-w-[650px] mx-auto bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex">
             <div className="mt-12 ml-3 flex-shrink-0">
@@ -122,15 +122,19 @@ const Facilities = () => {
                   real-time with Ease.
                 </P>
               </div>
-              <DotVector />
             </div>
-            <Image
-              src={"/assets/vectors/maskGroup.png"}
-              alt={""}
-              width={500}
-              height={200}
-              className="relative -bottom-45 z-0"
-            />
+            <div className="mt-auto relative -z-1">
+              <Image
+                src={"/assets/vectors/maskGroup.png"}
+                alt={""}
+                width={500}
+                height={220}
+                className="absolute left-0 right-0 w-full transition-opacity duration-500 hover:opacity-90"
+              />
+              {/* <div className="absolute -bottom-10 lg:left-0 right-5">
+                <DotVector />
+              </div> */}
+            </div>
           </div>
           <div className="flex-1 min-w-0 bg-[#6F6F6F1A] border rounded-4xl overflow-hidden h-[287px] sm:h-[280px] md:h-[309px]">
             <div className="relative top-1.5">
@@ -171,7 +175,7 @@ const Facilities = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
