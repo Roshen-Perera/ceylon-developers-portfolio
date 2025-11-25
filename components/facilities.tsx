@@ -37,16 +37,9 @@ const Facilities = () => {
                 <Image
                   src={"/assets/vectors/projectVector.png"}
                   alt={""}
-                  width={318}
-                  height={203}
-                  className="object-contain
-                  2xl:max-w-[318px] 2xl:max-h-[203px] 
-                  xl:max-w-[248.39px] xl:max-h-[146.49px] 
-                  lg:max-w-[195px] lg:max-h-[115px] 
-                  md:max-w-[195px] md:max-h-[115px] 
-                  sm:max-w-[167px] sm:max-h-[99px] 
-                  max-w-[157px] max-h-[93px]
-                  transition-opacity duration-500 hover:opacity-90"
+                  width={350}
+                  height={220}
+                  className="w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] xl:w-[280px] 2xl:w-[320px] h-auto transition-opacity duration-500 hover:opacity-90"
                 />
               </div>
             </div>
@@ -145,7 +138,13 @@ const Facilities = () => {
                 className="absolute left-0 right-0 w-full transition-opacity duration-500 hover:opacity-90"
               />
               <div className="absolute -bottom-10 lg:left-0 right-5">
-                <DotVector />
+                <Image
+                  src={"/assets/vectors/projectVector.png"}
+                  alt={""}
+                  width={350}
+                  height={220}
+                  className="w-[180px] sm:w-[200px] md:w-[230px] lg:w-[250px] xl:w-[280px] 2xl:w-[320px] h-auto transition-opacity duration-500 hover:opacity-90"
+                />
               </div>
             </div>
           </div>
