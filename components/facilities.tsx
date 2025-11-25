@@ -73,7 +73,7 @@ const Facilities = () => {
             </div>
           </div>
           <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
-            <div className="relative top-1.5">
+            <div className="relative">
               <Image
                 src={"/assets/vectors/maskGroup.png"}
                 alt={""}
@@ -81,7 +81,7 @@ const Facilities = () => {
                 height={200}
                 className="rotate-180 overflow-hidden"
               />
-              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+              <div className="absolute -top-3 left-0 right-0">
                 <CodeIcon />
               </div>
             </div>
