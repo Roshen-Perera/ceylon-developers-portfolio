@@ -13,11 +13,11 @@ const Facilities = () => {
       {/* Desktop Layout (lg and above) */}
       <div className="hidden lg:flex flex-col gap-10 w-full max-w-[1165px] 2xl:max-w-[1165px]">
         <div className="flex flex-row gap-10">
-          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0 flex flex-col">
+          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0 flex flex-col">
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <P className="text-[var(--facilities-text)]">
+                <P className="text-(--facilities-text)">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </P>
@@ -44,14 +44,14 @@ const Facilities = () => {
               </div>
             </div>
           </div>
-          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
+          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0">
             <div className="flex">
-              <div className="mt-12 ml-3 flex-shrink-0">
+              <div className="mt-12 ml-3 shrink-0">
                 <AnalyticsVector />
               </div>
               <div className="flex flex-col gap-2 -ml-37 mt-4 z-20">
                 <H4>Analytics & Reporting</H4>
-                <P className="text-[var(--facilities-text)]">
+                <P className="text-(--facilities-text)">
                   Generate real-time reports, identify key performance
                   indicators, and make data-driven decisions for continuous
                   improvement.
@@ -61,12 +61,12 @@ const Facilities = () => {
           </div>
         </div>
         <div className="flex flex-row gap-10">
-          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
+          <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0">
             <div className="flex flex-col">
               <div className="mt-4 mx-5">
                 <div className="flex flex-col gap-3">
                   <H4>Your Workflow</H4>
-                  <P className="text-[var(--facilities-text)] relative z-10">
+                  <P className="text-[(--facilities-text)] relative z-10">
                     Automate repetitive tasks and streamline your workflows with
                     our powerful automation features. Reduce manual effort,
                     eliminate errors.
@@ -78,7 +78,7 @@ const Facilities = () => {
               </div>
             </div>
           </div>
-          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden flex-shrink-0">
+          <div className="2xl:w-[369px] 2xl:h-[375px] xl:w-[345px] xl:h-[350px] lg:w-[270px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0">
             <div className="relative">
               <Image
                 src={"/assets/vectors/maskGroup.png"}
@@ -93,7 +93,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-5 xl:mt-3 -mt-3">
               <H4>Developer Mindset</H4>
-              <P className="text-[var(--facilities-text)] relative z-10">
+              <P className="text-[(--facilities-text)] relative z-10">
                 Stay curious, embrace challenges, and keep learning to grow as a
                 developer.
               </P>
@@ -106,12 +106,12 @@ const Facilities = () => {
       <div className="flex flex-col gap-10 lg:hidden w-full">
         <div className="w-full max-w-[650px] mx-auto bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex">
-            <div className="mt-12 ml-3 flex-shrink-0">
+            <div className="mt-12 ml-3 shrink-0">
               <AnalyticsVector />
             </div>
             <div className="flex flex-col gap-2 -ml-37 mt-4 z-20 pr-4">
               <H4>Analytics & Reporting</H4>
-              <P className="text-[var(--facilities-text)]">
+              <P className="text-[(--facilities-text)]">
                 Generate real-time reports, identify key performance indicators,
                 and make data-driven decisions for continuous improvement.
               </P>
@@ -123,7 +123,7 @@ const Facilities = () => {
             <div className="mt-4 ml-3 sm:ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Projects</H4>
-                <P className="text-[var(--facilities-text)] relative z-10 pr-2">
+                <P className="text-[(--facilities-text)] relative z-10 pr-2">
                   Easily organize tasks, set deadlines, and track progress in
                   real-time with Ease.
                 </P>
@@ -163,7 +163,7 @@ const Facilities = () => {
             </div>
             <div className="flex flex-col gap-3 px-3 sm:px-5 mt-3">
               <H4>Developer Mindset</H4>
-              <P className="text-[var(--facilities-text)] relative z-10">
+              <P className="text-[(--facilities-text)] relative z-10">
                 Stay curious, embrace challenges, and keep learning to grow as a
                 developer.
               </P>
@@ -175,7 +175,7 @@ const Facilities = () => {
             <div className="mt-4 ml-5">
               <div className="flex flex-col gap-3">
                 <H4>Your Workflow</H4>
-                <P className="text-[var(--facilities-text)] relative z-10 pr-4">
+                <P className="text-[(--facilities-text)] relative z-10 pr-4">
                   Automate repetitive tasks and streamline your workflows with
                   our powerful automation features. Reduce manual effort,
                   eliminate errors.
