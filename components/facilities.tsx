@@ -33,7 +33,7 @@ const Facilities = () => {
                 height={220}
                 className="w-full transition-opacity duration-500 hover:opacity-90"
               />
-              <div className="absolute -bottom-10 left-0 right-0">
+              <div className="absolute -bottom-10 lg:left-0 right-5">
                 <DotVector />
               </div>
             </div>
