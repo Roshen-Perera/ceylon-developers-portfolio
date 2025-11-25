@@ -137,7 +137,7 @@ const Facilities = () => {
                 height={220}
                 className="absolute left-0 right-0 w-full transition-opacity duration-500 hover:opacity-90"
               />
-              <div className="absolute -bottom-10 lg:left-0 right-5">
+              <div className="absolute top-10 left-0 right-0">
                 <Image
                   src={"/assets/vectors/projectVector.png"}
                   alt={""}
