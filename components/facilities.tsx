@@ -157,7 +157,7 @@ const Facilities = () => {
                 height={200}
                 className="rotate-180 overflow-hidden"
               />
-              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+              <div className="absolute p-5 top-0 left-0 w-full h-full flex items-center justify-center">
                 <Image
                   src={"/assets/vectors/codeIcon.png"}
                   alt={""}
