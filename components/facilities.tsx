@@ -81,7 +81,7 @@ const Facilities = () => {
                 height={200}
                 className="rotate-180 overflow-hidden"
               />
-              <div className="absolute -top-3 left-0 right-0">
+              <div className="p-5 absolute -top-10 left-0 right-0">
                 <CodeIcon />
               </div>
             </div>
