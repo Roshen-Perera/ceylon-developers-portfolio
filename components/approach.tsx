@@ -30,7 +30,11 @@ const Approach = () => {
           <span className="font-kaushan">development</span> approach
         </H2>
       </div>
-      
+      {isDark ? (
+        <div>Under Development</div>
+      ) : (
+        
+      )}
     </div>
   );
 };
