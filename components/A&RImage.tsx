@@ -21,7 +21,8 @@ const ARImg = () => {
     return () => observer.disconnect(); // Cleanup on unmount
   }, []);
   return (
-    <div>A&RImage</div>
+    <>
+    </>
   )
 }
 
