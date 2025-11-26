@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 import { H2, H5, P } from "./typography";
 import ApproachesLight from "./approachesLight";
