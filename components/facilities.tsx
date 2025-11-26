@@ -47,7 +47,13 @@ const Facilities = () => {
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0">
             <div className="flex">
               <div className="mt-12 ml-3 shrink-0">
-                
+                <Image
+                  src={"/assets/vectors/A&R.png"}
+                  alt={""}
+                  width={400}
+                  height={323}
+                  className="w-48 sm:w-[277px] md:w-[323px] lg:w-[293px] xl:w-[374px] 2xl:w-[400px] h-auto transition-opacity duration-500 hover:opacity-90"
+                />
               </div>
               <div className="flex flex-col gap-2 -ml-37 mt-4 z-20">
                 <H4>Analytics & Reporting</H4>
