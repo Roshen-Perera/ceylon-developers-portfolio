@@ -24,7 +24,7 @@ const ARImg = () => {
   return (
     <>
       <Image
-        src={ isDark ? "/assets/vectors/A&R-dark.png" : "/assets/vectors/A&R.png"}
+        src={ isDark ? "/assets/vectors/A&R-dark.png" : "/assets/vectors/A&R-light.png"}
         alt={""}
         width={400}
         height={323}
