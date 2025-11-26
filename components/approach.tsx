@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { H2, H5, P } from "./typography";
 
 const Approach = () => {
