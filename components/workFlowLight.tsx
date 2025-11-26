@@ -368,7 +368,7 @@ const WorkFlowLight = () => {
         <path
           d="M71.4052 69.4746V94.8714C71.4052 99.1347 74.8613 102.591 79.1246 102.591H171.757C176.02 102.591 179.477 106.047 179.477 110.31V133.159"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.92984"
         />
         <path
@@ -384,7 +384,7 @@ const WorkFlowLight = () => {
         <path
           d="M202.635 133.158V124.474C202.635 120.211 206.091 116.755 210.355 116.755H220.004H229.653C233.916 116.755 237.372 113.298 237.372 109.035V38.5958C237.372 34.3325 240.829 30.8764 245.092 30.8764H279.829"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.92984"
         />
         <path
@@ -400,7 +400,7 @@ const WorkFlowLight = () => {
         <path
           d="M358.949 46.3164V122.545C358.949 126.809 362.405 130.265 366.668 130.265H399.476H432.283C436.546 130.265 440.002 133.721 440.002 137.984V167.897"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.92984"
         />
         <path
@@ -411,7 +411,7 @@ const WorkFlowLight = () => {
         <path
           d="M411.056 130.264H425.529H432.284C436.547 130.264 440.003 133.72 440.003 137.983V157.282"
           stroke="url(#paint9_linear_1102_4246)"
-          stroke-opacity="0.7"
+          strokeOpacity="0.7"
           strokeWidth="1.92984"
         />
         <defs>
@@ -633,7 +633,7 @@ const WorkFlowLight = () => {
         <path
           d="M55.9634 54.4531V74.3587C55.9634 77.7002 58.6722 80.409 62.0137 80.409H134.618C137.959 80.409 140.668 83.1178 140.668 86.4594V104.368"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -649,7 +649,7 @@ const WorkFlowLight = () => {
         <path
           d="M158.822 104.369V97.5625C158.822 94.221 161.531 91.5122 164.873 91.5122H172.436H179.998C183.34 91.5122 186.049 88.8034 186.049 85.4619V30.2526C186.049 26.9111 188.758 24.2023 192.099 24.2023H219.326"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -665,7 +665,7 @@ const WorkFlowLight = () => {
         <path
           d="M281.339 36.3027V96.0497C281.339 99.3912 284.048 102.1 287.389 102.1H313.103H338.817C342.158 102.1 344.867 104.809 344.867 108.15V131.595"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -676,7 +676,7 @@ const WorkFlowLight = () => {
         <path
           d="M322.18 102.1H333.524H338.818C342.16 102.1 344.868 104.808 344.868 108.15V123.276"
           stroke="url(#paint9_linear_1103_14352)"
-          stroke-opacity="0.7"
+          strokeOpacity="0.7"
           strokeWidth="1.51258"
         />
         <defs>
@@ -898,7 +898,7 @@ const WorkFlowLight = () => {
         <path
           d="M55.9634 54.4531V74.3587C55.9634 77.7002 58.6722 80.409 62.0137 80.409H134.618C137.959 80.409 140.668 83.1178 140.668 86.4594V104.368"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -914,7 +914,7 @@ const WorkFlowLight = () => {
         <path
           d="M158.824 104.369V97.5625C158.824 94.221 161.533 91.5122 164.875 91.5122H172.437H180C183.342 91.5122 186.051 88.8034 186.051 85.4619V30.2526C186.051 26.9111 188.76 24.2023 192.101 24.2023H219.327"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -930,7 +930,7 @@ const WorkFlowLight = () => {
         <path
           d="M281.339 36.3027V96.0497C281.339 99.3912 284.048 102.1 287.389 102.1H313.103H338.817C342.158 102.1 344.867 104.809 344.867 108.15V131.595"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.51258"
         />
         <path
@@ -941,7 +941,7 @@ const WorkFlowLight = () => {
         <path
           d="M322.18 102.1H333.524H338.818C342.16 102.1 344.868 104.808 344.868 108.15V123.276"
           stroke="url(#paint9_linear_1104_23489)"
-          stroke-opacity="0.7"
+          strokeOpacity="0.7"
           strokeWidth="1.51258"
         />
         <defs>
@@ -1163,7 +1163,7 @@ const WorkFlowLight = () => {
         <path
           d="M48.0403 46.7402V64.0194C48.0403 66.7808 50.2789 69.0194 53.0403 69.0194H115.746C118.508 69.0194 120.746 71.2579 120.746 74.0194V89.5847"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.29832"
         />
         <path
@@ -1179,7 +1179,7 @@ const WorkFlowLight = () => {
         <path
           d="M136.328 89.584V83.5483C136.328 80.7869 138.567 78.5483 141.328 78.5483H148.013H154.698C157.459 78.5483 159.698 76.3097 159.698 73.5483V25.7732C159.698 23.0118 161.936 20.7732 164.698 20.7732H188.261"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.29832"
         />
         <path
@@ -1195,7 +1195,7 @@ const WorkFlowLight = () => {
         <path
           d="M241.482 31.1602V82.6369C241.482 85.3984 243.721 87.6369 246.482 87.6369H268.747H291.012C293.773 87.6369 296.012 89.8755 296.012 92.6369V112.954"
           stroke="black"
-          stroke-opacity="0.24"
+          strokeOpacity="0.24"
           strokeWidth="1.29832"
         />
         <path
@@ -1206,7 +1206,7 @@ const WorkFlowLight = () => {
         <path
           d="M276.539 87.6367H286.276H291.014C293.775 87.6367 296.014 89.8753 296.014 92.6367V105.813"
           stroke="url(#paint9_linear_1108_2993)"
-          stroke-opacity="0.7"
+          strokeOpacity="0.7"
           strokeWidth="1.29832"
         />
         <defs>
@@ -1428,7 +1428,7 @@ const WorkFlowLight = () => {
         <path
           d="M35 30.8047V46.6663C35 48.8754 36.7909 50.6662 39 50.6662H89C91.2091 50.6662 93 52.4571 93 54.6662V69"
           stroke="black"
-          stroke-opacity="0.25"
+          strokeOpacity="0.25"
         />
         <path
           d="M35 30.8047V46.6097C35 48.8188 36.7909 50.6097 39 50.6097H64"
@@ -1441,7 +1441,7 @@ const WorkFlowLight = () => {
         <path
           d="M105 69V63.5064C105 61.2973 106.791 59.5064 109 59.5064H114H119C121.209 59.5064 123 57.7156 123 55.5064V13.8047C123 11.5955 124.791 9.80469 127 9.80469H145"
           stroke="black"
-          stroke-opacity="0.25"
+          strokeOpacity="0.25"
         />
         <path
           d="M105 69V63.5064C105 61.2973 106.791 59.5064 109 59.5064H119C121.209 59.5064 123 57.7156 123 55.5064V41.0777"
@@ -1454,7 +1454,7 @@ const WorkFlowLight = () => {
         <path
           d="M186 18.8047V61.8919C186 64.1011 187.791 65.8919 190 65.8919H207H224C226.209 65.8919 228 67.6828 228 69.8919V87"
           stroke="black"
-          stroke-opacity="0.25"
+          strokeOpacity="0.25"
         />
         <path
           d="M186 44.7832V61.8913C186 64.1004 187.791 65.8913 190 65.8913H207"
