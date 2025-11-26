@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { H2, H5, P } from "./typography";
+import ApproachesLight from "./approachesLight";
 
 const Approach = () => {
     const [isDark, setIsDark] = useState(false);
@@ -30,7 +31,13 @@ const Approach = () => {
           <span className="font-kaushan">development</span> approach
         </H2>
       </div>
-      
+      {isDark ? (
+        // Render dark mode component or content here
+        <div>Dark Mode Content</div>
+      ) : (
+        // Render light mode component or content here
+        <ApproachesLight/>
+      )}
     </div>
   );
 };
