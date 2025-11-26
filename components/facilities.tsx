@@ -6,6 +6,7 @@ import CodeIcon from "./codeIcon";
 import WorkFlowLight from "./workFlow";
 import { H4, P } from "./typography";
 import WorkFlow from "./workFlow";
+import ARImg from "./ARImg";
 
 const Facilities = () => {
   return (
@@ -47,7 +48,7 @@ const Facilities = () => {
           <div className="2xl:w-[786px] 2xl:h-[375px] xl:w-[735px] xl:h-[350px] lg:w-[577px] lg:h-[329px] bg-[#6F6F6F1A] border rounded-4xl overflow-hidden shrink-0">
             <div className="flex">
               <div className="mt-12 ml-3 shrink-0">
-                <AnalyticsVector />
+                <ARImg/>
               </div>
               <div className="flex flex-col gap-2 -ml-37 mt-4 z-20">
                 <H4>Analytics & Reporting</H4>
@@ -107,7 +108,7 @@ const Facilities = () => {
         <div className="w-full max-w-[650px] mx-auto bg-[#6F6F6F1A] border rounded-4xl overflow-hidden">
           <div className="flex">
             <div className="mt-12 ml-3 shrink-0">
-              <AnalyticsVector />
+              <ARImg />
             </div>
             <div className="flex flex-col gap-2 -ml-37 mt-4 z-20 pr-4">
               <H4>Analytics & Reporting</H4>
