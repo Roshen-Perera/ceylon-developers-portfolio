@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { H2, H5, P } from "./typography";
 import ApproachesLight from "./approachesLight";
+import ApproachesDark from "./approachesDark";
 
 const Approach = () => {
     const [isDark, setIsDark] = useState(false);
@@ -34,7 +35,7 @@ const Approach = () => {
         </H2>
       </div>
       {isDark ? (
-        <div>Under Development</div>
+        <ApproachesDark />
       ) : (
         <ApproachesLight />
       )}
