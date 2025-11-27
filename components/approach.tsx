@@ -27,18 +27,14 @@ const Approach = () => {
     }, []);
   return (
     <div className="flex flex-col items-center justify-center mt-12">
-      <div className="text-center mb-5">
+      <div className="text-center">
         <H2 className="text-7xl font-medium">
           Our <span className="font-kaushan">design</span> and
           <br />
           <span className="font-kaushan">development</span> approach
         </H2>
       </div>
-      {isDark ? (
-        <ApproachesDark />
-      ) : (
-        <ApproachesLight />
-      )}
+      <div className="mt-5">{isDark ? <ApproachesDark /> : <ApproachesLight />}</div>
     </div>
   );
 };
