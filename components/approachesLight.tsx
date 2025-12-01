@@ -436,11 +436,11 @@ const ApproachesLight = () => {
             y2="284.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1085_1734"
@@ -450,11 +450,11 @@ const ApproachesLight = () => {
             y2="282.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1085_1734"
@@ -464,11 +464,11 @@ const ApproachesLight = () => {
             y2="584.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1085_1734"
@@ -478,11 +478,11 @@ const ApproachesLight = () => {
             y2="598.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1085_1734"
@@ -492,11 +492,11 @@ const ApproachesLight = () => {
             y2="900.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1085_1734"
@@ -506,11 +506,11 @@ const ApproachesLight = () => {
             y2="900.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -994,9 +994,9 @@ const ApproachesLight = () => {
             y2="779.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0" />
-            <stop offset="0.5" stop-color="#17CDCA" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0" />
+            <stop offset="0.5" stopColor="#17CDCA" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1102_4083"
@@ -1006,9 +1006,9 @@ const ApproachesLight = () => {
             y2="150.28"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0" />
-            <stop offset="0.5" stop-color="#17CDCA" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0" />
+            <stop offset="0.5" stopColor="#17CDCA" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1102_4083"
@@ -1018,9 +1018,9 @@ const ApproachesLight = () => {
             y2="405.639"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0" />
-            <stop offset="0.5" stop-color="#17CDCA" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0" />
+            <stop offset="0.5" stopColor="#17CDCA" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1102_4083"
@@ -1030,9 +1030,9 @@ const ApproachesLight = () => {
             y2="727.244"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0" />
-            <stop offset="0.5" stop-color="#17CDCA" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0" />
+            <stop offset="0.5" stopColor="#17CDCA" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1102_4083"
@@ -1042,9 +1042,9 @@ const ApproachesLight = () => {
             y2="425.766"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#17CDCA" stop-opacity="0" />
-            <stop offset="0.5" stop-color="#17CDCA" />
-            <stop offset="1" stop-color="#17CDCA" stop-opacity="0" />
+            <stop stopColor="#17CDCA" stopOpacity="0" />
+            <stop offset="0.5" stopColor="#17CDCA" />
+            <stop offset="1" stopColor="#17CDCA" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1102_4083"
@@ -1054,11 +1054,11 @@ const ApproachesLight = () => {
             y2="269.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_1102_4083"
@@ -1068,11 +1068,11 @@ const ApproachesLight = () => {
             y2="269.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint7_linear_1102_4083"
@@ -1082,11 +1082,11 @@ const ApproachesLight = () => {
             y2="589.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint8_linear_1102_4083"
@@ -1096,11 +1096,11 @@ const ApproachesLight = () => {
             y2="585.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint9_linear_1102_4083"
@@ -1110,11 +1110,11 @@ const ApproachesLight = () => {
             y2="903.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint10_linear_1102_4083"
@@ -1124,11 +1124,11 @@ const ApproachesLight = () => {
             y2="895.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -1564,11 +1564,11 @@ const ApproachesLight = () => {
             y2="247.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1103_14212"
@@ -1578,11 +1578,11 @@ const ApproachesLight = () => {
             y2="247.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1103_14212"
@@ -1592,11 +1592,11 @@ const ApproachesLight = () => {
             y2="558.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1103_14212"
@@ -1606,11 +1606,11 @@ const ApproachesLight = () => {
             y2="558.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1103_14212"
@@ -1620,11 +1620,11 @@ const ApproachesLight = () => {
             y2="863.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1103_14212"
@@ -1634,11 +1634,11 @@ const ApproachesLight = () => {
             y2="863.702"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -2074,11 +2074,11 @@ const ApproachesLight = () => {
             y2="192.889"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1104_23332"
@@ -2088,11 +2088,11 @@ const ApproachesLight = () => {
             y2="675.889"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1104_23332"
@@ -2102,11 +2102,11 @@ const ApproachesLight = () => {
             y2="433.889"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1104_23332"
@@ -2116,11 +2116,11 @@ const ApproachesLight = () => {
             y2="928.889"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1104_23332"
@@ -2130,11 +2130,11 @@ const ApproachesLight = () => {
             y2="1417.89"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1104_23332"
@@ -2144,11 +2144,11 @@ const ApproachesLight = () => {
             y2="1175.89"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -2584,11 +2584,11 @@ const ApproachesLight = () => {
             y2="207.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1108_2854"
@@ -2598,11 +2598,11 @@ const ApproachesLight = () => {
             y2="733.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1108_2854"
@@ -2612,11 +2612,11 @@ const ApproachesLight = () => {
             y2="470.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1108_2854"
@@ -2626,11 +2626,11 @@ const ApproachesLight = () => {
             y2="996.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1108_2854"
@@ -2640,11 +2640,11 @@ const ApproachesLight = () => {
             y2="1522.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1108_2854"
@@ -2654,11 +2654,11 @@ const ApproachesLight = () => {
             y2="1259.79"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.303689" stop-color="#97EAE9" stop-opacity="0.18" />
-            <stop offset="0.402016" stop-color="#82E5E4" />
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" />
-            <stop offset="0.953267" stop-color="#AEFEFD" stop-opacity="0" />
+            <stop offset="0.303689" stopColor="#97EAE9" stopOpacity="0.18" />
+            <stop offset="0.402016" stopColor="#82E5E4" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" />
+            <stop offset="0.953267" stopColor="#AEFEFD" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -3094,9 +3094,9 @@ const ApproachesLight = () => {
             y2="228.857"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_1109_11627"
@@ -3106,9 +3106,9 @@ const ApproachesLight = () => {
             y2="467.857"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_1109_11627"
@@ -3118,9 +3118,9 @@ const ApproachesLight = () => {
             y2="706.857"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_1109_11627"
@@ -3130,9 +3130,9 @@ const ApproachesLight = () => {
             y2="945.857"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_1109_11627"
@@ -3142,9 +3142,9 @@ const ApproachesLight = () => {
             y2="1184.86"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_1109_11627"
@@ -3154,9 +3154,9 @@ const ApproachesLight = () => {
             y2="1423.86"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.461183" stop-color="#17CDCA" />
-            <stop offset="0.575448" stop-color="#17CDCA" stop-opacity="0.52" />
-            <stop offset="0.953267" stop-color="#36E4E1" stop-opacity="0" />
+            <stop offset="0.461183" stopColor="#17CDCA" />
+            <stop offset="0.575448" stopColor="#17CDCA" stopOpacity="0.52" />
+            <stop offset="0.953267" stopColor="#36E4E1" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
