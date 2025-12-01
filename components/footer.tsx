@@ -134,11 +134,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        {/* <div className="w-[1280px] border-t-1 border-[#585858] mt-10">
-          <p className="text-[#585858] mt-5 text-center text-[22px]">
+        <div className="w-full border-t border-[#585858] mt-10">
+          <P className="text-[#585858] mt-5 text-center">
             Copyright 2025 | All Rights Reserved
-          </p>
-        </div> */}
+          </P>
+        </div>
       </div>
     </div>
   );
