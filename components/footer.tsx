@@ -6,9 +6,9 @@ import { H5, P } from './typography';
 const Footer = () => {
   return (
     <div className="mx-10 md:mx-20">
-      <div className="md:grid-cols-4 grid grid-cols-3 md:gap-8 gap-4  justify-center ">
+      <div className="md:grid-cols-4 grid grid-cols-3 md:gap-6 gap-3 justify-center max-w-full overflow-hidden">
         {/* Brand Section */}
-        <div className='md:block hidden'>
+        <div className="md:block hidden">
           <div className="flex items-center font-semibold gap-2 mb-4">
             <H5>HEXZYON</H5>
             <ThemeToggle />
@@ -88,30 +88,22 @@ const Footer = () => {
           <ul className="space-y-2 text-(--footer-link)">
             <li>
               <P>
-              <a href="#">
-                Career
-              </a>
+                <a href="#">Career</a>
               </P>
             </li>
             <li>
               <P>
-              <a href="#">
-                Terms and Conditions
-              </a>
+                <a href="#">Terms and Conditions</a>
               </P>
             </li>
             <li>
               <P>
-              <a href="#">
-                Privacy Policy
-              </a>
+                <a href="#">Privacy Policy</a>
               </P>
             </li>
             <li>
               <P>
-              <a href="#">
-                Cookies Policy
-              </a>
+                <a href="#">Cookies Policy</a>
               </P>
             </li>
             <li>
@@ -130,9 +122,11 @@ const Footer = () => {
               <Phone size={16} className="mt-0.5 shrink-0" />
               <P>+223 456 789</P>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-2 min-w-0">
               <Mail size={16} className="mt-0.5 shrink-0" />
-              <P>example@email.com</P>
+              <P className="wrap-break-word min-w-0 overflow-wrap-anywhere">
+                example@email.com
+              </P>
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0" />
