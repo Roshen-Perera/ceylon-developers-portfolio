@@ -8,7 +8,7 @@ const ApproachesLight = () => {
       <svg
         width="1364"
         height="905"
-        className="2xl:block xl:hidden lg:hidden md:hidden sm:hidden xs:hidden block"
+        className="2xl:block xl:hidden lg:hidden md:hidden sm:hidden hidden"
         viewBox="0 0 1364 905"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -518,7 +518,7 @@ const ApproachesLight = () => {
       <svg
         width="1205"
         height="909"
-        className="2xl:hidden xl:block lg:hidden md:hidden sm:hidden xs:hidden block"
+        className="2xl:hidden xl:block lg:hidden md:hidden sm:hidden hidden"
         viewBox="0 0 1205 909"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -1136,7 +1136,7 @@ const ApproachesLight = () => {
       <svg
         width="965"
         height="875"
-        className="2xl:hidden xl:hidden lg:block md:hidden sm:hidden xs:hidden block"
+        className="2xl:hidden xl:hidden lg:block md:hidden sm:hidden hidden"
         viewBox="0 0 965 875"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -1646,7 +1646,7 @@ const ApproachesLight = () => {
       <svg
         width="684"
         height="1422"
-        className=" 2xl:hidden xl:hidden lg:hidden md:block sm:hidden xs:hidden block"
+        className=" 2xl:hidden xl:hidden lg:hidden md:block sm:hidden hidden"
         viewBox="0 0 684 1422"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -2156,7 +2156,7 @@ const ApproachesLight = () => {
       <svg
         width="573"
         height="1526"
-        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block xs:hidden block"
+        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block hidden"
         viewBox="0 0 573 1526"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -2666,7 +2666,7 @@ const ApproachesLight = () => {
       <svg
         width="375"
         height="1432"
-        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:hidden xs:block block"
+        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:hidden block"
         viewBox="0 0 375 1432"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
