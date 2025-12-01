@@ -49,9 +49,9 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mt-12">
         <ProPost />
       </div>
-      <footer className="py-12 mt-12">
+      {/* <footer className="py-12 mt-12">
         <Footer />
-      </footer>
+      </footer> */}
     </>
   );
 }
