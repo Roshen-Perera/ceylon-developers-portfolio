@@ -8,7 +8,7 @@ const ApproachesDark = () => {
       <svg
         width="1364"
         height="905"
-        className="2xl:block xl:hidden lg:hidden md:hidden sm:hidden xs:hidden block"
+        className="2xl:block xl:hidden lg:hidden md:hidden sm:hidden block"
         viewBox="0 0 1364 905"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -578,7 +578,7 @@ const ApproachesDark = () => {
       <svg
         width="1280"
         height="1204"
-        className="2xl:hidden xl:block lg:hidden md:hidden sm:hidden xs:hidden block"
+        className="2xl:hidden xl:block lg:hidden md:hidden sm:hidden block"
         viewBox="0 0 1280 1204"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -1490,7 +1490,7 @@ const ApproachesDark = () => {
       <svg
         width="1024"
         height="1204"
-        className="2xl:hidden xl:hidden lg:block md:hidden sm:hidden xs:hidden block"
+        className="2xl:hidden xl:hidden lg:block md:hidden sm:hidden block"
         viewBox="0 0 1024 1204"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -2324,7 +2324,7 @@ const ApproachesDark = () => {
       <svg
         width="768"
         height="1600"
-        className=" 2xl:hidden xl:hidden lg:hidden md:block sm:hidden xs:hidden block"
+        className=" 2xl:hidden xl:hidden lg:hidden md:block sm:hidden block"
         viewBox="0 0 768 1600"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -3179,7 +3179,7 @@ const ApproachesDark = () => {
       <svg
         width="640"
         height="1700"
-        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block xs:hidden block"
+        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block block"
         viewBox="0 0 640 1700"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
