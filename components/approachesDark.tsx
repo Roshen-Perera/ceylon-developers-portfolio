@@ -3,7 +3,7 @@ import React from "react";
 
 const ApproachesDark = () => {
   return (
-    <div>
+    <div className="-mt-50">
       {/* 1440 */}
       <svg
         width="1364"
