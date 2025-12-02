@@ -3179,7 +3179,7 @@ const ApproachesDark = () => {
       <svg
         width="640"
         height="1700"
-        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block hidden -mt-20"
+        className=" 2xl:hidden xl:hidden lg:hidden md:hidden sm:block hidden -mt-40"
         viewBox="0 0 640 1700"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
