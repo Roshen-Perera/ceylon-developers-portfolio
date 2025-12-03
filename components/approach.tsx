@@ -1,5 +1,6 @@
 import React from "react";
 import { H2, H5, P } from "./typography";
+import Diagram from "./diagram";
 
 const Approach = () => {
   return (
@@ -11,6 +12,7 @@ const Approach = () => {
           <span className="font-kaushan">development</span> approach
         </H2>
       </div>
+      <Diagram/>
     </div>
   );
 };
