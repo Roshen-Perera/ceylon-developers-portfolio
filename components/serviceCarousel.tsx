@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { P } from "./typography";
 
 const ServiceCarousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -133,11 +134,16 @@ const ServiceCarousel = () => {
                       }px)`,
                     }}
                   >
-                    <div className="text-[#17CDCA]">{service.icon}</div>
+                    <Image
+                      src={service.icon}
+                      alt={service.description}
+                      width={40}
+                      height={40}
+                    />
 
-                    <p className="text-lg sm:text-xl lg:text-[26px] font-semibold text-[#17CDCA]">
+                    <P className="text-[#17CDCA]">
                       {service.title}
-                    </p>
+                    </P>
 
                     <p className="text-sm sm:text-base lg:text-[22px] text-white">
                       {service.description}
