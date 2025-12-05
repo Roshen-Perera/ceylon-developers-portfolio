@@ -3,35 +3,40 @@
 import React, { useState } from "react";
 
 import Image from "next/image";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const ServiceCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const services = [
     {
+      id: 1,
       title: "Review",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
       icon: "/assets/icons/review.jpg",
     },
     {
-      title: "Software Testing Service",
+      id: 2,
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
       icon: "/assets/icons/testing.gif",
     },
     {
+      id: 3,
       title: "Web Design & Development",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
       icon: "/assets/icons/web.gif",
     },
     {
+      id: 4,
       title: "Mobile App Development",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
       icon: "/assets/icons/mobile.gif",
     },
     {
+      id: 5,
       title: "UI/UX Design",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
@@ -84,7 +89,7 @@ const ServiceCarousel = () => {
                   return (
                     <div
                       key={service.id}
-                      className={`flex-shrink-0 bg-gradient-to-br from-gray-900 to-black border border-cyan-500/30 rounded-lg p-8 hover:border-cyan-500/60 transition-all duration-500 ${
+                      className={`shrink-0 bg-linear-to-br from-gray-900 to-black border border-cyan-500/30 rounded-lg p-8 hover:border-cyan-500/60 transition-all duration-500 ${
                         !isCenterCard &&
                         displayIndex >= 0 &&
                         displayIndex < itemsPerView
