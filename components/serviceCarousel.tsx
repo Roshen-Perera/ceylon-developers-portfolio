@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState, useCallback, useMemo } from "react";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { H5, P } from "./typography";
 
 const services = [
@@ -15,7 +14,7 @@ const services = [
   },
   {
     id: 2,
-    title: "Testing", // Added title for consistency
+    title: "Testing",
     description:
       "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
     icon: "/assets/icons/testing.gif",
@@ -44,29 +43,24 @@ const services = [
 ];
 
 const ServiceCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [offset, setOffset] = useState(0);
   const [itemsPerView, setItemsPerView] = useState(5);
-
-  // Calculate the maximum index the carousel can translate to
-  const maxIndex = useMemo(() => {
-    return Math.max(0, services.length - itemsPerView);
-  }, [itemsPerView]);
+  const [isPaused, setIsPaused] = useState(false);
 
   // Handle responsive items per view
   useEffect(() => {
     const handleResize = () => {
-      // Use clientWidth for more reliable window size in Next.js/React environment
       const width = window.innerWidth;
       if (width < 640) {
-        setItemsPerView(1); // Mobile: 1 card
+        setItemsPerView(1);
       } else if (width < 768) {
-        setItemsPerView(2); // Small tablet: 2 cards
+        setItemsPerView(2);
       } else if (width < 1024) {
-        setItemsPerView(3); // Tablet: 3 cards
+        setItemsPerView(3);
       } else if (width < 1280) {
-        setItemsPerView(4); // Small desktop: 4 cards
+        setItemsPerView(4);
       } else {
-        setItemsPerView(5); // Large desktop: 5 cards
+        setItemsPerView(5);
       }
     };
 
@@ -75,61 +69,60 @@ const ServiceCarousel = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Reset currentIndex when itemsPerView or maxIndex changes
-  useEffect(() => {
-    if (currentIndex > maxIndex) {
-      setCurrentIndex(maxIndex);
-    }
-  }, [itemsPerView, maxIndex, currentIndex]);
+  // Triple the services array for seamless infinite scroll
+  const extendedServices = useMemo(() => {
+    return [...services, ...services, ...services];
+  }, []);
 
-  // Auto-scroll effect (THE INFINITE LOOP CHANGE)
+  // Continuous smooth scroll animation
   useEffect(() => {
-    if (maxIndex === 0) return; // Prevent auto-scroll if all items are visible
+    if (isPaused) return;
 
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => {
-        // If the current index is the last possible index, loop back to 0.
-        // Otherwise, move to the next index.
-        return prev >= maxIndex ? 0 : prev + 1;
+    const animate = () => {
+      setOffset((prev) => {
+        const newOffset = prev + 0.05; // Adjust speed here (smaller = slower)
+
+        // Reset when we've scrolled through one complete set
+        if (newOffset >= 100) {
+          return 0;
+        }
+
+        return newOffset;
       });
-    }, 3000);
+    };
 
-    return () => clearInterval(interval);
-  }, [maxIndex]);
-
-  const goToSlide = useCallback(
-    (index: number) => {
-      // Ensure the index is within [0, maxIndex] range
-      setCurrentIndex(Math.min(index, maxIndex));
-    },
-    [maxIndex]
-  );
+    const animationFrame = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationFrame);
+  }, [offset, isPaused]);
 
   return (
-    <div className="flex items-center justify-center p-4 sm:p-6 lg:p-8 mx-60 overflow-hidden">
-      <div className="">
+    <div
+      className="flex items-center justify-center p-4 sm:p-6 lg:p-8 overflow-hidden"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
+      <div className="w-full">
         <div className="relative px-2 sm:px-4">
           <div className="overflow-hidden">
             <div
-              className="flex gap-3 sm:gap-4 lg:gap-5 transition-transform duration-500 ease-out"
+              className="flex gap-3 sm:gap-4 lg:gap-5"
               style={{
-                // Calculate the percentage to translate based on current index and items per view
-                transform: `translateX(-${
-                  currentIndex * (100 / itemsPerView)
-                }%)`,
+                transform: `translateX(-${offset}%)`,
+                transition: "none",
               }}
             >
-              {services.map((service, index) => {
-                const displayIndex = index - currentIndex;
-                // Determines if the card is visually in the center of the viewport
+              {extendedServices.map((service, index) => {
+                const position =
+                  (index - offset / (100 / extendedServices.length)) %
+                  extendedServices.length;
+                const displayIndex = Math.floor(position);
                 const isCenterCard =
-                  itemsPerView > 1 &&
                   displayIndex === Math.floor(itemsPerView / 2);
 
                 return (
                   <div
-                    key={service.id}
-                    className={`lg:min-w-80 shrink-0 flex flex-col border-[#17CDCA] border rounded-lg p-3 sm:p-4 gap-3 sm:gap-4 transition-all duration-500 ${
+                    key={`${service.id}-${index}`}
+                    className={`lg:min-w-80 shrink-0 flex flex-col border-[#17CDCA] border rounded-lg p-3 sm:p-4 gap-3 sm:gap-4 transition-transform duration-300 ${
                       !isCenterCard &&
                       displayIndex >= 0 &&
                       displayIndex < itemsPerView
@@ -137,11 +130,10 @@ const ServiceCarousel = () => {
                         : ""
                     }`}
                     style={{
-                      // Calculate card width based on itemsPerView and gap size
                       width: `calc(${100 / itemsPerView}% - ${
-                        ((itemsPerView - 1) * (itemsPerView === 1 ? 12 : 16)) /
-                        itemsPerView
+                        ((itemsPerView - 1) * 16) / itemsPerView
                       }px)`,
+                      minWidth: "280px",
                     }}
                   >
                     <Image
@@ -160,24 +152,6 @@ const ServiceCarousel = () => {
             </div>
           </div>
         </div>
-
-        {/* Navigation Dots */}
-        {maxIndex > 0 && ( // Only show dots if there's more than one slide available
-          <div className="flex justify-center gap-2 mt-6 sm:mt-8">
-            {Array.from({ length: maxIndex + 1 }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`transition-all duration-300 rounded-full ${
-                  currentIndex === index
-                    ? "w-8 h-2 bg-cyan-400"
-                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
-        )}
       </div>
     </div>
   );
