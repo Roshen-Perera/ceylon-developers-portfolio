@@ -1,48 +1,72 @@
-import { useState, useCallback } from "react";
-import {
-  ReactFlow,
-  applyNodeChanges,
-  applyEdgeChanges,
-  addEdge,
-  NodeChange,
-  EdgeChange,
-} from "@xyflow/react";
+import React from "react";
+import { H5, P } from "./typography";
 
-const initialNodes = [
-  { id: "n1", position: { x: 0, y: 0 }, data: { label: "Node 1" } },
-  { id: "n2", position: { x: 0, y: 100 }, data: { label: "Node 2" } },
-];
-const initialEdges = [{ id: "n1-n2", source: "n1", target: "n2" }];
-
-export default function ApproachDiagram() {
-  const [nodes, setNodes] = useState(initialNodes);
-  const [edges, setEdges] = useState(initialEdges);
-
-  const onNodesChange = useCallback(
-    (changes: NodeChange<{ id: string; position: { x: number; y: number; }; data: { label: string; }; }>[]) =>
-      setNodes((nodesSnapshot) => applyNodeChanges(changes, nodesSnapshot)),
-    []
-  );
-  const onEdgesChange = useCallback(
-    (changes: EdgeChange<{ id: string; source: string; target: string; }>[]) =>
-      setEdges((edgesSnapshot) => applyEdgeChanges(changes, edgesSnapshot)),
-    []
-  );
-  const onConnect = useCallback(
-    (params: any) => setEdges((edgesSnapshot) => addEdge(params, edgesSnapshot)),
-    []
-  );
-
+const ApproachDiagram = () => {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
-        fitView
-      />
-    </div>
+    <>
+      <div className="mt-10 flex flex-col gap-8 sm:gap-10 md:gap-12 lg:gap-14">
+        <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+          <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+            <H5>UX Driven Engineering</H5>
+            <P className="text-[#585858]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem
+              ipsum dolor sit amet, elit consectetur adipiscing elit.
+            </P>
+          </div>
+        </div>
+        <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+          <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+            <H5>Proven Experience and Expertise</H5>
+            <P className="text-[#585858]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem
+              ipsum dolor sit amet, elit consectetur adipiscing elit.
+            </P>
+          </div>
+        </div>
+        <div className="mt-10 flex flex-col gap-8 sm:gap-10 md:gap-12 lg:gap-14">
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+            <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+              <H5>Developing Shared Understanding</H5>
+              <P className="text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.
+              </P>
+            </div>
+          </div>
+          <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+            <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+              <H5>Quality Assurance & Testing</H5>
+              <P className="text-[#585858]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit
+                Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.
+              </P>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* First Row */}
+      <div className="gap-8 sm:gap-10 md:gap-12 lg:gap-14 justify-center">
+        <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+          <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+            <H5>Security & Intellectual Property</H5>
+            <P className="text-[#585858]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem
+              ipsum dolor sit amet, elit consectetur adipiscing elit.
+            </P>
+          </div>
+        </div>
+        <div className="2xl:w-[413px] 2xl:h-[249px] xl:w-[390px] xl:h-[237px] lg:w-[336px] lg:h-[221px] md:w-[461px] md:h-[159px] sm:w-[434px] sm:h-[173px] xs:w-[343px] xs:h-[199px] p-4 shadow-[0px_0px_15px_rgba(23,205,202,0.47)] flex rounded-lg items-center justify-center">
+          <div className="w-full h-full flex flex-col gradient-border gap-2 sm:gap-3 md:gap-4 justify-center">
+            <H5>Code Reviews</H5>
+            <P className="text-[#585858]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem
+              ipsum dolor sit amet, elit consectetur adipiscing elit.
+            </P>
+          </div>
+        </div>
+      </div>
+    </>
   );
-}
+};
+
+export default ApproachDiagram;
