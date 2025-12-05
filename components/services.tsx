@@ -19,7 +19,7 @@ const Services = () => {
           </P>
         </div>
         <div className="mt-8">
-          {/* <ServiceCarousel /> */}
+          <ServiceCarousel />
         </div>
       </div>
     </>
