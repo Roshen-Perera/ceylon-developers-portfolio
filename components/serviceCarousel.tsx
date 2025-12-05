@@ -37,6 +37,23 @@ const ServiceCarousel = () => {
       icon: "/assets/icons/ui.gif",
     },
   ];
+
+    const itemsPerView = 3;
+    const maxIndex = Math.max(0, services.length - itemsPerView);
+
+    const handlePrev = () => {
+      setCurrentIndex((prev) => Math.max(0, prev - 1));
+    };
+
+    const handleNext = () => {
+      setCurrentIndex((prev) => Math.min(maxIndex, prev + 1));
+    };
+
+    const goToSlide = (index: number) => {
+      setCurrentIndex(() => Math.min(index, maxIndex));
+    };
+
+
   return (
     <>
       <div className="flex flex-row gap-5 p-5">
@@ -63,3 +80,7 @@ const ServiceCarousel = () => {
 };
 
 export default ServiceCarousel;
+function setCurrentIndex(arg0: (prev: any) => number) {
+  throw new Error("Function not implemented.");
+}
+
