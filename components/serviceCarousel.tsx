@@ -1,12 +1,36 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const ServiceCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [itemsPerView, setItemsPerView] = useState(5);
+
+    // Handle responsive items per view
+    useEffect(() => {
+      const handleResize = () => {
+        if (window.innerWidth < 640) {
+          setItemsPerView(1); // Mobile: 1 card
+        } else if (window.innerWidth < 768) {
+          setItemsPerView(2); // Small tablet: 2 cards
+        } else if (window.innerWidth < 1024) {
+          setItemsPerView(3); // Tablet: 3 cards
+        } else if (window.innerWidth < 1280) {
+          setItemsPerView(4); // Small desktop: 4 cards
+        } else {
+          setItemsPerView(5); // Large desktop: 5 cards
+        }
+      };
+
+      handleResize();
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+
   const services = [
     {
       id: 1,
@@ -43,121 +67,104 @@ const ServiceCarousel = () => {
       icon: "/assets/icons/ui.gif",
     },
   ];
+  const maxIndex = Math.max(0, services.length - itemsPerView);
 
-    const itemsPerView = 3;
-    const maxIndex = Math.max(0, services.length - itemsPerView);
+  // Reset currentIndex when itemsPerView changes
+  useEffect(() => {
+    if (currentIndex > maxIndex) {
+      setCurrentIndex(maxIndex);
+    }
+  }, [itemsPerView, maxIndex, currentIndex]);
 
-    const handlePrev = () => {
-      setCurrentIndex((prev) => Math.max(0, prev - 1));
-    };
+  // Auto-scroll effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => {
+        if (prev >= maxIndex) {
+          return 0;
+        }
+        return prev + 1;
+      });
+    }, 3000);
 
-    const handleNext = () => {
-      setCurrentIndex((prev) => Math.min(maxIndex, prev + 1));
-    };
+    return () => clearInterval(interval);
+  }, [maxIndex]);
 
-    const goToSlide = (index: number) => {
-      setCurrentIndex(() => Math.min(index, maxIndex));
-    };
-
+  const goToSlide = (index: number) => {
+    setCurrentIndex(Math.min(index, maxIndex));
+  };
 
   return (
-    <>
-      <div className="min-h-screen bg-black flex items-center justify-center p-8">
-        <div className="max-w-7xl w-full">
-          {/* Header Text */}
-          <p className="text-cyan-400 text-center mb-12 text-sm tracking-wide">
-            Join us on this journey into the future of technology.
-          </p>
+    <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
+      <div className="max-w-7xl w-full">
+        <p className="text-cyan-400 text-center mb-8 sm:mb-10 lg:mb-12 text-xs sm:text-sm tracking-wide px-4">
+          Join us on this journey into the future of technology.
+        </p>
 
-          {/* Carousel Container */}
-          <div className="relative">
-            {/* Cards Container */}
-            <div className="overflow-hidden">
-              <div
-                className="flex gap-6 transition-transform duration-500 ease-out"
-                style={{
-                  transform: `translateX(-${
-                    currentIndex * (100 / itemsPerView)
-                  }%)`,
-                }}
-              >
-                {services.map((service, index) => {
-                  const displayIndex = index - currentIndex;
-                  const isCenterCard =
-                    displayIndex === Math.floor(itemsPerView / 2);
+        <div className="relative px-2 sm:px-4">
+          <div className="overflow-hidden">
+            <div
+              className="flex gap-3 sm:gap-4 lg:gap-5 transition-transform duration-500 ease-out"
+              style={{
+                transform: `translateX(-${
+                  currentIndex * (100 / itemsPerView)
+                }%)`,
+              }}
+            >
+              {services.map((service, index) => {
+                const displayIndex = index - currentIndex;
+                const isCenterCard =
+                  displayIndex === Math.floor(itemsPerView / 2);
 
-                  return (
-                    <div
-                      key={service.id}
-                      className={`shrink-0 bg-linear-to-br from-gray-900 to-black border border-cyan-500/30 rounded-lg p-8 hover:border-cyan-500/60 transition-all duration-500 ${
-                        !isCenterCard &&
-                        displayIndex >= 0 &&
-                        displayIndex < itemsPerView
-                          ? "-translate-y-8"
-                          : ""
-                      }`}
-                      style={{
-                        width: `calc(${100 / itemsPerView}% - ${
-                          ((itemsPerView - 1) * 24) / itemsPerView
-                        }px)`,
-                      }}
-                    >
-                      {/* Icon */}
-                      <div className="text-cyan-400 mb-4">{service.icon}</div>
+                return (
+                  <div
+                    key={service.id}
+                    className={`shrink-0 flex flex-col border-[#17CDCA] border rounded-lg p-3 sm:p-4 gap-3 sm:gap-4 transition-all duration-500 ${
+                      !isCenterCard &&
+                      displayIndex >= 0 &&
+                      displayIndex < itemsPerView
+                        ? "-translate-y-4 sm:-translate-y-6 lg:-translate-y-8"
+                        : ""
+                    }`}
+                    style={{
+                      width: `calc(${100 / itemsPerView}% - ${
+                        ((itemsPerView - 1) * (itemsPerView === 1 ? 12 : 16)) /
+                        itemsPerView
+                      }px)`,
+                    }}
+                  >
+                    <div className="text-[#17CDCA]">{service.icon}</div>
 
-                      {/* Title */}
-                      <h3 className="text-cyan-400 text-xl font-semibold mb-4">
-                        {service.title}
-                      </h3>
+                    <p className="text-lg sm:text-xl lg:text-[26px] font-semibold text-[#17CDCA]">
+                      {service.title}
+                    </p>
 
-                      {/* Description */}
-                      <p className="text-gray-400 text-sm leading-relaxed">
-                        {service.description}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
+                    <p className="text-sm sm:text-base lg:text-[22px] text-white">
+                      {service.description}
+                    </p>
+                  </div>
+                );
+              })}
             </div>
-
-            {/* Navigation Arrows */}
-            <button
-              onClick={handlePrev}
-              disabled={currentIndex === 0}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-cyan-500/10 hover:bg-cyan-500/20 disabled:opacity-30 disabled:cursor-not-allowed border border-cyan-500/30 rounded-full p-3 transition-all"
-              aria-label="Previous"
-            >
-              <ChevronLeft className="w-6 h-6 text-cyan-400" />
-            </button>
-
-            <button
-              onClick={handleNext}
-              disabled={currentIndex >= maxIndex}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-cyan-500/10 hover:bg-cyan-500/20 disabled:opacity-30 disabled:cursor-not-allowed border border-cyan-500/30 rounded-full p-3 transition-all"
-              aria-label="Next"
-            >
-              <ChevronRight className="w-6 h-6 text-cyan-400" />
-            </button>
-          </div>
-
-          {/* Dot Indicators */}
-          <div className="flex justify-center gap-2 mt-8">
-            {Array.from({ length: maxIndex + 1 }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`transition-all duration-300 rounded-full ${
-                  currentIndex === index
-                    ? "w-8 h-2 bg-cyan-400"
-                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
           </div>
         </div>
+
+        <div className="flex justify-center gap-2 mt-6 sm:mt-8">
+          {Array.from({ length: maxIndex + 1 }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`transition-all duration-300 rounded-full ${
+                currentIndex === index
+                  ? "w-8 h-2 bg-cyan-400"
+                  : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
