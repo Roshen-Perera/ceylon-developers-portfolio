@@ -118,7 +118,7 @@ const StaggeredCarousel = () => {
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
-                  <div className="flex flex-col h-full text-white p-6">
+                  <div className="flex flex-col items-center justify-center h-full text-white p-6">
                     <div className="text-6xl font-bold mb-4">{card.id}</div>
                     <div className="text-2xl font-semibold">{card.title}</div>
                   </div>
