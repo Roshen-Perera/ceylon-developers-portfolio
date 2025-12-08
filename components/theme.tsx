@@ -4,25 +4,30 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    // This runs ONLY on first render
+    if (typeof window === "undefined") return "light";
 
-  useEffect(() => {
-    // Load saved theme
     const saved = localStorage.getItem("theme") as "light" | "dark" | null;
+
     if (saved) {
-      setTheme(saved);
       document.documentElement.classList.toggle("dark", saved === "dark");
-    } else {
-      const prefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      document.documentElement.classList.toggle("dark", prefersDark);
-      setTheme(prefersDark ? "dark" : "light");
+      return saved;
     }
 
-    // Listen for theme changes from other instances
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    document.documentElement.classList.toggle("dark", prefersDark);
+
+    return prefersDark ? "dark" : "light";
+  });
+
+  // Listen for theme changes across tabs/windows
+  useEffect(() => {
     const handleThemeChange = (e: CustomEvent<"light" | "dark">) => {
       setTheme(e.detail);
+      document.documentElement.classList.toggle("dark", e.detail === "dark");
     };
 
     window.addEventListener("themeChange", handleThemeChange as EventListener);
@@ -37,15 +42,14 @@ export default function ThemeToggle() {
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light";
     setTheme(next);
+
     localStorage.setItem("theme", next);
     document.documentElement.classList.toggle("dark", next === "dark");
 
-    // Notify other instances
     window.dispatchEvent(new CustomEvent("themeChange", { detail: next }));
   };
 
   const isChecked = theme === "dark";
-
   return (
     <>
       <button
