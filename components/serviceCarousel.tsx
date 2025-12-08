@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const StaggeredCarousel = () => {
+const ServiceCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const cards = [
@@ -135,4 +135,4 @@ const StaggeredCarousel = () => {
   );
 };
 
-export default StaggeredCarousel;
+export default ServiceCarousel;
