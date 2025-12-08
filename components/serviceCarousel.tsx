@@ -6,9 +6,10 @@ import Swiper from 'swiper';
 import 'swiper/css';
 
 const ServiceCarousel = () => {
-
+const swiper = new Swiper(...);
   return (
     <>
+    
     </>
   );
 };
