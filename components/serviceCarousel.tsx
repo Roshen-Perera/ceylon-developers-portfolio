@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { H5, P } from "./typography";
 
 const StaggeredCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -126,10 +127,10 @@ const StaggeredCarousel = () => {
                       width={40}
                       height={40}
                     />
-                    <p className="text-[26px] font-semibold text-[#17CDCA]">
+                    <H5 className=" text-[#17CDCA]">
                       {service.title}
-                    </p>
-                    <p className="text-[22px]">{service.description}</p>
+                    </H5>
+                    <P>{service.description}</P>
                   </div>
                 </div>
               );
