@@ -67,7 +67,7 @@ const StaggeredCarousel = () => {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 p-8">
+    <div className="flex items-center justify-center min-h-screen p-8">
       <div className="relative w-full max-w-6xl">
         {/* Carousel Container */}
         <div className="relative h-96 overflow-hidden">
