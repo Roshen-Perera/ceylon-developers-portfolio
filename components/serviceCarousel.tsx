@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const StaggeredCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -118,10 +119,23 @@ const StaggeredCarousel = () => {
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
-                  <div className="flex flex-col items-center justify-center h-full text-white p-6">
-                    <div className="text-6xl font-bold mb-4">{card.id}</div>
-                    <div className="text-2xl font-semibold">{card.title}</div>
-                  </div>
+                  {services.map((service) => (
+                    <div
+                      key={service.title}
+                      className="flex flex-col justify border-[#17CDCA] border rounded-lg p-3 gap-4"
+                    >
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={40}
+                        height={40}
+                      />
+                      <p className="text-[26px] font-semibold text-[#17CDCA]">
+                        {service.title}
+                      </p>
+                      <p className="text-[22px]">{service.description}</p>
+                    </div>
+                  ))}
                 </div>
               );
             })}
