@@ -12,6 +12,39 @@ const StaggeredCarousel = () => {
     { id: 5, title: "Card 5", color: "bg-green-500" },
   ];
 
+  const services = [
+    {
+      title: "Review",
+      description:
+        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      icon: "/assets/icons/review.jpg",
+    },
+    {
+      title: "Software Testing Service",
+      description:
+        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      icon: "/assets/icons/testing.gif",
+    },
+    {
+      title: "Web Design & Development",
+      description:
+        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      icon: "/assets/icons/web.gif",
+    },
+    {
+      title: "Mobile App Development",
+      description:
+        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      icon: "/assets/icons/mobile.gif",
+    },
+    {
+      title: "UI/UX Design",
+      description:
+        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
+      icon: "/assets/icons/ui.gif",
+    },
+  ];
+
   // Auto-play carousel
   useEffect(() => {
     const interval = setInterval(() => {
@@ -88,11 +121,6 @@ const StaggeredCarousel = () => {
                   <div className="flex flex-col items-center justify-center h-full text-white p-6">
                     <div className="text-6xl font-bold mb-4">{card.id}</div>
                     <div className="text-2xl font-semibold">{card.title}</div>
-                    {index === currentIndex && (
-                      <div className="mt-4 px-4 py-2 bg-white bg-opacity-20 rounded-lg text-sm">
-                        Active
-                      </div>
-                    )}
                   </div>
                 </div>
               );
