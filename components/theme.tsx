@@ -4,30 +4,27 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function ThemeToggle() {
+  // Initialize theme safely ONCE
   const [theme, setTheme] = useState<"light" | "dark">(() => {
-    // This runs ONLY on first render
     if (typeof window === "undefined") return "light";
 
     const saved = localStorage.getItem("theme") as "light" | "dark" | null;
 
-    if (saved) {
-      document.documentElement.classList.toggle("dark", saved === "dark");
-      return saved;
-    }
+    if (saved) return saved;
 
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    document.documentElement.classList.toggle("dark", prefersDark);
-
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     return prefersDark ? "dark" : "light";
   });
 
-  // Listen for theme changes across tabs/windows
+  // Apply theme to the DOM whenever theme changes
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
+
+  // Listen for theme change events
   useEffect(() => {
     const handleThemeChange = (e: CustomEvent<"light" | "dark">) => {
       setTheme(e.detail);
-      document.documentElement.classList.toggle("dark", e.detail === "dark");
     };
 
     window.addEventListener("themeChange", handleThemeChange as EventListener);
@@ -39,17 +36,19 @@ export default function ThemeToggle() {
     };
   }, []);
 
+  // Toggle theme
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light";
+
     setTheme(next);
-
     localStorage.setItem("theme", next);
-    document.documentElement.classList.toggle("dark", next === "dark");
 
+    // Cross-tab sync
     window.dispatchEvent(new CustomEvent("themeChange", { detail: next }));
   };
 
   const isChecked = theme === "dark";
+
   return (
     <>
       <button
