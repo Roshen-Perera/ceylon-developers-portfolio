@@ -38,7 +38,7 @@ export default function ThemeToggle() {
     };
   }, []);
 
-  // Toggletheme
+  // Toggle theme
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light";
     setTheme(next);
