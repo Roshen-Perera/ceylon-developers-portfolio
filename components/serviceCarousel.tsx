@@ -54,9 +54,9 @@ const StaggeredCarousel = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const getCardData = (index: number) => {
-    const cardIndex = ((index % cards.length) + cards.length) % cards.length;
-    return cards[cardIndex];
+  const getServiceData = (index: number) => {
+    const serviceIndex = ((index % services.length) + services.length) % services.length;
+    return services[serviceIndex];
   };
 
   const getCardStyle = (index: number) => {
@@ -106,7 +106,7 @@ const StaggeredCarousel = () => {
         <div className="relative h-96 overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-center">
             {indicesToRender.map((index) => {
-              const card = getCardData(index);
+              const service = getServiceData(index);
               const style = getCardStyle(index);
 
               if (style.display === "none") return null;
@@ -114,13 +114,13 @@ const StaggeredCarousel = () => {
               return (
                 <div
                   key={index}
-                  className={`absolute left-1/2 w-64 h-80 ${card.color} rounded-2xl shadow-2xl transition-all duration-500 ease-out cursor-pointer`}
+                  className={`absolute left-1/2 w-64 h-80 border-2 rounded-2xl shadow-2xl transition-all duration-500 ease-out cursor-pointer`}
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
                   <div className="flex flex-col items-center justify-center h-full text-white p-6">
-                    <div className="text-6xl font-bold mb-4">{card.id}</div>
-                    <div className="text-2xl font-semibold">{card.title}</div>
+                    <div className=" font-bold mb-4">{service.title}</div>
+                    <div className=" font-semibold">{service.description}</div>
                   </div>
                 </div>
               );
