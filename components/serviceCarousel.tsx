@@ -105,7 +105,7 @@ const StaggeredCarousel = () => {
     <div className="flex items-center justify-center min-h-screen p-8">
       <div className="relative w-full max-w-6xl">
         {/* Carousel Container */}
-        <div className="relative h-96 overflow-hidden">
+        <div className="relative h-144 overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-center">
             {indicesToRender.map((index) => {
               const service = getServiceData(index);
@@ -116,20 +116,20 @@ const StaggeredCarousel = () => {
               return (
                 <div
                   key={index}
-                  className={`absolute left-1/2 w-64 h-80 border-2 rounded-2xl shadow-2xl transition-all duration-500 ease-out cursor-pointer`}
+                  className={`absolute left-1/2  rounded-2xl shadow-2xl transition-all duration-500 ease-out cursor-pointer`}
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
-                  <div className="flex flex-col items-center justify-center h-full text-white p-6">
-                    <Image
-                      src={service.icon}
-                      alt={service.title}
-                      width={40}
-                      height={40}
-                    />
-                    <H5 className=" text-[#17CDCA]">
-                      {service.title}
-                    </H5>
+                  <div className="flex flex-col lg:h-120 w-64 border-2 justify-around p-6">
+                    <div>
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={40}
+                        height={40}
+                      />
+                      <H5 className=" text-[#17CDCA]">{service.title}</H5>
+                    </div>
                     <P>{service.description}</P>
                   </div>
                 </div>
