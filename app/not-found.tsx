@@ -9,7 +9,6 @@ import React from "react";
 const Page = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <BlueGlow />
       <NavBar />
       <div className="mt-20">
         <NotFoundIMG />
