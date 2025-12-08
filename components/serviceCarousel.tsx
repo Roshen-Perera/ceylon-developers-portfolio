@@ -120,7 +120,7 @@ const StaggeredCarousel = () => {
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
-                  <div className="flex flex-col lg:h-120 w-64 border-2 justify-around p-6">
+                  <div className="flex flex-col lg:h-100 w-64 border-[#17CDCA] border rounded-lg gap-4 p-3 justify-center">
                     <div>
                       <Image
                         src={service.icon}
@@ -139,15 +139,15 @@ const StaggeredCarousel = () => {
         </div>
 
         {/* Indicators */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-2">
           {cards.map((card, index) => (
             <button
               key={card.id}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full transition-all ${
                 currentIndex % cards.length === index
-                  ? "bg-white w-8"
-                  : "bg-white bg-opacity-40"
+                  ? "bg-[#17CDCA]"
+                  : "border-[#17CDCA] border-2"
               }`}
             />
           ))}
