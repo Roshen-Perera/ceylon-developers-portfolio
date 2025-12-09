@@ -35,6 +35,7 @@
     ".next/types/**/*.ts",
     "app/case",
     ".next/dev/types/**/*.ts"
+    "types/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
