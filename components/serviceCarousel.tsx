@@ -88,10 +88,10 @@ const StaggeredCarousel = () => {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center mb-20">
       <div className="relative w-full max-w-6xl">
         {/* Carousel Container */}
-        <div className="relative h-144 overflow-hidden lg:my-0 lg:mt-0 -my-30 -mt-80">
+        <div className="relative h-144 overflow-hidden md:-mt-20 -mt-30">
           <div className="absolute inset-0 flex items-center justify-center">
             {indicesToRender.map((index) => {
               const service = getServiceData(index);
@@ -125,7 +125,7 @@ const StaggeredCarousel = () => {
         </div>
 
         {/* Indicators */}
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-2 -mt-25">
           {services.map((service, index) => (
             <button
               key={service.title}
