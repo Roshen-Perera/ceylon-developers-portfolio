@@ -6,14 +6,6 @@ import { H5, P } from "./typography";
 const StaggeredCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const cards = [
-    { id: 1, title: "Card 1", color: "bg-blue-500" },
-    { id: 2, title: "Card 2", color: "bg-purple-500" },
-    { id: 3, title: "Card 3", color: "bg-pink-500" },
-    { id: 4, title: "Card 4", color: "bg-orange-500" },
-    { id: 5, title: "Card 5", color: "bg-green-500" },
-  ];
-
   const services = [
     {
       title: "Review",
@@ -140,12 +132,12 @@ const StaggeredCarousel = () => {
 
         {/* Indicators */}
         <div className="flex justify-center gap-2">
-          {cards.map((card, index) => (
+          {services.map((service, index) => (
             <button
-              key={card.id}
+              key={service.title}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full transition-all ${
-                currentIndex % cards.length === index
+                currentIndex % services.length === index
                   ? "bg-[#17CDCA]"
                   : "border-[#17CDCA] border-2"
               }`}
