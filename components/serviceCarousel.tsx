@@ -8,12 +8,6 @@ const StaggeredCarousel = () => {
 
   const services = [
     {
-      title: "Review",
-      description:
-        "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
-      icon: "/assets/icons/review.jpg",
-    },
-    {
       title: "Software Testing Service",
       description:
         "A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.",
