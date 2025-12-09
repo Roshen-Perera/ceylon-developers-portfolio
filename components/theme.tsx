@@ -4,23 +4,27 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  // Initialize theme safely ONCE using lazy initializer
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    if (typeof window === "undefined") return "light";
 
-  useEffect(() => {
-    // Load saved theme
     const saved = localStorage.getItem("theme") as "light" | "dark" | null;
-    if (saved) {
-      setTheme(saved);
-      document.documentElement.classList.toggle("dark", saved === "dark");
-    } else {
-      const prefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      document.documentElement.classList.toggle("dark", prefersDark);
-      setTheme(prefersDark ? "dark" : "light");
-    }
+    if (saved) return saved;
 
-    // Listen for theme changes from other instances
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    return prefersDark ? "dark" : "light";
+  });
+
+  // Apply theme to the DOM whenever theme changes
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  // Listen for theme change events
+  useEffect(() => {
     const handleThemeChange = (e: CustomEvent<"light" | "dark">) => {
       setTheme(e.detail);
     };
@@ -34,13 +38,12 @@ export default function ThemeToggle() {
     };
   }, []);
 
+  // Toggle theme
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light";
     setTheme(next);
-    localStorage.setItem("theme", next);
-    document.documentElement.classList.toggle("dark", next === "dark");
 
-    // Notify other instances
+    // Cross-tab sync
     window.dispatchEvent(new CustomEvent("themeChange", { detail: next }));
   };
 
