@@ -30,12 +30,17 @@ const initialNodes = [
   {
     id: "n3",
     position: { x: 300, y: 100 },
-    data: { label: "Proven Experience and Expertise" },
+    data: { label: "Quality Assurance & Testing" },
   },
   {
     id: "n4",
     position: { x: 400, y: 200 },
     data: { label: "Proven Experience and Expertise" },
+  },
+  {
+    id: "n5",
+    position: { x: 100, y: 300 },
+    data: { label: "Security & Intellectual Property" },
   },
 ];
 const initialEdges = [
