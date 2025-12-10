@@ -42,6 +42,11 @@ const initialNodes = [
     position: { x: 100, y: 300 },
     data: { label: "Security & Intellectual Property" },
   },
+  {
+    id: "n6",
+    position: { x: 200, y: 300 },
+    data: { label: "Code Reviews" },
+  },
 ];
 const initialEdges = [
   {
