@@ -36,11 +36,13 @@ const initialEdges = [
 
 export default function ApproachDiagram() {
   const [nodes, setNodes] = useState(initialNodes);
+  const [edges, setEdges] = useState(initialEdges);
 
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
       <ReactFlow
         nodes={nodes}
+        edges={edges}
       />
     </div>
   );
