@@ -29,7 +29,7 @@ const initialNodes = [
   },
   {
     id: "n3",
-    position: { x: 400, y: 100 },
+    position: { x: 300, y: 100 },
     data: { label: "Proven Experience and Expertise" },
   },
 ];
