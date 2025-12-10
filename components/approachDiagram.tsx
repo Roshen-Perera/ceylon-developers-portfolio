@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState, useCallback } from "react";
 import {
@@ -8,20 +8,29 @@ import {
   addEdge,
   NodeChange,
   EdgeChange,
+  Position,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
+
+const nodeDefaults = {
+  targetPosition: Position.Left,
+};
 
 const initialNodes = [
   {
     id: "n1",
-    position: { x: 0, y: 0 },
-    data: { label: "Node 1" },
-    type: "input",
+    position: { x: 100, y: 100 },
+    data: { label: "UX Driven Engineering" },
   },
   {
     id: "n2",
-    position: { x: 100, y: 100 },
-    data: { label: "Node 2" },
+    position: { x: 200, y: 200 },
+    data: { label: "Developing Shared Understanding" },
+  },
+  {
+    id: "n3",
+    position: { x: 400, y: 100 },
+    data: { label: "Proven Experience and Expertise" },
   },
 ];
 const initialEdges = [
@@ -30,7 +39,6 @@ const initialEdges = [
     source: "n1",
     target: "n2",
     type: "step",
-    label: "connects with",
   },
 ];
 
@@ -39,10 +47,14 @@ export default function ApproachDiagram() {
   const [edges, setEdges] = useState(initialEdges);
 
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <div style={{ width: "100%", height: "500px", overflow: "auto" }}>
       <ReactFlow
         nodes={nodes}
-        edges={edges}
+        nodesDraggable={false}
+        nodesConnectable={false}
+        elementsSelectable={false}
+        zoomOnScroll={false}
+        panOnDrag={false}
       />
     </div>
   );
