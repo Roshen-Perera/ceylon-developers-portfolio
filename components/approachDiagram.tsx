@@ -48,11 +48,13 @@ const initialNodes = [
     position: { x: 300, y: 300 },
     data: { label: "Code Reviews" },
     targetPosition: Position.Right,
+    sourcePosition: Position.Left,
   },
   {
     id: "n6",
     position: { x: 100, y: 300 },
     data: { label: "Security & Intellectual Property" },
+    targetPosition: Position.Right,
   },
 ];
 
@@ -61,7 +63,7 @@ const initialEdges = [
   { id: "n2-n3", source: "n2", target: "n3", type: "step" },
   { id: "n3-n4", source: "n3", target: "n4", type: "step" },
   { id: "n4-n5", source: "n4", target: "n5", type: "step" },
-  // { id: "n5-n6", source: "n5", target: "n6", type: "step" },
+  { id: "n5-n6", source: "n5", target: "n6", type: "step" },
 ];
 
 export default function ApproachDiagram() {
