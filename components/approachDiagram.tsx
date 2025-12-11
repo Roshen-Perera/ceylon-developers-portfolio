@@ -14,6 +14,7 @@ import "@xyflow/react/dist/style.css";
 
 const nodeDefaults = {
   targetPosition: Position.Left,
+  sourcePosition: Position.Top,
 };
 
 const initialNodes = [
@@ -32,6 +33,7 @@ const initialNodes = [
     id: "n3",
     position: { x: 300, y: 100 },
     data: { label: "Quality Assurance & Testing" },
+    ...nodeDefaults,
   },
   {
     id: "n4",
@@ -52,6 +54,7 @@ const initialNodes = [
 
 const initialEdges = [
   { id: "n1-n2", source: "n1", target: "n2", type: "step" },
+  { id: "n2-n3", source: "n2", target: "n3", type: "step" },
 ];
 
 export default function ApproachDiagram() {
