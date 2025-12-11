@@ -39,6 +39,7 @@ const initialNodes = [
     id: "n4",
     position: { x: 400, y: 200 },
     data: { label: "Proven Experience and Expertise" },
+    ...nodeDefaults,
   },
   {
     id: "n5",
@@ -55,6 +56,7 @@ const initialNodes = [
 const initialEdges = [
   { id: "n1-n2", source: "n1", target: "n2", type: "step" },
   { id: "n2-n3", source: "n2", target: "n3", type: "step" },
+  { id: "n3-n4", source: "n3", target: "n4", type: "step" },
 ];
 
 export default function ApproachDiagram() {
