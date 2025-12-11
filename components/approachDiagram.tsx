@@ -20,6 +20,7 @@ const initialNodes = [
     id: "n1",
     position: { x: 100, y: 100 },
     data: { label: "UX Driven Engineering" },
+    sourcePosition: Position.Bottom,
   },
   {
     id: "n2",
@@ -44,15 +45,13 @@ const initialNodes = [
   },
   {
     id: "n5",
-    position: { x: 100, y: 300 },
-    data: { label: "Security & Intellectual Property" },
-    targetPosition: Position.Right,
-    sourcePosition: Position.Left,
+    position: { x: 300, y: 300 },
+    data: { label: "Code Reviews" },
   },
   {
     id: "n6",
-    position: { x: 300, y: 300 },
-    data: { label: "Code Reviews" },
+    position: { x: 100, y: 300 },
+    data: { label: "Security & Intellectual Property" },
   },
 ];
 
@@ -60,8 +59,8 @@ const initialEdges = [
   { id: "n1-n2", source: "n1", target: "n2", type: "step" },
   { id: "n2-n3", source: "n2", target: "n3", type: "step" },
   { id: "n3-n4", source: "n3", target: "n4", type: "step" },
-  { id: "n4-n5", source: "n4", target: "n5", type: "step" },
-  { id: "n5-n6", source: "n5", target: "n6", type: "step" },
+  // { id: "n4-n5", source: "n4", target: "n5", type: "step" },
+  // { id: "n5-n6", source: "n5", target: "n6", type: "step" },
 ];
 
 export default function ApproachDiagram() {
