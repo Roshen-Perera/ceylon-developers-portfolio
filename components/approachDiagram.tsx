@@ -91,11 +91,11 @@ const initialNodes = [
 ];
 
 const initialEdges = [
-  { id: "n1-n2", source: "n1", target: "n2", type: "step" },
-  { id: "n2-n3", source: "n2", target: "n3", type: "step" },
-  { id: "n3-n4", source: "n3", target: "n4", type: "step" },
-  { id: "n4-n5", source: "n4", target: "n5", type: "step" },
-  { id: "n5-n6", source: "n5", target: "n6", type: "step" },
+  { id: "n1-n2", source: "n1", style: { stroke: "#22d3ee", strokeWidth: 2 }, target: "n2", type: "step" },
+  { id: "n2-n3", source: "n2", style: { stroke: "#22d3ee", strokeWidth: 2 }, target: "n3", type: "step" },
+  { id: "n3-n4", source: "n3", style: { stroke: "#22d3ee", strokeWidth: 2 }, target: "n4", type: "step" },
+  { id: "n4-n5", source: "n4", style: { stroke: "#22d3ee", strokeWidth: 2 }, target: "n5", type: "step" },
+  { id: "n5-n6", source: "n5", style: { stroke: "#22d3ee", strokeWidth: 2 }, target: "n6", type: "step" },
 ];
 
 export default function ApproachDiagram() {
