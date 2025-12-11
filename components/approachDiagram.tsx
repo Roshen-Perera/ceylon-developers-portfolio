@@ -1,19 +1,10 @@
 "use client";
 
-import { useState, useCallback } from "react";
 import {
   ReactFlow,
-  applyNodeChanges,
-  applyEdgeChanges,
-  addEdge,
-  NodeChange,
-  EdgeChange,
   Position,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import { Target } from "lucide-react";
-import { s, source } from "motion/react-client";
-
 
 const initialNodes = [
   {
