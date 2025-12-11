@@ -26,6 +26,7 @@ const initialNodes = [
     id: "n2",
     position: { x: 200, y: 200 },
     data: { label: "Developing Shared Understanding" },
+    ...nodeDefaults,
   },
   {
     id: "n3",
@@ -44,32 +45,28 @@ const initialNodes = [
   },
   {
     id: "n6",
-    position: { x: 200, y: 300 },
+    position: { x: 300, y: 300 },
     data: { label: "Code Reviews" },
   },
 ];
+
 const initialEdges = [
-  {
-    id: "n1-n2",
-    source: "n1",
-    target: "n2",
-    type: "step",
-  },
+  { id: "n1-n2", source: "n1", target: "n2", type: "step" },
 ];
 
 export default function ApproachDiagram() {
-  const [nodes, setNodes] = useState(initialNodes);
-  const [edges, setEdges] = useState(initialEdges);
 
   return (
     <div style={{ width: "100%", height: "500px", overflow: "auto" }}>
       <ReactFlow
-        nodes={nodes}
+        nodes={initialNodes}
+        edges={initialEdges}
         nodesDraggable={false}
         nodesConnectable={false}
         elementsSelectable={false}
         zoomOnScroll={false}
         panOnDrag={false}
+        proOptions={{ hideAttribution: true }}
       />
     </div>
   );
