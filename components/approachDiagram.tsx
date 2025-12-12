@@ -10,11 +10,9 @@ import "@xyflow/react/dist/style.css";
 // Custom Card Node Component
 function CardNode({ data }: { data: { title: string; description: string } }) {
   return (
-    <div className="bg-white rounded-lg border-2 border-cyan-200 p-6 shadow-sm hover:shadow-md transition-shadow w-64">
-      <div className="px-4 py-2 shadow-md rounded-md bg-white border-2 border-stone-400">
-        <div className="font-bold">{data.title}</div>
-        <div className="text-gray-500 text-sm">{data.description}</div>
-      </div>
+    <div className="bg-white rounded-lg border-2 h-40 flex flex-col justify-center border-cyan-200 p-6 shadow-sm hover:shadow-md transition-shadow w-64">
+      <div className="font-bold">{data.title}</div>
+      <div className="text-gray-500 text-sm">{data.description}</div>
     </div>
   );
 }
@@ -26,6 +24,7 @@ const nodeTypes = {
 const initialNodes = [
   {
     id: "n1",
+    type: "cardNode",
     position: { x: 100, y: 100 },
     data: {
       title: "UX Driven Engineering",
@@ -36,7 +35,8 @@ const initialNodes = [
   },
   {
     id: "n2",
-    position: { x: 200, y: 200 },
+    position: { x: 300, y: 300 },
+    type: "cardNode",
     data: {
       title: "Developing Shared Understanding",
       description:
@@ -47,7 +47,8 @@ const initialNodes = [
   },
   {
     id: "n3",
-    position: { x: 300, y: 100 },
+    position: { x: 600, y: 100 },
+    type: "cardNode",
     data: {
       title: "Proven Experience and Expertise",
       description:
@@ -56,38 +57,38 @@ const initialNodes = [
     targetPosition: Position.Left,
     sourcePosition: Position.Bottom,
   },
-  {
-    id: "n4",
-    position: { x: 400, y: 200 },
-    data: {
-      title: "Quality Assurance & Testing",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-    targetPosition: Position.Left,
-    sourcePosition: Position.Bottom,
-  },
-  {
-    id: "n5",
-    position: { x: 300, y: 300 },
-    data: {
-      title: "Code Reviews",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-    targetPosition: Position.Right,
-    sourcePosition: Position.Left,
-  },
-  {
-    id: "n6",
-    position: { x: 100, y: 300 },
-    data: {
-      title: "Security & Intellectual Property",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-    targetPosition: Position.Right,
-  },
+  // {
+  //   id: "n4",
+  //   position: { x: 400, y: 200 },
+  //   data: {
+  //     title: "Quality Assurance & Testing",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  //   targetPosition: Position.Left,
+  //   sourcePosition: Position.Bottom,
+  // },
+  // {
+  //   id: "n5",
+  //   position: { x: 300, y: 300 },
+  //   data: {
+  //     title: "Code Reviews",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  //   targetPosition: Position.Right,
+  //   sourcePosition: Position.Left,
+  // },
+  // {
+  //   id: "n6",
+  //   position: { x: 100, y: 300 },
+  //   data: {
+  //     title: "Security & Intellectual Property",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  //   targetPosition: Position.Right,
+  // },
 ];
 
 const initialEdges = [
