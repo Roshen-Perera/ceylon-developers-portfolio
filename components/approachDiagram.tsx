@@ -23,6 +23,10 @@ function CardNode({ data }: { data: { title: string; description: string } }) {
   );
 }
 
+const nodeTypes = {
+  cardNode: CardNode,
+};
+
 const initialNodes = [
   {
     id: "n1",
@@ -105,6 +109,7 @@ export default function ApproachDiagram() {
       <ReactFlow
         nodes={initialNodes}
         edges={initialEdges}
+        nodeTypes={nodeTypes}
         nodesDraggable={false}
         nodesConnectable={false}
         elementsSelectable={false}
