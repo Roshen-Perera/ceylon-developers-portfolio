@@ -102,16 +102,17 @@ const initialNodes = [
     targetPosition: Position.Right,
     sourcePosition: Position.Left,
   },
-  // {
-  //   id: "n6",
-  //   position: { x: 600, y: 500 },
-  //   type: "cardNode",
-  //   data: {
-  //     title: "Security & Intellectual Property",
-  //     description:
-  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-  //   },
-  // },
+  {
+    id: "n6",
+    position: { x: 100, y: 700 },
+    type: "cardNode",
+    data: {
+      title: "Security & Intellectual Property",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+    },
+    targetPosition: Position.Right,
+  },
 ];
 
 const initialEdges = [
@@ -154,7 +155,7 @@ const initialEdges = [
 
 export default function ApproachDiagram() {
   return (
-    <div style={{ width: "100%", height: "100vh", overflow: "auto" }}>
+    <div style={{ width: "100%", height: "200vh", overflow: "auto" }}>
       <ReactFlow
         nodes={initialNodes}
         edges={initialEdges}
