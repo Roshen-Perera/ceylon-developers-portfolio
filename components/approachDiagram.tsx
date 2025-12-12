@@ -78,18 +78,18 @@ const initialNodes = [
     targetPosition: Position.Left,
     sourcePosition: Position.Bottom,
   },
-  // {
-  //   id: "n4",
-  //   position: { x: 800, y: 300 },
-  //   type: "cardNode",
-  //   data: {
-  //     title: "Quality Assurance & Testing",
-  //     description:
-  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-  //   },
-  //   targetPosition: Position.Left,
-  //   sourcePosition: Position.Bottom,
-  // },
+  {
+    id: "n4",
+    position: { x: 1000, y: 400 },
+    type: "cardNode",
+    data: {
+      title: "Quality Assurance & Testing",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+    },
+    targetPosition: Position.Left,
+    sourcePosition: Position.Bottom,
+  },
   // {
   //   id: "n5",
   //   position: { x: 100, y: 500 },
