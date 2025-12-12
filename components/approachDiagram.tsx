@@ -15,7 +15,7 @@ function CardNode({
   targetPosition?: Position;
 }) {
   return (
-    <div className="bg-white rounded-lg border-2 h-60 border-cyan-200 p-3 shadow-sm hover:shadow-md transition-shadow w-100">
+    <div className="bg-white rounded-lg border-2 h-60 border-cyan-200 p-3 shadow-sm hover:shadow-md transition-shadow w-90">
       <div className="w-full h-full flex flex-col gradient-border justify-center p-3">
         {targetPosition && (
           <Handle
