@@ -56,7 +56,7 @@ const initialNodes = [
   },
   {
     id: "n2",
-    position: { x: 300, y: 300 },
+    position: { x: 400, y: 400 },
     type: "cardNode",
     data: {
       title: "Developing Shared Understanding",
@@ -68,7 +68,7 @@ const initialNodes = [
   },
   {
     id: "n3",
-    position: { x: 600, y: 100 },
+    position: { x: 700, y: 100 },
     type: "cardNode",
     data: {
       title: "Proven Experience and Expertise",
@@ -78,40 +78,40 @@ const initialNodes = [
     targetPosition: Position.Left,
     sourcePosition: Position.Bottom,
   },
-  {
-    id: "n4",
-    position: { x: 800, y: 300 },
-    type: "cardNode",
-    data: {
-      title: "Quality Assurance & Testing",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-    targetPosition: Position.Left,
-    sourcePosition: Position.Bottom,
-  },
-  {
-    id: "n5",
-    position: { x: 100, y: 500 },
-    type: "cardNode",
-    data: {
-      title: "Code Reviews",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-    targetPosition: Position.Right,
-    sourcePosition: Position.Left,
-  },
-  {
-    id: "n6",
-    position: { x: 600, y: 500 },
-    type: "cardNode",
-    data: {
-      title: "Security & Intellectual Property",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-    },
-  },
+  // {
+  //   id: "n4",
+  //   position: { x: 800, y: 300 },
+  //   type: "cardNode",
+  //   data: {
+  //     title: "Quality Assurance & Testing",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  //   targetPosition: Position.Left,
+  //   sourcePosition: Position.Bottom,
+  // },
+  // {
+  //   id: "n5",
+  //   position: { x: 100, y: 500 },
+  //   type: "cardNode",
+  //   data: {
+  //     title: "Code Reviews",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  //   targetPosition: Position.Right,
+  //   sourcePosition: Position.Left,
+  // },
+  // {
+  //   id: "n6",
+  //   position: { x: 600, y: 500 },
+  //   type: "cardNode",
+  //   data: {
+  //     title: "Security & Intellectual Property",
+  //     description:
+  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+  //   },
+  // },
 ];
 
 const initialEdges = [
