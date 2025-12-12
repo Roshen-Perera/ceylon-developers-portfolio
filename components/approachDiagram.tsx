@@ -155,7 +155,7 @@ const initialEdges = [
 
 export default function ApproachDiagram() {
   return (
-    <div style={{ width: "100%", height: "200vh", overflow: "auto" }}>
+    <div style={{ width: "100%", height: "130vh", overflow: "auto" }}>
       <ReactFlow
         nodes={initialNodes}
         edges={initialEdges}
