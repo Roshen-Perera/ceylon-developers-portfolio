@@ -2,6 +2,7 @@
 
 import { ReactFlow, Position, Handle } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
+import { H5, P } from "./typography";
 
 // Custom Card Node Component
 function CardNode({
@@ -23,8 +24,8 @@ function CardNode({
         />
       )}
 
-      <div className="font-bold">{data.title}</div>
-      <div className="text-gray-500 text-sm">{data.description}</div>
+      <H5>{data.title}</H5>
+      <P className="text-gray-500">{data.description}</P>
 
       {sourcePosition && (
         <Handle
