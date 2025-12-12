@@ -15,25 +15,27 @@ function CardNode({
   targetPosition?: Position;
 }) {
   return (
-    <div className="bg-white rounded-lg border-2 h-60 flex flex-col justify-center border-cyan-200 p-6 shadow-sm hover:shadow-md transition-shadow w-100">
-      {targetPosition && (
-        <Handle
-          type="target"
-          position={targetPosition}
-          style={{ background: "#22d3ee" }}
-        />
-      )}
+    <div className="bg-white rounded-lg border-2 h-60 border-cyan-200 p-3 shadow-sm hover:shadow-md transition-shadow w-100">
+      <div className="w-full h-full flex flex-col gradient-border justify-center p-3">
+        {targetPosition && (
+          <Handle
+            type="target"
+            position={targetPosition}
+            style={{ background: "#22d3ee" }}
+          />
+        )}
 
-      <H5>{data.title}</H5>
-      <P className="text-gray-500">{data.description}</P>
+        <H5>{data.title}</H5>
+        <P className="text-gray-500">{data.description}</P>
 
-      {sourcePosition && (
-        <Handle
-          type="source"
-          position={sourcePosition}
-          style={{ background: "#22d3ee" }}
-        />
-      )}
+        {sourcePosition && (
+          <Handle
+            type="source"
+            position={sourcePosition}
+            style={{ background: "#22d3ee" }}
+          />
+        )}
+      </div>
     </div>
   );
 }
