@@ -11,14 +11,10 @@ import "@xyflow/react/dist/style.css";
 function CardNode({ data }: { data: { title: string; description: string } }) {
   return (
     <div className="bg-white rounded-lg border-2 border-cyan-200 p-6 shadow-sm hover:shadow-md transition-shadow w-64">
-      <Handle type="target" position={Position.Top} className="w-3 h-3 bg-cyan-400 border-2 border-white" />
-      <h3 className="text-lg font-semibold mb-3 text-gray-900">
-        {data.title}
-      </h3>
-      <p className="text-gray-600 text-sm leading-relaxed">
-        {data.description}
-      </p>
-      <Handle type="source" position={Position.Bottom} className="w-3 h-3 bg-cyan-400 border-2 border-white" />
+      <div className="px-4 py-2 shadow-md rounded-md bg-white border-2 border-stone-400">
+        <div className="font-bold">{data.title}</div>
+        <div className="text-gray-500 text-sm">{data.description}</div>
+      </div>
     </div>
   );
 }
