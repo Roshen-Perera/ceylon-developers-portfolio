@@ -90,18 +90,18 @@ const initialNodes = [
     targetPosition: Position.Left,
     sourcePosition: Position.Bottom,
   },
-  // {
-  //   id: "n5",
-  //   position: { x: 100, y: 500 },
-  //   type: "cardNode",
-  //   data: {
-  //     title: "Code Reviews",
-  //     description:
-  //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
-  //   },
-  //   targetPosition: Position.Right,
-  //   sourcePosition: Position.Left,
-  // },
+  {
+    id: "n5",
+    position: { x: 700, y: 700 },
+    type: "cardNode",
+    data: {
+      title: "Code Reviews",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit Lorem ipsum dolor sit amet, elit consectetur adipiscing elit.",
+    },
+    targetPosition: Position.Right,
+    sourcePosition: Position.Left,
+  },
   // {
   //   id: "n6",
   //   position: { x: 600, y: 500 },
