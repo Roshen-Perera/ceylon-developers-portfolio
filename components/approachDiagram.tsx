@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { ReactFlow, Position, Handle } from "@xyflow/react";
+import React, { useState, useEffect, useMemo } from "react";
+import { ReactFlow, Position, Handle, Node, Edge } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { H5, P } from "./typography";
 
@@ -49,7 +49,6 @@ const nodeTypes = {
 };
 
 function getLayoutConfig(width: number) {
-  // 1440px and above
   if (width >= 1440) {
     return {
       width: 360,
@@ -83,9 +82,7 @@ function getLayoutConfig(width: number) {
         { id: "n6", pos: { x: 100, y: 700 }, target: Position.Right },
       ],
     };
-  }
-  // 1280px
-  else if (width >= 1280) {
+  } else if (width >= 1280) {
     return {
       width: 300,
       height: 220,
@@ -118,9 +115,7 @@ function getLayoutConfig(width: number) {
         { id: "n6", pos: { x: 80, y: 620 }, target: Position.Right },
       ],
     };
-  }
-  // 1024px
-  else if (width >= 1024) {
+  } else if (width >= 1024) {
     return {
       width: 320,
       height: 200,
@@ -153,9 +148,7 @@ function getLayoutConfig(width: number) {
         { id: "n6", pos: { x: 60, y: 540 }, target: Position.Right },
       ],
     };
-  }
-  // 768px
-  else if (width >= 768) {
+  } else if (width >= 768) {
     return {
       width: 260,
       height: 200,
@@ -188,9 +181,7 @@ function getLayoutConfig(width: number) {
         { id: "n6", pos: { x: 50, y: 800 }, target: Position.Top },
       ],
     };
-  }
-  // 640px
-  else if (width >= 640) {
+  } else if (width >= 640) {
     return {
       width: 300,
       height: 180,
@@ -223,9 +214,7 @@ function getLayoutConfig(width: number) {
         { id: "n6", pos: { x: 170, y: 1140 }, target: Position.Top },
       ],
     };
-  }
-  // 375px and below
-  else {
+  } else {
     return {
       width: 320,
       height: 180,
@@ -304,8 +293,6 @@ export default function ApproachDiagram() {
   const [windowWidth, setWindowWidth] = useState(
     typeof window !== "undefined" ? window.innerWidth : 1440
   );
-  const [nodes, setNodes] = useState([]);
-  const [edges, setEdges] = useState([]);
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -313,23 +300,32 @@ export default function ApproachDiagram() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  useEffect(() => {
+  const { nodes, edges } = useMemo(() => {
     const layout = getLayoutConfig(windowWidth);
 
-    const newNodes = layout.nodes.map((nodeLayout, index) => ({
-      id: nodeLayout.id,
-      type: "cardNode",
-      position: nodeLayout.pos,
-      data: {
-        ...nodeData[index],
-        width: layout.width,
-        height: layout.height,
-      },
-      sourcePosition: nodeLayout.source,
-      targetPosition: nodeLayout.target,
-    }));
+    const newNodes: Node[] = layout.nodes.map((nodeLayout, index) => {
+      const node: any = {
+        id: nodeLayout.id,
+        type: "cardNode",
+        position: nodeLayout.pos,
+        data: {
+          ...nodeData[index],
+          width: layout.width,
+          height: layout.height,
+        },
+      };
 
-    const newEdges = [
+      if (nodeLayout.source) {
+        node.sourcePosition = nodeLayout.source;
+      }
+      if (nodeLayout.target) {
+        node.targetPosition = nodeLayout.target;
+      }
+
+      return node;
+    });
+
+    const newEdges: Edge[] = [
       { id: "n1-n2", source: "n1", target: "n2" },
       { id: "n2-n3", source: "n2", target: "n3" },
       { id: "n3-n4", source: "n3", target: "n4" },
@@ -341,8 +337,7 @@ export default function ApproachDiagram() {
       type: "step",
     }));
 
-    setNodes(newNodes);
-    setEdges(newEdges);
+    return { nodes: newNodes, edges: newEdges };
   }, [windowWidth]);
 
   return (
