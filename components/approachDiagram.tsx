@@ -58,32 +58,32 @@ function getLayoutConfig(width: number) {
       width: 400,
       height: 249,
       nodes: [
-        { id: "n1", pos: { x: 100, y: 100 }, source: Position.Bottom },
+        { id: "n1", pos: { x: 80, y: 100 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: 400, y: 400 },
+          pos: { x: 380, y: 400 },
           target: Position.Left,
           source: Position.Top,
         },
         {
           id: "n3",
-          pos: { x: 700, y: 100 },
+          pos: { x: 680, y: 100 },
           target: Position.Left,
           source: Position.Bottom,
         },
         {
           id: "n4",
-          pos: { x: 1000, y: 400 },
+          pos: { x: 980, y: 400 },
           target: Position.Left,
           source: Position.Bottom,
         },
         {
           id: "n5",
-          pos: { x: 700, y: 700 },
+          pos: { x: 680, y: 700 },
           target: Position.Right,
           source: Position.Left,
         },
-        { id: "n6", pos: { x: 100, y: 700 }, target: Position.Right },
+        { id: "n6", pos: { x: 80, y: 700 }, target: Position.Right },
       ],
     };
   }
