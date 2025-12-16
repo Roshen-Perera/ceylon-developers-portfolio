@@ -162,8 +162,8 @@ function getLayoutConfig(width: number) {
   // 768px
   else if (width >= 768) {
     return {
-      width: 300,
-      height: 200,
+      width: 461,
+      height: 159,
       nodes: [
         { id: "n1", pos: { x: 20, y: 60 }, source: Position.Bottom },
         {
@@ -172,25 +172,25 @@ function getLayoutConfig(width: number) {
           target: Position.Left,
           source: Position.Top,
         },
-        {
-          id: "n3",
-          pos: { x: 460, y: 60 },
-          target: Position.Left,
-          source: Position.Bottom,
-        },
-        {
-          id: "n4",
-          pos: { x: 680, y: 300 },
-          target: Position.Left,
-          source: Position.Bottom,
-        },
-        {
-          id: "n5",
-          pos: { x: 460, y: 540 },
-          target: Position.Right,
-          source: Position.Left,
-        },
-        { id: "n6", pos: { x: 20, y: 540 }, target: Position.Right },
+        // {
+        //   id: "n3",
+        //   pos: { x: 460, y: 60 },
+        //   target: Position.Left,
+        //   source: Position.Bottom,
+        // },
+        // {
+        //   id: "n4",
+        //   pos: { x: 680, y: 300 },
+        //   target: Position.Left,
+        //   source: Position.Bottom,
+        // },
+        // {
+        //   id: "n5",
+        //   pos: { x: 460, y: 540 },
+        //   target: Position.Right,
+        //   source: Position.Left,
+        // },
+        // { id: "n6", pos: { x: 20, y: 540 }, target: Position.Right },
       ],
     };
   }
