@@ -161,6 +161,7 @@ function getLayoutConfig(width: number) {
   }
   // 768px
   else if (width >= 768) {
+    containerHeight = "250vh";
     return {
       width: 461,
       height: 159,
@@ -190,7 +191,7 @@ function getLayoutConfig(width: number) {
           target: Position.Right,
           source: Position.Bottom,
         },
-        { id: "n6", pos: { x: 290, y: 1160 }, target: Position.Top },
+        { id: "n6", pos: { x: 290, y: 1160 }, target: Position.Left },
       ],
     };
   }
