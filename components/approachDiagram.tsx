@@ -17,7 +17,7 @@ function CardNode({
 }) {
   return (
     <div
-      className="rounded-lg border-2 border-cyan-200 p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)]"
+      className="rounded-lg border-2 md:mt-0 mt-10 border-cyan-200 p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)]"
       style={{ width: data.width, height: data.height }}
     >
       <div className="w-full h-full flex flex-col gradient-border justify-center p-5">
@@ -246,7 +246,7 @@ function getLayoutConfig(width: number, containerWidth: number) {
     return {
       width: 320,
       height: 180,
-      containerHeight: "230vh",
+      containerHeight: "170vh",
       nodes: [
         { id: "n1", pos: { x: offsetX, y: 30 }, source: Position.Bottom },
         {
