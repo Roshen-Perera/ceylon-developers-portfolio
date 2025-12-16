@@ -208,7 +208,7 @@ function getLayoutConfig(width: number, containerWidth: number) {
     return {
       width: 300,
       height: 180,
-      containerHeight: "250vh",
+      containerHeight: "180vh",
       nodes: [
         { id: "n1", pos: { x: offsetX, y: 40 }, source: Position.Bottom },
         {
