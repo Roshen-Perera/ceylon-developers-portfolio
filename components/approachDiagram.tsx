@@ -20,7 +20,7 @@ function CardNode({
       className="rounded-lg border-2 border-cyan-200 p-3 shadow-sm hover:shadow-md transition-shadow"
       style={{ width: data.width, height: data.height }}
     >
-      <div className="w-full h-full flex flex-col gradient-border justify-center p-3">
+      <div className="w-full h-full flex flex-col gradient-border justify-center p-5">
         {targetPosition && (
           <Handle
             type="target"
@@ -55,7 +55,7 @@ function getLayoutConfig(width: number) {
   if (width >= 1440) {
     containerHeight = "130vh";
     return {
-      width: 413,
+      width: 400,
       height: 249,
       nodes: [
         { id: "n1", pos: { x: 100, y: 100 }, source: Position.Bottom },
