@@ -232,6 +232,7 @@ function getLayoutConfig(width: number) {
   }
   // 375px and below
   else {
+    containerHeight = "230vh";
     return {
       width: 320,
       height: 180,
