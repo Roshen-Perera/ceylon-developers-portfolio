@@ -356,6 +356,7 @@ export default function ApproachDiagram() {
         nodesConnectable={false}
         elementsSelectable={false}
         zoomOnScroll={false}
+        zoomOnPinch={false}
         panOnDrag={false}
         proOptions={{ hideAttribution: true }}
       />
