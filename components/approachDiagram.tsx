@@ -178,12 +178,12 @@ function getLayoutConfig(width: number) {
           target: Position.Right,
           source: Position.Bottom,
         },
-        // {
-        //   id: "n4",
-        //   pos: { x: 680, y: 300 },
-        //   target: Position.Left,
-        //   source: Position.Bottom,
-        // },
+        {
+          id: "n4",
+          pos: { x: 290, y: 720 },
+          target: Position.Left,
+          source: Position.Bottom,
+        },
         // {
         //   id: "n5",
         //   pos: { x: 460, y: 540 },
