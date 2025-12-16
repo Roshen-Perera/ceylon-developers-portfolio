@@ -17,7 +17,7 @@ function CardNode({
 }) {
   return (
     <div
-      className="rounded-lg border-2 border-cyan-200 p-3 shadow-sm hover:shadow-md transition-shadow"
+      className="rounded-lg border-2 border-cyan-200 p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)]"
       style={{ width: data.width, height: data.height }}
     >
       <div className="w-full h-full flex flex-col gradient-border justify-center p-5">
