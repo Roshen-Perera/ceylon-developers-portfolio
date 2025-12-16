@@ -162,7 +162,7 @@ function getLayoutConfig(width: number) {
   // 768px
   else if (width >= 768) {
     return {
-      width: 260,
+      width: 300,
       height: 200,
       nodes: [
         { id: "n1", pos: { x: 20, y: 60 }, source: Position.Bottom },
