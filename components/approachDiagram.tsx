@@ -44,6 +44,8 @@ function CardNode({
   );
 }
 
+let containerHeight = "130vh";
+
 const nodeTypes = {
   cardNode: CardNode,
 };
@@ -51,6 +53,7 @@ const nodeTypes = {
 function getLayoutConfig(width: number) {
   // 1440px and above
   if (width >= 1440) {
+    containerHeight = "130vh";
     return {
       width: 360,
       height: 240,
@@ -86,6 +89,7 @@ function getLayoutConfig(width: number) {
   }
   // 1280px
   else if (width >= 1280) {
+    containerHeight = "130vh";
     return {
       width: 350,
       height: 220,
@@ -121,6 +125,7 @@ function getLayoutConfig(width: number) {
   }
   // 1024px
   else if (width >= 1024) {
+    containerHeight = "130vh";
     return {
       width: 320,
       height: 200,
@@ -347,7 +352,7 @@ export default function ApproachDiagram() {
   }, [windowWidth]);
 
   return (
-    <div style={{ width: "100%", height: "130vh", overflow: "auto" }}>
+    <div style={{ width: "100%", height: containerHeight, overflow: "auto" }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
