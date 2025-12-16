@@ -125,7 +125,7 @@ function getLayoutConfig(width: number) {
   }
   // 1024px
   else if (width >= 1024) {
-    containerHeight = "130vh";
+    containerHeight = "140vh";
     return {
       width: 320,
       height: 200,
