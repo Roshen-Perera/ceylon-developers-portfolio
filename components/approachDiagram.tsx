@@ -168,7 +168,7 @@ function getLayoutConfig(width: number) {
         { id: "n1", pos: { x: 20, y: 60 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: 240, y: 300 },
+          pos: { x: 290, y: 280 },
           target: Position.Left,
           source: Position.Top,
         },
