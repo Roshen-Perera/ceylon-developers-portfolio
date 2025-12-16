@@ -55,8 +55,8 @@ function getLayoutConfig(width: number) {
   if (width >= 1440) {
     containerHeight = "130vh";
     return {
-      width: 360,
-      height: 240,
+      width: 413,
+      height: 249,
       nodes: [
         { id: "n1", pos: { x: 100, y: 100 }, source: Position.Bottom },
         {
