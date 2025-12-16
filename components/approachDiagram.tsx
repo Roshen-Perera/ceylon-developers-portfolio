@@ -133,7 +133,7 @@ function getLayoutConfig(width: number) {
         { id: "n1", pos: { x: 20, y: 60 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: 240, y: 300 },
+          pos: { x: 240, y: 350 },
           target: Position.Left,
           source: Position.Top,
         },
@@ -145,17 +145,17 @@ function getLayoutConfig(width: number) {
         },
         {
           id: "n4",
-          pos: { x: 680, y: 300 },
+          pos: { x: 680, y: 350 },
           target: Position.Left,
           source: Position.Bottom,
         },
         {
           id: "n5",
-          pos: { x: 460, y: 540 },
+          pos: { x: 460, y: 630 },
           target: Position.Right,
           source: Position.Left,
         },
-        { id: "n6", pos: { x: 20, y: 540 }, target: Position.Right },
+        { id: "n6", pos: { x: 20, y: 630 }, target: Position.Right },
       ],
     };
   }
