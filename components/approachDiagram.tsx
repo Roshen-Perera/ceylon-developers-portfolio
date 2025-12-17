@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { ReactFlow, Position, Handle, Node, Edge } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
+import { H5, P } from "./typography";
 
 // Custom Card Node Component
 function CardNode({
@@ -28,8 +29,8 @@ function CardNode({
           />
         )}
 
-        <h5 className="font-semibold mb-2 text-lg">{data.title}</h5>
-        <p className="text-gray-500 text-sm">{data.description}</p>
+        <H5 className="font-semibold mb-2 text-lg">{data.title}</H5>
+        <P className="text-gray-500 text-sm">{data.description}</P>
 
         {sourcePosition && (
           <Handle
@@ -366,6 +367,7 @@ export default function ApproachDiagram() {
       type: "step",
     }));
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setNodes(newNodes);
     setEdges(newEdges);
   }, [windowWidth]);
