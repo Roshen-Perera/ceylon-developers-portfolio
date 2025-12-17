@@ -383,6 +383,7 @@ export default function ApproachDiagram() {
         elementsSelectable={false}
         zoomOnScroll={false}
         zoomOnPinch={false}
+        zoomOnDoubleClick={false}
         preventScrolling={false}
         panOnDrag={false}
         proOptions={{ hideAttribution: true }}
