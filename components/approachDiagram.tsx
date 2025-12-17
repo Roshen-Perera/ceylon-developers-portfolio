@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import { ReactFlow, Position, Handle, Node, Edge } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import { H5, P } from "./typography";
 
 // Custom Card Node Component
 function CardNode({
@@ -29,8 +28,8 @@ function CardNode({
           />
         )}
 
-        <H5 className="font-semibold mb-2 text-lg">{data.title}</H5>
-        <P className="text-gray-500 text-sm">{data.description}</P>
+        <h5 className="font-semibold mb-2 text-lg">{data.title}</h5>
+        <p className="text-gray-500 text-sm">{data.description}</p>
 
         {sourcePosition && (
           <Handle
@@ -51,15 +50,14 @@ const nodeTypes = {
 };
 
 function getLayoutConfig(width: number, containerWidth: number) {
-  const centerOffset = (containerWidth - width) / 2;
-
   // 1440px and above
   if (width >= 1440) {
     containerHeight = "130vh";
-    const totalWidth = 1380;
+    const nodeWidth = 400;
+    const totalWidth = 980 + nodeWidth; // rightmost x + node width
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 400,
+      width: nodeWidth,
       height: 249,
       nodes: [
         { id: "n1", pos: { x: offset + 80, y: 100 }, source: Position.Bottom },
@@ -94,10 +92,11 @@ function getLayoutConfig(width: number, containerWidth: number) {
   // 1280px
   else if (width >= 1280) {
     containerHeight = "130vh";
-    const totalWidth = 1250;
+    const nodeWidth = 390;
+    const totalWidth = 860 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 390,
+      width: nodeWidth,
       height: 237,
       nodes: [
         { id: "n1", pos: { x: offset + 80, y: 80 }, source: Position.Bottom },
@@ -132,10 +131,11 @@ function getLayoutConfig(width: number, containerWidth: number) {
   // 1024px
   else if (width >= 1024) {
     containerHeight = "160vh";
-    const totalWidth = 1016;
+    const nodeWidth = 336;
+    const totalWidth = 680 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 336,
+      width: nodeWidth,
       height: 221,
       nodes: [
         { id: "n1", pos: { x: offset + 20, y: 60 }, source: Position.Bottom },
@@ -170,10 +170,11 @@ function getLayoutConfig(width: number, containerWidth: number) {
   // 768px
   else if (width >= 768) {
     containerHeight = "250vh";
-    const totalWidth = 751;
+    const nodeWidth = 461;
+    const totalWidth = 290 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 461,
+      width: nodeWidth,
       height: 159,
       nodes: [
         { id: "n1", pos: { x: offset + 20, y: 60 }, source: Position.Bottom },
@@ -208,76 +209,78 @@ function getLayoutConfig(width: number, containerWidth: number) {
   // 640px
   else if (width >= 640) {
     containerHeight = "250vh";
-    const totalWidth = 470;
+    const nodeWidth = 300;
+    const totalWidth = nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 300,
+      width: nodeWidth,
       height: 180,
       nodes: [
-        { id: "n1", pos: { x: offset + 170, y: 40 }, source: Position.Bottom },
+        { id: "n1", pos: { x: offset, y: 40 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: offset + 170, y: 260 },
+          pos: { x: offset, y: 260 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n3",
-          pos: { x: offset + 170, y: 480 },
+          pos: { x: offset, y: 480 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n4",
-          pos: { x: offset + 170, y: 700 },
+          pos: { x: offset, y: 700 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n5",
-          pos: { x: offset + 170, y: 920 },
+          pos: { x: offset, y: 920 },
           target: Position.Top,
           source: Position.Bottom,
         },
-        { id: "n6", pos: { x: offset + 170, y: 1140 }, target: Position.Top },
+        { id: "n6", pos: { x: offset, y: 1140 }, target: Position.Top },
       ],
     };
   }
   // 375px and below
   else {
     containerHeight = "230vh";
-    const totalWidth = 347.5;
+    const nodeWidth = 320;
+    const totalWidth = nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
     return {
-      width: 320,
+      width: nodeWidth,
       height: 180,
       nodes: [
-        { id: "n1", pos: { x: offset + 27.5, y: 30 }, source: Position.Bottom },
+        { id: "n1", pos: { x: offset, y: 30 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: offset + 27.5, y: 240 },
+          pos: { x: offset, y: 240 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n3",
-          pos: { x: offset + 27.5, y: 450 },
+          pos: { x: offset, y: 450 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n4",
-          pos: { x: offset + 27.5, y: 660 },
+          pos: { x: offset, y: 660 },
           target: Position.Top,
           source: Position.Bottom,
         },
         {
           id: "n5",
-          pos: { x: offset + 27.5, y: 870 },
+          pos: { x: offset, y: 870 },
           target: Position.Top,
           source: Position.Bottom,
         },
-        { id: "n6", pos: { x: offset + 27.5, y: 1080 }, target: Position.Top },
+        { id: "n6", pos: { x: offset, y: 1080 }, target: Position.Top },
       ],
     };
   }
@@ -363,7 +366,6 @@ export default function ApproachDiagram() {
       type: "step",
     }));
 
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setNodes(newNodes);
     setEdges(newEdges);
   }, [windowWidth]);
