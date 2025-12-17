@@ -139,32 +139,32 @@ function getLayoutConfig(width: number, containerWidth: number) {
       width: nodeWidth,
       height: 221,
       nodes: [
-        { id: "n1", pos: { x: offset + 20, y: 60 }, source: Position.Bottom },
+        { id: "n1", pos: { x: offset + 10, y: 60 }, source: Position.Bottom },
         {
           id: "n2",
-          pos: { x: offset + 240, y: 350 },
+          pos: { x: offset + 230, y: 350 },
           target: Position.Left,
           source: Position.Top,
         },
         {
           id: "n3",
-          pos: { x: offset + 460, y: 60 },
+          pos: { x: offset + 450, y: 60 },
           target: Position.Left,
           source: Position.Bottom,
         },
         {
           id: "n4",
-          pos: { x: offset + 680, y: 350 },
+          pos: { x: offset + 670, y: 350 },
           target: Position.Left,
           source: Position.Bottom,
         },
         {
           id: "n5",
-          pos: { x: offset + 460, y: 630 },
+          pos: { x: offset + 450, y: 630 },
           target: Position.Right,
           source: Position.Left,
         },
-        { id: "n6", pos: { x: offset + 20, y: 630 }, target: Position.Right },
+        { id: "n6", pos: { x: offset + 10, y: 630 }, target: Position.Right },
       ],
     };
   }
