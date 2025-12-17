@@ -17,7 +17,7 @@ function CardNode({
 }) {
   return (
     <div
-      className=" rounded-lg border-2 border-cyan-200 p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)]"
+      className="rounded-lg border-2 border-cyan-200 p-3 shadow-[0px_0px_15px_rgba(23,205,202,0.47)]"
       style={{ width: data.width, height: data.height }}
     >
       <div className="w-full h-full flex flex-col gradient-border justify-center p-5">
@@ -92,7 +92,7 @@ function getLayoutConfig(width: number, containerWidth: number) {
   }
   // 1280px
   else if (width >= 1280) {
-    containerHeight = "140vh";
+    containerHeight = "130vh";
     const nodeWidth = 390;
     const totalWidth = 860 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
@@ -367,16 +367,12 @@ export default function ApproachDiagram() {
       type: "step",
     }));
 
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setNodes(newNodes);
     setEdges(newEdges);
   }, [windowWidth]);
 
   return (
-    <div
-      className="md:mt-0 mt-5"
-      style={{ width: "100%", height: containerHeight, overflow: "auto" }}
-    >
+    <div style={{ width: "100%", height: containerHeight, overflow: "auto" }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
