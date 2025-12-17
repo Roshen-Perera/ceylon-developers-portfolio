@@ -131,7 +131,7 @@ function getLayoutConfig(width: number, containerWidth: number) {
   }
   // 1024px
   else if (width >= 1024) {
-    containerHeight = "160vh";
+    containerHeight = "150vh";
     const nodeWidth = 336;
     const totalWidth = 680 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
