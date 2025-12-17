@@ -412,7 +412,7 @@ export default function ApproachDiagram() {
   }, [windowWidth]);
 
   return (
-    <div style={{ width: "100%", height: `${containerHeight}px`, overflow: "auto" }}>
+    <div className="md:mt-0 mt-5" style={{ width: "100%", height: `${containerHeight}px`, overflow: "auto" }}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
