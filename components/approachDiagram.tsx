@@ -92,7 +92,7 @@ function getLayoutConfig(width: number, containerWidth: number) {
   }
   // 1280px
   else if (width >= 1280) {
-    containerHeight = "130vh";
+    containerHeight = "140vh";
     const nodeWidth = 390;
     const totalWidth = 860 + nodeWidth;
     const offset = (containerWidth - totalWidth) / 2;
@@ -367,6 +367,7 @@ export default function ApproachDiagram() {
       type: "step",
     }));
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setNodes(newNodes);
     setEdges(newEdges);
   }, [windowWidth]);
@@ -382,6 +383,7 @@ export default function ApproachDiagram() {
         elementsSelectable={false}
         zoomOnScroll={false}
         zoomOnPinch={false}
+        preventScrolling={false}
         panOnDrag={false}
         proOptions={{ hideAttribution: true }}
       />
