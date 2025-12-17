@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function ThemeToggle() {
+  const [mounted, setMounted] = useState(false);
+
   // Initialize theme safely ONCE using lazy initializer
   const [theme, setTheme] = useState<"light" | "dark">(() => {
     if (typeof window === "undefined") return "light";
@@ -16,6 +18,12 @@ export default function ThemeToggle() {
     ).matches;
     return prefersDark ? "dark" : "light";
   });
+
+  // Set mounted flag after hydration
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   // Apply theme to the DOM whenever theme changes
   useEffect(() => {
@@ -49,11 +57,24 @@ export default function ThemeToggle() {
 
   const isChecked = theme === "dark";
 
+  // Prevent hydration mismatch by not rendering icons until mounted
+  if (!mounted) {
+    return (
+      <button
+        className="flex items-center justify-center w-10 h-10 rounded-lg cursor-pointer transition-colors duration-300 mr-10 relative overflow-hidden"
+        aria-label="Toggle theme"
+      >
+        <div className="w-10 h-10" />
+      </button>
+    );
+  }
+
   return (
     <>
       <button
         onClick={toggleTheme}
         className="flex items-center justify-center w-10 h-10 rounded-lg cursor-pointer transition-colors duration-300 mr-10 relative overflow-hidden"
+        aria-label={`Switch to ${isChecked ? "light" : "dark"} mode`}
       >
         <AnimatePresence mode="wait" initial={false}>
           {isChecked ? (
