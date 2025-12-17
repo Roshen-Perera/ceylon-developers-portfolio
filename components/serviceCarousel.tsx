@@ -43,7 +43,8 @@ const StaggeredCarousel = () => {
   }, []);
 
   const getServiceData = (index: number) => {
-    const serviceIndex = ((index % services.length) + services.length) % services.length;
+    const serviceIndex =
+      ((index % services.length) + services.length) % services.length;
     return services[serviceIndex];
   };
 
@@ -102,7 +103,7 @@ const StaggeredCarousel = () => {
               return (
                 <div
                   key={index}
-                  className={`absolute left-1/2  rounded-2xl shadow-2xl transition-all duration-500 ease-out cursor-pointer`}
+                  className={`absolute left-1/2  rounded-2xl transition-all duration-500 ease-out cursor-pointer`}
                   style={style}
                   onClick={() => setCurrentIndex(index)}
                 >
