@@ -7,7 +7,7 @@ const WorkFlowDark = () => {
       <svg
         width="551"
         height="229"
-        className=" 2xl:block xl:hidden lg:hidden md:hidden sm:hidden xs:hidden block"
+        className=" 2xl:block xl:hidden lg:hidden md:hidden sm:hidden hidden"
         viewBox="0 0 551 229"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
