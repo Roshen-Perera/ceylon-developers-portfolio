@@ -1,4 +1,3 @@
-
 import Approach from "@/components/approach";
 import BlueGlow from "@/components/blueGlow";
 import Contact from "@/components/contact";
