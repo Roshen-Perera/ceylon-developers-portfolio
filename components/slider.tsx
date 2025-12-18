@@ -15,36 +15,38 @@ export default function VerticalTextSlider() {
   }, [words.length]);
 
   return (
-    <div className="flex text-center mb-8 items-center gap-3">
+    <div className="flex flex-col sm:flex-row text-center mb-8 items-center gap-3">
       {/* Left side: We */}
       <p className="2xl:text-[50px] xl:text-[45px] lg:text-[48px] md:text-[40px] sm:text-[36px] text-[36px] font-semibold">
         <span className="font-kaushan">We</span>
       </p>
 
-      {/* Left Chevron */}
-      <ChevronLeft size={50} className="cursor-pointer" />
+      <div>
+        {/* Left Chevron */}
+        <ChevronLeft size={50} className="cursor-pointer" />
 
-      {/* Word Slider */}
-      <div className="relative h-14 w-50 overflow-hidden text-center">
-        <div
-          className="absolute transition-all duration-700 ease-in-out"
-          style={{ transform: `translateY(-${index * 3.5}rem)` }}
-        >
-          {words.map((word, i) => (
-            <p
-              key={i}
-              className={`h-14 flex items-center justify-center text-[50px] font-semibold ${
-                i === index ? "text-[#17CDCA]" : "text-gray-300"
-              }`}
-            >
-              {word}
-            </p>
-          ))}
+        {/* Word Slider */}
+        <div className="relative h-14 w-50 overflow-hidden text-center">
+          <div
+            className="absolute transition-all duration-700 ease-in-out"
+            style={{ transform: `translateY(-${index * 3.5}rem)` }}
+          >
+            {words.map((word, i) => (
+              <p
+                key={i}
+                className={`h-14 flex items-center justify-center text-[50px] font-semibold ${
+                  i === index ? "text-[#17CDCA]" : "text-gray-300"
+                }`}
+              >
+                {word}
+              </p>
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Right Chevron */}
-      <ChevronRight size={50} className="cursor-pointer" />
+        {/* Right Chevron */}
+        <ChevronRight size={50} className="cursor-pointer" />
+      </div>
     </div>
   );
 }
