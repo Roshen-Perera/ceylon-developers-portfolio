@@ -17,7 +17,7 @@ export default function VerticalTextSlider() {
   return (
     <div className="flex text-center mb-8 items-center gap-3">
       {/* Left side: We */}
-      <p className="text-[50px]">
+      <p className="2xl:text-[50px] xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-semibold">
         <span className="font-kaushan">We</span>
       </p>
 
