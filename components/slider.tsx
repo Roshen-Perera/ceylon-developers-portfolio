@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -21,7 +21,7 @@ export default function VerticalTextSlider() {
         <span className="font-kaushan">We</span>
       </p>
 
-      <div>
+      <div className="flex">
         {/* Left Chevron */}
         <ChevronLeft size={50} className="cursor-pointer" />
 
