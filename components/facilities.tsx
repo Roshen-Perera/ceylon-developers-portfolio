@@ -190,7 +190,6 @@ const Facilities = () => {
               </div>
             </div>
             <div className="my-4 ml-20 relative left-">
-              <WorkFlow />
             </div>
           </div>
         </div>
