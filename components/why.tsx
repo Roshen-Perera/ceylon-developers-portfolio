@@ -53,7 +53,7 @@ const Why = () => {
             </div>
           </div>
         </div>
-        <div className="shrink-0 flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <TodaysWorkIMG />
         </div>
       </div>
