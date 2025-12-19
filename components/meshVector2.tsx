@@ -25,7 +25,7 @@ const MeshVector2 = () => {
   return (
     <>
       {isDark ? (
-        <div className="absolute left-0 right-0 -z-1 flex justify-center overflow-hidden">
+        <div className="absolute left-0 right-0 -z-1 md:flex justify-center overflow-hidden hidden">
           <svg
             width="1122"
             height="523"
