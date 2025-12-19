@@ -60,7 +60,7 @@ const MeshVector2 = () => {
           </svg>
         </div>
       ) : (
-        <div className="absolute left-0 right-0 -z-1 flex justify-center overflow-hidden">
+        <div className="absolute left-0 right-0 -z-1 md:flex justify-center overflow-hidden hidden">
           <svg
             width="1287"
             height="624"
