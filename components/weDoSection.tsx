@@ -7,11 +7,11 @@ const WeDoSection = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-12 px-4">
       <div className="w-full max-w-7xl">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="flex flex-col xl:flex-row gap-8 lg:gap-12 items-center">
           {/* Left Section */}
-          <div className="flex flex-col items-center xl:items-start justify-center w-full">
+          <div className="flex flex-col items-center xl:items-start justify-center">
             <VerticalTextSlider />
-            <div className="flex items-center max-w-md mt-4 w-full">
+            <div className="flex items-center max-w-md mt-4">
               <P className="text-center xl:text-left">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore
