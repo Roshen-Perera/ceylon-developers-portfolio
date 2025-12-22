@@ -10,7 +10,7 @@ const Why = () => {
       <MeshVector2 />
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-12">
         <div className="flex flex-col gap-4 flex-1 max-w-lg items-center justify-center text-center md:text-left md:items-start">
-          <H2 className="max-w-sm">
+          <H2 className="max-w-lg">
             To upscale your <span className="font-kaushan">business</span> to
             the next level
           </H2>
